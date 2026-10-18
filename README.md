@@ -4,7 +4,6 @@
 外加 **Hacker News 中文摘要（Zeli）** 和 **GitHub 开源项目 7 日增速榜**，
 整理成美观的 HTML 邮件发送到你的邮箱。纯 Python 标准库实现，**无需安装任何第三方依赖**。
 
-> 📁 **项目位置**：`C:\Users\P4rfa1t\Documents\每日科技新闻\`
 > 日报本地存档在项目内的 `history\` 子文件夹
 
 ---
