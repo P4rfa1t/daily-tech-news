@@ -1,0 +1,28 @@
+# ---- 密钥：绝不入库 ----
+.env
+config.local.json
+*.pem
+
+# ---- 运行产物 ----
+history/
+*.log
+send_state.json
+translation_cache.json
+github_stars.json
+github_descriptions.json
+!发送失败提醒.txt
+
+# ---- Windows / Python ----
+__pycache__/
+*.py[cod]
+_test_tmp/
+*.spec
+.venv/
+venv/
+
+# ---- 编辑器 ----
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini

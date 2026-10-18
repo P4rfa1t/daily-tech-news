@@ -1,0 +1,205 @@
+{
+  "email": {
+    "smtp_host": "smtp.qq.com",
+    "smtp_port": 465,
+    "use_tls": false,
+    "use_ssl": true,
+    "sender": "1312630400@qq.com",
+    "password": "${SMTP_PASSWORD}",
+    "sender_name": "每日科技新闻",
+    "recipients": [
+      "p4rfa1t@outlook.com"
+    ]
+  },
+  "settings": {
+    "hours_lookback": 24,
+    "max_per_category": 8,
+    "max_per_category_by": {
+      "网络安全": 12,
+      "硬件极客": 12
+    },
+    "subject_prefix": "【每日科技新闻】",
+    "request_timeout": 20,
+    "translate": true,
+    "translate_target": "zh",
+    "translate_delay": 0.25,
+    "translate_workers": 4,
+    "translate_summary": true,
+    "translate_max_requests": 80,
+    "fetch_og_image": true,
+    "og_image_delay": 0.2,
+    "og_image_limit": 60,
+    "og_image_workers": 6,
+    "fetch_workers": 10,
+    "send_after_hour": 8,
+    "send_retries": 3,
+    "send_retry_delay": 15,
+    "github_trending": true,
+    "github_count": 20,
+    "github_since_days": 7,
+    "github_min_stars": 100,
+    "github_lookback_days": 60,
+    "github_search_pages": 3,
+    "github_pool_max": 600
+  },
+  "translate": {
+    "provider": "volcengine",
+    "volc_access_key": "${VOLC_ACCESS_KEY:-}",
+    "volc_secret_key": "${VOLC_SECRET_KEY:-}",
+    "volc_region": "cn-north-1"
+  },
+  "github": {
+    "token": "${GITHUB_TOKEN}"
+  },
+  "zeli": {
+    "enabled": true,
+    "rss": "https://zeli.app/zh/rss.xml",
+    "limit": 15,
+    "timeout": 60,
+    "retries": 3
+  },
+  "wuzao": {
+    "enabled": true,
+    "period": "daily",
+    "limit": 30,
+    "timeout": 30,
+    "retries": 2,
+    "fetch_descriptions": true
+  },
+  "archive": {
+    "enabled": true,
+    "dir": "history",
+    "keep_days": 0
+  },
+  "alert": {
+    "enabled": true,
+    "desktop_copy": true
+  },
+  "sources": [
+    {
+      "category": "科技行业",
+      "name": "爱范儿",
+      "url": "https://www.ifanr.com/feed"
+    },
+    {
+      "category": "AI 人工智能",
+      "name": "量子位",
+      "url": "https://www.qbitai.com/feed"
+    },
+    {
+      "category": "AI 人工智能",
+      "name": "The Decoder",
+      "url": "https://the-decoder.com/feed/"
+    },
+    {
+      "category": "AI 人工智能",
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/feed/"
+    },
+    {
+      "category": "科学前沿",
+      "name": "ScienceDaily Science",
+      "url": "https://www.sciencedaily.com/rss/top/science.xml"
+    },
+    {
+      "category": "科学前沿",
+      "name": "Nature",
+      "url": "https://www.nature.com/nature.rss"
+    },
+    {
+      "category": "科学前沿",
+      "name": "Phys.org",
+      "url": "https://phys.org/rss-feed/"
+    },
+    {
+      "category": "医疗健康",
+      "name": "ScienceDaily Health",
+      "url": "https://www.sciencedaily.com/rss/health_medicine.xml"
+    },
+    {
+      "category": "医疗健康",
+      "name": "STAT News",
+      "url": "https://www.statnews.com/feed/"
+    },
+    {
+      "category": "医疗健康",
+      "name": "Fierce Healthcare",
+      "url": "https://www.fiercehealthcare.com/rss/xml"
+    },
+    {
+      "category": "科技行业",
+      "name": "钛媒体",
+      "url": "https://www.tmtpost.com/rss.xml"
+    },
+    {
+      "category": "科技行业",
+      "name": "InfoQ 中文",
+      "url": "https://www.infoq.cn/feed"
+    },
+    {
+      "category": "科技行业",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/feed/"
+    },
+    {
+      "category": "科技行业",
+      "name": "The Verge",
+      "url": "https://www.theverge.com/rss/index.xml"
+    },
+    {
+      "category": "网络安全",
+      "name": "KitPloit",
+      "url": "https://www.kitploit.com/feeds/posts/default"
+    },
+    {
+      "category": "网络安全",
+      "name": "PortSwigger Research",
+      "url": "https://portswigger.net/research/rss"
+    },
+    {
+      "category": "网络安全",
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/feed/"
+    },
+    {
+      "category": "网络安全",
+      "name": "SANS ISC",
+      "url": "https://isc.sans.edu/rssfeed.xml"
+    },
+    {
+      "category": "网络安全",
+      "name": "Dark Reading",
+      "url": "https://www.darkreading.com/rss.xml"
+    },
+    {
+      "category": "网络安全",
+      "name": "嘶吼",
+      "url": "https://www.4hou.com/feed"
+    },
+    {
+      "category": "硬件极客",
+      "name": "Hackaday",
+      "url": "https://hackaday.com/blog/feed/"
+    },
+    {
+      "category": "硬件极客",
+      "name": "CNX Software",
+      "url": "https://www.cnx-software.com/feed/"
+    },
+    {
+      "category": "硬件极客",
+      "name": "Dangerous Prototypes",
+      "url": "http://dangerousprototypes.com/blog/feed/"
+    },
+    {
+      "category": "硬件极客",
+      "name": "Raspberry Pi News",
+      "url": "https://www.raspberrypi.com/news/feed/"
+    },
+    {
+      "category": "硬件极客",
+      "name": "Adafruit Blog",
+      "url": "https://blog.adafruit.com/feed/"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+name: 每日科技新闻
+
+on:
+  schedule:
+    # GitHub Actions 用 UTC。北京时间每天 08:00 = UTC 00:00。
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: '忽略「今天已发送」限制，强制再发一次'
+        type: boolean
+        default: false
+
+# 同一时刻只跑一个实例（手动触发时如果定时任务已在跑，新的直接排队取消）
+concurrency:
+  group: daily-tech-news
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 还原翻译缓存与去重状态
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            translation_cache.json
+            github_stars.json
+            github_descriptions.json
+            send_state.json
+          key: news-cache-${{ github.run_id }}
+          restore-keys: |
+            news-cache-
+
+      - name: 跑单元测试
+        run: python -m unittest test_news_collector -q
+
+      - name: 执行收集并发送
+        env:
+          # 密钥从仓库 Secrets 注入，写进环境变量，不落 config.json
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VOLC_ACCESS_KEY: ${{ secrets.VOLC_ACCESS_KEY }}
+          VOLC_SECRET_KEY: ${{ secrets.VOLC_SECRET_KEY }}
+          VOLC_REGION: ${{ secrets.VOLC_REGION }}
+        run: |
+          if [ "${{ inputs.force }}" = "true" ]; then
+            python news_collector.py --force
+          else
+            python news_collector.py
+          fi
+
+      - name: 打印本次摘要
+        if: always()
+        run: |
+          echo "### 本次运行" >> "$GITHUB_STEP_SUMMARY"
+          echo "- 时间：$(date -u '+%Y-%m-%d %H:%M UTC')" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f send_state.json ]; then
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat send_state.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: 上传日志与存档
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-${{ github.run_number }}
+          retention-days: 14
+          if-no-files-found: ignore
+          path: |
+            news_collector.log
+            history/*.txt
+            history/*.html
+            translation_cache.json
+            github_stars.json
+
+      - name: 保存翻译缓存与去重状态
+        if: success()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            translation_cache.json
+            github_stars.json
+            github_descriptions.json
+            send_state.json
+          key: news-cache-${{ github.run_id }}
+
+      - name: 提交当日存档回仓库
+        if: success()
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "存档 ${{ github.run_number }} 期的日报"
+          file_pattern: "history/*"
+          branch: ${{ github.ref_name }}
