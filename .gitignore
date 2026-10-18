@@ -4,7 +4,9 @@ config.local.json
 *.pem
 
 # ---- 运行产物 ----
-history/
+# history/ 默认不入库（本地存档几百个文件没必要同步）；
+# 但 Actions 会把每日存档 commit 回仓库，所以取消忽略 history/。
+#translation_cache.json 等状态由 Actions 缓存管理，不入库。
 *.log
 send_state.json
 translation_cache.json
