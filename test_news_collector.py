@@ -16,6 +16,7 @@ import sys
 import unittest
 import urllib.error
 import contextlib
+from datetime import datetime as _dt, timezone as _tz, timedelta
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -2439,6 +2440,134 @@ class TestShippedConfigHasNoSecrets(unittest.TestCase):
             self.skipTest(".gitignore 不存在")
         lines = [ln.strip() for ln in open(path, encoding="utf-8").read().splitlines()]
         self.assertIn(".env", lines)
+
+
+class TestTimezoneResolve(unittest.TestCase):
+    """CI（GitHub Actions）容器是 TZ=UTC，北京时间 08:00 触发时 UTC 才 00:00。
+    若用 datetime.now() 判断日期和发送时间，会每天静默跳过（退出码 0，看起来成功）。"""
+
+    def test_blank_timezone_falls_back_to_naive(self):
+        for cfg in ({}, {"settings": {}}, {"settings": {"timezone": ""}},
+                    {"settings": {"timezone": None}}):
+            self.assertIsNone(nc._resolve_tz(cfg), cfg)
+
+    def test_current_now_naive_when_no_timezone(self):
+        n = nc.current_now({})
+        self.assertIsNone(n.tzinfo, "没配时区时应退回 naive 本地时间")
+
+    def test_current_now_is_aware_when_zone_resolves(self):
+        try:
+            from zoneinfo import ZoneInfo
+            ZoneInfo("Asia/Shanghai")
+        except Exception:
+            self.skipTest("本机没有 tzdata，跳过（CI 的 Linux 容器自带）")
+        n = nc.current_now({"settings": {"timezone": "Asia/Shanghai"}})
+        self.assertIsNotNone(n.tzinfo)
+        self.assertEqual(n.utcoffset().total_seconds(), 8 * 3600)
+
+    def test_ci_utc_trigger_maps_to_beijing_morning(self):
+        """修复前 UTC 00:30 → hour=0 < send_after_hour → 跳过。修复后应为北京时间 08:30。"""
+        cst = _tz(timedelta(hours=8))
+        bj = _dt(2026, 10, 18, 0, 30, tzinfo=_tz.utc).astimezone(cst)
+        self.assertEqual((bj.year, bj.month, bj.day), (2026, 10, 18))
+        self.assertEqual(bj.hour, 8)
+        self.assertGreaterEqual(bj.hour, 8, "北京时间应达到发送时间")
+
+    def test_ci_utc_evening_maps_to_next_day_beijing(self):
+        """UTC 10-18 16:05 = 北京 10-19 00:05，日期要跟着跨天，且应被发送时间闸拦下。"""
+        cst = _tz(timedelta(hours=8))
+        bj = _dt(2026, 10, 18, 16, 5, tzinfo=_tz.utc).astimezone(cst)
+        self.assertEqual(bj.strftime("%Y-%m-%d"), "2026-10-19")
+        self.assertLess(bj.hour, 8, "北京时间凌晨，应被 send_after_hour 拦下")
+
+    def test_bad_timezone_name_falls_back(self):
+        self.assertIsNone(nc._resolve_tz({"settings": {"timezone": "不存在的时区/xx"}}))
+
+    def test_fmt_time_none(self):
+        self.assertEqual(nc._fmt_time(None), "时间未知")
+
+    def test_fmt_time_without_config_still_formats(self):
+        d = _dt(2026, 10, 18, 12, 0, tzinfo=_tz.utc)
+        self.assertRegex(nc._fmt_time(d), r"^\d{2}-\d{2} \d{2}:\d{2}$")
+        self.assertRegex(nc._fmt_time(d, {}), r"^\d{2}-\d{2} \d{2}:\d{2}$")
+
+    def test_fmt_time_uses_configured_timezone(self):
+        try:
+            from zoneinfo import ZoneInfo
+            ZoneInfo("Asia/Shanghai")
+        except Exception:
+            self.skipTest("本机没有 tzdata")
+        d = _dt(2026, 10, 18, 0, 30, tzinfo=_tz.utc)   # 北京 08:30
+        self.assertEqual(nc._fmt_time(d, {"settings": {"timezone": "Asia/Shanghai"}}),
+                         "10-18 08:30")
+
+    def test_build_text_accepts_config(self):
+        """签名从 (grouped) 变成 (grouped, config=None)，旧调用方式不能炸。"""
+        g = {"AI": [{"title": "T", "link": "https://x.cn/a",
+                     "published": _dt(2026, 10, 18, 0, 30, tzinfo=_tz.utc)}]}
+        self.assertIn("T", nc.build_text(g))
+        self.assertIn("T", nc.build_text(g, {"settings": {"timezone": "Asia/Shanghai"}}))
+
+    def test_html_header_uses_configured_day(self):
+        g = {"AI": [{"title": "T", "link": "https://x.cn/a",
+                     "published": _dt(2026, 10, 18, 0, 30, tzinfo=_tz.utc)}]}
+        html = nc.build_html(g, {"settings": {"timezone": "Asia/Shanghai",
+                                              "max_per_category": 8}})
+        self.assertIn("2026年10月18日", html)
+
+
+class TestRecipientParsing(unittest.TestCase):
+    """config.json 里收件人改成了 ${SMTP_RECIPIENTS:-默认}，值可能是逗号分隔的字符串。"""
+
+    def test_list_form(self):
+        self.assertEqual(nc._split_recipients(["a@x.com", "b@y.com"]),
+                         ["a@x.com", "b@y.com"])
+
+    def test_comma_separated_string(self):
+        self.assertEqual(nc._split_recipients("a@x.com,b@y.com"),
+                         ["a@x.com", "b@y.com"])
+
+    def test_semicolon_and_space_separated(self):
+        self.assertEqual(nc._split_recipients("a@x.com; b@y.com"),
+                         ["a@x.com", "b@y.com"])
+
+    def test_display_name_form_is_stripped(self):
+        self.assertEqual(nc._split_recipients("每日新闻 <p4rfa1t@outlook.com>"),
+                         ["p4rfa1t@outlook.com"])
+
+    def test_empty_entries_dropped(self):
+        self.assertEqual(nc._split_recipients(["", "  ", "c@z.cn"]), ["c@z.cn"])
+        self.assertEqual(nc._split_recipients(""), [])
+
+    def test_wrong_type_gives_empty_list(self):
+        self.assertEqual(nc._split_recipients(None), [])
+        self.assertEqual(nc._split_recipients(123), [])
+
+    def test_clean_addr_picks_angle_address(self):
+        self.assertEqual(nc._clean_addr("每日科技新闻 <a@b.com>"), "a@b.com")
+        self.assertEqual(nc._clean_addr("  1312630400@qq.com  "), "1312630400@qq.com")
+
+
+class TestSenderRecipientNotHardcoded(unittest.TestCase):
+    def test_config_uses_env_placeholders_for_email(self):
+        path = os.path.join(BASE_DIR, "config.json")
+        if not os.path.exists(path):
+            self.skipTest("config.json 不存在")
+        # 用原始 JSON 而非 load_config：后者会把 ${VAR:-默认} 展开掉。
+        with open(path, encoding="utf-8") as fh:
+            ec = json.load(fh)["email"]
+        for key in ("sender", "password"):
+            self.assertTrue(str(ec[key]).startswith("${"), f"email.{key} 应走环境变量")
+        self.assertEqual(len(ec["recipients"]), 1)
+        self.assertTrue(str(ec["recipients"][0]).startswith("${SMTP_RECIPIENTS"))
+
+    def test_timezone_is_configured(self):
+        path = os.path.join(BASE_DIR, "config.json")
+        if not os.path.exists(path):
+            self.skipTest("config.json 不存在")
+        with open(path, encoding="utf-8") as fh:
+            settings = json.load(fh)["settings"]
+        self.assertEqual(settings.get("timezone"), "Asia/Shanghai")
 
 
 if __name__ == "__main__":

@@ -2016,16 +2016,20 @@ def collect_news(config: dict) -> dict[str, list[dict]]:
 # --------------------------------------------------------------------------- #
 # 生成邮件
 # --------------------------------------------------------------------------- #
-def _fmt_time(dt: datetime | None, tz_label: str = "") -> str:
+def _fmt_time(dt: datetime | None, cfg: dict | None = None) -> str:
+    """按 settings.timezone 显示发布时间；无时区或无法解析时退回系统本地。"""
     if dt is None:
         return "时间未知"
-    local = dt.astimezone()
-    return local.strftime("%m-%d %H:%M")
+    tz = _resolve_tz(cfg or {})
+    try:
+        return (dt.astimezone(tz) if tz is not None else dt.astimezone()).strftime("%m-%d %H:%M")
+    except (ValueError, OSError):
+        return dt.strftime("%m-%d %H:%M")
 
 
 def build_html(grouped: dict[str, list[dict]], config: dict) -> str:
     settings = config["settings"]
-    today = datetime.now().strftime("%Y年%m月%d日")
+    today = current_now(config).strftime("%Y年%m月%d日")
     total = sum(len(v) for v in grouped.values())
 
     parts: list[str] = []
@@ -2064,7 +2068,7 @@ def build_html(grouped: dict[str, list[dict]], config: dict) -> str:
             title = html.escape(it.get("title", ""))
             link = html.escape(it.get("link", "#"), quote=True)
             source = html.escape(it.get("source", ""))
-            time_str = _fmt_time(it.get("published"))
+            time_str = _fmt_time(it.get("published"), config)
             summary = html.escape(it.get("summary", ""))
             translation = html.escape(it.get("title_translation", ""))
             summary_tr = html.escape(it.get("summary_translation", ""))
@@ -2150,7 +2154,7 @@ def build_html(grouped: dict[str, list[dict]], config: dict) -> str:
     return "".join(parts)
 
 
-def build_text(grouped: dict[str, list[dict]]) -> str:
+def build_text(grouped: dict[str, list[dict]], config: dict | None = None) -> str:
     lines = ["每日科技新闻速览", "=" * 30, ""]
     total = sum(len(v) for v in grouped.values())
     if total == 0:
@@ -2170,7 +2174,7 @@ def build_text(grouped: dict[str, list[dict]]) -> str:
             if it.get("link"):
                 lines.append(f"  {it['link']}")
             meta = it.get("meta_override") or " · ".join(
-                x for x in [it.get("source", ""), _fmt_time(it.get("published"))] if x
+                x for x in [it.get("source", ""), _fmt_time(it.get("published"), config)] if x
             )
             if meta:
                 lines.append(f"  [{meta}]")
@@ -2354,13 +2358,41 @@ def _smtp_send(ec: dict, sender: str, password: str, recipients: list[str], mess
             server.sendmail(sender, recipients, message.as_string())
 
 
+def _clean_addr(value) -> str:
+    """取单个纯邮箱地址：容忍 "名字 <a@b.com>" 形式，只留 a@b.com。"""
+    text = str(value or "").strip()
+    if "<" in text and ">" in text:
+        text = text[text.rfind("<") + 1: text.rfind(">")]
+    return text.strip().strip(",;").strip()
+
+
+def _split_recipients(value) -> list[str]:
+    """解析收件人列表。
+
+    支持三种写法，便于用环境变量传多个地址：
+        ["a@x.com", "b@y.com"]      配置里直接写数组
+        "a@x.com,b@y.com"          环境变量里逗号分隔
+        "a@x.com; b@y.com"         分号也算分隔
+    """
+    if isinstance(value, str):
+        parts: list[str] = []
+        for chunk in value.replace(";", ",").split(","):
+            addr = _clean_addr(chunk)
+            if addr:
+                parts.append(addr)
+        return parts
+    if isinstance(value, (list, tuple)):
+        return [a for a in (_clean_addr(v) for v in value) if a]
+    return []
+
+
 def send_email(config: dict, subject: str, html_body: str, text_body: str) -> None:
     """发送邮件；失败会按 send_retries 自动重试，全部失败后抛出异常。"""
     ec = config["email"]
     settings = config.get("settings", {})
-    sender = ec.get("sender", "").strip()
+    sender = _clean_addr(ec.get("sender", ""))
     password = ec.get("password", "")
-    recipients = [r for r in ec.get("recipients", []) if r]
+    recipients = _split_recipients(ec.get("recipients", []))
 
     if not sender or not password or not recipients:
         raise RuntimeError(
@@ -2458,6 +2490,39 @@ def clear_failure_alert() -> None:
 
 
 # --------------------------------------------------------------------------- #
+# 时区
+# --------------------------------------------------------------------------- #
+def _resolve_tz(config: dict):
+    """按 settings.timezone 解析时区，失败则退回系统本地时区。
+
+    为什么需要：GitHub Actions 容器 TZ=UTC，北京时间 08:00 触发时 UTC 才 00:00。
+    若用 datetime.now()，"今天是哪天"和"过了发送时间没"都会错 8 小时，
+    导致任务每天静默跳过（退出码 0，workflow 显示成功但邮件没发）。
+    """
+    name = str((config.get("settings") or {}).get("timezone", "") or "").strip()
+    if not name:
+        return None
+    try:
+        from zoneinfo import ZoneInfo
+        return ZoneInfo(name)
+    except ImportError:
+        log.info("当前 Python 没有 zoneinfo 支持，timezone=%r 未生效（用系统本地时区）。", name)
+        return None
+    except Exception:
+        # Windows 默认没装 tzdata，会走到这里；本地时区通常已经对了。
+        log.info("时区库里找不到 %r（Windows 需 pip install tzdata），改用系统本地时区。", name)
+        return None
+
+
+def current_now(config: dict | None = None) -> datetime:
+    """当前时间。配置了 settings.timezone 就按该时区，否则用系统本地时间。"""
+    tz = _resolve_tz(config or {})
+    if tz is not None:
+        return datetime.now(tz)
+    return datetime.now()
+
+
+# --------------------------------------------------------------------------- #
 # 主流程
 # --------------------------------------------------------------------------- #
 ZELI_CATEGORY = "Hacker News 中文摘要（Zeli）"
@@ -2475,19 +2540,24 @@ def main() -> int:
     log.info("加载配置: %s", config_path)
     config = load_config(config_path)
 
-    now = datetime.now()
+    now = current_now(config)
+    tz_label = (now.tzname()
+                or now.astimezone().tzname
+                or "系统本地时间")
     today = now.strftime("%Y-%m-%d")
     send_after_hour = int(config["settings"].get("send_after_hour", 8))
 
-    # 去重与时间窗判断：避免定时任务与登录补跑重复发送
+    # 去重与时间窗判断：避免定时任务与登录补跑重复发送。
+    # CI（GitHub Actions）容器时区是 UTC，若按 UTC 判断，"今天"和"发送时间"
+    # 都会错 8 小时——所以用配置的显式时区来算，而不是容器本地时间。
     if not args.dry_run and not args.force:
         state = load_state()
         if state.get("last_sent_date") == today:
-            log.info("今天(%s)已经成功发送过邮件，本次跳过。", today)
+            log.info("今天(%s %s)已经成功发送过邮件，本次跳过。", today, tz_label)
             return 0
         if now.hour < send_after_hour:
-            log.info("当前 %s 未到发送时间(%02d:00)，跳过，等待每天定时触发。",
-                     now.strftime("%H:%M"), send_after_hour)
+            log.info("当前 %s(%s) 未到发送时间(%02d:00)，跳过，等待定时触发。",
+                     now.strftime("%H:%M"), tz_label, send_after_hour)
             return 0
 
     log.info("开始抓取新闻源…")
@@ -2533,7 +2603,7 @@ def main() -> int:
     subject = f"{config['settings'].get('subject_prefix','【每日科技新闻】')}{today}"
 
     html_body = build_html(grouped, config)
-    text_body = build_text(grouped)
+    text_body = build_text(grouped, config)
 
     save_archive(config, today, html_body, text_body)
 

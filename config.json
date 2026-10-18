@@ -4,14 +4,15 @@
     "smtp_port": 465,
     "use_tls": false,
     "use_ssl": true,
-    "sender": "1312630400@qq.com",
+    "sender": "${SMTP_SENDER:-1312630400@qq.com}",
     "password": "${SMTP_PASSWORD}",
     "sender_name": "每日科技新闻",
     "recipients": [
-      "p4rfa1t@outlook.com"
+      "${SMTP_RECIPIENTS:-p4rfa1t@outlook.com}"
     ]
   },
   "settings": {
+    "timezone": "Asia/Shanghai",
     "hours_lookback": 24,
     "max_per_category": 8,
     "max_per_category_by": {

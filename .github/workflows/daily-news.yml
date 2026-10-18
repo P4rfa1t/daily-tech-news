@@ -50,7 +50,12 @@ jobs:
 
       - name: 执行收集并发送
         env:
+          # 容器默认 TZ=UTC；程序按 settings.timezone=Asia/Shanghai 判断
+          # "今天是哪天"和"是否过发送时间"。显式声明只是双保险。
+          TZ: Asia/Shanghai
           # 密钥从仓库 Secrets 注入，写进环境变量，不落 config.json
+          SMTP_SENDER: ${{ secrets.SMTP_SENDER }}
+          SMTP_RECIPIENTS: ${{ secrets.SMTP_RECIPIENTS }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           # GITHUB_TOKEN 由 Actions 自动注入（secrets.GITHUB_TOKEN），无需手填。
           # 注意：GitHub 禁止创建以 GITHUB_ 开头的自定义 Secret，这里不覆盖它。
@@ -68,7 +73,7 @@ jobs:
         if: always()
         run: |
           echo "### 本次运行" >> "$GITHUB_STEP_SUMMARY"
-          echo "- 时间：$(date -u '+%Y-%m-%d %H:%M UTC')" >> "$GITHUB_STEP_SUMMARY"
+          echo "- UTC：$(date -u '+%Y-%m-%d %H:%M')　北京时间：$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')" >> "$GITHUB_STEP_SUMMARY"
           if [ -f send_state.json ]; then
             echo '```json' >> "$GITHUB_STEP_SUMMARY"
             cat send_state.json >> "$GITHUB_STEP_SUMMARY"
