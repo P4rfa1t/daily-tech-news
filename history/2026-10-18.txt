@@ -184,7 +184,7 @@
   https://phys.org/news/2026-10-salt-crystals-clues-life-beneath.html
   [Phys.org · 10-17 23:40]
 
-# 网络安全 (9)
+# 网络安全 (8)
 - DFIRHub
   Search artifact paths, build collection scripts, and convert Sigma rules. All in one place.
   → 搜索制品路径、生成集合脚本并转换Sigma规则。全部集中在一个地方。
@@ -234,12 +234,6 @@
   [图] https://assets.kitploit.com/production/public/tools/12288/2ecad90228bdab1d0bf099cf9a8faa128ca8854acdfaad14628d8cd9048aa904.png
   https://kitploit.com/en/posts/garak-f3356051939034ec
   [KitPloit · 10-17 14:19]
-- TornadoC2
-  Pull-based C2 framework with ten native transports, concurrent multi-profile handlers, ECDSA-signed tasking, and a multi-operator team server with RBAC and Qt/CLI consoles.
-  → 基于Pull的C2框架，具有十个本机传输，并发多配置文件处理程序， ECDSA签名的任务，以及带有RBAC和Qt/CLI控制台的多操作员团队服务器。
-  [图] https://assets.kitploit.com/production/public/tools/57645/514b2257bc253166ffe47a1d9ec5e90a0121997348c2cb6fe39ffd687f45fd4e-display-v1.webp
-  https://kitploit.com/en/tools/github/kamalx06/tornadoc2
-  [KitPloit · 10-17 13:03]
 
 # AI 人工智能 (8)
 - An OpenAI model hacked a government site, grabbed 24 years of hospital data and kept it quiet
@@ -370,7 +364,7 @@
   [HN · ▲ 234 · 💬 59 · smithsonianmag.com]
 - 爱沙尼亚在线投票系统源码公开
   爱沙尼亚的IVXV在线投票系统源码已正式在GitHub上公开，供公众审查。该仓库不用于日常开发，但会保持更新，确保代码与实际选举中使用的版本一致。由于涉及法律效力的选举，系统开发严格遵循法规，由爱沙尼亚国家选举办公室监督。这一举措体现了对透明度和安全性的重视，让全球开发者有机会深入了解这一成熟的电子投票架构。
-  [图] https://opengraph.githubassets.com/95496b75f79f4ea075a736bd241ff0327a92579d117b96209519c79f669bd9f9/valimised/ivxv
+  [图] https://opengraph.githubassets.com/26f52f7ce808c2ab2f77b0e6271e116650d6440d0c87cb5486e1a60cab5aef5e/valimised/ivxv
   https://github.com/valimised/ivxv
   [HN · ▲ 185 · 💬 154 · github.com]
 
