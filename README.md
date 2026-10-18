@@ -613,7 +613,18 @@ GitHub 趋势榜：**每天 30 个项目**，带名次徽章（前三名金色�
 | 触发器 | 说明 |
 | --- | --- |
 | `schedule` | 每天 **UTC 00:00**（= 北京时间 08:00）自动运行 |
-| `workflow_dispatch` | 在 Actions 页面点 **Run workflow** 手动跑；勾 `force` 可忽略"今天已发送"限制 |
+| `workflow_dispatch` | 在 Actions 页面点 **Run workflow** 手动跑 |
+
+点开 **Run workflow** 后会看到一个 **force** 勾选框：
+
+| force | 行为 |
+| --- | --- |
+| 不勾（默认） | 遵守两道限制：今天已成功发过就跳过；没到 `send_after_hour`（默认 08:00）也跳过 |
+| 勾上 | 传 `--force`，两道限制都不生效，立刻抓取并发送 |
+
+> 定时触发时 `force` 恒为 false——它只对手动触发有意义。
+> 勾了 force 就会**真的再发一封**给收件人，别手滑。
+> run 摘要里会写明本次是"手动 + **强制发送**"，方便和定时发送区分。
 
 > ⚠️ Actions 的 cron 用 **UTC**，不是北京时间。换算：`北京时间 - 8 小时 = UTC`。
 > 想改成早上 7 点，就写 `cron: "23 23 * * *"`（UTC 前一天 23:00）。
@@ -650,8 +661,8 @@ GitHub 趋势榜：**每天 30 个项目**，带名次徽章（前三名金色�
 
 1. 检出代码，装 Python 3.12
 2. 从 Actions 缓存还原 `translation_cache.json` / `send_state.json` 等状态
-3. 跑 204 个单元测试（**测试不过就不会发信**）
-4. `python news_collector.py` 执行收集与发送
+3. 跑 231 个单元测试（**测试不过就不会发信**）
+4. `python news_collector.py` 执行收集与发送（勾了 force 则加 `--force`）
 5. 把日志、日报存档打包成 artifact（保留 14 天）
 6. 存回缓存，保证明天的"当天去重"和翻译缓存不丢
 7. 把当日存档 commit 回仓库，`history/` 里能直接翻历史日报

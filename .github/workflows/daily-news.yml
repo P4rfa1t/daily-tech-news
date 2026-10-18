@@ -62,8 +62,12 @@ jobs:
           VOLC_ACCESS_KEY: ${{ secrets.VOLC_ACCESS_KEY }}
           VOLC_SECRET_KEY: ${{ secrets.VOLC_SECRET_KEY }}
           VOLC_REGION: ${{ secrets.VOLC_REGION }}
+          # 经环境变量传递而非直接插值到 shell，避免 ${{ }} 内容被当成脚本解析。
+          # 定时触发时 inputs.force 为空，等同 false。
+          FORCE: ${{ inputs.force }}
         run: |
-          if [ "${{ inputs.force }}" = "true" ]; then
+          if [ "$FORCE" = "true" ]; then
+            echo "强制发送已开启：忽略「今天已发送」与发送时间限制。"
             python news_collector.py --force
           else
             python news_collector.py
@@ -71,9 +75,18 @@ jobs:
 
       - name: 打印本次摘要
         if: always()
+        env:
+          FORCE: ${{ inputs.force }}
         run: |
-          echo "### 本次运行" >> "$GITHUB_STEP_SUMMARY"
-          echo "- UTC：$(date -u '+%Y-%m-%d %H:%M')　北京时间：$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')" >> "$GITHUB_STEP_SUMMARY"
+          {
+            echo "### 本次运行"
+            echo "- UTC：$(date -u '+%Y-%m-%d %H:%M')　北京时间：$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')"
+            if [ "$FORCE" = "true" ]; then
+              echo "- 触发方式：手动 + **强制发送**"
+            else
+              echo "- 触发方式：${{ github.event_name }}"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
           if [ -f send_state.json ]; then
             echo '```json' >> "$GITHUB_STEP_SUMMARY"
             cat send_state.json >> "$GITHUB_STEP_SUMMARY"
