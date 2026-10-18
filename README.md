@@ -19,6 +19,8 @@
 | `run_news.bat` | 供定时任务调用的运行脚本（ASCII + CRLF） |
 | `run_hidden.vbs` | 静默启动器：让定时任务在后台运行、不弹出 cmd 窗口 |
 | `setup_task.ps1` | 一键注册 Windows 每日定时任务 |
+| `.env.example` | 密钥模板（复制成 `.env` 填值；`.env` 本身不入库） |
+| `.github/workflows/daily-news.yml` | GitHub Actions：云端每日自动运行 |
 | `translation_cache.json` | 标题翻译缓存（自动生成，可删除以强制重新翻译） |
 | `send_state.json` | 发送状态（记录最近成功发送日期，用于补跑去重，自动生成） |
 | `github_stars.json` | 每日 star 快照，仅在**自建** GitHub 榜（无噪不可用时的兜底）启用后才用到（自动生成） |
@@ -566,3 +568,86 @@ GitHub 趋势榜：**每天 30 个项目**，带名次徽章（前三名金色�
 
 > 因为发信失败时**不会**更新 `send_state.json`，所以当天稍后只要再触发一次（登录或手动）
 > 就会自动重试补发。也可以手动补发：`python news_collector.py --force`。
+
+---
+
+## 十三、密钥管理：`.env` 与环境变量
+
+`config.json` 里的密钥字段现在写成**占位符**，真实值从环境变量读取：
+
+```json
+"email":  { "password": "${SMTP_PASSWORD}" },
+"github": { "token":    "${GITHUB_TOKEN}" },
+"translate": {
+  "volc_access_key": "${VOLC_ACCESS_KEY:-}",
+  "volc_secret_key": "${VOLC_SECRET_KEY:-}"
+}
+```
+
+| 写法 | 含义 |
+| --- | --- |
+| `${NAME}` | 取环境变量 `NAME`；未设置则保留占位符原文（随后报"配置不完整"） |
+| `${NAME:-默认值}` | 取环境变量；未设置则用默认值（冒号后为空即空串） |
+
+占位符会**递归展开**，dict / list 里的字符串都能用，所以任何配置项都可以参数化。
+
+**本机运行**：复制 `.env.example` 为 `.env` 并填值。程序启动时自动读取同目录 `.env`，
+且**只填空位、不覆盖已有环境变量**——所以 CI 注入的值永远优先。
+
+**云端运行**：GitHub Actions 不读 `.env`，用的是仓库 Secrets，见下一节。
+
+---
+
+## 十四、GitHub Actions 自动运行
+
+仓库已经配好 `.github/workflows/daily-news.yml`，推上去即可每天自动跑。
+
+### 触发方式
+
+| 触发器 | 说明 |
+| --- | --- |
+| `schedule` | 每天 **UTC 00:00**（= 北京时间 08:00）自动运行 |
+| `workflow_dispatch` | 在 Actions 页面点 **Run workflow** 手动跑；勾 `force` 可忽略"今天已发送"限制 |
+
+> ⚠️ Actions 的 cron 用 **UTC**，不是北京时间。换算：`北京时间 - 8 小时 = UTC`。
+> 想改成早上 7 点，就写 `cron: "23 23 * * *"`（UTC 前一天 23:00）。
+
+> ⚠️ GitHub 的定时任务**不保证准时**：共享服务器繁忙时可能延迟 5～30 分钟。
+
+### 密钥填在哪里
+
+**仓库首页 → Settings → Secrets and variables → Actions → New repository secret**
+
+点右上角 **New repository secret** 逐个添加：
+
+| Secret 名称 | 值 | 必填 |
+| --- | --- | --- |
+| `SMTP_PASSWORD` | QQ 邮箱的 **SMTP 授权码**（16 位，不是登录密码） | ✅ 必填 |
+| `VOLC_ACCESS_KEY` | 火山引擎 AK（想用火山翻译才填） | 可选 |
+| `VOLC_SECRET_KEY` | 火山引擎 SK | 可选 |
+| `VOLC_REGION` | 区域，默认 `cn-north-1` | 可选 |
+
+> **`GITHUB_TOKEN` 不用自己填。** Actions 会自动注入一个内置的 `secrets.GITHUB_TOKEN`，
+> 程序里 `os.environ.get("GITHUB_TOKEN")` 会直接命中它。GitHub 也**禁止**创建
+> 以 `GITHUB_` 开头的自定义 Secret（会报 `Secret names must not start with GITHUB_`）。
+
+填完后可以点 **Run workflow** 手动跑一次验证；密钥缺失会直接在发信那步报错。
+
+### 这个 workflow 做了什么
+
+1. 检出代码，装 Python 3.12
+2. 从 Actions 缓存还原 `translation_cache.json` / `send_state.json` 等状态
+3. 跑 204 个单元测试（**测试不过就不会发信**）
+4. `python news_collector.py` 执行收集与发送
+5. 把日志、日报存档打包成 artifact（保留 14 天）
+6. 存回缓存，保证明天的"当天去重"和翻译缓存不丢
+7. 把当日存档 commit 回仓库，`history/` 里能直接翻历史日报
+
+### 常见调整
+
+| 需求 | 改哪里 |
+| --- | --- |
+| 改发送时间 | `daily-news.yml` 的 `cron`（记得 UTC 换算） |
+| 不想让 Actions 回写存档 | 删掉最后一步 `提交当日存档回仓库` |
+| Actions 里跑单元测试太慢 | 删掉 `跑单元测试` 那一步 |
+| 失败时想收到通知 | Settings → Notifications，或在 workflow 结尾加邮件通知 |
