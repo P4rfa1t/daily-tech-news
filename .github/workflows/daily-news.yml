@@ -52,7 +52,8 @@ jobs:
         env:
           # 密钥从仓库 Secrets 注入，写进环境变量，不落 config.json
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # GITHUB_TOKEN 由 Actions 自动注入（secrets.GITHUB_TOKEN），无需手填。
+          # 注意：GitHub 禁止创建以 GITHUB_ 开头的自定义 Secret，这里不覆盖它。
           VOLC_ACCESS_KEY: ${{ secrets.VOLC_ACCESS_KEY }}
           VOLC_SECRET_KEY: ${{ secrets.VOLC_SECRET_KEY }}
           VOLC_REGION: ${{ secrets.VOLC_REGION }}
