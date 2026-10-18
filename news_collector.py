@@ -2399,6 +2399,21 @@ def send_email(config: dict, subject: str, html_body: str, text_body: str) -> No
             "邮件配置不完整：请在 config.json 中填写 email.sender / email.password / email.recipients"
         )
 
+    # 占位符没被展开 = 对应的环境变量/Secret 没设。直接报清楚是哪个变量，
+    # 否则会拿字面量 "${SMTP_SENDER}" 当邮箱去连 SMTP，只报
+    # "Connection unexpectedly closed"，排查方向会被带偏。
+    for label, value in [("email.sender", sender),
+                         ("email.password", password),
+                         ("email.recipients", ", ".join(recipients))]:
+        if "${" in value:
+            var = value[value.find("${") + 2: value.find("}")]
+            raise RuntimeError(
+                f"{label} 仍是占位符 ${{{var}}}，说明环境变量 {var} 没设置。"
+                f"本地请在项目目录的 .env 里填 {var}=…；"
+                f"GitHub Actions 请在仓库 Settings > Secrets and variables > Actions "
+                f"里新增 secret {var}。"
+            )
+
     message = MIMEMultipart("alternative")
     message["Subject"] = subject
     message["From"] = formataddr((str(Header(ec.get("sender_name", "每日科技新闻"), "utf-8")), sender))

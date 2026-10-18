@@ -2570,5 +2570,86 @@ class TestSenderRecipientNotHardcoded(unittest.TestCase):
         self.assertEqual(settings.get("timezone"), "Asia/Shanghai")
 
 
+class TestUnresolvedPlaceholderGivesClearError(unittest.TestCase):
+    """Secret 没配时占位符会原样保留，之前会拿 "${SMTP_SENDER}" 当邮箱去连 SMTP，
+    只报 "Connection unexpectedly closed"，排查方向被带偏。"""
+
+    def _cfg(self, field, placeholder):
+        ec = {"smtp_host": "smtp.qq.com", "smtp_port": 465, "use_ssl": True,
+              "sender": "a@x.com", "password": "pw", "recipients": ["b@y.com"]}
+        if field == "recipients":
+            ec["recipients"] = [placeholder]
+        else:
+            ec[field] = placeholder
+        return {"email": ec, "settings": {}}
+
+    def test_missing_sender_names_the_variable(self):
+        with self.assertRaises(RuntimeError) as cm:
+            nc.send_email(self._cfg("sender", "${SMTP_SENDER}"), "s", "<p>x</p>", "x")
+        msg = str(cm.exception)
+        self.assertIn("SMTP_SENDER", msg)
+        self.assertIn("Secrets and variables", msg)
+
+    def test_missing_password_names_the_variable(self):
+        with self.assertRaises(RuntimeError) as cm:
+            nc.send_email(self._cfg("password", "${SMTP_PASSWORD}"), "s", "<p>x</p>", "x")
+        self.assertIn("SMTP_PASSWORD", str(cm.exception))
+
+    def test_missing_recipients_names_the_variable(self):
+        with self.assertRaises(RuntimeError) as cm:
+            nc.send_email(self._cfg("recipients", "${SMTP_RECIPIENTS}"), "s", "<p>x</p>", "x")
+        self.assertIn("SMTP_RECIPIENTS", str(cm.exception))
+
+    def test_error_fires_before_any_network_call(self):
+        """必须在连 SMTP 之前就报，否则会白等三个重试。"""
+        called = []
+        real = nc._smtp_send
+        nc._smtp_send = lambda *a, **k: called.append(1)
+        try:
+            with self.assertRaises(RuntimeError):
+                nc.send_email(self._cfg("sender", "${SMTP_SENDER}"), "s", "<p>x</p>", "x")
+        finally:
+            nc._smtp_send = real
+        self.assertEqual(called, [], "占位符没配时不该发出任何 SMTP 连接")
+
+
+class TestConfigFileContainsNoAddresses(unittest.TestCase):
+    """用户要求 config.json 里连邮箱地址本身都看不到。"""
+
+    def _raw_config(self):
+        path = os.path.join(BASE_DIR, "config.json")
+        if not os.path.exists(path):
+            self.skipTest("config.json 不存在")
+        with open(path, encoding="utf-8") as fh:
+            return json.load(fh)
+
+    def test_email_block_has_no_literal_address_or_default(self):
+        ec = self._raw_config()["email"]
+        for key in ("sender", "password"):
+            val = str(ec[key])
+            self.assertTrue(val.startswith("${") and val.endswith("}"),
+                            f"email.{key} 应是纯占位符，实际 {val!r}")
+        for val in ec["recipients"]:
+            self.assertTrue(str(val).startswith("${") and str(val).endswith("}"),
+                            f"recipients 应是纯占位符，实际 {val!r}")
+
+    def test_no_email_address_anywhere_in_config_file(self):
+        path = os.path.join(BASE_DIR, "config.json")
+        with open(path, encoding="utf-8") as fh:
+            text = fh.read()
+        self.assertNotRegex(text, r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}",
+                            "config.json 里不应出现任何邮箱地址")
+
+    def test_email_placeholders_carry_no_default_value(self):
+        """`${VAR:-addr}` 会把地址留在文件里，email 段必须用纯 ${VAR}。
+        翻译段的 `${VOLC_XXX:-}` 是空默认值，不含任何信息，放行。"""
+        with open(os.path.join(BASE_DIR, "config.json"), encoding="utf-8") as fh:
+            email = json.load(fh)["email"]
+        values = [str(email["sender"]), str(email["password"])]
+        values += [str(v) for v in email["recipients"]]
+        for val in values:
+            self.assertNotIn(":-", val, f"email 段占位符不应带默认值：{val!r}")
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

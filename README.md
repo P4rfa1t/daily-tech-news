@@ -575,13 +575,20 @@ GitHub 趋势榜：**每天 30 个项目**，带名次徽章（前三名金色�
 `config.json` 里的密钥字段现在写成**占位符**，真实值从环境变量读取：
 
 ```json
-"email":  { "password": "${SMTP_PASSWORD}" },
+"email":  {
+  "sender":     "${SMTP_SENDER}",
+  "password":   "${SMTP_PASSWORD}",
+  "recipients": ["${SMTP_RECIPIENTS}"]
+},
 "github": { "token":    "${GITHUB_TOKEN}" },
 "translate": {
   "volc_access_key": "${VOLC_ACCESS_KEY:-}",
   "volc_secret_key": "${VOLC_SECRET_KEY:-}"
 }
 ```
+
+`${VAR}` 取环境变量；`${VAR:-默认值}` 在没设时用默认值（值会留在文件里，所以**只给密钥字段用
+纯 `${VAR}`**）。翻译那两个用了空默认值 `${VAR:-}`，等于没设值，不泄露任何信息。
 
 | 写法 | 含义 |
 | --- | --- |
@@ -621,10 +628,17 @@ GitHub 趋势榜：**每天 30 个项目**，带名次徽章（前三名金色�
 
 | Secret 名称 | 值 | 必填 |
 | --- | --- | --- |
+| `SMTP_SENDER` | 发件邮箱地址，例如 `your@qq.com`（不带显示名） | ✅ 必填 |
+| `SMTP_RECIPIENTS` | 收件邮箱地址；多个用逗号分隔 `a@x.com,b@y.com` | ✅ 必填 |
 | `SMTP_PASSWORD` | QQ 邮箱的 **SMTP 授权码**（16 位，不是登录密码） | ✅ 必填 |
 | `VOLC_ACCESS_KEY` | 火山引擎 AK（想用火山翻译才填） | 可选 |
 | `VOLC_SECRET_KEY` | 火山引擎 SK | 可选 |
 | `VOLC_REGION` | 区域，默认 `cn-north-1` | 可选 |
+
+> **仓库里的 `config.json` 不含任何邮箱地址**，只有 `"sender": "${SMTP_SENDER}"` 这样的
+> 纯占位符（不带 `:-默认值`，免得值又被写回文件）。地址和授权码只存在于
+> 仓库 Secrets 和你本地的 `.env`（已被 `.gitignore` 忽略）。
+> 哪个 secret 没填，程序会直接报出变量名，不会拿占位符原文去连 SMTP。
 
 > **`GITHUB_TOKEN` 不用自己填。** Actions 会自动注入一个内置的 `secrets.GITHUB_TOKEN`，
 > 程序里 `os.environ.get("GITHUB_TOKEN")` 会直接命中它。GitHub 也**禁止**创建

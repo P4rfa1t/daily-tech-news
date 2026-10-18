@@ -4,11 +4,11 @@
     "smtp_port": 465,
     "use_tls": false,
     "use_ssl": true,
-    "sender": "${SMTP_SENDER:-1312630400@qq.com}",
+    "sender": "${SMTP_SENDER}",
     "password": "${SMTP_PASSWORD}",
     "sender_name": "每日科技新闻",
     "recipients": [
-      "${SMTP_RECIPIENTS:-p4rfa1t@outlook.com}"
+      "${SMTP_RECIPIENTS}"
     ]
   },
   "settings": {
