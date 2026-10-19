@@ -34,6 +34,49 @@ def _load_module():
 nc = _load_module()
 
 
+class _OfflineGuard(unittest.TestCase):
+    """基类：保证任何测试都不会发出真实网络请求。
+
+    起因：单测只mock 了 _mymemory，没 mock 火山后端。一旦环境里
+    存在 VOLC_ACCESS_KEY/VOLC_SECRET_KEY（本地 .env、CI secrets
+    都会注入），_resolve_translate_provider 就选了火山，测试直接
+    打真接口 —— 表现为 403 / 429，并触发熔断把后续断言全带崩。
+
+    这里在 setUp 里把两个后端和网络层一起替换掉：既杜绝外发请求，
+    也让"选了哪个后端"变成可断言的东西。
+    """
+
+    def setUp(self):
+        self._saved_env = {}
+        for key in ("VOLC_ACCESS_KEY", "VOLC_SECRET_KEY", "VOLC_REGION"):
+            self._saved_env[key] = os.environ.pop(key, None)
+        self._saved = {
+            name: getattr(nc, name)
+            for name in ("_volc_translate_batch", "_mymemory")
+        }
+        self.volc_calls = []
+        self.mymemory_calls = []
+
+        def fake_volc(texts, src, tgt, ak, sk, region, timeout):
+            self.volc_calls.append(list(texts))
+            return [f"[VT]{t}" for t in texts]
+
+        def fake_mymemory(text, src, tgt, timeout):
+            self.mymemory_calls.append(text)
+            return f"[MT]{text}"
+
+        nc._volc_translate_batch = fake_volc
+        nc._mymemory = fake_mymemory
+
+    def tearDown(self):
+        for name, fn in self._saved.items():
+            setattr(nc, name, fn)
+        for key, value in self._saved_env.items():
+            if value is None:
+                os.environ.pop(key, None)
+            else:
+                os.environ[key] = value
+
 
 def _counter():
     i = 0
@@ -1342,7 +1385,7 @@ class TestResolveLangpair(unittest.TestCase):
             nc._mymemory = original
 
 
-class TestTranslateAllBehaviour(unittest.TestCase):
+class TestTranslateAllBehaviour(_OfflineGuard):
     """translate_all 的实际行为。"""
 
     def _patch(self):
@@ -1639,7 +1682,7 @@ class TestGithubDescriptionFetch(unittest.TestCase):
             self.assertEqual([i["summary"] for i in items], ["A", "B", "C"])
 
 
-class TestWuzaoDescReuse(unittest.TestCase):
+class TestWuzaoDescReuse(_OfflineGuard):
     """无噪自带的中文描述优先当作译文，省掉一次机器翻译。"""
 
     def _run(self, item, target="zh"):
@@ -1757,7 +1800,7 @@ class TestBuildTextSummary(unittest.TestCase):
         self.assertIn("用于托管发布二进制文件的主存储库", out)
 
 
-class TestTranslateBreaker(unittest.TestCase):
+class TestTranslateBreaker(_OfflineGuard):
     """限流熔断：撞到 429/额度耗尽后停止后续请求，避免加深封禁。"""
 
     def setUp(self):
@@ -1832,6 +1875,11 @@ class TestTranslateBreaker(unittest.TestCase):
         self.assertFalse(nc._translation_blocked())
 
     def test_max_requests_caps_pending(self):
+        """translate_max_requests 只约束 MyMemory。
+
+        火山走批量接口、不计入这个上限，所以必须显式把后端钉死成
+        mymemory——否则环境里有 AK/SK 时会选火山，断言必然不成立。
+        """
         calls = []
         original = nc._mymemory
         old_cache = nc.load_cache
@@ -1840,12 +1888,15 @@ class TestTranslateBreaker(unittest.TestCase):
         try:
             items = [{"title": f"English headline {i}", "summary": "",
                       "translate_field": "title"} for i in range(10)]
-            nc.translate_all({"c": items}, {"settings": {
-                "translate": True, "translate_target": "zh",
-                "translate_delay": 0, "request_timeout": 5,
-                "translate_workers": 1, "translate_summary": True,
-                "translate_max_requests": 3,
-            }})
+            nc.translate_all({"c": items}, {
+                "settings": {
+                    "translate": True, "translate_target": "zh",
+                    "translate_delay": 0, "request_timeout": 5,
+                    "translate_workers": 1, "translate_summary": True,
+                    "translate_max_requests": 3,
+                },
+                "translate": {"provider": "mymemory"},
+            })
         finally:
             nc._mymemory = original
             nc.load_cache = old_cache
@@ -2021,7 +2072,7 @@ class TestLooksLikeIdentifier(unittest.TestCase):
         self.assertFalse(nc._looks_like_identifier("a" * 41))
 
 
-class TestTranslateAllSkipsIdentifiers(unittest.TestCase):
+class TestTranslateAllSkipsIdentifiers(_OfflineGuard):
     def test_identifier_title_not_sent_to_translator(self):
         calls = []
         original = nc._mymemory
@@ -2509,11 +2560,43 @@ class TestTimezoneResolve(unittest.TestCase):
         self.assertIn("T", nc.build_text(g, {"settings": {"timezone": "Asia/Shanghai"}}))
 
     def test_html_header_uses_configured_day(self):
+        """标题日期必须来自 current_now()，不能写死某一天。
+
+        早期版本断言 "2026年10月18日"——build_html 渲染的是当天，
+        过了那天这个断言必挂（2026-10-19 的 CI 就是这么红的）。
+        改成跟 current_now() 对齐：断言的是"逻辑"，不是"日期"。
+        """
         g = {"AI": [{"title": "T", "link": "https://x.cn/a",
                      "published": _dt(2026, 10, 18, 0, 30, tzinfo=_tz.utc)}]}
-        html = nc.build_html(g, {"settings": {"timezone": "Asia/Shanghai",
-                                              "max_per_category": 8}})
-        self.assertIn("2026年10月18日", html)
+        cfg = {"settings": {"timezone": "Asia/Shanghai",
+                            "max_per_category": 8}}
+        html = nc.build_html(g, cfg)
+        self.assertIn(nc.current_now(cfg).strftime("%Y年%m月%d日"), html)
+
+    def test_html_header_day_follows_configured_timezone(self):
+        """跨日边界上，时区不同渲染出的日期必须跟着变。
+
+        Asia/Shanghai 与 UTC 差 8 小时：UTC 10-18 16:30 已是上海 10-19 00:30。
+        没有 tzdata 时构造不出这个场景，直接跳过。
+        """
+        try:
+            from zoneinfo import ZoneInfo
+            ZoneInfo("Asia/Shanghai")
+        except Exception:
+            self.skipTest("本机没有 tzdata")
+
+        real_now = nc.current_now
+        cfg = {"settings": {"timezone": "Asia/Shanghai",
+                            "max_per_category": 8}}
+        try:
+            nc.current_now = lambda config=None: _dt(
+                2026, 10, 18, 16, 30, tzinfo=_tz.utc
+            ).astimezone(ZoneInfo("Asia/Shanghai"))
+            g = {"AI": [{"title": "T", "link": "https://x.cn/a",
+                         "published": _dt(2026, 10, 18, 0, 30, tzinfo=_tz.utc)}]}
+            self.assertIn("2026年10月19日", nc.build_html(g, cfg))
+        finally:
+            nc.current_now = real_now
 
 
 class TestRecipientParsing(unittest.TestCase):
