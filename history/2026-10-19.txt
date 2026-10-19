@@ -2,6 +2,14 @@
 ==============================
 
 # 科技行业 (8)
+- DoorDash的Flux在云端智能体上运行130000个工程任务
+  [图] https://static001.infoq.cn/resource/image/63/c4/63717ecyy35ac3af32af16f27a2b66c4.jpg
+  https://www.infoq.cn/article/4IPptJpXQqX5Lr77uBFZ?utm_source=rss&utm_medium=article
+  [InfoQ 中文 · 10-19 23:42]
+- 阿里云 7 个样板间，探索 AI 原生研发组织的实践
+  [图] https://static001.infoq.cn/resource/image/83/45/836e2ccea25a133ff419f9a9e5450d45.jpg
+  https://www.infoq.cn/article/2uG3W14THqtLhb5Vou51?utm_source=rss&utm_medium=article
+  [InfoQ 中文 · 10-19 22:38]
 - 随着可观测性模式日趋成熟，OpenTelemetry 将 Kubernetes Attribute Processor 提升为稳定版本
   [图] https://static001.infoq.cn/resource/image/02/79/026819005ddc116fb80290c07aac7079.jpg
   https://www.infoq.cn/article/zBfzQbuxFmP1qrIpZWTG?utm_source=rss&utm_medium=article
@@ -26,18 +34,85 @@
   [图] https://static001.infoq.cn/resource/image/1c/9d/1c6e0fd9abef2cd8ce7b5dec4cb9e49d.jpg
   https://www.infoq.cn/article/UYJ6OSsb7GlDtXoORLxx?utm_source=rss&utm_medium=article
   [InfoQ 中文 · 10-19 17:20]
-- 听得见、看得见、在身边：招商银行远程适老服务的温暖实践
-  用“听得见、看得见、在身边”的陪伴，让老年客户在数字时代同样能享受到有尊严、有温度的金融服务。
-  [图] https://images.tmtpost.com/uploads/images/2023/tkrss/4t5hyjtngf3.png
-  https://www.tmtpost.com/8171033.html
-  [钛媒体 · 10-19 13:08]
-- 220亿机器人明星项目，打五折卖不出去
-  去年抢着求购的机器人老股，今年打了五折也难脱手。
-  [图] https://images.tmtpost.com/uploads/images/2023/tkrss/4t35y4hrtg3.png
-  https://www.tmtpost.com/8173088.html
-  [钛媒体 · 10-19 12:30]
+
+# 科学前沿 (8)
+- Retired pilot helps historical society buy Neil Armstrong's boyhood home for tours
+  → 退休飞行员帮助历史社会购买尼尔·阿姆斯特朗童年的房子进行旅游
+  Ken Schreiber was 9 when Neil Armstrong took his first steps on the moon in 1969—a moment he would never forget. Like Armstrong, he became a military fighter pilot.
+  → 1969年尼尔·阿姆斯特朗第一次踏上月球时，肯·施赖伯才9岁——这一刻他永远不会忘记。像阿姆斯特朗一样，他成为了一名军事战斗机飞行员。
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/neil-armstrong-boyhood.jpg
+  https://phys.org/news/2026-10-historical-society-buy-neil-armstrong.html
+  [Phys.org · 10-19 15:54]
+- Having a baby is too expensive, 4 in 5 parents say
+  → 五分之四的父母说生孩子太贵了
+  Welcoming a new baby brings moments of joy, major milestones and significant expenses. And four in five parents say it costs too much to have a baby, according to the University of Michigan Health C.S. Mott Children's Ho…
+  → 欢迎新生儿会带来快乐的时刻、重大的里程碑和可观的费用。根据密歇根大学健康中心莫特儿童中心的数据，五分之四的父母说生孩子太贵了…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/4-in-5-parents-say-hav.jpg
+  https://phys.org/news/2026-10-baby-expensive-parents.html
+  [Phys.org · 10-19 12:20]
+- Who's paying whom? The circular money machine behind the AI boom (or bubble)
+  → 谁付钱给谁？人工智能繁荣（或泡沫）背后的循环赚钱机器
+  Imagine a company that sells you equipment, invests money in your business and then rents back what you build with it. It's your supplier, your investor and your customer all at once.
+  → 想象一下，一家公司向你出售设备，向你的企业投资，然后把你用它建造的东西租回来。它同时是你的供应商、投资者和客户。
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2024/ai-1.jpg
+  https://phys.org/news/2026-10-paying-circular-money-machine-ai.html
+  [Phys.org · 10-19 08:30]
+- Ancient Nubian temple faience workshop reveals links between craft production and royal power
+  → 古代努比亚寺庙彩陶车间揭示了工艺生产和皇家权力之间的联系
+  Archaeologists have discovered a faience workshop at a major temple complex in the ancient Nubian capital of Napata, showing how the rulers of ancient Kush used specialized craft production to reinforce royal power.
+  → 考古学家在努比亚古都纳帕塔的一个主要寺庙建筑群中发现了一个彩陶作坊，展示了古代库什的统治者如何使用专门的工艺生产来加强皇家权力。
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/uncovering-the-shimmer.jpg
+  https://phys.org/news/2026-10-ancient-nubian-temple-faience-workshop.html
+  [Phys.org · 10-19 07:00]
+- Early humans in America endured climate chaos—new research
+  → 美国早期人类忍受了气候混乱——新研究
+  Some 23,000 years ago, during the coldest part of the last ice age, people walked across the muddy margins of an ancient lake in what is now White Sands National Park, New Mexico.
+  → 大约23000年前，在最后一个冰河时代最冷的时候，人们走过现在新墨西哥州白沙国家公园的一个古老湖泊的泥泞边缘。
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/footprints-found-at-wh.jpg
+  https://phys.org/news/2026-10-early-humans-america-climate-chaos.html
+  [Phys.org · 10-19 05:40]
+- Earth's oldest evidence of life is written in stone—but it's at risk of disappearing
+  → 地球上最古老的生命证据写在石头上——但它有消失的危险
+  Today, our planet is teeming with life, but it has not always looked the same. Long before forests reached skyward, animals walked on land and dinosaurs rose and fell, our planet was shaped by a much smaller, more unassu…
+  → 今天，我们的星球充满了生命，但它并不总是看起来一样。早在森林延伸到天空、动物在陆地上行走、恐龙上升和下降之前，我们的星球就被一个更小、更不稳定的…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/earths-oldest-evidence-2.jpg
+  https://phys.org/news/2026-10-earth-oldest-evidence-life-written.html
+  [Phys.org · 10-19 05:00]
+- Japan to launch historic round-trip mission to Mars moon
+  → 日本将启动历史性的火星月球往返任务
+  Japanese scientists are readying a mission to Mars' moons to retrieve samples that could help unlock the origins of the solar system and life on Earth, in what aims to be the first round trip to the Martian region.
+  → 日本科学家正在准备一项火星卫星任务，以取回有助于解开太阳系和地球生命起源的样本，这将是首次往返火星地区。
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/martian-moons-explorat.jpg
+  https://phys.org/news/2026-10-japan-historic-mission-mars-moon.html
+  [Phys.org · 10-19 04:20]
+- Spatial genomics tool maps long-range DNA interactions while preserving cells' locations within tissues
+  → 空间基因组学工具映射远程DNA相互作用，同时保留细胞在组织中的位置
+  DNA is not randomly distributed within the nucleus but is packaged with proteins into chromatin, which is precisely folded into complex three-dimensional structures. However, scientists have not fully understood how this…
+  → DNA不是随机分布在细胞核内，而是与蛋白质一起打包成染色质，染色质被精确地折叠成复杂的三维结构。然而，科学家们还没有完全理解这是如何…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/spatial-genomics-tool.jpg
+  https://phys.org/news/2026-10-spatial-genomics-tool-range-dna.html
+  [Phys.org · 10-19 04:00]
 
 # 网络安全 (12)
+- HostBadger
+  Read-only Windows host hardening auditor in PowerShell with optional AI analysis
+  → PowerShell中的只读Windows主机强化审核器，具有可选的AI分析
+  [图] https://assets.kitploit.com/production/public/tools/57651/17da0e050758c5ab6d528f388ad5305e46a7bfb13faa3d2744f3d3a32cef0c2c-display-v1.webp
+  https://kitploit.com/en/tools/github/g4bri-3l3/hostbadger
+  [KitPloit · 10-19 15:45]
+- openwrt v25.12.6
+  → openwt v25.12.6
+  Linux operating system for embedded devices with writable filesystem, package management, and build framework. Enables custom firmware creation for routers, IoT devices, and wireless access points with full network stack…
+  → Linux嵌入式设备操作系统，具有可写文件系统、包管理和构建框架。为具有完整网络堆栈的路由器、物联网设备和无线接入点启用自定义固件创建…
+  [图] https://assets.kitploit.com/production/public/tools/39191/b3ce0ebcb73e13ca1e9e1254a964cb3a8d4765916cbddaa92aebc2acfd168809.png
+  https://kitploit.com/en/posts/openwrt-a63bcc7fec304c0d
+  [KitPloit · 10-19 15:44]
+- IDWolf
+  Read-only Active Directory & Microsoft Entra ID hygiene auditor in pure PowerShell. Collect once, analyze offline: deterministic findings, attack paths, NIS2/ISO 27001/DORA/GDPR mapping, HTML/CSV/JSONL reports, optional…
+  → 纯PowerShell中的只读Active Directory和Microsoft Entra ID卫生审核器。收集一次，离线分析：确定性发现、攻击路径、NIS2/ISO 27001/DORA/欧盟数据保护法映射、HTML/CSV/JSONL报告、可选…
+  [图] https://assets.kitploit.com/production/public/tools/57652/adf60c37774ea805689335c7800bff21148305f65faa9f16a0521735074fd912-display-v1.webp
+  https://kitploit.com/en/tools/github/g4bri-3l3/idwolf
+  [KitPloit · 10-19 14:44]
 - deco-filepush-disclosure
   Disclosure and PoC for a root file read/write flaw in the TP-Link Deco XE75 Pro V3 debug channel (tmpsvr opcodes 0xC456/0xF0), with CVSS analysis and handler decompilation.
   → TP-Link Deco XE75 Pro V3调试通道（tmpsvr操作码0xC456/0xF0）中根文件读/写缺陷的披露和PoC，带有CVSS分析和处理程序反编译。
@@ -93,25 +168,6 @@
   [图] https://assets.kitploit.com/production/public/tools/57737/e3727feefe0ce878a2949cb5c1344ed8536b7d85d072cd610db65daa1e474197-display-v1.webp
   https://kitploit.com/en/tools/github/blackvectorops/semantic_firewall
   [KitPloit · 10-19 03:27]
-- hashcat — Updated!
-  → hashcat-更新！
-  World's fastest and most advanced password recovery utility
-  → 世界上最快和最先进的密码恢复实用程序
-  [图] https://assets.kitploit.com/production/public/tools/1034/a07871032e45efb78c4bcb8fe1f2cd5604d80dc74b70c8c33d45dda687e2fadd.png
-  https://kitploit.com/en/posts/hashcat-7761f236baf4d566
-  [KitPloit · 10-19 02:27]
-- NaSuno
-  AI audio watermark removal & forensic anti-attribution toolkit. Neutralizes Suno, Udio, and neural fingerprints with ISO 226 perceptual masking.
-  → AI音频水印去除和取证反归因工具包。使用ISO 226感知掩蔽中和Suno、Udio和神经指纹。
-  [图] https://assets.kitploit.com/production/public/tools/57749/63515b6ba5c9e2f0af601f5d54b6baccab505f25c3f55cfda6e3efadb99c674c-display-v1.webp
-  https://kitploit.com/en/tools/github/ahmadhassan-bted/nasuno
-  [KitPloit · 10-19 01:54]
-- Sandboxie v1.18.8
-  → 沙盒v1.18.8
-  Sandboxie Plus & Classic
-  [图] https://assets.kitploit.com/production/public/tools/46180/3dc1129e356b02108cb12aa581dda3547096231c8a93299ae78b3318b2639d55.png
-  https://kitploit.com/en/posts/sandboxie-2dc01a53143eeda1
-  [KitPloit · 10-18 22:26]
 
 # 硬件极客 (10)
 - Thunderbolt Strikes Windows98
@@ -185,64 +241,6 @@
   https://hackaday.com/2026/10/18/evolving-rc-circuits/
   [Hackaday · 10-18 19:00]
 
-# 科学前沿 (8)
-- Having a baby is too expensive, 4 in 5 parents say
-  → 五分之四的父母说生孩子太贵了
-  Welcoming a new baby brings moments of joy, major milestones and significant expenses. And four in five parents say it costs too much to have a baby, according to the University of Michigan Health C.S. Mott Children's Ho…
-  → 欢迎新生儿会带来快乐的时刻、重大的里程碑和可观的费用。根据密歇根大学健康中心莫特儿童中心的数据，五分之四的父母说生孩子太贵了…
-  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/4-in-5-parents-say-hav.jpg
-  https://phys.org/news/2026-10-baby-expensive-parents.html
-  [Phys.org · 10-19 12:20]
-- Who's paying whom? The circular money machine behind the AI boom (or bubble)
-  → 谁付钱给谁？人工智能繁荣（或泡沫）背后的循环赚钱机器
-  Imagine a company that sells you equipment, invests money in your business and then rents back what you build with it. It's your supplier, your investor and your customer all at once.
-  → 想象一下，一家公司向你出售设备，向你的企业投资，然后把你用它建造的东西租回来。它同时是你的供应商、投资者和客户。
-  [图] https://scx1.b-cdn.net/csz/news/tmb/2024/ai-1.jpg
-  https://phys.org/news/2026-10-paying-circular-money-machine-ai.html
-  [Phys.org · 10-19 08:30]
-- Ancient Nubian temple faience workshop reveals links between craft production and royal power
-  → 古代努比亚寺庙彩陶车间揭示了工艺生产和皇家权力之间的联系
-  Archaeologists have discovered a faience workshop at a major temple complex in the ancient Nubian capital of Napata, showing how the rulers of ancient Kush used specialized craft production to reinforce royal power.
-  → 考古学家在努比亚古都纳帕塔的一个主要寺庙建筑群中发现了一个彩陶作坊，展示了古代库什的统治者如何使用专门的工艺生产来加强皇家权力。
-  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/uncovering-the-shimmer.jpg
-  https://phys.org/news/2026-10-ancient-nubian-temple-faience-workshop.html
-  [Phys.org · 10-19 07:00]
-- Early humans in America endured climate chaos—new research
-  → 美国早期人类忍受了气候混乱——新研究
-  Some 23,000 years ago, during the coldest part of the last ice age, people walked across the muddy margins of an ancient lake in what is now White Sands National Park, New Mexico.
-  → 大约23000年前，在最后一个冰河时代最冷的时候，人们走过现在新墨西哥州白沙国家公园的一个古老湖泊的泥泞边缘。
-  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/footprints-found-at-wh.jpg
-  https://phys.org/news/2026-10-early-humans-america-climate-chaos.html
-  [Phys.org · 10-19 05:40]
-- Earth's oldest evidence of life is written in stone—but it's at risk of disappearing
-  → 地球上最古老的生命证据写在石头上——但它有消失的危险
-  Today, our planet is teeming with life, but it has not always looked the same. Long before forests reached skyward, animals walked on land and dinosaurs rose and fell, our planet was shaped by a much smaller, more unassu…
-  → 今天，我们的星球充满了生命，但它并不总是看起来一样。早在森林延伸到天空、动物在陆地上行走、恐龙上升和下降之前，我们的星球就被一个更小、更不稳定的…
-  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/earths-oldest-evidence-2.jpg
-  https://phys.org/news/2026-10-earth-oldest-evidence-life-written.html
-  [Phys.org · 10-19 05:00]
-- Japan to launch historic round-trip mission to Mars moon
-  → 日本将启动历史性的火星月球往返任务
-  Japanese scientists are readying a mission to Mars' moons to retrieve samples that could help unlock the origins of the solar system and life on Earth, in what aims to be the first round trip to the Martian region.
-  → 日本科学家正在准备一项火星卫星任务，以取回有助于解开太阳系和地球生命起源的样本，这将是首次往返火星地区。
-  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/martian-moons-explorat.jpg
-  https://phys.org/news/2026-10-japan-historic-mission-mars-moon.html
-  [Phys.org · 10-19 04:20]
-- Spatial genomics tool maps long-range DNA interactions while preserving cells' locations within tissues
-  → 空间基因组学工具映射远程DNA相互作用，同时保留细胞在组织中的位置
-  DNA is not randomly distributed within the nucleus but is packaged with proteins into chromatin, which is precisely folded into complex three-dimensional structures. However, scientists have not fully understood how this…
-  → DNA不是随机分布在细胞核内，而是与蛋白质一起打包成染色质，染色质被精确地折叠成复杂的三维结构。然而，科学家们还没有完全理解这是如何…
-  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/spatial-genomics-tool.jpg
-  https://phys.org/news/2026-10-spatial-genomics-tool-range-dna.html
-  [Phys.org · 10-19 04:00]
-- Dozens of orangutans saved from Indonesia blazes as region grapples with haze
-  → 几十只猩猩从印度尼西亚大火中获救，该地区正努力应对雾霾
-  Dozens of critically endangered orangutans have been rescued in recent weeks from rampant wildfires burning across Indonesia that have cloaked the region in toxic haze, conservation groups said.
-  → 保护组织称，最近几周，数十只极度濒危的猩猩从印度尼西亚肆虐的野火中获救，这场野火将该地区笼罩在有毒烟雾中。
-  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/conservation-groups-in.jpg
-  https://phys.org/news/2026-10-dozens-orangutans-indonesia-blazes-region.html
-  [Phys.org · 10-19 03:19]
-
 # 医疗健康 (2)
 - STAT+: Cambridge scientist David Sabatini speaks out after courtroom victory: ‘The hardest years of my life’
   → 统计+：剑桥科学家大卫·萨巴蒂尼在法庭胜利后大声说：“我一生中最艰难的几年”
@@ -312,246 +310,208 @@
 - Meta 误删抗议账号，90 分钟引发热议
   在抗议日当天，Meta 旗下的 Instagram 错误地删除了名为 No Kings 的账号，这一操作仅持续了约 90 分钟。Hacker News 上的讨论迅速发酵，用户们纷纷猜测这是否是自动化审核机制的误判，还是人为干预的结果。有人指出，Meta 等科技巨头过度依赖自动化工具以降低成本，导致在内容审核上容易出现偏差。同时，这场风波也引发了关于言论自由、平台责任以及科技巨头权力的深层讨论。尽管 Meta 很快道歉并恢复了账号，但事件暴露了私人平台在管理公共空间时的复杂性与矛盾。
   https://meidasnews.com/news/zuckerbergs-meta-takes-down-no-kings-instagram-during-massive-protest-day
-  [HN · ▲ 574 · 💬 391 · meidasnews.com]
+  [HN · ▲ 577 · 💬 390 · meidasnews.com]
 - DeepSeek 搜索 API 上线，每千次请求仅 0.75 美元
   DeepSeek 正式推出了 Search API 和 Fetch API，旨在为智能体和 RAG 应用提供实时网络内容访问能力。Search API 基于其自研搜索引擎返回结构化结果，而 Fetch API 则能将指定网页内容转换为 Markdown 格式。这两项服务均采用原始 JSON 接口，并沿用 DeepSeek API 的 Bearer 认证机制。在计费模式上，DeepSeek 采取了按成功请求计费的策略，Search 和 Fetch 均为每 1000 次成功请求 0.75 美元。值得注意的是，失败的请求、空结果或超时情况均不收费，且计费仅针对返回 HTTP 200 并产生有效结果的请求。这一定价策略为开发者提供了极具成本效益的实时数据获取方案。
   [图] https://api-docs.deepseek.com/img/deepseek-social-card.jpeg
   https://api-docs.deepseek.com/guides/search/
-  [HN · ▲ 563 · 💬 264 · api-docs.deepseek.com]
+  [HN · ▲ 568 · 💬 267 · api-docs.deepseek.com]
 - Namecheap 突然查封并停用了我的所有域名
   我刚刚遭遇了 Namecheap 的突然行动，他们直接查封并停用了我名下的所有域名。作为一名系统管理员，这种毫无预警的封禁让人措手不及，所有服务瞬间瘫痪。尽管具体原因尚不明确，但这再次凸显了域名注册商对用户资产的绝对控制权。在数字时代，我们往往将关键基础设施寄托于第三方平台，却忽略了潜在的风险。这次事件提醒我们，必须重新审视对单一服务商的依赖，并思考如何构建更具韧性的域名管理策略。
   https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/
-  [HN · ▲ 512 · 💬 261 · reddit.com]
+  [HN · ▲ 553 · 💬 287 · reddit.com]
 - 纽约推法案：游戏必须归玩家所有
   纽约州众议员Ritchie Torres提出了《Power To The Players Act》法案，旨在彻底改变游戏行业的销售模式。该法案要求购买视频游戏必须赋予消费者所有权，而非仅仅授予使用许可。此外，法案还强制要求游戏发行商在停止官方支持后，仍需确保游戏能够正常运行。这一举措与Pennsylvania州的保护措施相呼应，直指当前游戏行业普遍存在的反消费者商业行为，试图通过FTC监管保障玩家权益，让游戏真正属于玩家。
   [图] https://cdn.mos.cms.futurecdn.net/mKeveqd9S8n3CfPhhZqGcc-970-80.jpg
   https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends
-  [HN · ▲ 433 · 💬 204 · tomshardware.com]
-- 纪录片You Can See Everything如何欺骗你
-  昨晚我看了关于Elizabeth Holmes的新纪录片You Can See Everything，走出影院时我意识到：这根本不是关于她如何欺骗世界，而是关于她如何实时欺骗了我们这些观众。导演Lance Oppenheim和Nathan Fielder通过镜头语言、剪辑节奏和信息披露顺序，让满座成年人在不知不觉中反复推翻自己的判断。我们以为自己在理性分析事实，其实先被情绪牵着走，再为情绪寻找证据。Elizabeth Holmes因误导投资者入狱，却未被指控欺诈患者，但大众往往忽略这种细微差别。这部纪录片像一场心理魔术，揭示了我们如何轻易被叙事操控。
-  [图] https://substackcdn.com/image/fetch/$s_!3ARQ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F060f86f0-a951-4a8e-8e6c-e92a3165e240_1920x1080.jpeg
-  https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything
-  [HN · ▲ 374 · 💬 538 · readtheprofile.com]
+  [HN · ▲ 438 · 💬 210 · tomshardware.com]
 - Linear 创始人：软件背后要有灵魂
   我认为优秀的产品承载着创造者的特质、关注点与思维方式。虽然你可能不知道他们是谁，但能感受到他们的视角。行业常把软件开发比作工厂流水线，收集需求、构建功能、验证效果，甚至试图用代理（agents）自动化整个流程。然而，面对相似的客户和技术，不同团队做出的产品却截然不同，差异源于对问题的理解与构建风格。在 Linear，我们推崇直觉胜过流程或数据。直觉并非个人偏好，而是通过经验、用户对话和试错积累的判断力。产品因此拥有灵魂，有人在乎整体如何融合。如今许多产品变得杂乱，只因不断堆砌功能而缺乏统一视角。我希望软件制作变得更易，让人们有更多空间深入理解问题，塑造完整答案，让人感受到创造者而非工厂的存在。
   [图] https://karrisaarinen.com/static/linear-assets/081de7ffce667bb13cb63d8b2a1d312e19d747ea1d3818af2c5cc1e5a9445e21.webp
   https://karrisaarinen.com/posts/someone-behind-the-software/
-  [HN · ▲ 374 · 💬 148 · karrisaarinen.com]
+  [HN · ▲ 414 · 💬 158 · karrisaarinen.com]
+- 纪录片You Can See Everything如何欺骗你
+  昨晚我看了关于Elizabeth Holmes的新纪录片You Can See Everything，走出影院时我意识到：这根本不是关于她如何欺骗世界，而是关于她如何实时欺骗了我们这些观众。导演Lance Oppenheim和Nathan Fielder通过镜头语言、剪辑节奏和信息披露顺序，让满座成年人在不知不觉中反复推翻自己的判断。我们以为自己在理性分析事实，其实先被情绪牵着走，再为情绪寻找证据。Elizabeth Holmes因误导投资者入狱，却未被指控欺诈患者，但大众往往忽略这种细微差别。这部纪录片像一场心理魔术，揭示了我们如何轻易被叙事操控。
+  [图] https://substackcdn.com/image/fetch/$s_!3ARQ!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F060f86f0-a951-4a8e-8e6c-e92a3165e240_1920x1080.jpeg
+  https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything
+  [HN · ▲ 379 · 💬 542 · readtheprofile.com]
 - RepRapMicron：在家实现微米级3D打印
   RepRapMicron 项目旨在将 RepRap 的开源制造理念引入微米尺度，让普通爱好者也能在家庭工作坊中实现微米级甚至亚微米级的精密制造。基于 The OpenFlexure Project 的 3D 打印显微镜平台，该项目成功开发了 PIKA 版本，实现了约 1 微米的重复定位精度。通过毛细作用沉积 UV 树脂并利用光纤探针固化，它不仅能打印 0.5 毫米的模型，还能制造探针尖端等微型组件。这一突破有望打破微电子和 MEMS 领域对昂贵硅基制造设备的依赖，推动生物医学和微型机械的独立创新，甚至为未来更小尺度的自复制系统奠定基础。
+  [图] https://opengraph.githubassets.com/6ca3ac2d40c13fed19443096a536859e139253972d9d48b95b79ae7e70fec7e6/VikOlliver/RepRapMicron
   https://github.com/VikOlliver/RepRapMicron/wiki
-  [HN · ▲ 357 · 💬 56 · github.com]
+  [HN · ▲ 379 · 💬 58 · github.com]
 - HybridAgents：推理快2.6倍，Token省一半
   现代LLM代理仍依赖文本进行推理和交互，而潜在推理虽高效却缺乏工具访问能力。HybridAgents通过HybridLink架构，在文本与潜在模式间动态切换，既保留工具集成能力，又让思维过程可被直接检查。结合HybridSFT与HybridRL训练算法，该方案在数学、科学、医疗等11个基准测试中，性能提升10.4%，Token消耗减少35%-55%，推理速度提升1.8至2.6倍，成本节省2.7至3.7倍。代码与数据已开源，为智能体开发提供新范式。
   [图] https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png
   https://arxiv.org/abs/2610.18861
-  [HN · ▲ 297 · 💬 160 · arxiv.org]
+  [HN · ▲ 354 · 💬 168 · arxiv.org]
 - 3blue1brown：现在是投身数学的最佳时机
   3blue1brown 在视频中提出，当前是进入数学领域的黄金时期。随着计算工具的普及和在线资源的丰富，数学不再局限于枯燥的公式推导，而是变得直观且充满美感。无论是利用可视化技术理解复杂概念，还是通过开源社区获取学习支持，数学的门槛正在降低。视频强调了数学思维在解决现实问题中的核心作用，鼓励更多人跨越恐惧，重新发现数学的魅力与实用性。
   https://www.youtube.com/watch?v=LKrwhjOI8Nc
-  [HN · ▲ 262 · 💬 307 · youtube.com]
+  [HN · ▲ 323 · 💬 381 · youtube.com]
 - macOS 15.8.2 更新导致 OpenGL 崩溃
   在将 MacBook Pro (M1 Pro) 从 macOS 15.8 升级至 15.8.2 测试版后，所有基于窗口表面的 OpenGL 渲染均失效，窗口显示为空白。问题影响 NSOpenGLView 和 NSOpenGLContext，导致 glCheckFramebufferStatus 返回 GL_FRAMEBUFFER_UNDEFINED 错误。尽管离屏 FBO 和 CAOpenGLLayer 工作正常，但 Sony Imaging Edge、DJI Studio、kitty、Alacritty、Godot 及 Bambu Studio 等多款应用均受波及。开发者已提交反馈报告，目前建议的临时方案是改用 CAOpenGLLayer 进行渲染。
   https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550
-  [HN · ▲ 244 · 💬 260 · developer.apple.com]
+  [HN · ▲ 246 · 💬 267 · developer.apple.com]
 - Sphinx: 代码提交前AI知识问答钩子
   Sphinx 是一款专为 AI 辅助开发设计的 Git 钩子工具。在代码提交前，它会基于代码变更向开发者提问，确保你真正理解 AI 生成的逻辑，而非盲目复制。支持 Codex、Claude Code、Cursor 等主流工具，全程本地运行，保护隐私。答对即通过，答错则学习修正，让每一次 Push 都成为深度理解代码的机会。
   https://sphinx-six-theta.vercel.app/
-  [HN · ▲ 243 · 💬 85 · sphinx-six-theta.vercel.app]
+  [HN · ▲ 245 · 💬 86 · sphinx-six-theta.vercel.app]
 - 告别 regex：Parser Combinators 的优雅解析
   解析是将无序文本转化为结构化数据的关键步骤。虽然 regex 是常见工具，但在处理复杂任务时往往显得混乱不堪；而 tree-sitter 又常显过度。Parser Combinators 恰好填补了这两者之间的空白。通过定义 Partial Parser，我们可以将输入字符串切割并返回结果与剩余部分。借助 pSeq 等组合器，能够将多个简单的解析器链式调用，构建出强大的解析逻辑。从解析简单的问候语到处理复杂的 PING 命令输出，Parser Combinators 展示了如何通过组合小单元来优雅地解决大问题，让代码更清晰、更易维护。
   https://t3.at/blog/2026-10-17-parser-combinators/
-  [HN · ▲ 230 · 💬 81 · t3.at]
+  [HN · ▲ 233 · 💬 83 · t3.at]
 - 法律专家警告：Meta新条款仍允许广泛抓取
   Meta 虽然从商业条款中删除了“train”一词，并将用途限制在广告和商务产品，但法律专家警告称，修订后的条款依然授予其广泛的网页抓取权限。尽管 Meta 声称尊重 robots.txt 文件，但条款中并未明确写入相关承诺，且“开发商务产品”的措辞模糊，可能被解读为包含 AI 模型训练。欧洲出版商理事会、英国新闻媒体协会及美国新闻/媒体联盟等组织已公开反对，认为这是对市场权力的滥用，并呼吁监管机构介入。
   [图] https://www.niemanlab.org/images/AdobeStock_1108807119_Editorial_Use_Only-700x440.jpeg
   https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes/
-  [HN · ▲ 222 · 💬 62 · niemanlab.org]
+  [HN · ▲ 223 · 💬 62 · niemanlab.org]
 - Lean 4 新增四个验证内核，AI 助阵
   AI 代理在挖掘软件漏洞方面表现出色，连 Lean 证明助手的内核（证明检查器）也未能幸免。为此，我们推出了 Lean v4.35.0，内置 `lake check` 命令，可在沙箱环境中利用 `leanchecker` 重新验证开发成果。新版本还集成了 nanoda、lean4lean、con-leche 和 con-ron 四个额外内核，通过 `lake check --paranoid` 即可一键全量重检。其中，由 Claude 在 Joachim Breitner 指导下用 Lean 编写并证明一致的 con-leche 内核尤为亮眼，它消除了内核实现中的编程错误类漏洞，且性能优异。此外，AI 还协助将 con-leche 翻译为 Rust 版本 con-ron，通过跨语言交叉验证进一步提升安全性。面对 Mathlib 等库代码量激增的挑战，我们正致力于优化二进制导出格式和增量检查，以应对未来十亿行代码规模的验证需求。
   https://leodemoura.github.io/blog/2026-10-15-lean-now-ships-with-verified-kernels/
-  [HN · ▲ 202 · 💬 78 · leodemoura.github.io]
-- 开源 MicroManipulator：50nm 精度的 DIY 方案
-  这是一个名为 Open Micro-Manipulator 的开源项目，旨在打造低成本且易于组装的 XYZ 微型运动控制平台。得益于并联运动学结构和微型球关节，该设备在保持高机械刚性的同时实现了大行程，步进精度可达 50nm。项目采用现成的步进电机配合 30kHz 闭环控制器，并通过“磁齿轮”技术提升编码器分辨率。用户可通过简单的 G-Code 命令经 USB 串口控制设备，固件内置了包含前瞻算法的完整运动规划栈。此外，项目还提供了 Python API 和图形化界面 GUI，支持实时摄像头画面显示，非常适合光学对准、电子元件探测及显微镜操作等应用场景。
-  https://github.com/0x23/MicroManipulatorStepper
-  [HN · ▲ 181 · 💬 14 · github.com]
+  [HN · ▲ 203 · 💬 78 · leodemoura.github.io]
+- 狗狗也认同'Bouba'圆润，'Kiki'尖锐
+  人类常将拟声词'Bouba'与圆润形状、'Kiki'与尖锐形状联系起来，这种跨文化的心理现象如今在狗狗身上也得到了验证。意大利帕尔马大学的 Eleonora Biffi 团队招募了 70 只家犬进行实验，通过屏幕展示形状并播放对应声音。研究发现，当听到'Bouba'时，狗狗更倾向于注视圆润形状；听到'Kiki'时，则更多关注尖锐形状。即便在排除主人无意暗示的对照实验中，这一关联依然显著。这项发表于《Proceedings of the Royal Society B: Biological Sciences》的研究提示，人类与犬类在声音与视觉的跨模态联想上可能存在某种共同的进化机制，为理解动物如何习得人类语言及建立亲密关系提供了新视角。
+  [图] https://www.sciencealert.com/images/2026/10/GettyImages-597067015-2560x1440-1.jpg
+  https://www.sciencealert.com/dogs-seem-to-agree-with-humans-that-bouba-is-round-and-kiki-is-spiky
+  [HN · ▲ 203 · 💬 123 · sciencealert.com]
 
 # GitHub 1 日增长榜 · 无噪 (30)
 - morluto/rea
-  Reverse engineer anything with agents, from app behavior down to native binaries.
-  → 使用代理对任何内容进行逆向工程，从应用程序行为到本机二进制文件。
   [图] https://opengraph.githubassets.com/1/morluto/rea
   https://github.com/morluto/rea
   [1 日 +15,411 · ⭐ 324.6k · TypeScript]
 - ebony-vinyl/dsh-our-free-model
-  在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash…
   [图] https://opengraph.githubassets.com/1/ebony-vinyl/dsh-our-free-model
   https://github.com/ebony-vinyl/dsh-our-free-model
   [1 日 +2,973 · ⭐ 24.6k · JavaScript]
 - madslorentzen/ai-job-search
-  The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.
-  → 基于 Claude Code 的 AI 求职工具。可自动评估职位、定制简历、撰写求职信，并准备面试。核心流程语言和地域无关，支持多种职位搜索渠道，提供结构化评估与个性化输出。
+  基于 Claude Code 的 AI 求职工具。可自动评估职位、定制简历、撰写求职信，并准备面试。核心流程语言和地域无关，支持多种职位搜索渠道，提供结构化评估与个性化输出。
   [图] https://opengraph.githubassets.com/1/madslorentzen/ai-job-search
   https://github.com/madslorentzen/ai-job-search
   [1 日 +2,442 · ⭐ 52.4k · Python]
 - debpalash/voicestudio
-  VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
-  → 开源 ElevenLabs 替代品，支持实时听写、零样本语音克隆和电影级视频配音。完全本地运行，无需 API 密钥，支持 646 种语言。
+  开源 ElevenLabs 替代品，支持实时听写、零样本语音克隆和电影级视频配音。完全本地运行，无需 API 密钥，支持 646 种语言。
   [图] https://opengraph.githubassets.com/1/debpalash/voicestudio
   https://github.com/debpalash/voicestudio
   [1 日 +1,932 · ⭐ 74.7k · Python]
 - boykopovar/anyps5
-  Tool for automatic PS5 executables porting to Linux and Windows
-  → 用于自动将PS5可执行文件移植到Linux和Windows的工具
   [图] https://opengraph.githubassets.com/1/boykopovar/anyps5
   https://github.com/boykopovar/anyps5
   [1 日 +1,676 · ⭐ 42.9k · C++]
 - anomalyco/opencode
-  The open source coding agent.
-  → 开源AI编码代理，支持终端与桌面应用。内置build和plan两种智能体，可通过Tab键切换。提供npm、brew等多种安装方式，支持多平台。
+  开源AI编码代理，支持终端与桌面应用。内置build和plan两种智能体，可通过Tab键切换。提供npm、brew等多种安装方式，支持多平台。
   [图] https://opengraph.githubassets.com/1/anomalyco/opencode
   https://github.com/anomalyco/opencode
   [1 日 +1,355 · ⭐ 216.8k · TypeScript]
 - stablyai/orca
-  Orca is the place for working with a fleet of agents (e.g. Grok Bot, Codex). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.
-  → AI 编排工具，支持并行运行 Codex、ClaudeCode 等编码代理。提供隔离的 Git 工作树、移动端伴侣应用、终端分割、设计模式及 GitHub/Linear 集成。适用于桌面和移动端。
+  AI 编排工具，支持并行运行 Codex、ClaudeCode 等编码代理。提供隔离的 Git 工作树、移动端伴侣应用、终端分割、设计模式及 GitHub/Linear 集成。适用于桌面和移动端。
   [图] https://opengraph.githubassets.com/1/stablyai/orca
   https://github.com/stablyai/orca
   [1 日 +1,171 · ⭐ 96.3k · TypeScript]
 - storytold/photocraft
-  PhotoCraft: An open-source, photo editor written by scratch in pure Rust
-  → PhotoCraft：纯Rust从头开始编写的开源照片编辑器
   [图] https://opengraph.githubassets.com/1/storytold/photocraft
   https://github.com/storytold/photocraft
   [1 日 +1,164 · ⭐ 67.2k · Rust]
 - mattpocock/skills
-  Skills for Real Engineers. Straight from my .agents directory.
-  → 个人技能目录，涵盖规划、开发和工具化。包含 PRD 创建、TDD、代码重构、Git 钩子设置等技能，通过 npx 命令快速添加。
+  个人技能目录，涵盖规划、开发和工具化。包含 PRD 创建、TDD、代码重构、Git 钩子设置等技能，通过 npx 命令快速添加。
   [图] https://opengraph.githubassets.com/1/mattpocock/skills
   https://github.com/mattpocock/skills
   [1 日 +1,117 · ⭐ 296.4k · Shell]
 - anthropics/claude-plugins-official
-  Official, Anthropic-managed directory of high quality Claude Code Plugins.
-  → 官方管理的高质量 Claude Code 插件目录，包含内部和第三方插件。可通过命令直接安装，支持插件提交与贡献。强调安全使用，需信任插件后再安装。
+  官方管理的高质量 Claude Code 插件目录，包含内部和第三方插件。可通过命令直接安装，支持插件提交与贡献。强调安全使用，需信任插件后再安装。
   [图] https://opengraph.githubassets.com/1/anthropics/claude-plugins-official
   https://github.com/anthropics/claude-plugins-official
   [1 日 +1,012 · ⭐ 42.5k · Python]
 - deepseek-ai/deepseek-harness
-  DeepSeek Harness: Everything is a Plugin.
-  → 开源代理框架，一切皆插件，基于 Cordis 实现时空组合性。提供 Web UI，开发者预览阶段，快速迭代。
+  开源代理框架，一切皆插件，基于 Cordis 实现时空组合性。提供 Web UI，开发者预览阶段，快速迭代。
   [图] https://opengraph.githubassets.com/1/deepseek-ai/deepseek-harness
   https://github.com/deepseek-ai/deepseek-harness
   [1 日 +988 · ⭐ 253.4k · TypeScript]
 - dietrichgebert/ponytail
-  Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
-  → 让 AI 代理像最懒的资深开发者一样思考：80-94% 减少代码、3-6 倍更快、47-77% 更便宜。优先使用标准库、原生功能和现有依赖，仅在必要时编写最小代码。
+  让 AI 代理像最懒的资深开发者一样思考：80-94% 减少代码、3-6 倍更快、47-77% 更便宜。优先使用标准库、原生功能和现有依赖，仅在必要时编写最小代码。
   [图] https://opengraph.githubassets.com/1/dietrichgebert/ponytail
   https://github.com/dietrichgebert/ponytail
   [1 日 +981 · ⭐ 167.2k · JavaScript]
 - affaan-m/ecc
-  The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-  → 包含代理、技能、钩子、命令、规则和MCP的完整Claude Code配置集。来自Anthropic黑客松获奖者的实战配置，支持多语言，提供安装向导和PM2多代理编排。
+  包含代理、技能、钩子、命令、规则和MCP的完整Claude Code配置集。来自Anthropic黑客松获奖者的实战配置，支持多语言，提供安装向导和PM2多代理编排。
   [图] https://opengraph.githubassets.com/1/affaan-m/ecc
   https://github.com/affaan-m/ecc
   [1 日 +969 · ⭐ 283.4k · JavaScript]
 - storytold/artcraft
-  ArtCraft is an intentional crafting engine for artists, designers, and filmmakers
-  → ArtCraft是艺术家、设计师和电影制作人的有意制作引擎
   [图] https://opengraph.githubassets.com/1/storytold/artcraft
   https://github.com/storytold/artcraft
   [1 日 +938 · ⭐ 32.6k · Rust]
 - wheresryan22/anatomy
-  An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.
-  → 一种代理技能，用于创建真实世界机器和复杂系统的详细、交互式等距插图。使用可选的WebGL着色器和3D效果生成精美的SVG。
   [图] https://opengraph.githubassets.com/1/wheresryan22/anatomy
   https://github.com/wheresryan22/anatomy
   [1 日 +891 · ⭐ 15.9k · JavaScript]
 - yetone/magpie
-  Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.
-  → 每个代理的模型。一个地方。DeepSeek上的Codex，Kimi上的Claude代码，来自菜单栏。
   [图] https://opengraph.githubassets.com/1/yetone/magpie
   https://github.com/yetone/magpie
   [1 日 +877 · ⭐ 15.9k · Go]
 - heygen-com/hyperframes
-  Write HTML. Render video. Built for agents.
-  → 开源视频渲染框架，基于 HTML 构建，专为 AI 代理设计。支持编写 HTML 并渲染为视频，提供 CLI 预览与渲染功能，兼容 Node.js 22+ 和 FFmpeg。
+  开源视频渲染框架，基于 HTML 构建，专为 AI 代理设计。支持编写 HTML 并渲染为视频，提供 CLI 预览与渲染功能，兼容 Node.js 22+ 和 FFmpeg。
   [图] https://opengraph.githubassets.com/1/heygen-com/hyperframes
   https://github.com/heygen-com/hyperframes
   [1 日 +756 · ⭐ 66.6k · TypeScript]
 - anthropics/claude-code
-  Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natura…
-  → 终端智能编码工具，理解代码库，通过自然语言命令执行常规任务、解释复杂代码、处理Git工作流，提升编码效率。
+  终端智能编码工具，理解代码库，通过自然语言命令执行常规任务、解释复杂代码、处理Git工作流，提升编码效率。
   [图] https://opengraph.githubassets.com/1/anthropics/claude-code
   https://github.com/anthropics/claude-code
   [1 日 +747 · ⭐ 152.3k · TypeScript]
 - jub0t/concat
-  The truly free, and open-source cross-platform CapCut replacement. Supports MCPs & API.
-  → 真正免费、开源的跨平台CapCut替代品。支持MCP&API。
   [图] https://opengraph.githubassets.com/1/jub0t/concat
   https://github.com/jub0t/concat
   [1 日 +704 · ⭐ 9.0k · Rust]
 - cathrynlavery/diagram-design
-  Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
-  → 为 Claude Code 等 AI 编码助手提供 29 种编辑级图表类型。输出自包含 HTML + SVG，无阴影、无 Mermaid。通过语义模式分离行为与布局，支持可选动效。提供极简明/暗与全编辑三种静态变体，可直接浏览器打开，或重绘 draw.io/Mermaid 源。
+  为 Claude Code 等 AI 编码助手提供 29 种编辑级图表类型。输出自包含 HTML + SVG，无阴影、无 Mermaid。通过语义模式分离行为与布局，支持可选动效。提供极简明/暗与全编辑三种静态变体，可直接浏览器打开，或重绘 draw.io/Mermaid 源。
   [图] https://opengraph.githubassets.com/1/cathrynlavery/diagram-design
   https://github.com/cathrynlavery/diagram-design
   [1 日 +677 · ⭐ 57.6k · HTML]
 - droid-deck/droiddeck
-  DroidDeck brings the SteamOS experience to Android
-  → DroidDeck为Android带来SteamOS体验
   [图] https://opengraph.githubassets.com/1/droid-deck/droiddeck
   https://github.com/droid-deck/droiddeck
   [1 日 +637 · ⭐ 10.8k · Kotlin]
 - eternity4719/howtolivebetter
-  高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。
   [图] https://opengraph.githubassets.com/1/eternity4719/howtolivebetter
   https://github.com/eternity4719/howtolivebetter
   [1 日 +620 · ⭐ 65.7k · HTML]
 - graphify-labs/graphify
-  Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained,…
-  → AI 编程助手技能，将代码、文档、论文或图像文件夹转为可查询知识图谱。支持多模态输入与 20 种语言 AST 解析，通过图拓扑聚类，输出交互式 HTML、JSON 及报告。
+  AI 编程助手技能，将代码、文档、论文或图像文件夹转为可查询知识图谱。支持多模态输入与 20 种语言 AST 解析，通过图拓扑聚类，输出交互式 HTML、JSON 及报告。
   [图] https://opengraph.githubassets.com/1/graphify-labs/graphify
   https://github.com/graphify-labs/graphify
   [1 日 +602 · ⭐ 128.5k · Python]
 - nationalsecurityagency/ghidra
-  Ghidra is a software reverse engineering (SRE) framework
-  → 由美国国家安全局开发的软件逆向工程框架，支持多平台二进制分析，具备反汇编、反编译、图形化及脚本扩展能力。
+  由美国国家安全局开发的软件逆向工程框架，支持多平台二进制分析，具备反汇编、反编译、图形化及脚本扩展能力。
   [图] https://opengraph.githubassets.com/1/nationalsecurityagency/ghidra
   https://github.com/nationalsecurityagency/ghidra
   [1 日 +592 · ⭐ 90.7k · Java]
 - niko1221/strata
-  Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.
-  → Qwen3.8-Flash-Next在任何消费硬件上：一键安装Windows/Linux。Strata推理引擎，OpenAI/Anthropic API在localhost，可选图像输入。
   [图] https://opengraph.githubassets.com/1/niko1221/strata
   https://github.com/niko1221/strata
   [1 日 +589 · ⭐ 27.4k · C++]
 - xerj-org/xerj
-  XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audi…
-  → XERJ是AI搜索数据的新方式。它的自动索引功能激活代理以了解您的数据，而不会浪费grep和sed的令牌。一个命令索引代码、文档、日志和PDF以进行搜索，RAG，安全奥迪…
   [图] https://opengraph.githubassets.com/1/xerj-org/xerj
   https://github.com/xerj-org/xerj
   [1 日 +576 · ⭐ 8.3k · Rust]
 - akitaonrails/ai-memory
-  Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors
-  → 提供 AI 编码代理的长期记忆，支持跨 Claude Code、Codex 等代理无缝切换，保持任务上下文连续。
+  提供 AI 编码代理的长期记忆，支持跨 Claude Code、Codex 等代理无缝切换，保持任务上下文连续。
   [图] https://opengraph.githubassets.com/1/akitaonrails/ai-memory
   https://github.com/akitaonrails/ai-memory
   [1 日 +558 · ⭐ 10.4k · Rust]
 - hkuds/cli-anything
-  "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/
-  → 将任意软件转化为 AI 代理原生接口。支持 OpenClaw、Claude Code 等平台，一键命令行即可实现。提供 JSON + 人类可读输出，Python 3.10+ 编写，测试覆盖率高。
+  将任意软件转化为 AI 代理原生接口。支持 OpenClaw、Claude Code 等平台，一键命令行即可实现。提供 JSON + 人类可读输出，Python 3.10+ 编写，测试覆盖率高。
   [图] https://opengraph.githubassets.com/1/hkuds/cli-anything
   https://github.com/hkuds/cli-anything
   [1 日 +546 · ⭐ 54.5k · Python]
 - tt-a1i/archify
-  Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.
-  → 生成交互式系统架构图，涵盖架构、工作流、序列等图表，支持多种主题和动画，自包含HTML文件，可导出PNG、SVG等格式，用于审查和分享。
+  生成交互式系统架构图，涵盖架构、工作流、序列等图表，支持多种主题和动画，自包含HTML文件，可导出PNG、SVG等格式，用于审查和分享。
   [图] https://opengraph.githubassets.com/1/tt-a1i/archify
   https://github.com/tt-a1i/archify
   [1 日 +538 · ⭐ 85.3k · JavaScript]
 - k-dense-ai/scientific-agent-skills
-  Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medici…
-  → 为Claude提供140个即用型科学技能，覆盖生物信息学、药物发现、临床研究、医学影像、机器学习、材料科学、物理学、工程学、数据分析、实验室自动化及科研方法等多领域，将Claude转化为AI科研助手。
+  为Claude提供140个即用型科学技能，覆盖生物信息学、药物发现、临床研究、医学影像、机器学习、材料科学、物理学、工程学、数据分析、实验室自动化及科研方法等多领域，将Claude转化为AI科研助手。
   [图] https://opengraph.githubassets.com/1/k-dense-ai/scientific-agent-skills
   https://github.com/k-dense-ai/scientific-agent-skills
   [1 日 +507 · ⭐ 52.6k · Python]
