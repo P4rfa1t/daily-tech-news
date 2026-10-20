@@ -125,78 +125,6 @@
   https://blog.adafruit.com/2026/10/19/nesemulatorpicoseries-an-nes-emulator-in-puremetal-for-raspberry-pi-pico-w-pico-2-w-and-pi-4/
   [Adafruit Blog · 10-20 04:05]
 
-# 网络安全 (12)
-- wifisting
-  GTK4 and CLI wireless security toolkit with 57 standalone modules for Wi-Fi, Bluetooth, 802.15.4, SDR/RF, NFC and router-side or network MITM testing on Linux.
-  → GTK4和CLI无线安全工具包，带有57个独立模块，用于Wi-Fi、Bluetooth、802.15.4、SDR/RF、NFC和Linux上的路由器端或网络MITM测试。
-  [图] https://assets.kitploit.com/production/public/tools/57884/2df1888d8d90337bfce8329808a63e822462247c3e3aef842b4021cd374ca2b9-display-v1.webp
-  https://kitploit.com/en/tools/gitlab/phantom-brigade1/wifisting
-  [KitPloit · 10-20 14:54]
-- 3snake
-  Tool for extracting information from newly spawned processes
-  → 从新生成的进程中提取信息的工具
-  [图] https://assets.kitploit.com/production/public/tools/57843/74b5b45618b8d97ee512fd66af4f1253d49ed92a3e052b65eef9a1115841998b-display-v1.webp
-  https://kitploit.com/en/tools/github/blendin/3snake
-  [KitPloit · 10-20 13:54]
-- aws-pentest
-  Automated AWS security assessment CLI with 30 modules covering IAM privilege escalation, S3 exposure, compute, network, logging and misconfiguration checks, producing Markdown audit reports.
-  → 自动AWS安全评估CLI包含30个模块，涵盖IAM权限提升、S3暴露、计算、网络、日志记录和错误配置检查，生成Markdown审计报告。
-  [图] https://assets.kitploit.com/production/public/tools/57773/1637fbf055b3d1f841bea6938b5c559919fdf60f809ae4bb34ec688a13da25d7-display-v1.webp
-  https://kitploit.com/en/tools/github/capture0x/aws-pentest
-  [KitPloit · 10-20 12:53]
-- trufflehog v3.99.3
-  Find, verify, and analyze leaked credentials
-  → 查找、验证和分析泄露的凭据
-  [图] https://assets.kitploit.com/production/public/tools/3815/ea8ba2e2a144c4199f1631750d278b37bc974ae68ac36fd0569754fff1cca7b7.png
-  https://kitploit.com/en/posts/trufflehog-be7a73bd50005c05
-  [KitPloit · 10-20 11:53]
-- SilentSniffer
-  A professional, high-fidelity de-anonymization and vulnerability diagnostic framework. Features a zero-coupling modular architecture for browser-based intelligence gathering, hardware fingerprinting, and security researc…
-  → 专业、高保真的去匿名化和漏洞诊断框架。具有零耦合模块化架构，用于基于浏览器的情报收集、硬件指纹识别和安全研究…
-  [图] https://assets.kitploit.com/production/public/tools/57824/0387678e65355f40727eafaf55b76152405a14082e78e6f0b554edaf9646c20b-display-v1.webp
-  https://kitploit.com/en/tools/github/ahmadhassan-bted/silentsniffer
-  [KitPloit · 10-20 10:52]
-- ISC Stormcast For Tuesday, October 20th, 2026 https://isc.sans.edu/podcastdetail/10142, (Tue, Oct 20th)
-  → 2026年10月20日星期二https://isc.sans.edu/podcastdetail/10142（星期二，10月20日）
-  https://isc.sans.edu/diary/rss/33436
-  [SANS ISC · 10-20 10:00]
-- get-trust-anchor
-  Tool for fetching/refreshing DNS Root Zone trust anchors
-  → 获取/刷新DNS根区信任锚的工具
-  [图] https://assets.kitploit.com/production/public/tools/57809/2f8a3ae5df6bad01514bc6733d045d1e649de85644d94fa0fa4ee8d2d58717c8-display-v1.webp
-  https://kitploit.com/en/tools/github/iana-org/get-trust-anchor
-  [KitPloit · 10-20 09:52]
-- iocs
-  Indicators of compromise from to analysis and research by Nextron Threat Research team
-  → 尼松威胁研究团队从分析到研究的妥协指标
-  [图] https://assets.kitploit.com/production/public/tools/57857/3173c418bf17c4f50988caa4378110fb762f75270b9eb9dd1cf3d14cef2d0825-display-v1.webp
-  https://kitploit.com/en/tools/github/nextronsystems/iocs
-  [KitPloit · 10-20 08:51]
-- taikotalent-phishing-iocs
-  IoCs, attack chain & detection for the taikotalent.xyz fake-Taiko-recruiter campaign delivering a self-deleting Bash trojan via the paste-in-terminal "anti-bot" trick. Payload still live as of 2026-10-09.
-  → IoC、攻击链和taikotalent.xyzfake-Taiko-recruiter活动的检测通过粘贴终端“反机器人”技巧传递自删除Bash木马。截至2026-10-09，有效负载仍然有效。
-  [图] https://assets.kitploit.com/production/public/tools/57855/4a982d4101e6bc42f3fd5773b496e0750e4b4a23056a24b584ace94e1de1f700-display-v1.webp
-  https://kitploit.com/en/tools/github/eddyflores100-lang/taikotalent-phishing-iocs
-  [KitPloit · 10-20 07:51]
-- Aliens_eye v2.7.2
-  Hunt down 840+ social media accounts using AI
-  → 使用AI追捕840多个社交媒体帐户
-  [图] https://assets.kitploit.com/production/public/tools/57021/48d726dc89a269d9e594f20f4c4ca8f6b8e895ccecccc69198ee998f0af10a88-display-v1.webp
-  https://kitploit.com/en/posts/aliens_eye-17849cbe321b10f2
-  [KitPloit · 10-20 07:45]
-- broadcom-wps
-  Tools to fingerprint WiFi Access Points running the Broadcom SDK and a list of known affected devices.
-  → 用于对运行Broadcom SDK的WiFi接入点和已知受影响设备列表进行指纹识别的工具。
-  [图] https://assets.kitploit.com/production/public/tools/57838/357a8f65b12bcca895ce33ecd1607feb5d3091ffd75eb76c61fa6f22e323d9ec-display-v1.webp
-  https://kitploit.com/en/tools/github/qkaiser/broadcom-wps
-  [KitPloit · 10-20 06:51]
-- plex2shell_pcap
-  Packet capture artifacts of plex2shell exploitation against Plex, including lab and in-the-wild traffic, for building and validating detection signatures.
-  → 针对Plex利用plex2shell的数据包捕获工件，包括实验室和野外流量，用于构建和验证检测签名。
-  [图] https://assets.kitploit.com/production/public/tools/57845/52937739da32ed41e0edca93f115eb259350d43b397aad9edced17555a2ac792-display-v1.webp
-  https://kitploit.com/en/tools/github/boredhackerblog/plex2shell_pcap
-  [KitPloit · 10-20 05:51]
-
 # 科学前沿 (8)
 - Synthetic public opinion polling: AI personas don't always change their minds like real voters do
   → 综合民意调查：人工智能角色并不总是像真正的选民那样改变主意
@@ -254,6 +182,55 @@
   [图] https://scx1.b-cdn.net/csz/news/tmb/2026/cellular-recycling-a-m.jpg
   https://phys.org/news/2026-10-molecular-cells-cargo-recycling.html
   [Phys.org · 10-20 07:40]
+
+# 网络安全 (7)
+- ISC Stormcast For Tuesday, October 20th, 2026 https://isc.sans.edu/podcastdetail/10142, (Tue, Oct 20th)
+  → 2026年10月20日星期二https://isc.sans.edu/podcastdetail/10142（星期二，10月20日）
+  [图] https://isc.sans.edu/images/logos/isc/large.png
+  https://isc.sans.edu/diary/rss/33436
+  [SANS ISC · 10-20 10:00]
+- Researchers Infiltrate Microsoft Tech Support Scam Operation
+  → 研究人员渗透Microsoft技术支持诈骗操作
+  A large-scale scam operation impersonating Microsoft uses a malicious traffic distribution system (TDS) run by a Russian organization and abuses thousands of Cloudflare links.
+  → 冒充Microsoft的大规模诈骗行动使用由俄罗斯组织运行的恶意流量分发系统（TDS）并滥用数千个Cloudflare链接。
+  [图] https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2a7fd796cffad616/6ad6756d20d56c6557294d94/techsupportscam-Cravetiger-Getty-2234087419.jpg?width=720&quality=80&disable=upscale
+  https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation
+  [Dark Reading · 10-20 05:13]
+- 'AdFection' Turns Ad Impressions Into Zero-Click Spyware Delivery
+  → AdFection将广告印象转化为零点击间谍软件交付
+  Spyware vendors are exploiting targeted ad bidding in the digital ecosystem to identify and track individuals and organizations of interest.
+  → 间谍软件供应商正在利用数字生态系统中的定向广告招标来识别和跟踪感兴趣的个人和组织。
+  [图] https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta9877a78be2c957c/6ad66b90a54e05edb3fb8747/surveillance_Lightspring_shutterstock.jpg?width=720&quality=80&disable=upscale
+  https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery
+  [Dark Reading · 10-20 03:55]
+- ConnectWise Disables Cloud Backups Amid Concerns for Downstream MSPs
+  → ConnectWise在对下游MSP的担忧中禁用云备份
+  Researchers say attackers authenticated into Microsoft 365 tenants using ConnectWise credentials; ConnectWise says customer impact remains unconfirmed.
+  → 研究人员表示，攻击者使用ConnectWise凭据对Microsoft 365租户进行了身份验证；ConnectWise表示，客户影响仍未得到证实。
+  [图] https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt8bed2421e7501183/6ad6650c7e69bd1337538960/Cloud_Backup-TU_IS-GettyImages-1399936043_(1).jpg?width=720&quality=80&disable=upscale
+  https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps
+  [Dark Reading · 10-20 03:19]
+- OnlyFans Copyright Takedowns Expose Compromised Websites
+  → 仅粉丝版权删除暴露受损网站
+  Copyright takedown requests tied to OnlyFans and other adult content creators are revealing how attackers exploit vulnerable university and government websites to manipulate search results. UpGuard's Greg Pollock explain…
+  → 与Onlyfan和其他成人内容创作者相关的版权删除请求揭示了攻击者如何利用易受攻击的大学和政府网站来操纵搜索结果。UpGuard的Greg Pollock解释说…
+  [图] https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltef729e5049e61b8c/6ad290a4ed74a528c20a7b92/copyright1800_wakila_GettyImages-157508105.jpg?width=720&quality=80&disable=upscale
+  https://www.darkreading.com/vulnerabilities-threats/onlyfans-copyright-takedowns-expose-compromised-websites
+  [Dark Reading · 10-19 22:28]
+- The Evolving Cybersecurity Lexicon: Vulnerability Discovery to Resilience
+  → 不断发展的网络安全词典：弹性漏洞发现
+  An industry-wide laser focus on vulnerabilities has left cybersecurity teams without enough room to strategize for resilience.
+  → 全行业对漏洞的激光关注使网络安全团队没有足够的空间来制定弹性战略。
+  [图] https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt65c173c2226bc353/6ad26aaeed74a561440a7b76/dictionary-boonchai_wedmakawand-Getty-1321495582.jpg?width=720&quality=80&disable=upscale
+  https://www.darkreading.com/vulnerabilities-threats/cybersecurity-lexicon-vulnerability-discovery-resilience
+  [Dark Reading · 10-19 22:00]
+- Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site
+  → 联邦调查局嫌疑人赎金谈判代表管理ShinyHunters勒索网站
+  U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually…
+  → 追捕最近从联邦调查局窃取高度敏感数据的ShinyHunters黑客组织的美国联邦调查人员已经确定了两家不同的勒索软件谈判公司的高管，他们异常坚持…
+  [图] https://krebsonsecurity.com/wp-content/uploads/2026/10/shinywire-home.png
+  https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/
+  [Krebs on Security · 10-19 21:48]
 
 # AI 人工智能 (8)
 - Claude新模型曝光！能跳出思维定势，修Bug治标又治本
@@ -422,7 +399,7 @@
   [HN · ▲ 331 · 💬 57 · home.cern]
 - Mac.apk：在Apple Silicon上原生运行Android应用
   无需模拟器或虚拟机，Mac.apk让Android应用在Apple Silicon Mac上直接以原生速度运行。应用像普通macOS程序一样启动，拥有独立窗口，支持Dock显示、窗口缩放和深色模式适配。目前已有65款应用经过测试，其中51款可完全运行。项目处于Alpha阶段，持续迭代中。它不依赖Linux内核，也不进行指令解释，而是直接在macOS上实现Android应用环境。适合开发者、极客和需要跨平台应用的用户探索。
-  [图] https://opengraph.githubassets.com/2cf055807811ddd4002eec96f42e2ab204601401b783f9a6f0f99c9b093fd76d/kksimp/Mac.apk
+  [图] https://opengraph.githubassets.com/e319f89d8c1509f8b07a9a398d3ff7ee475d362e6d291edda6907fbafc956fc6/kksimp/Mac.apk
   https://github.com/kksimp/Mac.apk
   [HN · ▲ 300 · 💬 160 · github.com]
 - 不运行自己的 LLM proxy，你如何掌控数据？
