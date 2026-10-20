@@ -108,7 +108,9 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "存档 ${{ github.run_number }} 期的日报"
-          file_pattern: |
-            history/*
-            cache/*
+          # 必须写成一行、用空格分隔。这个 action 内部用
+          # `read -r -a PATTERN <<< "$INPUT_FILE_PATTERN"` 解析，
+          # read 只读第一行——写成 YAML 块标量（带换行）时，
+          # 第二行的 cache/* 会被整条丢掉，缓存文件永远提交不上去。
+          file_pattern: "history/* cache/*"
           branch: ${{ github.ref_name }}
