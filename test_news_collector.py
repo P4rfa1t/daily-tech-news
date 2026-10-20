@@ -2978,5 +2978,131 @@ class TestCacheDirLayout(unittest.TestCase):
                 nc.CACHE_DIR = old_cache
 
 
+
+
+class TestCiGuard(unittest.TestCase):
+    """CI 守卫：本地计划任务与 GitHub Actions 不能重复发信。"""
+
+    def _guard(self):
+        import importlib.util
+
+        path = os.path.join(BASE_DIR, "ci_guard.py")
+        spec = importlib.util.spec_from_file_location("ci_guard_mod", path)
+        mod = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(mod)
+        return mod
+
+    def _judge(self, runs, today="2026-10-20"):
+        return self._guard()._judge_runs(runs, today)
+
+    def test_successful_run_today_means_skip(self):
+        """今天已有成功的 Actions 运行 -> 本地跳过。"""
+        skip, reason = self._judge([{
+            "run_number": 10, "created_at": "2026-10-20T07:28:12Z",
+            "status": "completed", "conclusion": "success", "event": "schedule",
+        }])
+        self.assertTrue(skip, "今天 CI 成功了，本地不该再发")
+        self.assertIn("成功", reason)
+
+    def test_failed_run_today_means_local_takes_over(self):
+        """今天 CI 跑了但失败 -> 本地兜底发送。"""
+        skip, reason = self._judge([{
+            "run_number": 8, "created_at": "2026-10-20T03:03:09Z",
+            "status": "completed", "conclusion": "failure", "event": "schedule",
+        }])
+        self.assertFalse(skip, "CI 失败时本地应接管")
+        self.assertIn("没有成功", reason)
+
+    def test_no_run_today_means_local_takes_over(self):
+        """今天完全没跑 -> 本地兜底。"""
+        skip, _ = self._judge([{
+            "run_number": 7, "created_at": "2026-10-19T08:11:32Z",
+            "status": "completed", "conclusion": "success", "event": "schedule",
+        }])
+        self.assertFalse(skip, "今天没跑，本地应接管")
+
+    def test_in_progress_run_means_do_not_race(self):
+        """CI 正在跑 -> 本地别抢跑，等它。"""
+        skip, reason = self._judge([{
+            "run_number": 9, "created_at": "2026-10-20T07:00:00Z",
+            "status": "in_progress", "conclusion": "", "event": "schedule",
+        }])
+        self.assertTrue(skip, "CI 还在跑，本地不该抢跑")
+        self.assertIn("进行中", reason)
+
+    def test_queued_run_means_do_not_race(self):
+        """CI 排队中 -> 本地别抢跑。"""
+        skip, _ = self._judge([{
+            "run_number": 11, "created_at": "2026-10-20T09:00:00Z",
+            "status": "queued", "conclusion": "", "event": "schedule",
+        }])
+        self.assertTrue(skip, "CI 还在排队，本地不该抢跑")
+
+    def test_utc8_day_boundary(self):
+        """UTC 10-19 16:00 = 北京 10-20，属于今天。
+
+        Actions 的 created_at 是 UTC，"今天"按北京时间算，这个边界最容易错。
+        """
+        skip, _ = self._judge([{
+            "run_number": 12, "created_at": "2026-10-19T16:00:00Z",
+            "status": "completed", "conclusion": "success", "event": "schedule",
+        }])
+        self.assertTrue(skip, "UTC 10-19 16:00 就是北京时间 10-20，算今天")
+
+    def test_local_state_today_means_skip(self):
+        """本地 send_state 是今天 -> 跳过。"""
+        mod = self._guard()
+        with _tmpdir() as tmp:
+            cdir = os.path.join(tmp, "cache")
+            os.makedirs(cdir)
+            with open(os.path.join(cdir, "send_state.json"), "w", encoding="utf-8") as fh:
+                json.dump({"last_sent_date": "2026-10-20"}, fh)
+            old = mod.BASE_DIR
+            try:
+                mod.BASE_DIR = tmp
+                self.assertEqual(mod._local_state_date(), "2026-10-20")
+            finally:
+                mod.BASE_DIR = old
+
+    def test_local_state_missing_returns_empty(self):
+        """本地没有状态文件时返回空串而不是抛异常。"""
+        mod = self._guard()
+        with _tmpdir() as tmp:
+            old = mod.BASE_DIR
+            try:
+                mod.BASE_DIR = tmp
+                self.assertEqual(mod._local_state_date(), "")
+            finally:
+                mod.BASE_DIR = old
+
+    def test_run_news_bat_calls_guard_before_sending(self):
+        """run_news.bat 必须先跑守卫，再决定要不要执行主程序。"""
+        path = os.path.join(BASE_DIR, "run_news.bat")
+        with open(path, encoding="utf-8") as fh:
+            text = fh.read()
+        self.assertIn("ci_guard.py", text, "run_news.bat 应先调用 CI 守卫")
+        self.assertLess(
+            text.index("ci_guard.py"),
+            text.index("news_collector.py"),
+            "守卫必须在主程序之前执行",
+        )
+
+    def test_run_news_bat_skips_on_guard_exit_zero_or_two(self):
+        """守卫返回 0（已处理）或 2（判定不了）时都要跳过。"""
+        path = os.path.join(BASE_DIR, "run_news.bat")
+        with open(path, encoding="utf-8") as fh:
+            text = fh.read()
+        self.assertIn('if "%GUARD%"=="0"', text)
+        self.assertIn('if "%GUARD%"=="2"', text,
+                      "判定不了时也要保守跳过，避免重复发信")
+
+    def test_env_example_lists_github_token(self):
+        """.env.example 要有 GITHUB_TOKEN（守卫查 Actions 状态要用）。"""
+        path = os.path.join(BASE_DIR, ".env.example")
+        with open(path, encoding="utf-8") as fh:
+            text = fh.read()
+        self.assertIn("GITHUB_TOKEN", text)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

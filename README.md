@@ -15,13 +15,14 @@
 | `news_collector.py` | 主程序：抓取 + 生成邮件 + 发送 |
 | `test_news_collector.py` | 单元测试（纯标准库 unittest）：`python -m unittest test_news_collector` |
 | `config.json` | 配置文件：邮箱信息和新闻源（**需要你填写**） |
-| `run_news.bat` | 供定时任务调用的运行脚本（ASCII + CRLF） |
+| `run_news.bat` | 供定时任务调用的运行脚本（ASCII + CRLF），会先跑 CI 守卫 |
+| `ci_guard.py` | CI 守卫：判断今天是否已由 Actions 发过信，避免一天发两封 |
 | `run_hidden.vbs` | 静默启动器：让定时任务在后台运行、不弹出 cmd 窗口 |
 | `setup_task.ps1` | 一键注册 Windows 每日定时任务 |
 | `.env.example` | 密钥模板（复制成 `.env` 填值；`.env` 本身不入库） |
 | `.github/workflows/daily-news.yml` | GitHub Actions：云端每日自动运行 |
 | `cache\` | 状态与缓存目录，由 Actions 每次运行后提交回仓库（见「为什么缓存放在 cache/」） |
-| `cache	ranslation_cache.json` | 标题/简介翻译缓存（自动生成，可删除以强制重新翻译） |
+| `cache/translation_cache.json` | 标题/简介翻译缓存（自动生成，可删除以强制重新翻译） |
 | `cache\send_state.json` | 发送状态（记录最近成功发送日期，用于补跑去重，自动生成） |
 | `cache\github_stars.json` | 每日 star 快照，仅在**自建** GitHub 榜（无噪不可用时的兜底）启用后才用到（自动生成） |
 | `cache\github_descriptions.json` | GitHub 项目原简介缓存，用于「原文 + 译文」展示（自动生成） |
@@ -696,3 +697,50 @@ git 历史是永久的，缓存跟着历史一起活。`.gitignore` 里用 `/xxx
 
 > 旧版本把缓存写在项目根目录，程序启动时会自动搬进 `cache/`（已存在的不覆盖）。
 > 搬迁后根目录的旧文件仍会保留，你可以自己确认无误后删掉。
+
+## 十五、本地计划任务：只做兜底，不再抢跑
+
+项目迁到 GitHub Actions 之后，机器上原有的 Windows 计划任务 `DailyTechNews`
+并没有被卸载，两边同时跑就会**一天发两封邮件**（2026-10-20 就发了两封：
+11:03 是 Actions 发的，12:55 是本地任务发的）。
+
+那个任务是管理员权限创建的，本机账号**没有权限禁用或删除它**
+（`Disable-ScheduledTask` / `schtasks /Change /DISABLE` 都返回「拒绝访问」）。
+所以改用另一条路：不动任务本身，改它调用的入口脚本 `run_news.bat`，
+让它先问一句「今天 CI 处理过没有」。
+
+### 守卫脚本 `ci_guard.py`
+
+纯标准库，判定顺序如下，命中任意一条就认为今天已经处理过，直接跳过：
+
+| 顺序 | 检查项 | 数据来源 |
+| --- | --- | --- |
+| 1 | 本地 `cache/send_state.json` 的 `last_sent_date` 是今天 | 本地文件 |
+| 2 | 远端 `main` 上 `cache/send_state.json` 的 `last_sent_date` 是今天 | GitHub API |
+| 3 | 今天有 **conclusion=success** 的 Actions 运行 | GitHub API |
+| 4 | 今天有**排队中/进行中**的 Actions 运行（等它跑完，别抢跑） | GitHub API |
+
+第 2 条读的是 GitHub 上的文件，不是 `git show origin/main:...`——本机的
+`origin/main` 引用未必是最新的，而 Actions 每次跑完都会把缓存 commit 回仓库，
+直接读 GitHub 上的才准。
+
+### 退出码约定
+
+| 退出码 | 含义 | `run_news.bat` 的动作 |
+| --- | --- | --- |
+| 0 | 今天已处理 | `exit /b 0`，不发信 |
+| 1 | 今天没人处理（CI 没跑或跑挂了） | 执行 `news_collector.py` 兜底发送 |
+| 2 | 判定不了（网络/凭据问题） | `exit /b 0`，保守跳过 |
+
+**判定不了时按「已处理」处理**，宁可一天不发，也不发两遍。
+
+### 时区边界
+
+Actions 的 `created_at` 是 UTC，「今天」按北京时间（UTC+8）算。
+`2026-10-19T16:00:00Z` 换算过来正好是北京时间 10-20，属于今天——
+这个边界最容易写错，守卫里显式做了换算。
+
+### 需要 GITHUB_TOKEN
+
+守卫要查 GitHub API，所以 `.env` 里需要 `GITHUB_TOKEN`（PAT）。
+本地没有 token 时守卫直接返回 2（保守跳过），不会发信。
