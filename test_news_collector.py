@@ -14,6 +14,7 @@ import re
 import os
 import sys
 import unittest
+import unittest.mock
 import urllib.error
 import contextlib
 from datetime import datetime as _dt, timezone as _tz, timedelta
@@ -2533,6 +2534,65 @@ class TestTimezoneResolve(unittest.TestCase):
 
     def test_bad_timezone_name_falls_back(self):
         self.assertIsNone(nc._resolve_tz({"settings": {"timezone": "不存在的时区/xx"}}))
+
+    def test_fixed_offset_used_when_tzdata_missing(self):
+        """Windows 没装 tzdata 时，用固定 UTC 偏移兜底，而不是系统本地时区。
+
+        系统本地时区一旦设错，"今天是哪天"会整体偏移，直接影响发送窗口判断。
+        """
+        import zoneinfo
+
+        real = zoneinfo.ZoneInfo
+
+        def boom(key, *a, **k):
+            raise zoneinfo.ZoneInfoNotFoundError("no tzdata")
+
+        with unittest.mock.patch.object(zoneinfo, "ZoneInfo", boom):
+            nc._TZ_WARNED.clear()
+            tz = nc._resolve_tz({"settings": {"timezone": "Asia/Shanghai"}})
+        self.assertIsNotNone(tz, "没有 tzdata 时应退回固定偏移，不是 None")
+        self.assertEqual(tz.utcoffset(None).total_seconds(), 8 * 3600)
+
+    def test_fixed_offset_unknown_zone_returns_none(self):
+        """固定偏移表里没有的时区（且无 tzdata）才真的退回 None。"""
+        import zoneinfo
+
+        real = zoneinfo.ZoneInfo
+
+        def boom(key, *a, **k):
+            raise zoneinfo.ZoneInfoNotFoundError("no tzdata")
+
+        with unittest.mock.patch.object(zoneinfo, "ZoneInfo", boom):
+            nc._TZ_WARNED.clear()
+            tz = nc._resolve_tz({"settings": {"timezone": "America/New_York"}})
+        self.assertIsNone(tz)
+
+    def test_tz_label_is_a_string_not_a_method(self):
+        """回归：曾经写成 now.astimezone().tzname（少对括号），把方法对象
+        本身塞进日志，打印成 <built-in method tzname of datetime...>。"""
+        label = nc._tz_label(nc.current_now({"settings": {"timezone": "Asia/Shanghai"}}))
+        self.assertIsInstance(label, str)
+        self.assertNotIn("built-in method", label)
+        self.assertNotIn("<", label)
+
+    def test_tz_label_never_empty(self):
+        for dt in (nc.current_now({}), nc.current_now({"settings": {"timezone": "Asia/Shanghai"}})):
+            self.assertTrue(nc._tz_label(dt).strip())
+
+    def test_tz_warning_logged_only_once(self):
+        """同一时区的降级提醒只打一次，否则每个新闻源都刷一遍。"""
+        import zoneinfo
+
+        def boom(key, *a, **k):
+            raise zoneinfo.ZoneInfoNotFoundError("no tzdata")
+
+        nc._TZ_WARNED.clear()
+        with unittest.mock.patch.object(zoneinfo, "ZoneInfo", boom):
+            with self.assertLogs(nc.log, level="INFO") as cm:
+                for _ in range(5):
+                    nc._resolve_tz({"settings": {"timezone": "Asia/Shanghai"}})
+        hits = [l for l in cm.output if "Asia/Shanghai" in l]
+        self.assertEqual(len(hits), 1, "时区降级提醒应只出现一次，实际 %d 次" % len(hits))
 
     def test_fmt_time_none(self):
         self.assertEqual(nc._fmt_time(None), "时间未知")

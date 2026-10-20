@@ -2507,12 +2507,41 @@ def clear_failure_alert() -> None:
 # --------------------------------------------------------------------------- #
 # 时区
 # --------------------------------------------------------------------------- #
+_TZ_WARNED: set[str] = set()
+
+# Windows 默认不带 IANA 时区库（需 pip install tzdata）。装不上时用固定
+# UTC 偏移兜底，比"退回系统本地时区"可靠得多——后者在机器时区设错时
+# 会让"今天是哪天"整体偏移，直接影响发送窗口的判断。
+# 注意：这里只覆盖无夏令时的时区；有 DST 的时区用固定偏移会有一小时误差。
+_TZ_FIXED_OFFSET = {
+    "utc": 0, "etc/utc": 0, "gmt": 0,
+    "asia/shanghai": 8, "asia/chongqing": 8, "asia/harbin": 8,
+    "prc": 8, "asia/hong_kong": 8, "asia/macau": 8, "asia/taipei": 8,
+    "asia/singapore": 8, "asia/bangkok": 7, "asia/jakarta": 7,
+    "asia/tokyo": 9, "asia/seoul": 9,
+    "europe/london": 0, "europe/paris": 1, "europe/berlin": 1,
+}
+
+
+def _fixed_offset_tz(name: str):
+    """没有 tzdata 时，用固定 UTC 偏移近似。返回 None 表示不适用。"""
+    hours = _TZ_FIXED_OFFSET.get(name.strip().lower())
+    if hours is None:
+        return None
+    return timezone(timedelta(hours=hours), name)
+
+
 def _resolve_tz(config: dict):
     """按 settings.timezone 解析时区，失败则退回系统本地时区。
 
     为什么需要：GitHub Actions 容器 TZ=UTC，北京时间 08:00 触发时 UTC 才 00:00。
     若用 datetime.now()，"今天是哪天"和"过了发送时间没"都会错 8 小时，
     导致任务每天静默跳过（退出码 0，workflow 显示成功但邮件没发）。
+
+    注意：Windows 默认不装 tzdata，ZoneInfo 会抛异常。这里降级成固定 UTC
+    偏移（比“退回系统本地时区”可靠——后者在机器时区设错时会让“今天是哪天”
+    整体偏移，直接影响发送窗口判断）；同一个提醒只打一次——否则每个新闻源
+    都会重复打一遍，日志被刷屏。
     """
     name = str((config.get("settings") or {}).get("timezone", "") or "").strip()
     if not name:
@@ -2521,12 +2550,28 @@ def _resolve_tz(config: dict):
         from zoneinfo import ZoneInfo
         return ZoneInfo(name)
     except ImportError:
-        log.info("当前 Python 没有 zoneinfo 支持，timezone=%r 未生效（用系统本地时区）。", name)
-        return None
+        return _fallback_tz(name, "当前 Python 没有 zoneinfo 支持")
     except Exception:
-        # Windows 默认没装 tzdata，会走到这里；本地时区通常已经对了。
-        log.info("时区库里找不到 %r（Windows 需 pip install tzdata），改用系统本地时区。", name)
-        return None
+        # Windows 默认没装 tzdata，会走到这里。
+        return _fallback_tz(name, "时区库里找不到 %r（Windows 需 pip install tzdata）" % name)
+
+
+def _fallback_tz(name: str, message: str):
+    """没有 tzdata 时的降级：优先固定 UTC 偏移，其次系统本地时区。"""
+    tz = _fixed_offset_tz(name)
+    if tz is not None:
+        _warn_tz_once(name, "%s，改用固定 UTC 偏移近似。" % message)
+        return tz
+    _warn_tz_once(name, "%s，且没有可用的固定偏移，退回系统本地时区。" % message)
+    return None
+
+
+def _warn_tz_once(name: str, message: str) -> None:
+    """时区降级提醒只打一次，避免刷屏。"""
+    if name in _TZ_WARNED:
+        return
+    _TZ_WARNED.add(name)
+    log.info("%s", message)
 
 
 def current_now(config: dict | None = None) -> datetime:
@@ -2535,6 +2580,26 @@ def current_now(config: dict | None = None) -> datetime:
     if tz is not None:
         return datetime.now(tz)
     return datetime.now()
+
+
+def _tz_label(now: datetime) -> str:
+    """时区名，用来在日志里说清"今天是哪天的哪一天"。
+
+    注意 datetime.tzname 是方法，naive datetime 会返回 None；
+    astimezone().tzname 同样要加括号调用——写成 astimezone().tzname
+    会把方法对象本身塞进日志（曾打印出 <built-in method tzname ...>）。
+    """
+    label = ""
+    try:
+        label = now.tzname() or ""
+    except Exception:  # noqa: BLE001
+        label = ""
+    if not label:
+        try:
+            label = now.astimezone().tzname() or ""
+        except Exception:  # noqa: BLE001
+            label = ""
+    return label or "系统本地时间"
 
 
 # --------------------------------------------------------------------------- #
@@ -2556,9 +2621,7 @@ def main() -> int:
     config = load_config(config_path)
 
     now = current_now(config)
-    tz_label = (now.tzname()
-                or now.astimezone().tzname
-                or "系统本地时间")
+    tz_label = _tz_label(now)
     today = now.strftime("%Y-%m-%d")
     send_after_hour = int(config["settings"].get("send_after_hour", 8))
 
