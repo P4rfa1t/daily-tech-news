@@ -20,10 +20,11 @@
 | `setup_task.ps1` | 一键注册 Windows 每日定时任务 |
 | `.env.example` | 密钥模板（复制成 `.env` 填值；`.env` 本身不入库） |
 | `.github/workflows/daily-news.yml` | GitHub Actions：云端每日自动运行 |
-| `translation_cache.json` | 标题翻译缓存（自动生成，可删除以强制重新翻译） |
-| `send_state.json` | 发送状态（记录最近成功发送日期，用于补跑去重，自动生成） |
-| `github_stars.json` | 每日 star 快照，仅在**自建** GitHub 榜（无噪不可用时的兜底）启用后才用到（自动生成） |
-| `github_descriptions.json` | GitHub 项目原简介缓存，用于「原文 + 译文」展示（自动生成） |
+| `cache\` | 状态与缓存目录，由 Actions 每次运行后提交回仓库（见「为什么缓存放在 cache/」） |
+| `cache	ranslation_cache.json` | 标题/简介翻译缓存（自动生成，可删除以强制重新翻译） |
+| `cache\send_state.json` | 发送状态（记录最近成功发送日期，用于补跑去重，自动生成） |
+| `cache\github_stars.json` | 每日 star 快照，仅在**自建** GitHub 榜（无噪不可用时的兜底）启用后才用到（自动生成） |
+| `cache\github_descriptions.json` | GitHub 项目原简介缓存，用于「原文 + 译文」展示（自动生成） |
 | `安装定时任务-管理员运行.bat` | 双击即可（会请求管理员权限）重新注册定时任务 |
 | `news_collector.log` | 运行日志（自动生成，**单文件上限 2MB，自动轮转保留 3 份**） |
 | `history\` | 日报本地存档：每天一个 `.html` + `.txt`，另有带搜索的 `index.html`（自动生成） |
@@ -660,12 +661,10 @@ GitHub 趋势榜：**每天 30 个项目**，带名次徽章（前三名金色�
 ### 这个 workflow 做了什么
 
 1. 检出代码，装 Python 3.12
-2. 从 Actions 缓存还原 `translation_cache.json` / `send_state.json` 等状态
-3. 跑 231 个单元测试（**测试不过就不会发信**）
-4. `python news_collector.py` 执行收集与发送（勾了 force 则加 `--force`）
-5. 把日志、日报存档打包成 artifact（保留 14 天）
-6. 存回缓存，保证明天的"当天去重"和翻译缓存不丢
-7. 把当日存档 commit 回仓库，`history/` 里能直接翻历史日报
+2. 跑 246 个单元测试（**测试不过就不会发信**）
+3. `python news_collector.py` 执行收集与发送（勾了 force 则加 `--force`）
+4. 把日志、日报存档打包成 artifact（保留 14 天）
+5. 把当日存档和 `cache/` 里的状态一起 commit 回仓库——`history/` 里能直接翻历史日报，缓存也不会过期
 
 ### 常见调整
 
@@ -675,3 +674,25 @@ GitHub 趋势榜：**每天 30 个项目**，带名次徽章（前三名金色�
 | 不想让 Actions 回写存档 | 删掉最后一步 `提交当日存档回仓库` |
 | Actions 里跑单元测试太慢 | 删掉 `跑单元测试` 那一步 |
 | 失败时想收到通知 | Settings → Notifications，或在 workflow 结尾加邮件通知 |
+
+### 为什么缓存放在 `cache/`
+
+`cache/` 里放四个必须长期存活的状态文件：
+
+| 文件 | 作用 | 丢了会怎样 |
+| --- | --- | --- |
+| `translation_cache.json` | 标题/简介翻译缓存 | 每天 ~95 段全部重新请求翻译接口，额度白烧 |
+| `github_stars.json` | 每日 star 快照 | 增速榜退回「新建 N 天」排序，排名失真 |
+| `github_descriptions.json` | 项目原简介缓存 | 30 个项目全部重新抓取 |
+| `send_state.json` | 「今天已发送」状态 | 手动触发会**重复发信**给你 |
+
+以前这些文件靠 **GitHub Actions cache** 存着，但 cache 有个硬性限制：
+**连续 7 天没命中就过期删除**。日报是每天跑的，看似天天命中，但只要
+断更几天（比如仓库停用、runner 故障），缓存就直接没了。
+
+所以现在改成**放在 `cache/` 目录里，由 workflow 每次运行后 `git commit` 回仓库**——
+git 历史是永久的，缓存跟着历史一起活。`.gitignore` 里用 `/xxx.json` 只忽略
+*项目根目录*的旧文件（程序会自动搬进 `cache/`），`cache/` 目录本身入库。
+
+> 旧版本把缓存写在项目根目录，程序启动时会自动搬进 `cache/`（已存在的不覆盖）。
+> 搬迁后根目录的旧文件仍会保留，你可以自己确认无误后删掉。

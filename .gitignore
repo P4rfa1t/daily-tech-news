@@ -4,14 +4,21 @@ config.local.json
 *.pem
 
 # ---- 运行产物 ----
-# history/ 默认不入库（本地存档几百个文件没必要同步）；
-# 但 Actions 会把每日存档 commit 回仓库，所以取消忽略 history/。
-#translation_cache.json 等状态由 Actions 缓存管理，不入库。
+# history/ 与 cache/ 都由 Actions 每次运行后 commit 回仓库，必须入库。
+#
+# cache/ 里的东西（翻译缓存、GitHub star 快照、去重状态）以前靠
+# GitHub Actions cache 存着，而 cache 7 天不命中就过期删除：
+# 翻译缓存一丢，每天 ~95 段全部重新请求翻译接口；star 快照一丢，
+# 增速榜退回"新建 N 天"排序；send_state 一丢，"今天已发送"状态消失，
+# 手动触发会重复发信。改用 git 提交后永久保留。
+#
+# 下面几行只忽略"旧版写在项目根目录"的那份——程序会自动把老文件搬进
+# cache/，搬完根目录的残留不应再被提交。
 *.log
-send_state.json
-translation_cache.json
-github_stars.json
-github_descriptions.json
+/send_state.json
+/translation_cache.json
+/github_stars.json
+/github_descriptions.json
 !发送失败提醒.txt
 
 # ---- Windows / Python ----

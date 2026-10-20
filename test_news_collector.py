@@ -103,6 +103,53 @@ def _tmpdir():
         shutil.rmtree(d, ignore_errors=True)
 
 
+# --------------------------------------------------------------------------- #
+# 缓存文件重定向
+#
+# 起因：TestFetchWuzaoTrends 把 urlopen 打成返回示例 HTML，而
+# fetch_wuzao_trends 里的 _fill_github_descriptions 会把这些示例 HTML
+# 当成"GitHub 原简介"存进 cache/github_descriptions.json —— 单测污染
+# 了真实缓存，线上会出现 aaa/one、bbb/two 这种根本不存在于 GitHub 的
+# 项目。
+#
+# 修法：整个测试会话期间把四个缓存文件的路径指到临时目录。
+# --------------------------------------------------------------------------- #
+_STATE_FILE_NAMES = (
+    "GH_STARS_FILE", "GH_DESC_FILE", "CACHE_FILE", "STATE_FILE",
+)
+
+_ORIG_STATE_PATHS = {name: getattr(nc, name) for name in _STATE_FILE_NAMES}
+_ORIG_CACHE_DIR = nc.CACHE_DIR
+_REDIRECTED = None
+
+
+def setUpModule():
+    """把缓存写入重定向到项目内临时目录，别碰真实 cache/。"""
+    global _REDIRECTED
+    import shutil
+    base = os.path.join(BASE_DIR, "_test_tmp")
+    os.makedirs(base, exist_ok=True)
+    d = os.path.join(base, f"cache_{os.getpid()}")
+    shutil.rmtree(d, ignore_errors=True)
+    os.makedirs(d, exist_ok=True)
+    _REDIRECTED = d
+    nc.CACHE_DIR = d
+    for name in _STATE_FILE_NAMES:
+        setattr(nc, name, os.path.join(d, os.path.basename(_ORIG_STATE_PATHS[name])))
+
+
+def tearDownModule():
+    """还原真实路径，并把测试期间写出的缓存清掉。"""
+    global _REDIRECTED
+    import shutil
+    nc.CACHE_DIR = _ORIG_CACHE_DIR
+    for name in _STATE_FILE_NAMES:
+        setattr(nc, name, _ORIG_STATE_PATHS[name])
+    if _REDIRECTED:
+        shutil.rmtree(_REDIRECTED, ignore_errors=True)
+    _REDIRECTED = None
+
+
 
 class TestStripNs(unittest.TestCase):
     def test_strips_namespace_and_lowercases(self):
@@ -2792,6 +2839,143 @@ class TestConfigFileContainsNoAddresses(unittest.TestCase):
         values += [str(v) for v in email["recipients"]]
         for val in values:
             self.assertNotIn(":-", val, f"email 段占位符不应带默认值：{val!r}")
+
+
+class TestCacheDirLayout(unittest.TestCase):
+    """缓存文件统一放在 cache/ 目录，由 workflow commit 回仓库。
+
+    以前靠 GitHub Actions cache 存，cache 连续 7 天不命中就过期删除：
+    翻译缓存一丢要重跑全部翻译，star 快照一丢增速榜退回"新建 N 天"，
+    send_state 一丢会重复发信。
+    """
+
+    def test_cache_dir_is_named_cache(self):
+        """生产路径必须是 <项目目录>/cache/（测试期间会被重定向到临时目录）。"""
+        self.assertEqual(
+            os.path.basename(_ORIG_CACHE_DIR), "cache",
+            f"生产缓存目录名应为 cache，实际是 {_ORIG_CACHE_DIR}")
+
+    def test_all_state_files_live_in_cache_dir(self):
+        for name in _STATE_FILE_NAMES:
+            path = getattr(nc, name)
+            self.assertEqual(
+                os.path.dirname(path), nc.CACHE_DIR,
+                f"{name} 应该在 cache/ 目录里，实际是 {path}")
+
+    def test_state_paths_are_rebuilt_from_cache_dir(self):
+        """四个路径常量都由 CACHE_DIR 派生，改 CACHE_DIR 才算改到位。"""
+        for name in _STATE_FILE_NAMES:
+            path = getattr(nc, name)
+            self.assertTrue(path.startswith(nc.CACHE_DIR),
+                            f"{name} 应由 CACHE_DIR 派生，实际是 {path}")
+
+    def test_tests_do_not_touch_real_cache_dir(self):
+        """单测期间缓存必须写进临时目录，不能污染真实 cache/。"""
+        self.assertNotEqual(nc.CACHE_DIR, _ORIG_CACHE_DIR)
+
+    def test_legacy_names_cover_the_four_state_files(self):
+        self.assertEqual(
+            set(nc._LEGACY_CACHE_NAMES),
+            {"translation_cache.json", "github_stars.json",
+             "github_descriptions.json", "send_state.json"})
+
+    def test_migration_moves_root_file_into_cache(self):
+        with _tmpdir() as tmp:
+            root = os.path.join(tmp, "root")
+            cdir = os.path.join(tmp, "cache")
+            os.makedirs(root)
+            os.makedirs(cdir)
+            legacy = os.path.join(root, "github_stars.json")
+            with open(legacy, "w", encoding="utf-8") as fh:
+                json.dump({"a/b": {"2026-10-20": 5}}, fh)
+            old_root, old_cache = nc.BASE_DIR, nc.CACHE_DIR
+            old_flag = nc._CACHE_MIGRATED
+            try:
+                nc.BASE_DIR = root
+                nc.CACHE_DIR = cdir
+                nc._CACHE_MIGRATED = False
+                nc.migrate_legacy_cache()
+                target = os.path.join(cdir, "github_stars.json")
+                self.assertTrue(os.path.exists(target), "老文件应被搬进 cache/")
+                with open(target, encoding="utf-8") as fh:
+                    self.assertEqual(json.load(fh), {"a/b": {"2026-10-20": 5}})
+            finally:
+                nc.BASE_DIR, nc.CACHE_DIR = old_root, old_cache
+                nc._CACHE_MIGRATED = old_flag
+
+    def test_migration_does_not_overwrite_existing_cache_file(self):
+        """cache/ 里已有新数据时，老文件不许覆盖它。"""
+        with _tmpdir() as tmp:
+            root = os.path.join(tmp, "root")
+            cdir = os.path.join(tmp, "cache")
+            os.makedirs(root)
+            os.makedirs(cdir)
+            with open(os.path.join(root, "github_stars.json"), "w", encoding="utf-8") as fh:
+                json.dump({"old": {"2026-10-19": 1}}, fh)
+            with open(os.path.join(cdir, "github_stars.json"), "w", encoding="utf-8") as fh:
+                json.dump({"new": {"2026-10-20": 2}}, fh)
+            old_root, old_cache = nc.BASE_DIR, nc.CACHE_DIR
+            old_flag = nc._CACHE_MIGRATED
+            try:
+                nc.BASE_DIR = root
+                nc.CACHE_DIR = cdir
+                nc._CACHE_MIGRATED = False
+                nc.migrate_legacy_cache()
+                with open(os.path.join(cdir, "github_stars.json"), encoding="utf-8") as fh:
+                    self.assertEqual(json.load(fh), {"new": {"2026-10-20": 2}})
+            finally:
+                nc.BASE_DIR, nc.CACHE_DIR = old_root, old_cache
+                nc._CACHE_MIGRATED = old_flag
+
+    def test_migration_is_idempotent(self):
+        with _tmpdir() as tmp:
+            root = os.path.join(tmp, "root")
+            cdir = os.path.join(tmp, "cache")
+            os.makedirs(root)
+            os.makedirs(cdir)
+            with open(os.path.join(root, "send_state.json"), "w", encoding="utf-8") as fh:
+                json.dump({"last_sent": "2026-10-20"}, fh)
+            old_root, old_cache = nc.BASE_DIR, nc.CACHE_DIR
+            old_flag = nc._CACHE_MIGRATED
+            try:
+                nc.BASE_DIR = root
+                nc.CACHE_DIR = cdir
+                nc._CACHE_MIGRATED = False
+                nc.migrate_legacy_cache()
+                nc._CACHE_MIGRATED = False
+                nc.migrate_legacy_cache()   # 再跑一次不应报错
+                self.assertTrue(os.path.exists(os.path.join(cdir, "send_state.json")))
+            finally:
+                nc.BASE_DIR, nc.CACHE_DIR = old_root, old_cache
+                nc._CACHE_MIGRATED = old_flag
+
+    def test_gitignore_does_not_ignore_cache_dir(self):
+        """cache/ 必须入库，否则 workflow 提交不上去。"""
+        path = os.path.join(BASE_DIR, ".gitignore")
+        with open(path, encoding="utf-8") as fh:
+            lines = [ln.strip() for ln in fh]
+        self.assertNotIn("cache/", lines, ".gitignore 不该整目录忽略 cache/")
+        self.assertNotIn("/cache/", lines)
+
+    def test_workflow_commits_cache_dir(self):
+        """workflow 的提交步骤必须把 cache/ 一起提交回仓库。"""
+        path = os.path.join(BASE_DIR, ".github", "workflows", "daily-news.yml")
+        with open(path, encoding="utf-8") as fh:
+            text = fh.read()
+        self.assertIn("cache/*", text, "workflow 应提交 cache/ 目录")
+        self.assertNotIn("actions/cache/save", text,
+                         "不应再用 Actions cache 存翻译缓存（7 天过期）")
+
+    def test_ensure_cache_dir_creates_directory(self):
+        with _tmpdir() as tmp:
+            cdir = os.path.join(tmp, "cache")
+            old_cache = nc.CACHE_DIR
+            try:
+                nc.CACHE_DIR = cdir
+                nc._ensure_cache_dir()
+                self.assertTrue(os.path.isdir(cdir))
+            finally:
+                nc.CACHE_DIR = old_cache
 
 
 if __name__ == "__main__":

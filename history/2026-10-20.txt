@@ -2,6 +2,14 @@
 ==============================
 
 # 科技行业 (8)
+- AI Agent 越用越贵？如何借助可观测性平衡性能、质量与成本 ｜ 技术趋势
+  [图] https://static001.infoq.cn/resource/image/f7/eb/f7yy8b67f9f3bca7dd80499348c2f9eb.jpeg
+  https://www.infoq.cn/article/4FreCLUUQb4W4AXUhXo5?utm_source=rss&utm_medium=article
+  [InfoQ 中文 · 10-20 22:55]
+- Linux 异步多进程基础已稳固，但仍需进一步测试
+  [图] https://static001.infoq.cn/resource/image/a1/da/a18d11eae6ac172f6abbe23f381a92da.jpg
+  https://www.infoq.cn/article/cioICj3URrN6Txq2hNjq?utm_source=rss&utm_medium=article
+  [InfoQ 中文 · 10-20 21:47]
 - 调查发现：AI 生成代码会提升调试难度与故障发生率，并造成代码理解鸿沟
   [图] https://static001.infoq.cn/resource/image/f4/d6/f4dc7b49ab13bc9eab2d630366a06ed6.jpg
   https://www.infoq.cn/article/ywvgVDVLsSU7r47Jk6lq?utm_source=rss&utm_medium=article
@@ -18,161 +26,34 @@
   [图] https://static001.infoq.cn/resource/image/b0/6c/b0997ecde48ef76c20b270de9eb55c6c.jpg
   https://www.infoq.cn/article/pvgeXQQbbt4TsPKeMMEL?utm_source=rss&utm_medium=article
   [InfoQ 中文 · 10-20 17:06]
-- AI视频生成交付能力成焦点，智象元一押注模型与工作流协同
-  未来1—2年的核心竞争点，会从模型能力比拼转移到工作流闭环能力。
-  [图] https://images.tmtpost.com/uploads/images/2026/10/cd7c2aa9a78514d137a216a592e492eb_1792464321.png
-  https://www.tmtpost.com/8174090.html
-  [钛媒体 · 10-20 10:45]
-- 99元买一只AI猫，其中只10块钱是AI？
-  多出来的那 90 块钱，花在哪儿了。
-  [图] https://images.tmtpost.com/uploads/images/2026/10/325aece8ce2b84bcecec23888806a767_1792464085.png
-  https://www.tmtpost.com/8173178.html
-  [钛媒体 · 10-20 10:41]
-- 云南蜕变，卖烟卖电卖 Token
-  每一个城市，都在为AI兴奋，也在为AI发愁。
-  [图] https://images.tmtpost.com/uploads/images/wx/2026/10/20261020093212673568.jpg
-  https://www.tmtpost.com/8174158.html
-  [钛媒体 · 10-20 10:34]
-- 特斯拉只能飞 5 秒？科学家称其为「放屁车」，联邦航空局：不符合航空器定义
-  马斯克：我朝你放个屁。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。
-  [图] https://s3.ifanr.com/wp-content/uploads/2026/10/cja.jpg
-  https://www.ifanr.com/1684938?utm_source=rss&utm_medium=rss&utm_campaign=
-  [爱范儿 · 10-20 10:18]
-
-# 科学前沿 (8)
-- NZ's climate in 'uncharted territory,' with more extreme weather events ahead
-  → 新西兰的气候处于“未知领域”，未来将有更多极端天气事件
-  Much is being made of a record-strength El Niño event that could well spell a drier, windier summer for the north and east of New Zealand. But, as a major new assessment shows, it is forming against a backdrop of warming…
-  → 人们对创纪录强度的厄尔尼诺现象大做文章，这很可能意味着新西兰北部和东部的夏季更加干燥、多风。但是，正如一项新的重大评估所显示的，它是在变暖的背景下形成的…
-  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/floods-in-new-zealand.jpg
-  https://phys.org/news/2026-10-nz-climate-uncharted-territory-extreme.html
-  [Phys.org · 10-20 11:00]
-- Juvenile striped bass maintaining average abundance in Virginia waters in 2026
-  → 2026年弗吉尼亚水域幼年条纹鲈鱼保持平均丰度
-  Preliminary results from an ongoing long-term survey conducted by William & Mary's Virginia Institute of Marine Science (VIMS) suggest that an average year class of young-of-year striped bass was produced in the Virginia…
-  → 威廉和玛丽的弗吉尼亚海洋科学研究所（VIMS）正在进行的一项长期调查的初步结果表明，弗吉尼亚州平均每年生产一种年轻的条纹鲈鱼…
-  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/a-person-on-a-beach-ho.jpg
-  https://phys.org/news/2026-10-juvenile-striped-bass-average-abundance.html
-  [Phys.org · 10-20 10:20]
-- Q&A: How does technology help track foodborne pathogens and outbreaks?
-  → 问答：技术如何帮助追踪食源性病原体和疫情？
-  After a cyclospora outbreak and recalls of imported beef over the summer, a recent Gallup poll found that Americans' confidence in food safety has fallen to a record low, and consumers may be wondering how foodborne illn…
-  → 在夏季爆发环孢菌爆发和进口牛肉召回后，最近的盖洛普民意调查发现，美国人对食品安全的信心已降至历史新低，消费者可能想知道食源性疾病如何…
-  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/bad-lettuce.jpg
-  https://phys.org/news/2026-10-qa-technology-track-foodborne-pathogens.html
-  [Phys.org · 10-20 09:40]
-- Nanoscale tech tracks proteins inside living neurons to guide Alzheimer's and Parkinson's drug discovery
-  → 纳米技术跟踪活神经元内的蛋白质，以指导阿尔茨海默氏症和帕金森氏症的药物发现
-  A technology developed at The University of Queensland allowing scientists to observe how disease-related proteins behave inside living neurons will be used to advance early drug discovery for neurodegenerative diseases.…
-  → 昆士兰大学开发的一项技术允许科学家观察疾病相关蛋白质在活神经元中的行为方式，该技术将用于推进神经退行性疾病的早期药物发现。…
-  [图] https://scx1.b-cdn.net/csz/news/tmb/2020/neuron.jpg
-  https://phys.org/news/2026-10-nanoscale-tech-tracks-proteins-neurons.html
-  [Phys.org · 10-20 09:00]
-- Students take up to 88 standardized tests before high school, but more testing doesn't improve learning
-  → 学生在高中前参加多达88次标准化考试，但是更多的考试并不能改善学习
-  The public K-12 school system in the United States has become pervasively shaped by standardized testing.
-  → 美国的公立K-12学校系统已经被标准化考试普遍塑造。
-  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/tests.jpg
-  https://phys.org/news/2026-10-students-standardized-high-school-doesnt.html
-  [Phys.org · 10-20 08:20]
-- New 4D biofabrication technology holds promise for tissue engineering, wound healing
-  → 新的4D生物制造技术为组织工程、伤口愈合带来希望
-  If you've ever created a snowflake by folding, cutting and unfolding a piece of paper, you've practiced the art of kirigami. Like origami, kirigami has inspired innovations far beyond the elementary school classroom, wit…
-  → 如果你曾经通过折叠、切割和展开一张纸来创造雪花，你就练习了剪纸艺术。像折纸一样，剪纸艺术激发了远远超出小学课堂的创新，智慧…
-  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/new-4d-biofabrication.jpg
-  https://phys.org/news/2026-10-4d-biofabrication-technology-tissue-wound.html
-  [Phys.org · 10-20 07:40]
-- Molecular switch controls how cells load cargo for recycling
-  → 分子开关控制细胞如何装载货物进行回收
-  Cells constantly recycle proteins and other cellular components. But how do they ensure that the right cargo ends up in the right recycling vesicle—one of the cell's transport carriers? A team at the University of Basel…
-  → 细胞不断地回收蛋白质和其他细胞成分。但是他们如何确保正确的货物最终进入正确的回收囊泡——细胞的运输载体之一？巴塞尔大学的一个团队…
-  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/cellular-recycling-a-m.jpg
-  https://phys.org/news/2026-10-molecular-cells-cargo-recycling.html
-  [Phys.org · 10-20 07:40]
-- 13% of Earth's land identified as biodiversity conservation hotspots
-  → 地球上13%的土地被确定为生物多样性保护热点
-  As governments prepare to gather in Yerevan, Armenia, this week for the U.N. Biodiversity Conference (COP17), new research identifies 13% of Earth's land area as hotspots for biodiversity conservation, highlighting where…
-  → 随着各国政府准备本周齐聚亚美尼亚埃里温参加联合国生物多样性会议（COP17），新的研究将地球13%的陆地面积确定为生物多样性保护的热点，强调了哪里…
-  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/13-of-earths-land-iden.jpg
-  https://phys.org/news/2026-10-earth-biodiversity-hotspots.html
-  [Phys.org · 10-20 07:20]
-
-# 网络安全 (12)
-- SilentSniffer
-  A professional, high-fidelity de-anonymization and vulnerability diagnostic framework. Features a zero-coupling modular architecture for browser-based intelligence gathering, hardware fingerprinting, and security researc…
-  → 专业、高保真的去匿名化和漏洞诊断框架。具有零耦合模块化架构，用于基于浏览器的情报收集、硬件指纹识别和安全研究…
-  [图] https://assets.kitploit.com/production/public/tools/57824/0387678e65355f40727eafaf55b76152405a14082e78e6f0b554edaf9646c20b-display-v1.webp
-  https://kitploit.com/en/tools/github/ahmadhassan-bted/silentsniffer
-  [KitPloit · 10-20 10:52]
-- ISC Stormcast For Tuesday, October 20th, 2026 https://isc.sans.edu/podcastdetail/10142, (Tue, Oct 20th)
-  → 2026年10月20日星期二https://isc.sans.edu/podcastdetail/10142（星期二，10月20日）
-  [图] https://isc.sans.edu/images/logos/isc/large.png
-  https://isc.sans.edu/diary/rss/33436
-  [SANS ISC · 10-20 10:00]
-- get-trust-anchor
-  Tool for fetching/refreshing DNS Root Zone trust anchors
-  → 获取/刷新DNS根区信任锚的工具
-  [图] https://assets.kitploit.com/production/public/tools/57809/2f8a3ae5df6bad01514bc6733d045d1e649de85644d94fa0fa4ee8d2d58717c8-display-v1.webp
-  https://kitploit.com/en/tools/github/iana-org/get-trust-anchor
-  [KitPloit · 10-20 09:52]
-- iocs
-  Indicators of compromise from to analysis and research by Nextron Threat Research team
-  → 尼松威胁研究团队从分析到研究的妥协指标
-  [图] https://assets.kitploit.com/production/public/tools/57857/3173c418bf17c4f50988caa4378110fb762f75270b9eb9dd1cf3d14cef2d0825-display-v1.webp
-  https://kitploit.com/en/tools/github/nextronsystems/iocs
-  [KitPloit · 10-20 08:51]
-- taikotalent-phishing-iocs
-  IoCs, attack chain & detection for the taikotalent.xyz fake-Taiko-recruiter campaign delivering a self-deleting Bash trojan via the paste-in-terminal "anti-bot" trick. Payload still live as of 2026-10-09.
-  → IoC、攻击链和taikotalent.xyzfake-Taiko-recruiter活动的检测通过粘贴终端“反机器人”技巧传递自删除Bash木马。截至2026-10-09，有效负载仍然有效。
-  [图] https://assets.kitploit.com/production/public/tools/57855/4a982d4101e6bc42f3fd5773b496e0750e4b4a23056a24b584ace94e1de1f700-display-v1.webp
-  https://kitploit.com/en/tools/github/eddyflores100-lang/taikotalent-phishing-iocs
-  [KitPloit · 10-20 07:51]
-- Aliens_eye v2.7.2
-  Hunt down 840+ social media accounts using AI
-  → 使用AI追捕840多个社交媒体帐户
-  [图] https://assets.kitploit.com/production/public/tools/57021/48d726dc89a269d9e594f20f4c4ca8f6b8e895ccecccc69198ee998f0af10a88-display-v1.webp
-  https://kitploit.com/en/posts/aliens_eye-17849cbe321b10f2
-  [KitPloit · 10-20 07:45]
-- broadcom-wps
-  Tools to fingerprint WiFi Access Points running the Broadcom SDK and a list of known affected devices.
-  → 用于对运行Broadcom SDK的WiFi接入点和已知受影响设备列表进行指纹识别的工具。
-  [图] https://assets.kitploit.com/production/public/tools/57838/357a8f65b12bcca895ce33ecd1607feb5d3091ffd75eb76c61fa6f22e323d9ec-display-v1.webp
-  https://kitploit.com/en/tools/github/qkaiser/broadcom-wps
-  [KitPloit · 10-20 06:51]
-- plex2shell_pcap
-  Packet capture artifacts of plex2shell exploitation against Plex, including lab and in-the-wild traffic, for building and validating detection signatures.
-  → 针对Plex利用plex2shell的数据包捕获工件，包括实验室和野外流量，用于构建和验证检测签名。
-  [图] https://assets.kitploit.com/production/public/tools/57845/52937739da32ed41e0edca93f115eb259350d43b397aad9edced17555a2ac792-display-v1.webp
-  https://kitploit.com/en/tools/github/boredhackerblog/plex2shell_pcap
-  [KitPloit · 10-20 05:51]
-- Researchers Infiltrate Microsoft Tech Support Scam Operation
-  → 研究人员渗透Microsoft技术支持诈骗操作
-  A large-scale scam operation impersonating Microsoft uses a malicious traffic distribution system (TDS) run by a Russian organization and abuses thousands of Cloudflare links.
-  → 冒充Microsoft的大规模诈骗行动使用由俄罗斯组织运行的恶意流量分发系统（TDS）并滥用数千个Cloudflare链接。
-  [图] https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2a7fd796cffad616/6ad6756d20d56c6557294d94/techsupportscam-Cravetiger-Getty-2234087419.jpg?width=720&quality=80&disable=upscale
-  https://www.darkreading.com/threat-intelligence/microsoft-tech-support-scam-operation
-  [Dark Reading · 10-20 05:13]
-- CubeSandbox
-  Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.
-  → 适用于AI代理的即时、并发、安全和轻量级沙盒。
-  [图] https://assets.kitploit.com/production/public/tools/57806/13f92afbd6db81dec50c75b7b1521bf70e394531232c2ed7fcdaffb23a3e9da8-display-v1.webp
-  https://kitploit.com/en/tools/github/tencentcloud/cubesandbox
-  [KitPloit · 10-20 04:50]
-- 'AdFection' Turns Ad Impressions Into Zero-Click Spyware Delivery
-  → AdFection将广告印象转化为零点击间谍软件交付
-  Spyware vendors are exploiting targeted ad bidding in the digital ecosystem to identify and track individuals and organizations of interest.
-  → 间谍软件供应商正在利用数字生态系统中的定向广告招标来识别和跟踪感兴趣的个人和组织。
-  [图] https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta9877a78be2c957c/6ad66b90a54e05edb3fb8747/surveillance_Lightspring_shutterstock.jpg?width=720&quality=80&disable=upscale
-  https://www.darkreading.com/data-privacy/adfection-online-ads-spyware-delivery
-  [Dark Reading · 10-20 03:55]
-- GoReSym
-  Parses Go binaries to recover symbols, function metadata, types, file paths, and embedded strings, including stripped or UPX-packed samples, with IDA Pro import support.
-  → 使用IDA Pro导入支持解析Go二进制文件以恢复符号、函数元数据、类型、文件路径和嵌入的字符串，包括剥离或UPX打包的示例。
-  [图] https://assets.kitploit.com/production/public/tools/57789/d5a3193c4c82e62188837821cbbf395797d8233695a56adb6fe4788216f2eaa3-display-v1.webp
-  https://kitploit.com/en/tools/github/mandiant/goresym
-  [KitPloit · 10-20 03:50]
+- Blackwall quadruples valuation to $2.2B as websites wrangle an increasingly crowded internet
+  → 随着网站在日益拥挤的互联网上争吵，黑墙的估值翻了两番，达到22亿美元
+  Blackwall has raised $100M at a $2.2B valuation to continue building security and filtering tools that help websites grapple with growing bot and AI traffic.
+  → Blackwall以22亿美元的估值筹集了1亿美元，以继续构建安全和过滤工具，帮助网站应对不断增长的机器人和人工智能流量。
+  [图] https://techcrunch.com/wp-content/uploads/2026/10/Blackwall-co-founders-l-r-Denis-Prochko-and-Nik-Rozenberg.png?resize=1200,800
+  https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/
+  [TechCrunch · 10-20 15:01]
+- 迦智科技：九年累计亏损超6亿，股权转让多档定价引争议｜IPO观察
+  2025年12月同一交易日、同一批受让方参与的股权转让出现四档不同交易价格，最高最低价差接近50%；仅仅3天后新一轮增资单价又较前期股权转让价大幅抬升。
+  [图] https://images.tmtpost.com/uploads/images/2026/10/ccf8f52a00019a424e5937f06553f7ce_1792477683.png
+  https://www.tmtpost.com/8171049.html
+  [钛媒体 · 10-20 14:28]
 
 # 硬件极客 (12)
+- Semtech LR2021 LoRa chip gets the SDR treatment, supports 100 MHz to 2.74 GHz
+  → Semtech LR2021 LoRa芯片采用SDR处理，支持100 MHz至2.74 GHz
+  Earlier this month, we saw how the humble ESP32-S3 could be turned into an SDR transmitter and receiver; then we saw developer h0m3us3r release the w1700k-sdr project, which turns a Gemtek W1700K Wi-Fi 7 router into a wi…
+  → 本月早些时候，我们看到了不起眼的ESP32-S3如何变成SDR发射器和接收器；然后我们看到开发人员h0m3us3r发布了w1700k-sdr项目，该项目将金泰克W1700KWi-Fi 7路由器变成了无线网络…
+  [图] https://www.cnx-software.com/wp-content/uploads/2026/10/Semtech-LR2021-LoRa-transceiver-used-as-an-SDR-for-raw-I-Q-capture-and-signal-analysis-Image-AI-generated-720x480.jpg
+  https://www.cnx-software.com/2026/10/20/semtech-lr2021-lora-chip-gets-the-sdr-treatment-supports-100-mhz-to-2-74-ghz/
+  [CNX Software · 10-20 15:00]
+- Birduino Plays Bird Calls on Demand with NFC-enabled Cards
+  → Birduino用NFC-enabled卡播放鸟类召唤
+  All [Hannah Robertson]’s Birduino needs is for one to tap an NFC-enabled card to the reader, and the device plays one of the vocalizations associated with the bird shown on
+  → [·汉娜·罗伯逊的Birduino所需要的只是一个人点击NFC-enabled卡给阅读器，该设备播放与上面显示的鸟相关的发声之一
+  [图] https://hackaday.com/wp-content/uploads/2026/10/assembled-banner.png
+  https://hackaday.com/2026/10/19/birduino-plays-bird-calls-on-demand-with-nfc-enabled-cards/
+  [Hackaday · 10-20 13:00]
 - Making Photovoltaic Solar Cells with a Microwave
   → 用微波制造光伏太阳能电池
   Although solar panels may seem like a kind of magic, they’re really quite simple devices, in their silicon form featuring nothing but the p-type silicon wafer and an n-type layer
@@ -243,22 +124,143 @@
   [图] https://cdn-blog.adafruit.com/uploads/2026/10/b-13.png
   https://blog.adafruit.com/2026/10/19/nesemulatorpicoseries-an-nes-emulator-in-puremetal-for-raspberry-pi-pico-w-pico-2-w-and-pi-4/
   [Adafruit Blog · 10-20 04:05]
-- Moisture Sensor Robot Planter
-  → 水分传感器机器人播种机
-  CrazyScience shares this robot friend who lets you know when your plant is feeling a little dehydrated. Check out the details on instructables Hi planters! in this instructables i made this cute little robot that shows t…
-  → CrazyScience分享了这个机器人朋友，他会让你知道你的植物什么时候感觉有点脱水。查看说明嗨种植园主的详细信息！在这个说明中，我做了这个可爱的小机器人，它展示了…
-  [图] https://cdn-blog.adafruit.com/uploads/2026/10/FZZPM9EMVA0YO7I-600x338.webp
-  https://blog.adafruit.com/2026/10/19/moisture-sensor-robot-planter/
-  [Adafruit Blog · 10-20 04:00]
-- Meshtastic Sniffer for DragonOS
-  → DragonOS的Meshtastic嗅探器
-  Meshtastic has gained a lot of popularity over the last few years thanks to its low barrier of entry. No licenses are needed and the hardware is dirt cheap, at
-  → Meshtastic在过去几年中因其低进入门槛而广受欢迎。不需要许可证，硬件非常便宜，在
-  [图] https://hackaday.com/wp-content/uploads/2026/10/dragonos-meshtastic-main.png
-  https://hackaday.com/2026/10/19/meshtastic-sniffer-for-dragonos/
-  [Hackaday · 10-20 04:00]
+
+# 网络安全 (12)
+- wifisting
+  GTK4 and CLI wireless security toolkit with 57 standalone modules for Wi-Fi, Bluetooth, 802.15.4, SDR/RF, NFC and router-side or network MITM testing on Linux.
+  → GTK4和CLI无线安全工具包，带有57个独立模块，用于Wi-Fi、Bluetooth、802.15.4、SDR/RF、NFC和Linux上的路由器端或网络MITM测试。
+  [图] https://assets.kitploit.com/production/public/tools/57884/2df1888d8d90337bfce8329808a63e822462247c3e3aef842b4021cd374ca2b9-display-v1.webp
+  https://kitploit.com/en/tools/gitlab/phantom-brigade1/wifisting
+  [KitPloit · 10-20 14:54]
+- 3snake
+  Tool for extracting information from newly spawned processes
+  → 从新生成的进程中提取信息的工具
+  [图] https://assets.kitploit.com/production/public/tools/57843/74b5b45618b8d97ee512fd66af4f1253d49ed92a3e052b65eef9a1115841998b-display-v1.webp
+  https://kitploit.com/en/tools/github/blendin/3snake
+  [KitPloit · 10-20 13:54]
+- aws-pentest
+  Automated AWS security assessment CLI with 30 modules covering IAM privilege escalation, S3 exposure, compute, network, logging and misconfiguration checks, producing Markdown audit reports.
+  → 自动AWS安全评估CLI包含30个模块，涵盖IAM权限提升、S3暴露、计算、网络、日志记录和错误配置检查，生成Markdown审计报告。
+  [图] https://assets.kitploit.com/production/public/tools/57773/1637fbf055b3d1f841bea6938b5c559919fdf60f809ae4bb34ec688a13da25d7-display-v1.webp
+  https://kitploit.com/en/tools/github/capture0x/aws-pentest
+  [KitPloit · 10-20 12:53]
+- trufflehog v3.99.3
+  Find, verify, and analyze leaked credentials
+  → 查找、验证和分析泄露的凭据
+  [图] https://assets.kitploit.com/production/public/tools/3815/ea8ba2e2a144c4199f1631750d278b37bc974ae68ac36fd0569754fff1cca7b7.png
+  https://kitploit.com/en/posts/trufflehog-be7a73bd50005c05
+  [KitPloit · 10-20 11:53]
+- SilentSniffer
+  A professional, high-fidelity de-anonymization and vulnerability diagnostic framework. Features a zero-coupling modular architecture for browser-based intelligence gathering, hardware fingerprinting, and security researc…
+  → 专业、高保真的去匿名化和漏洞诊断框架。具有零耦合模块化架构，用于基于浏览器的情报收集、硬件指纹识别和安全研究…
+  [图] https://assets.kitploit.com/production/public/tools/57824/0387678e65355f40727eafaf55b76152405a14082e78e6f0b554edaf9646c20b-display-v1.webp
+  https://kitploit.com/en/tools/github/ahmadhassan-bted/silentsniffer
+  [KitPloit · 10-20 10:52]
+- ISC Stormcast For Tuesday, October 20th, 2026 https://isc.sans.edu/podcastdetail/10142, (Tue, Oct 20th)
+  → 2026年10月20日星期二https://isc.sans.edu/podcastdetail/10142（星期二，10月20日）
+  https://isc.sans.edu/diary/rss/33436
+  [SANS ISC · 10-20 10:00]
+- get-trust-anchor
+  Tool for fetching/refreshing DNS Root Zone trust anchors
+  → 获取/刷新DNS根区信任锚的工具
+  [图] https://assets.kitploit.com/production/public/tools/57809/2f8a3ae5df6bad01514bc6733d045d1e649de85644d94fa0fa4ee8d2d58717c8-display-v1.webp
+  https://kitploit.com/en/tools/github/iana-org/get-trust-anchor
+  [KitPloit · 10-20 09:52]
+- iocs
+  Indicators of compromise from to analysis and research by Nextron Threat Research team
+  → 尼松威胁研究团队从分析到研究的妥协指标
+  [图] https://assets.kitploit.com/production/public/tools/57857/3173c418bf17c4f50988caa4378110fb762f75270b9eb9dd1cf3d14cef2d0825-display-v1.webp
+  https://kitploit.com/en/tools/github/nextronsystems/iocs
+  [KitPloit · 10-20 08:51]
+- taikotalent-phishing-iocs
+  IoCs, attack chain & detection for the taikotalent.xyz fake-Taiko-recruiter campaign delivering a self-deleting Bash trojan via the paste-in-terminal "anti-bot" trick. Payload still live as of 2026-10-09.
+  → IoC、攻击链和taikotalent.xyzfake-Taiko-recruiter活动的检测通过粘贴终端“反机器人”技巧传递自删除Bash木马。截至2026-10-09，有效负载仍然有效。
+  [图] https://assets.kitploit.com/production/public/tools/57855/4a982d4101e6bc42f3fd5773b496e0750e4b4a23056a24b584ace94e1de1f700-display-v1.webp
+  https://kitploit.com/en/tools/github/eddyflores100-lang/taikotalent-phishing-iocs
+  [KitPloit · 10-20 07:51]
+- Aliens_eye v2.7.2
+  Hunt down 840+ social media accounts using AI
+  → 使用AI追捕840多个社交媒体帐户
+  [图] https://assets.kitploit.com/production/public/tools/57021/48d726dc89a269d9e594f20f4c4ca8f6b8e895ccecccc69198ee998f0af10a88-display-v1.webp
+  https://kitploit.com/en/posts/aliens_eye-17849cbe321b10f2
+  [KitPloit · 10-20 07:45]
+- broadcom-wps
+  Tools to fingerprint WiFi Access Points running the Broadcom SDK and a list of known affected devices.
+  → 用于对运行Broadcom SDK的WiFi接入点和已知受影响设备列表进行指纹识别的工具。
+  [图] https://assets.kitploit.com/production/public/tools/57838/357a8f65b12bcca895ce33ecd1607feb5d3091ffd75eb76c61fa6f22e323d9ec-display-v1.webp
+  https://kitploit.com/en/tools/github/qkaiser/broadcom-wps
+  [KitPloit · 10-20 06:51]
+- plex2shell_pcap
+  Packet capture artifacts of plex2shell exploitation against Plex, including lab and in-the-wild traffic, for building and validating detection signatures.
+  → 针对Plex利用plex2shell的数据包捕获工件，包括实验室和野外流量，用于构建和验证检测签名。
+  [图] https://assets.kitploit.com/production/public/tools/57845/52937739da32ed41e0edca93f115eb259350d43b397aad9edced17555a2ac792-display-v1.webp
+  https://kitploit.com/en/tools/github/boredhackerblog/plex2shell_pcap
+  [KitPloit · 10-20 05:51]
+
+# 科学前沿 (8)
+- Synthetic public opinion polling: AI personas don't always change their minds like real voters do
+  → 综合民意调查：人工智能角色并不总是像真正的选民那样改变主意
+  A voter surveyed in October may give a different answer by January. An AI persona might not, depending on how it's built.
+  → 10月份接受调查的选民可能会在1月份给出不同的答案。AI角色可能不会，这取决于它的构建方式。
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/vote-1.jpg
+  https://phys.org/news/2026-10-synthetic-opinion-polling-ai-personas.html
+  [Phys.org · 10-20 11:40]
+- NZ's climate in 'uncharted territory,' with more extreme weather events ahead
+  → 新西兰的气候处于“未知领域”，未来将有更多极端天气事件
+  Much is being made of a record-strength El Niño event that could well spell a drier, windier summer for the north and east of New Zealand. But, as a major new assessment shows, it is forming against a backdrop of warming…
+  → 人们对创纪录强度的厄尔尼诺现象大做文章，这很可能意味着新西兰北部和东部的夏季更加干燥、多风。但是，正如一项新的重大评估所显示的，它是在变暖的背景下形成的…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/floods-in-new-zealand.jpg
+  https://phys.org/news/2026-10-nz-climate-uncharted-territory-extreme.html
+  [Phys.org · 10-20 11:00]
+- Juvenile striped bass maintaining average abundance in Virginia waters in 2026
+  → 2026年弗吉尼亚水域幼年条纹鲈鱼保持平均丰度
+  Preliminary results from an ongoing long-term survey conducted by William & Mary's Virginia Institute of Marine Science (VIMS) suggest that an average year class of young-of-year striped bass was produced in the Virginia…
+  → 威廉和玛丽的弗吉尼亚海洋科学研究所（VIMS）正在进行的一项长期调查的初步结果表明，弗吉尼亚州平均每年生产一种年轻的条纹鲈鱼…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/a-person-on-a-beach-ho.jpg
+  https://phys.org/news/2026-10-juvenile-striped-bass-average-abundance.html
+  [Phys.org · 10-20 10:20]
+- Q&A: How does technology help track foodborne pathogens and outbreaks?
+  → 问答：技术如何帮助追踪食源性病原体和疫情？
+  After a cyclospora outbreak and recalls of imported beef over the summer, a recent Gallup poll found that Americans' confidence in food safety has fallen to a record low, and consumers may be wondering how foodborne illn…
+  → 在夏季爆发环孢菌爆发和进口牛肉召回后，最近的盖洛普民意调查发现，美国人对食品安全的信心已降至历史新低，消费者可能想知道食源性疾病如何…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/bad-lettuce.jpg
+  https://phys.org/news/2026-10-qa-technology-track-foodborne-pathogens.html
+  [Phys.org · 10-20 09:40]
+- Nanoscale tech tracks proteins inside living neurons to guide Alzheimer's and Parkinson's drug discovery
+  → 纳米技术跟踪活神经元内的蛋白质，以指导阿尔茨海默氏症和帕金森氏症的药物发现
+  A technology developed at The University of Queensland allowing scientists to observe how disease-related proteins behave inside living neurons will be used to advance early drug discovery for neurodegenerative diseases.…
+  → 昆士兰大学开发的一项技术允许科学家观察疾病相关蛋白质在活神经元中的行为方式，该技术将用于推进神经退行性疾病的早期药物发现。…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2020/neuron.jpg
+  https://phys.org/news/2026-10-nanoscale-tech-tracks-proteins-neurons.html
+  [Phys.org · 10-20 09:00]
+- Students take up to 88 standardized tests before high school, but more testing doesn't improve learning
+  → 学生在高中前参加多达88次标准化考试，但是更多的考试并不能改善学习
+  The public K-12 school system in the United States has become pervasively shaped by standardized testing.
+  → 美国的公立K-12学校系统已经被标准化考试普遍塑造。
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/tests.jpg
+  https://phys.org/news/2026-10-students-standardized-high-school-doesnt.html
+  [Phys.org · 10-20 08:20]
+- New 4D biofabrication technology holds promise for tissue engineering, wound healing
+  → 新的4D生物制造技术为组织工程、伤口愈合带来希望
+  If you've ever created a snowflake by folding, cutting and unfolding a piece of paper, you've practiced the art of kirigami. Like origami, kirigami has inspired innovations far beyond the elementary school classroom, wit…
+  → 如果你曾经通过折叠、切割和展开一张纸来创造雪花，你就练习了剪纸艺术。像折纸一样，剪纸艺术激发了远远超出小学课堂的创新，智慧…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/new-4d-biofabrication.jpg
+  https://phys.org/news/2026-10-4d-biofabrication-technology-tissue-wound.html
+  [Phys.org · 10-20 07:40]
+- Molecular switch controls how cells load cargo for recycling
+  → 分子开关控制细胞如何装载货物进行回收
+  Cells constantly recycle proteins and other cellular components. But how do they ensure that the right cargo ends up in the right recycling vesicle—one of the cell's transport carriers? A team at the University of Basel…
+  → 细胞不断地回收蛋白质和其他细胞成分。但是他们如何确保正确的货物最终进入正确的回收囊泡——细胞的运输载体之一？巴塞尔大学的一个团队…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/cellular-recycling-a-m.jpg
+  https://phys.org/news/2026-10-molecular-cells-cargo-recycling.html
+  [Phys.org · 10-20 07:40]
 
 # AI 人工智能 (8)
+- Claude新模型曝光！能跳出思维定势，修Bug治标又治本
+  OpenAI只掏出一个6.1 Terra…
+  [图] https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png
+  https://www.qbitai.com/2026/10/504314.html
+  [量子位 · 10-20 09:09]
 - Making the internet better for AI agents might make it worse for everyone else
   → 让人工智能代理的互联网变得更好可能会让其他人的情况变得更糟
   This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and…
@@ -294,27 +296,16 @@
   [图] https://the-decoder.com/wp-content/uploads/2026/10/google_ai_overviews_law-1.png
   https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/
   [The Decoder · 10-19 22:54]
-- Stripe says AI agent purchases are adding up, but it won't share the numbers
-  → Stripe表示，人工智能代理的购买量正在增加，但它不会分享数字
-  AI agents are increasingly using Stripe's payment service Link to shop for their users, Upstarts Media reports. The article Stripe says AI agent purchases are adding up, but it won't share the numbers appeared first on T…
-  → 据新贵媒体报道，人工智能代理越来越多地使用Stripe的支付服务Link为他们的用户购物。Stripe的文章称，人工智能代理的购买量正在增加，但它不会分享首先出现在T…
-  [图] https://the-decoder.com/wp-content/uploads/2026/08/stripe_logo_wall.png
-  https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers/
-  [The Decoder · 10-19 20:51]
-- The Download: preserving the Arctic permafrost, and playful AI agents
-  → 下载：保护北极永久冻土和好玩的AI代理
-  This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Inside the quest to combat Arctic fires and save the planet’s frozen carbon —James…
-  → 这是今天的下载版，我们的工作日时事通讯，每天提供科技世界正在发生的事情。在抗击北极大火和拯救地球冰冻碳的探索中——詹姆斯…
-  [图] https://s.w.org/images/core/emoji/17.0.2/72x72/1f4c9.png
-  https://www.technologyreview.com/2026/10/19/1147103/the-download-preserving-the-arctic-permafrost-and-playful-ai-agents/
-  [MIT Technology Review · 10-19 20:10]
-- The neocloud shakeout is coming, and Nvidia has the most to lose
-  → neocloud震荡即将到来，Nvidia损失最大
-  After stock crashes and Firmus's scrapped IPO, industry executives expect only seven to ten of the hundreds of AI cloud providers to survive. CoreWeave lost a quarter of its market value, and Microsoft pulled out of a de…
-  → 在股票崩盘和Firmus取消IPO后，行业高管预计数百家AI云提供商中只有七到十家能够生存。CoreWeave市值损失了四分之一，Microsoft退出了…
-  [图] https://the-decoder.com/wp-content/uploads/2025/09/NVIDIA-Vera-Rubin-NVL144-with-Tray.jpg
-  https://the-decoder.com/the-neocloud-shakeout-is-coming-and-nvidia-has-the-most-to-lose/
-  [The Decoder · 10-19 19:33]
+- 从百比特芯片到整机交付，这家量子计算公司正将量子算力推向可调用服务
+  同步搭建千比特规模量子算力云平台
+  [图] https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png
+  https://www.qbitai.com/2026/10/504277.html
+  [量子位 · 10-19 22:33]
+- 通研院孵化的团队，也盯上了RSI
+  当AI越来越懂你，如何让智能真正属于你？
+  [图] https://www.qbitai.com/wp-content/uploads/imgs/qbitai-logo-1.png
+  https://www.qbitai.com/2026/10/504294.html
+  [量子位 · 10-19 22:31]
 
 # 医疗健康 (8)
 - Trump orders creation of NIH division, task force on women’s health
@@ -379,217 +370,247 @@
   Savannah的Amber Harpe因将Flock车牌识别系统的登录凭证交给丈夫Tyler Harpe而被解雇。Tyler是ICE特工，他利用该账号在六个州进行了近1000次搜索，主要针对有逮捕令的移民目标。尽管Harpe夫妇坚称所有搜索均出于执法目的，但Savannah Police Department认为此举严重违反了信息安全政策，破坏了审计追踪的完整性。尽管主管建议仅给予短期停职处分，但高层最终认定故意共享凭证的行为不可接受，坚持予以开除。
   [图] https://kubrick.htvapps.com/htv-prod/images/59afd81a-246a-4dd8-be64-a0263cee209e.png?crop=1.00xw%3A1.00xh%3B0%2C0&resize=1200%3A*
   https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816
-  [HN · ▲ 625 · 💬 360 · wjcl.com]
+  [HN · ▲ 635 · 💬 362 · wjcl.com]
 - Linux 7.3 发布：创纪录的3000+开发者
   Linus Torvalds 如期发布了 Linux 7.3 内核，这次更新堪称史上规模最大，汇聚了 3021 名开发者的 18765 个非合并提交，其中 807 人是首次参与内核开发。新版本带来了 binfmt_misc 扩展、针对大型系统的 group-scheduling 性能优化、全新的 failfs 文件系统以及 fchroot() 系统调用等重要特性。此外，BPF 程序的全局 per-CPU 数据、sched_ext 子调度器功能的完成、虚拟机的 working-set tracking 以及 ntfs3 文件系统的替代数据流支持也得到了完善。尽管 Linus 正处在家庭度假中，计划白天乘船潜水，但他仍将在下午回归处理合并工作，开启 Linux 7.4 的合并窗口。
   https://lwn.net/Articles/1101143/
-  [HN · ▲ 587 · 💬 275 · lwn.net]
+  [HN · ▲ 603 · 💬 278 · lwn.net]
 - Mistral 推出 Timestral 时间序列基座模型
   Mistral 正式发布了其首个时间序列基座模型家族 Timestral。该系列包含 5M 至 209M 参数四种规格，仅凭 209M 参数便在 GIFT-Eval、TIME 和 fev-bench 三大基准测试中登顶，性能超越参数量更大的竞品。Timestral 支持概率性多变量预测，能处理已知未来协变量，且无需 GPU 即可在 CPU 上高效运行。通过合成数据预训练与两阶段微调，它实现了卓越的零样本泛化能力，适用于从工业传感器监控到金融波动预测的广泛场景，让企业能够低成本地部署高精度预测系统。
   [图] https://mistral.ai/cms-media/api/media/file/og-timestral.webp
   https://mistral.ai/news/timestral/
-  [HN · ▲ 543 · 💬 104 · mistral.ai]
+  [HN · ▲ 575 · 💬 106 · mistral.ai]
 - Wine 移植 OpenBSD：64 位 Windows 应用新突破
   Wine 终于成功移植到 OpenBSD 系统，这是今年最令人意外的移植成果。团队通过软件方案解决了 %gs/gsbase 指令问题，实现了 64 位 Windows 应用的运行。目前，包括 The Witcher 3 Remaster 在内的数十款 64 位软件已测试通过，但 32 位应用因 WoW64 限制暂时无法运行。开发者建议用户先尝试 Notepad++ 进行测试，并强调需在非特权用户环境下运行以确保安全。这一进展标志着 OpenBSD 在兼容 Windows 生态方面迈出了关键一步。
   https://marc.info/?l=openbsd-ports&amp;m=179236125692175
-  [HN · ▲ 496 · 💬 167 · marc.info]
+  [HN · ▲ 540 · 💬 178 · marc.info]
 - 享受编程：在AI时代找回乐趣
   阅读 Hacker News 时，我常感到一种奇怪的社会压力，仿佛不再被允许享受编程。工作中，手写代码的经济价值确实变了，但工作不等于生活。我周末依然亲手写代码，哪怕只是做一个充满 Bug 的 Breakout 克隆，或是在 Java 中探索 Agda 的依赖类型思想。这些探索或许没有直接用处，但解决问题的过程本身带来快乐。理解高深概念如 Monoids 或 recursion schemes 需要时间沉淀，这种智力上的奖赏无可替代。我们不必为享受事物寻找经济理由，断开焦虑的噪音，回归初心，享受编程本身。
   https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming
-  [HN · ▲ 433 · 💬 409 · chriskiehl.com]
+  [HN · ▲ 530 · 💬 483 · chriskiehl.com]
+- 只用一个电机，我造出了无人机
+  传统无人机通常依赖四个或更多电机来维持平衡与飞行，但我决定挑战这一惯例，只用一个电机打造了一架无人机。视频展示了从设计思路到实际飞行的全过程，包括如何克服单电机带来的稳定性难题。这个项目不仅是一次工程实验，更是对飞行控制原理的深入探索。如果你也对非传统飞行器设计感兴趣，这段视频或许能给你一些启发。
+  https://www.youtube.com/watch?v=Ndftcft6XhU
+  [HN · ▲ 488 · 💬 104 · youtube.com]
 - Ruby 开发者退出：不再为 AI 时代写代码
   我决定归档所有 Ruby gems 的源代码，因为那个为人类快乐而编程的时代已经过去了。曾经，Yukihiro Matsumoto 设计 Ruby 是为了让程序员感受到创造的乐趣，但如今，连 Ruby 语言本身都在被 LLM agents 主导开发。Rails 的掌控者 David Heinemeier Hansson 甚至转向用 LLM 生成 Rust 代码，而 Matz 则将 Ruby 重新定位为“AI 时代的编程语言”。当人类编写的代码沦为训练 AI 的燃料，而输出又被无脑的机器污染时，我选择退出。如果你想要改变，去问你的 agent 吧，那是你们现在该做的事。
   https://po-ru.com/2026/10/18/why-im-no-longer-updating-this-repository
-  [HN · ▲ 424 · 💬 398 · po-ru.com]
+  [HN · ▲ 453 · 💬 433 · po-ru.com]
 - MiniMax M3.1 Flash：智能体性能与成本新标杆
   MiniMax正式推出M3.1 Flash，这是其匿名模型Space Bunny的进化版本。该模型在智能体任务、代码开发、计算机使用及网络安全领域实现代际飞跃，在线推理速度提升近三倍，使用成本降低70%。在AutomationBench-AA、DeepSWE v1.1和OSWorld V2等基准测试中，M3.1 Flash表现优异，尤其在复杂工作流自动化和软件工程中达到顶尖水平。其推理效率经优化后，输出速度可达200+ TPS。定价方面，每百万token输入仅需0.15美元，输出0.60美元，缓存输入低至0.015美元，为智能体任务重新定义了性能与成本平衡。
   [图] https://filecdn.minimax.chat/public/m31-flash-zh-1-1792403273121.png?x-oss-process=image/format,webp
   https://www.minimax.io/blog/minimax-m31f
-  [HN · ▲ 377 · 💬 163 · minimax.io]
-- 只用一个电机，我造出了无人机
-  传统无人机通常依赖四个或更多电机来维持平衡与飞行，但我决定挑战这一惯例，只用一个电机打造了一架无人机。视频展示了从设计思路到实际飞行的全过程，包括如何克服单电机带来的稳定性难题。这个项目不仅是一次工程实验，更是对飞行控制原理的深入探索。如果你也对非传统飞行器设计感兴趣，这段视频或许能给你一些启发。
-  https://www.youtube.com/watch?v=Ndftcft6XhU
-  [HN · ▲ 377 · 💬 79 · youtube.com]
-- FDA新规：动物实验不再是药物测试常态
-  动物实验在生物医学研究中的统治地位正被打破。从Donald Ingber团队研发的Lung-on-a-Chip到Emulate的器官芯片系统，New Approach Methodologies（NAMs）正在重塑药物开发流程。2022年通过的FDA Modernization Act 2.0首次授权在临床前研究中使用非动物替代方案，2026年FDA更进一步，将法规中的“动物测试”改为“非临床测试”。尽管技术验证和标准化仍是挑战，但政策转向已让TissUse等公司迎来转机，连曾依赖动物模型的科学家也开始转向体外模型。这场变革不仅是技术的胜利，更是监管文化与科研范式的根本转变。
-  [图] https://spectrum.ieee.org/media-library/a-photo-shows-a-hand-holding-a-small-clear-plastic-device-with-red-and-blue-lines-inside-it.jpg?id=67819184&width=1200&height=600&coordinates=0%2C834%2C0%2C834
-  https://spectrum.ieee.org/alternatives-to-animal-testing
-  [HN · ▲ 318 · 💬 94 · spectrum.ieee.org]
-- CERN与Mistral联手，加速AI驱动科学发现
-  CERN与Mistral正式签署合作意向书，旨在通过结合CERN在基础物理、科学数据及大规模计算方面的深厚积累，以及Mistral在大模型训练领域的领先地位，共同开发面向科学发现的Foundation Models。双方将首先聚焦高能物理领域，致力于构建首个针对对撞机物理的预训练Large Physics Model，利用LHC产生的数十亿次质子-质子碰撞模拟数据进行训练。这一模型将重构粒子碰撞重建、粒子识别及异常信号检测等任务，有望解决当前LHC数据分析中依赖复杂算法链的瓶颈。此次合作不仅标志着欧洲在AI与基础科学融合上的新里程碑，也为未来应对HL-LHC带来的数据量激增提供了关键的技术路径。
-  https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/
-  [HN · ▲ 315 · 💬 57 · home.cern]
+  [HN · ▲ 432 · 💬 188 · minimax.io]
 - StarCraft: Ashfall 竖屏射击游戏亮相
   一款名为 StarCraft: Ashfall 的竖屏射击游戏正在测试中。玩家扮演人族突击队，在灰烬长桥抵御虫群进攻。游戏界面模拟战场通讯，包含机枪兵、火蝠和攻城坦克等单位选择，以及雷诺指挥官技能。后勤声称十人足够，但虫群显然没收到通知。游戏强调竖屏操作，支持拖动部署路线和自动索敌，融合经典 StarCraft 元素与现代射击玩法，带来沉浸式战术体验。
   [图] https://starcraft-shooter-2026.pages.dev/share-card.jpg
   https://starcraft-shooter-2026.pages.dev/
-  [HN · ▲ 311 · 💬 105 · starcraft-shooter-2026.pages.dev]
-- 不运行自己的 LLM proxy，你如何掌控数据？
-  无论你是开发多亿美元的 SaaS 应用，还是用 ComfyUI 将 Labubu 的 2D 图像转为 3D CAD 模型，只要你依赖第三方 LLM 服务，就正在交出数据控制权。文章指出，供应商提供的可视化界面往往只是花哨的 distraction，缺乏工程师真正需要的时序 token 统计。作者强烈建议自建 LLM proxy，以此统一管理 multi provider 和 multi models，利用 virtual api keys 保护主密钥，并实现模型的快速切换。只有掌控自己的 infra，你才能在 cache miss 时迅速定位问题，真正拥有对应用可见性、数据路径和存储的绝对控制权。
-  https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/
-  [HN · ▲ 292 · 💬 209 · jrdsgl.com]
-- William Gibson 注册 Cyberspace 的真相
-  1989 年，我在 Autodesk 研发早期虚拟现实系统时，Timothy Leary 建议我们注册 Cyberspace 商标。William Gibson 对此强烈不满，他的律师发函抗议，但那个流传甚广的“Gibson 反注册 Eric Gullichsen”故事，其实是 Leary 的恶作剧，后经 John Perry Barlow 和 Rudy Rucker 等人渲染才成了“历史”。1990 年我们在 Barcelona 的 Art Futura 活动上重逢，Gibson 淡然表示“Autodesk 不是街头”。这段往事揭示了网络文化如何在谣言与现实中交织，而真正的街头智慧往往藏在那些未被书写的对话里。
-  https://colo.to/cyberspace.html
-  [HN · ▲ 277 · 💬 121 · colo.to]
-- Mac.apk：在Apple Silicon上原生运行Android应用
-  无需模拟器或虚拟机，Mac.apk让Android应用在Apple Silicon Mac上直接以原生速度运行。应用像普通macOS程序一样启动，拥有独立窗口，支持Dock显示、窗口缩放和深色模式适配。目前已有65款应用经过测试，其中51款可完全运行。项目处于Alpha阶段，持续迭代中。它不依赖Linux内核，也不进行指令解释，而是直接在macOS上实现Android应用环境。适合开发者、极客和需要跨平台应用的用户探索。
-  [图] https://opengraph.githubassets.com/58cf69cdbad1db3731e6e6c275ae2fd284ec69ac20ac7306caa4080b26fd9f44/kksimp/Mac.apk
-  https://github.com/kksimp/Mac.apk
-  [HN · ▲ 255 · 💬 129 · github.com]
+  [HN · ▲ 399 · 💬 120 · starcraft-shooter-2026.pages.dev]
 - AI 写的代码看不懂，你敢上线吗？
   我在使用 AI 生成代码时遇到了困境：当 AI 写出的代码我完全无法理解，却又要将其部署到生产环境时，该如何权衡风险与效率？我担心盲目信任 AI 会带来隐患，但又渴望利用其提升开发速度。大家是如何处理这种‘黑盒’代码的？
   [图] https://zeli.app/favicon.png
   https://zeli.app/zh/story/50151036
-  [HN · ▲ 251 · 💬 396]
+  [HN · ▲ 368 · 💬 508]
+- FDA新规：动物实验不再是药物测试常态
+  动物实验在生物医学研究中的统治地位正被打破。从Donald Ingber团队研发的Lung-on-a-Chip到Emulate的器官芯片系统，New Approach Methodologies（NAMs）正在重塑药物开发流程。2022年通过的FDA Modernization Act 2.0首次授权在临床前研究中使用非动物替代方案，2026年FDA更进一步，将法规中的“动物测试”改为“非临床测试”。尽管技术验证和标准化仍是挑战，但政策转向已让TissUse等公司迎来转机，连曾依赖动物模型的科学家也开始转向体外模型。这场变革不仅是技术的胜利，更是监管文化与科研范式的根本转变。
+  [图] https://spectrum.ieee.org/media-library/a-photo-shows-a-hand-holding-a-small-clear-plastic-device-with-red-and-blue-lines-inside-it.jpg?id=67819184&width=1200&height=600&coordinates=0%2C834%2C0%2C834
+  https://spectrum.ieee.org/alternatives-to-animal-testing
+  [HN · ▲ 334 · 💬 101 · spectrum.ieee.org]
+- CERN与Mistral联手，加速AI驱动科学发现
+  CERN与Mistral正式签署合作意向书，旨在通过结合CERN在基础物理、科学数据及大规模计算方面的深厚积累，以及Mistral在大模型训练领域的领先地位，共同开发面向科学发现的Foundation Models。双方将首先聚焦高能物理领域，致力于构建首个针对对撞机物理的预训练Large Physics Model，利用LHC产生的数十亿次质子-质子碰撞模拟数据进行训练。这一模型将重构粒子碰撞重建、粒子识别及异常信号检测等任务，有望解决当前LHC数据分析中依赖复杂算法链的瓶颈。此次合作不仅标志着欧洲在AI与基础科学融合上的新里程碑，也为未来应对HL-LHC带来的数据量激增提供了关键的技术路径。
+  https://home.cern/cern-and-mistral-join-forces-to-accelerate-ai-for-science/
+  [HN · ▲ 331 · 💬 57 · home.cern]
+- Mac.apk：在Apple Silicon上原生运行Android应用
+  无需模拟器或虚拟机，Mac.apk让Android应用在Apple Silicon Mac上直接以原生速度运行。应用像普通macOS程序一样启动，拥有独立窗口，支持Dock显示、窗口缩放和深色模式适配。目前已有65款应用经过测试，其中51款可完全运行。项目处于Alpha阶段，持续迭代中。它不依赖Linux内核，也不进行指令解释，而是直接在macOS上实现Android应用环境。适合开发者、极客和需要跨平台应用的用户探索。
+  [图] https://opengraph.githubassets.com/2cf055807811ddd4002eec96f42e2ab204601401b783f9a6f0f99c9b093fd76d/kksimp/Mac.apk
+  https://github.com/kksimp/Mac.apk
+  [HN · ▲ 300 · 💬 160 · github.com]
+- 不运行自己的 LLM proxy，你如何掌控数据？
+  无论你是开发多亿美元的 SaaS 应用，还是用 ComfyUI 将 Labubu 的 2D 图像转为 3D CAD 模型，只要你依赖第三方 LLM 服务，就正在交出数据控制权。文章指出，供应商提供的可视化界面往往只是花哨的 distraction，缺乏工程师真正需要的时序 token 统计。作者强烈建议自建 LLM proxy，以此统一管理 multi provider 和 multi models，利用 virtual api keys 保护主密钥，并实现模型的快速切换。只有掌控自己的 infra，你才能在 cache miss 时迅速定位问题，真正拥有对应用可见性、数据路径和存储的绝对控制权。
+  https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/
+  [HN · ▲ 295 · 💬 210 · jrdsgl.com]
+- William Gibson 注册 Cyberspace 的真相
+  1989 年，我在 Autodesk 研发早期虚拟现实系统时，Timothy Leary 建议我们注册 Cyberspace 商标。William Gibson 对此强烈不满，他的律师发函抗议，但那个流传甚广的“Gibson 反注册 Eric Gullichsen”故事，其实是 Leary 的恶作剧，后经 John Perry Barlow 和 Rudy Rucker 等人渲染才成了“历史”。1990 年我们在 Barcelona 的 Art Futura 活动上重逢，Gibson 淡然表示“Autodesk 不是街头”。这段往事揭示了网络文化如何在谣言与现实中交织，而真正的街头智慧往往藏在那些未被书写的对话里。
+  https://colo.to/cyberspace.html
+  [HN · ▲ 279 · 💬 121 · colo.to]
 
 # GitHub 1 日增长榜 · 无噪 (30)
 - morluto/rea
-  连接智能体与逆向工具的 MCP，可分析原生二进制、JS/Electron 应用、.NET 程序集与网站，本地运行，结果附带证据与局限。
+  Reverse engineer anything with agents, from app behavior down to native binaries.
+  → 连接智能体与逆向工具的 MCP，可分析原生二进制、JS/Electron 应用、.NET 程序集与网站，本地运行，结果附带证据与局限。
   [图] https://opengraph.githubassets.com/1/morluto/rea
   https://github.com/morluto/rea
-  [1 日 +15,172 · ⭐ 333.2k · TypeScript]
+  [1 日 +15,172 · ⭐ 338.5k · TypeScript]
 - ebony-vinyl/dsh-our-free-model
-  dsh 免费模型插件，零依赖、免登录免 Key，即装即用。内置 DeepSeek V4.1 Flash、Kimi K3 等前沿模型，完全免费不限量。支持思考强度控制、用量看板、OpenAI 兼容转发、聚合渠道与降级路由，热重载免重启，数据全留本机。
+  在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash…
+  → dsh 免费模型插件，零依赖、免登录免 Key，即装即用。内置 DeepSeek V4.1 Flash、Kimi K3 等前沿模型，完全免费不限量。支持思考强度控制、用量看板、OpenAI 兼容转发、聚合渠道与降级路由，热重载免重启，数据全留本机。
   [图] https://opengraph.githubassets.com/1/ebony-vinyl/dsh-our-free-model
   https://github.com/ebony-vinyl/dsh-our-free-model
   [1 日 +2,973 · ⭐ 24.6k · JavaScript]
 - madslorentzen/ai-job-search
-  基于 Claude Code 的 AI 求职工具。可自动评估职位、定制简历、撰写求职信，并准备面试。核心流程语言和地域无关，支持多种职位搜索渠道，提供结构化评估与个性化输出。
+  The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.
+  → 基于 Claude Code 的 AI 求职工具。可自动评估职位、定制简历、撰写求职信，并准备面试。核心流程语言和地域无关，支持多种职位搜索渠道，提供结构化评估与个性化输出。
   [图] https://opengraph.githubassets.com/1/madslorentzen/ai-job-search
   https://github.com/madslorentzen/ai-job-search
   [1 日 +2,442 · ⭐ 52.4k · Python]
 - debpalash/voicestudio
-  开源 ElevenLabs 替代品，支持实时听写、零样本语音克隆和电影级视频配音。完全本地运行，无需 API 密钥，支持 646 种语言。
+  VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
+  → 开源 ElevenLabs 替代品，支持实时听写、零样本语音克隆和电影级视频配音。完全本地运行，无需 API 密钥，支持 646 种语言。
   [图] https://opengraph.githubassets.com/1/debpalash/voicestudio
   https://github.com/debpalash/voicestudio
   [1 日 +1,932 · ⭐ 74.7k · Python]
 - boykopovar/anyps5
-  自动将 PS5 可执行文件移植至 Linux/Windows/macOS。含 relinker 原生格式转换、系统 prx 动态链接、shader→SPIR-V 重编译，无需模拟。支持 SDL 输入映射与 Web 转换器。
+  Tool for automatic PS5 executables porting to Linux and Windows
+  → 用于自动将PS5可执行文件移植到Linux和Windows的工具
   [图] https://opengraph.githubassets.com/1/boykopovar/anyps5
   https://github.com/boykopovar/anyps5
   [1 日 +1,676 · ⭐ 42.9k · C++]
 - deepseek-ai/deepseek-harness
-  开源代理框架，一切皆插件，基于 Cordis 实现时空组合性。提供 Web UI，开发者预览阶段，快速迭代。
+  DeepSeek Harness: Everything is a Plugin.
+  → 开源代理框架，一切皆插件，基于 Cordis 实现时空组合性。提供 Web UI，开发者预览阶段，快速迭代。
   [图] https://opengraph.githubassets.com/1/deepseek-ai/deepseek-harness
   https://github.com/deepseek-ai/deepseek-harness
-  [1 日 +1,374 · ⭐ 254.3k · TypeScript]
+  [1 日 +1,374 · ⭐ 254.7k · TypeScript]
 - anomalyco/opencode
-  开源AI编码代理，支持终端与桌面应用。内置build和plan两种智能体，可通过Tab键切换。提供npm、brew等多种安装方式，支持多平台。
+  The open source coding agent.
+  → 开源AI编码代理，支持终端与桌面应用。内置build和plan两种智能体，可通过Tab键切换。提供npm、brew等多种安装方式，支持多平台。
   [图] https://opengraph.githubassets.com/1/anomalyco/opencode
   https://github.com/anomalyco/opencode
-  [1 日 +1,263 · ⭐ 217.4k · TypeScript]
+  [1 日 +1,263 · ⭐ 218.0k · TypeScript]
 - mattpocock/skills
-  个人技能目录，涵盖规划、开发和工具化。包含 PRD 创建、TDD、代码重构、Git 钩子设置等技能，通过 npx 命令快速添加。
+  Skills for Real Engineers. Straight from my .agents directory.
+  → 个人技能目录，涵盖规划、开发和工具化。包含 PRD 创建、TDD、代码重构、Git 钩子设置等技能，通过 npx 命令快速添加。
   [图] https://opengraph.githubassets.com/1/mattpocock/skills
   https://github.com/mattpocock/skills
-  [1 日 +1,260 · ⭐ 297.1k · Shell]
+  [1 日 +1,260 · ⭐ 297.7k · Shell]
 - stablyai/orca
-  AI 编排工具，支持并行运行 Codex、ClaudeCode 等编码代理。提供隔离的 Git 工作树、移动端伴侣应用、终端分割、设计模式及 GitHub/Linear 集成。适用于桌面和移动端。
+  Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.
+  → AI 编排工具，支持并行运行 Codex、ClaudeCode 等编码代理。提供隔离的 Git 工作树、移动端伴侣应用、终端分割、设计模式及 GitHub/Linear 集成。适用于桌面和移动端。
   [图] https://opengraph.githubassets.com/1/stablyai/orca
   https://github.com/stablyai/orca
   [1 日 +1,171 · ⭐ 96.3k · TypeScript]
 - storytold/photocraft
-  纯 Rust 编写的开源 Photoshop 图像编辑器，支持图层、蒙版、调整图层、图层样式、文字、矢量与 PSD 文件。GPU 加速原生跨平台应用，命令驱动支持 CLI/MCP，离线可用。
+  PhotoCraft: An open-source, photo editor written by scratch in pure Rust
+  → 纯 Rust 编写的开源 Photoshop 图像编辑器，支持图层、蒙版、调整图层、图层样式、文字、矢量与 PSD 文件。GPU 加速原生跨平台应用，命令驱动支持 CLI/MCP，离线可用。
   [图] https://opengraph.githubassets.com/1/storytold/photocraft
   https://github.com/storytold/photocraft
   [1 日 +1,164 · ⭐ 67.2k · Rust]
 - comfy-org/comfyui
-  最强大的模块化视觉AI引擎与应用，基于节点/流程图界面，支持Windows、Linux、macOS。无需编码即可设计和执行高级Stable Diffusion工作流，兼容多种图像、视频模型。
+  The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.
+  → 最强大的模块化视觉AI引擎与应用，基于节点/流程图界面，支持Windows、Linux、macOS。无需编码即可设计和执行高级Stable Diffusion工作流，兼容多种图像、视频模型。
   [图] https://opengraph.githubassets.com/1/comfy-org/comfyui
   https://github.com/comfy-org/comfyui
-  [1 日 +1,035 · ⭐ 139.4k · Python]
+  [1 日 +1,035 · ⭐ 139.9k · Python]
 - anthropics/claude-plugins-official
-  官方管理的高质量 Claude Code 插件目录，包含内部和第三方插件。可通过命令直接安装，支持插件提交与贡献。强调安全使用，需信任插件后再安装。
+  Official, Anthropic-managed directory of high quality Claude Code Plugins.
+  → 官方管理的高质量 Claude Code 插件目录，包含内部和第三方插件。可通过命令直接安装，支持插件提交与贡献。强调安全使用，需信任插件后再安装。
   [图] https://opengraph.githubassets.com/1/anthropics/claude-plugins-official
   https://github.com/anthropics/claude-plugins-official
   [1 日 +1,012 · ⭐ 42.5k · Python]
 - dietrichgebert/ponytail
-  让 AI 代理像最懒的资深开发者一样思考：80-94% 减少代码、3-6 倍更快、47-77% 更便宜。优先使用标准库、原生功能和现有依赖，仅在必要时编写最小代码。
+  Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+  → 让 AI 代理像最懒的资深开发者一样思考：80-94% 减少代码、3-6 倍更快、47-77% 更便宜。优先使用标准库、原生功能和现有依赖，仅在必要时编写最小代码。
   [图] https://opengraph.githubassets.com/1/dietrichgebert/ponytail
   https://github.com/dietrichgebert/ponytail
-  [1 日 +963 · ⭐ 167.7k · JavaScript]
+  [1 日 +963 · ⭐ 168.2k · JavaScript]
 - storytold/artcraft
-  面向艺术家、设计师与影视创作者的 AI 图像与视频创作 IDE。支持 2D 合成、3D 场景搭建与角色姿态调整，通过可视化工具实现精准、可重复的创作，将提示词转化为精细的工艺制作。
+  ArtCraft is an intentional crafting engine for artists, designers, and filmmakers
+  → 面向艺术家、设计师与影视创作者的 AI 图像与视频创作 IDE。支持 2D 合成、3D 场景搭建与角色姿态调整，通过可视化工具实现精准、可重复的创作，将提示词转化为精细的工艺制作。
   [图] https://opengraph.githubassets.com/1/storytold/artcraft
   https://github.com/storytold/artcraft
   [1 日 +938 · ⭐ 32.6k · Rust]
 - wheresryan22/anatomy
-  AI Agent 技能，通过构建真实可交互的等距插图来解释技术概念。生成精细 SVG，支持 WebGL 着色器与 3D 效果，适用于 Claude Code 等多种 AI 编码工具。
+  An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.
+  → AI Agent 技能，通过构建真实可交互的等距插图来解释技术概念。生成精细 SVG，支持 WebGL 着色器与 3D 效果，适用于 Claude Code 等多种 AI 编码工具。
   [图] https://opengraph.githubassets.com/1/wheresryan22/anatomy
   https://github.com/wheresryan22/anatomy
   [1 日 +891 · ⭐ 15.9k · JavaScript]
 - yetone/magpie
-  统一管理所有 AI 代理的模型配置。支持 Claude Code、Codex 等工具切换任意模型（如 Kimi、DeepSeek），通过本地网关实现配额耗尽时自动切换账号，支持 macOS、Windows、Linux 及 Docker。
+  Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.
+  → 每个代理的模型。一个地方。DeepSeek上的Codex，Kimi上的Claude代码，来自菜单栏。
   [图] https://opengraph.githubassets.com/1/yetone/magpie
   https://github.com/yetone/magpie
   [1 日 +877 · ⭐ 15.9k · Go]
 - heygen-com/hyperframes
-  开源视频渲染框架，基于 HTML 构建，专为 AI 代理设计。支持编写 HTML 并渲染为视频，提供 CLI 预览与渲染功能，兼容 Node.js 22+ 和 FFmpeg。
+  Write HTML. Render video. Built for agents.
+  → 开源视频渲染框架，基于 HTML 构建，专为 AI 代理设计。支持编写 HTML 并渲染为视频，提供 CLI 预览与渲染功能，兼容 Node.js 22+ 和 FFmpeg。
   [图] https://opengraph.githubassets.com/1/heygen-com/hyperframes
   https://github.com/heygen-com/hyperframes
   [1 日 +756 · ⭐ 66.6k · TypeScript]
 - affaan-m/ecc
-  包含代理、技能、钩子、命令、规则和MCP的完整Claude Code配置集。来自Anthropic黑客松获奖者的实战配置，支持多语言，提供安装向导和PM2多代理编排。
+  The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+  → 包含代理、技能、钩子、命令、规则和MCP的完整Claude Code配置集。来自Anthropic黑客松获奖者的实战配置，支持多语言，提供安装向导和PM2多代理编排。
   [图] https://opengraph.githubassets.com/1/affaan-m/ecc
   https://github.com/affaan-m/ecc
-  [1 日 +754 · ⭐ 283.8k · JavaScript]
+  [1 日 +754 · ⭐ 284.2k · JavaScript]
 - graphify-labs/graphify
-  AI 编程助手技能，将代码、文档、论文或图像文件夹转为可查询知识图谱。支持多模态输入与 20 种语言 AST 解析，通过图拓扑聚类，输出交互式 HTML、JSON 及报告。
+  Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained,…
+  → AI 编程助手技能，将代码、文档、论文或图像文件夹转为可查询知识图谱。支持多模态输入与 20 种语言 AST 解析，通过图拓扑聚类，输出交互式 HTML、JSON 及报告。
   [图] https://opengraph.githubassets.com/1/graphify-labs/graphify
   https://github.com/graphify-labs/graphify
-  [1 日 +729 · ⭐ 128.9k · Python]
+  [1 日 +729 · ⭐ 129.3k · Python]
 - jub0t/concat
+  The truly free, open-source, local-first, cross-platform CapCut replacement. Scriptable through a JSON-RPC API & MCP.
+  → 真正免费、开源、本地优先、跨平台的CapCut替代品。可通过JSON-RPC API&MCP编写脚本。
   [图] https://opengraph.githubassets.com/1/jub0t/concat
   https://github.com/jub0t/concat
   [1 日 +704 · ⭐ 9.0k · Rust]
 - cathrynlavery/diagram-design
-  为 Claude Code 等 AI 编码助手提供 29 种编辑级图表类型。输出自包含 HTML + SVG，无阴影、无 Mermaid。通过语义模式分离行为与布局，支持可选动效。提供极简明/暗与全编辑三种静态变体，可直接浏览器打开，或重绘 draw.io/Mermaid 源。
+  Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
+  → 为 Claude Code 等 AI 编码助手提供 29 种编辑级图表类型。输出自包含 HTML + SVG，无阴影、无 Mermaid。通过语义模式分离行为与布局，支持可选动效。提供极简明/暗与全编辑三种静态变体，可直接浏览器打开，或重绘 draw.io/Mermaid 源。
   [图] https://opengraph.githubassets.com/1/cathrynlavery/diagram-design
   https://github.com/cathrynlavery/diagram-design
   [1 日 +677 · ⭐ 57.6k · HTML]
 - droid-deck/droiddeck
-  将 SteamOS 体验带到 Android。在 Adreno 设备上运行 Steam 大屏幕模式，通过 ARM64 Proton 运行 Windows 游戏，无需 root，支持智能眼镜 3DoF/6DoF，集成 Flathub、GOG、Epic 等商店。
+  DroidDeck brings the SteamOS experience to Android
+  → DroidDeck为Android带来SteamOS体验
   [图] https://opengraph.githubassets.com/1/droid-deck/droiddeck
   https://github.com/droid-deck/droiddeck
   [1 日 +637 · ⭐ 10.8k · Kotlin]
 - eternity4719/howtolivebetter
-  765条高性价比人生建议，涵盖长寿防病、急救、省钱理财、法律红线、失业医保、恋爱婚育、创业合规。每条标注成本、收益与证据等级，仅引期刊论文和官方文件。
+  高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。
   [图] https://opengraph.githubassets.com/1/eternity4719/howtolivebetter
   https://github.com/eternity4719/howtolivebetter
   [1 日 +620 · ⭐ 65.7k · HTML]
 - nationalsecurityagency/ghidra
-  由美国国家安全局开发的软件逆向工程框架，支持多平台二进制分析，具备反汇编、反编译、图形化及脚本扩展能力。
+  Ghidra is a software reverse engineering (SRE) framework
+  → 由美国国家安全局开发的软件逆向工程框架，支持多平台二进制分析，具备反汇编、反编译、图形化及脚本扩展能力。
   [图] https://opengraph.githubassets.com/1/nationalsecurityagency/ghidra
   https://github.com/nationalsecurityagency/ghidra
   [1 日 +592 · ⭐ 90.7k · Java]
 - niko1221/strata
-  在普通游戏 PC 上运行 1250 亿参数的 Qwen3.8-Flash-Next 模型。支持 NVIDIA/AMD/Intel 显卡，一键安装 Windows/Linux。提供 OpenAI/Anthropic API 兼容接口，可接入 Claude Code 等工具，支持图片输入，完全本地运行，隐私安全。
+  Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.
+  → Qwen3.8-Flash-Next在任何消费硬件上：一键安装Windows/Linux。Strata推理引擎，OpenAI/Anthropic API在localhost，可选图像输入。
   [图] https://opengraph.githubassets.com/1/niko1221/strata
   https://github.com/niko1221/strata
   [1 日 +589 · ⭐ 27.4k · C++]
 - xerj-org/xerj
-  面向 AI 的本地搜索工具，一条命令索引代码、文档与 PDF。支持 BM25 + kNN 混合检索与 MCP 协议，可作 Agent 记忆。参考编码场景下 token 消耗降低 2.7 倍，单二进制文件，可替代 Elasticsearch。
+  Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticse…
+  → 面向 AI 的本地搜索工具，一条命令索引代码、文档与 PDF。支持 BM25 + kNN 混合检索与 MCP 协议，可作 Agent 记忆。参考编码场景下 token 消耗降低 2.7 倍，单二进制文件，可替代 Elasticsearch。
   [图] https://opengraph.githubassets.com/1/xerj-org/xerj
   https://github.com/xerj-org/xerj
   [1 日 +576 · ⭐ 8.3k · Rust]
 - akitaonrails/ai-memory
-  提供 AI 编码代理的长期记忆，支持跨 Claude Code、Codex 等代理无缝切换，保持任务上下文连续。
+  Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors
+  → 提供 AI 编码代理的长期记忆，支持跨 Claude Code、Codex 等代理无缝切换，保持任务上下文连续。
   [图] https://opengraph.githubassets.com/1/akitaonrails/ai-memory
   https://github.com/akitaonrails/ai-memory
   [1 日 +558 · ⭐ 10.4k · Rust]
 - hkuds/cli-anything
-  将任意软件转化为 AI 代理原生接口。支持 OpenClaw、Claude Code 等平台，一键命令行即可实现。提供 JSON + 人类可读输出，Python 3.10+ 编写，测试覆盖率高。
+  "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/
+  → 将任意软件转化为 AI 代理原生接口。支持 OpenClaw、Claude Code 等平台，一键命令行即可实现。提供 JSON + 人类可读输出，Python 3.10+ 编写，测试覆盖率高。
   [图] https://opengraph.githubassets.com/1/hkuds/cli-anything
   https://github.com/hkuds/cli-anything
   [1 日 +546 · ⭐ 54.5k · Python]
 - tt-a1i/archify
-  生成交互式系统架构图，涵盖架构、工作流、序列等图表，支持多种主题和动画，自包含HTML文件，可导出PNG、SVG等格式，用于审查和分享。
+  Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.
+  → 生成交互式系统架构图，涵盖架构、工作流、序列等图表，支持多种主题和动画，自包含HTML文件，可导出PNG、SVG等格式，用于审查和分享。
   [图] https://opengraph.githubassets.com/1/tt-a1i/archify
   https://github.com/tt-a1i/archify
   [1 日 +538 · ⭐ 85.3k · JavaScript]
 - k-dense-ai/scientific-agent-skills
-  为Claude提供140个即用型科学技能，覆盖生物信息学、药物发现、临床研究、医学影像、机器学习、材料科学、物理学、工程学、数据分析、实验室自动化及科研方法等多领域，将Claude转化为AI科研助手。
+  Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medici…
+  → 为Claude提供140个即用型科学技能，覆盖生物信息学、药物发现、临床研究、医学影像、机器学习、材料科学、物理学、工程学、数据分析、实验室自动化及科研方法等多领域，将Claude转化为AI科研助手。
   [图] https://opengraph.githubassets.com/1/k-dense-ai/scientific-agent-skills
   https://github.com/k-dense-ai/scientific-agent-skills
   [1 日 +507 · ⭐ 52.6k · Python]

@@ -26,6 +26,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 import os
 import re
+import shutil
 import smtplib
 import socket
 import ssl
@@ -44,6 +45,67 @@ from email.utils import formataddr, parsedate_to_datetime
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DEFAULT_CONFIG = os.path.join(BASE_DIR, "config.json")
 LOG_FILE = os.path.join(BASE_DIR, "news_collector.log")
+
+# 缓存目录：翻译缓存、GitHub 快照、去重状态都放这里。
+#
+# 为什么单独一个目录：这些文件必须长期存活。以前它们散在项目根目录，靠
+# GitHub Actions cache 兜着，而 cache 7 天不命中就过期删除——翻译缓存一
+# 丢，每天 ~95 段全部重新请求翻译接口；star 快照一丢，增速榜退回"新建
+# N 天"排序；send_state 一丢，"今天已发送"状态消失，手动触发会重复发信。
+# 放进 cache/ 后由 workflow 直接 commit 回仓库，永久保留。
+CACHE_DIR = os.path.join(BASE_DIR, "cache")
+
+# 迁移用：旧版本把缓存写在项目根目录
+_LEGACY_CACHE_NAMES = (
+    "translation_cache.json",
+    "github_stars.json",
+    "github_descriptions.json",
+    "send_state.json",
+)
+
+
+_CACHE_MIGRATED = False
+
+
+def _ensure_cache_dir() -> None:
+    """确保缓存目录存在。失败只记日志，不让整个程序挂掉。"""
+    try:
+        os.makedirs(CACHE_DIR, exist_ok=True)
+    except OSError as exc:  # noqa: BLE001
+        log.warning("创建缓存目录失败 %s: %s", CACHE_DIR, exc)
+
+
+def _newer_file(a: str, b: str) -> bool:
+    """a 是否比 b 新。任一不存在或取不到 mtime 时不算更新。"""
+    try:
+        return os.path.getmtime(a) > os.path.getmtime(b)
+    except OSError:
+        return False
+
+
+def migrate_legacy_cache() -> None:
+    """把旧版本写在项目根目录的缓存文件搬进 cache/。
+
+    目标已存在时，只有当根目录那份**更新**才覆盖——否则保留 cache/ 里的
+    新数据。搬完不删根目录的老文件，万一是误搬，用户还能自己检查。
+    """
+    global _CACHE_MIGRATED
+    if _CACHE_MIGRATED:
+        return
+    _CACHE_MIGRATED = True
+    _ensure_cache_dir()
+    for name in _LEGACY_CACHE_NAMES:
+        legacy = os.path.join(BASE_DIR, name)
+        target = os.path.join(CACHE_DIR, name)
+        if not os.path.exists(legacy):
+            continue
+        if os.path.exists(target) and not _newer_file(legacy, target):
+            continue
+        try:
+            shutil.copyfile(legacy, target)
+            log.info("缓存文件已从项目根目录迁移到 cache/: %s", name)
+        except OSError as exc:  # noqa: BLE001
+            log.warning("迁移旧缓存失败 %s: %s", name, exc)
 
 # 让 Windows 控制台以 UTF-8 输出，避免中文乱码（失败时静默忽略）
 try:
@@ -624,7 +686,7 @@ def fetch_source(source: dict, timeout: int) -> list[dict]:
 # --------------------------------------------------------------------------- #
 # GitHub 开源项目：真实 star 增速榜
 # --------------------------------------------------------------------------- #
-GH_STARS_FILE = os.path.join(BASE_DIR, "github_stars.json")
+GH_STARS_FILE = os.path.join(CACHE_DIR, "github_stars.json")
 
 
 def _load_gh_stars() -> dict:
@@ -642,6 +704,7 @@ def _load_gh_stars() -> dict:
 
 def _save_gh_stars(data: dict) -> None:
     try:
+        _ensure_cache_dir()
         with open(GH_STARS_FILE, "w", encoding="utf-8") as fh:
             json.dump(data, fh, ensure_ascii=False, sort_keys=True)
     except OSError as exc:
@@ -1034,7 +1097,7 @@ def fetch_wuzao_trends(config: dict) -> list[dict]:
 # --------------------------------------------------------------------------- #
 # GitHub 原简介补全（无噪榜单只给中文，这里取英文原文用于"原文 + 译文"展示）
 # --------------------------------------------------------------------------- #
-GH_DESC_FILE = os.path.join(BASE_DIR, "github_descriptions.json")
+GH_DESC_FILE = os.path.join(CACHE_DIR, "github_descriptions.json")
 
 # 空简介的重试间隔：仓库可能后续才补上 description，不能永久记为"没有"
 GH_DESC_RETRY_DAYS = 7
@@ -1052,6 +1115,7 @@ def _load_gh_descriptions() -> dict:
 
 def _save_gh_descriptions(data: dict) -> None:
     try:
+        _ensure_cache_dir()
         with open(GH_DESC_FILE, "w", encoding="utf-8") as fh:
             json.dump(data, fh, ensure_ascii=False, indent=0)
     except OSError as exc:
@@ -1287,8 +1351,8 @@ def fetch_zeli(config: dict) -> list[dict]:
 # --------------------------------------------------------------------------- #
 # 翻译
 # --------------------------------------------------------------------------- #
-CACHE_FILE = os.path.join(BASE_DIR, "translation_cache.json")
-STATE_FILE = os.path.join(BASE_DIR, "send_state.json")
+CACHE_FILE = os.path.join(CACHE_DIR, "translation_cache.json")
+STATE_FILE = os.path.join(CACHE_DIR, "send_state.json")
 
 
 def load_state() -> dict:
@@ -1303,6 +1367,7 @@ def load_state() -> dict:
 
 def save_state(state: dict) -> None:
     try:
+        _ensure_cache_dir()
         with open(STATE_FILE, "w", encoding="utf-8") as fh:
             json.dump(state, fh, ensure_ascii=False, indent=2)
     except OSError as exc:
@@ -1342,6 +1407,7 @@ def save_cache(cache: dict) -> None:
         log.info("翻译缓存超过上限 %d，淘汰最旧 %d 条。",
                  CACHE_MAX_ENTRIES, drop)
     try:
+        _ensure_cache_dir()
         with open(CACHE_FILE, "w", encoding="utf-8") as fh:
             json.dump(cache, fh, ensure_ascii=False, indent=0)
     except OSError as exc:
@@ -2619,6 +2685,9 @@ def main() -> int:
     config_path = resolve_config_path(args.config)
     log.info("加载配置: %s", config_path)
     config = load_config(config_path)
+
+    # 把旧版写在根目录的缓存搬进 cache/（只搬一次）
+    migrate_legacy_cache()
 
     now = current_now(config)
     tz_label = _tz_label(now)

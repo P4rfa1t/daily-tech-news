@@ -1,0 +1,166 @@
+{
+ "debpalash/voicestudio": {
+  "d": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+  "t": "2026-10-20"
+ },
+ "mattpocock/skills": {
+  "d": "Skills for Real Engineers. Straight from my .agents directory.",
+  "t": "2026-10-20"
+ },
+ "ebony-vinyl/dsh-our-free-model": {
+  "d": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash…",
+  "t": "2026-10-20"
+ },
+ "morluto/rea": {
+  "d": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+  "t": "2026-10-20"
+ },
+ "storytold/photocraft": {
+  "d": "PhotoCraft: An open-source, photo editor written by scratch in pure Rust",
+  "t": "2026-10-20"
+ },
+ "anthropics/claude-plugins-official": {
+  "d": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+  "t": "2026-10-20"
+ },
+ "xerj-org/xerj": {
+  "d": "Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticse…",
+  "t": "2026-10-20"
+ },
+ "wheresryan22/anatomy": {
+  "d": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
+  "t": "2026-10-20"
+ },
+ "affaan-m/ecc": {
+  "d": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+  "t": "2026-10-20"
+ },
+ "boykopovar/anyps5": {
+  "d": "Tool for automatic PS5 executables porting to Linux and Windows",
+  "t": "2026-10-20"
+ },
+ "storytold/artcraft": {
+  "d": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+  "t": "2026-10-20"
+ },
+ "stablyai/orca": {
+  "d": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+  "t": "2026-10-20"
+ },
+ "jub0t/concat": {
+  "d": "The truly free, open-source, local-first, cross-platform CapCut replacement. Scriptable through a JSON-RPC API & MCP.",
+  "t": "2026-10-20"
+ },
+ "k-dense-ai/scientific-agent-skills": {
+  "d": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medici…",
+  "t": "2026-10-20"
+ },
+ "madslorentzen/ai-job-search": {
+  "d": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+  "t": "2026-10-20"
+ },
+ "nationalsecurityagency/ghidra": {
+  "d": "Ghidra is a software reverse engineering (SRE) framework",
+  "t": "2026-10-20"
+ },
+ "dietrichgebert/ponytail": {
+  "d": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+  "t": "2026-10-20"
+ },
+ "obra/superpowers": {
+  "d": "An agentic skills framework & software development methodology that works.",
+  "t": "2026-10-17"
+ },
+ "niko1221/strata": {
+  "d": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+  "t": "2026-10-20"
+ },
+ "librespark/libretv": {
+  "d": "一分钟搭建影视站，支持Docker等部署方式",
+  "t": "2026-10-17"
+ },
+ "heygen-com/hyperframes": {
+  "d": "Write HTML. Render video. Built for agents.",
+  "t": "2026-10-20"
+ },
+ "leonxlnx/taste-skill": {
+  "d": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+  "t": "2026-10-17"
+ },
+ "deepseek-ai/deepseek-harness": {
+  "d": "DeepSeek Harness: Everything is a Plugin.",
+  "t": "2026-10-20"
+ },
+ "juliusbrussee/caveman": {
+  "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+  "t": "2026-10-17"
+ },
+ "hmjz100/linkswift": {
+  "d": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+  "t": "2026-10-17"
+ },
+ "harry0703/moneyprinterturbo": {
+  "d": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+  "t": "2026-10-17"
+ },
+ "yetone/magpie": {
+  "d": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+  "t": "2026-10-20"
+ },
+ "eternity4719/howtolivebetter": {
+  "d": "高性价比人生指南: 长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
+  "t": "2026-10-20"
+ },
+ "ruvnet/ruflo": {
+  "d": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG int…",
+  "t": "2026-10-17"
+ },
+ "droid-deck/droiddeck": {
+  "d": "DroidDeck brings the SteamOS experience to Android",
+  "t": "2026-10-20"
+ },
+ "anomalyco/opencode": {
+  "d": "The open source coding agent.",
+  "t": "2026-10-20"
+ },
+ "storytold/pdfcraft": {
+  "d": "PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust",
+  "t": "2026-10-18"
+ },
+ "chthollyphile/folia-major": {
+  "d": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方多平台在线音乐播放器",
+  "t": "2026-10-18"
+ },
+ "panniantong/agent-reach": {
+  "d": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+  "t": "2026-10-18"
+ },
+ "cathrynlavery/diagram-design": {
+  "d": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+  "t": "2026-10-20"
+ },
+ "hkuds/cli-anything": {
+  "d": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+  "t": "2026-10-20"
+ },
+ "tt-a1i/archify": {
+  "d": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+  "t": "2026-10-20"
+ },
+ "akitaonrails/ai-memory": {
+  "d": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+  "t": "2026-10-20"
+ },
+ "graphify-labs/graphify": {
+  "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained,…",
+  "t": "2026-10-20"
+ },
+ "anthropics/claude-code": {
+  "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natura…",
+  "t": "2026-10-19"
+ },
+ "comfy-org/comfyui": {
+  "d": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+  "t": "2026-10-20"
+ }
+}

@@ -33,17 +33,11 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: 还原翻译缓存与去重状态
-        uses: actions/cache/restore@v4
-        with:
-          path: |
-            translation_cache.json
-            github_stars.json
-            github_descriptions.json
-            send_state.json
-          key: news-cache-${{ github.run_id }}
-          restore-keys: |
-            news-cache-
+      # 以前这里用 actions/cache 存翻译缓存与去重状态，但 GitHub 的
+      # cache 连续 7 天没命中就过期删除。翻译缓存一丢，每天 ~95 段全部
+      # 重新请求翻译接口；star 快照一丢，增速榜退回"新建 N 天"排序；
+      # send_state 一丢，"今天已发送"状态消失，手动触发会重复发信。
+      # 现在这些文件都放在 cache/ 目录，由最后一步 commit 回仓库，永久保留。
 
       - name: 跑单元测试
         run: python -m unittest test_news_collector -q
@@ -87,9 +81,9 @@ jobs:
               echo "- 触发方式：${{ github.event_name }}"
             fi
           } >> "$GITHUB_STEP_SUMMARY"
-          if [ -f send_state.json ]; then
+          if [ -f cache/send_state.json ]; then
             echo '```json' >> "$GITHUB_STEP_SUMMARY"
-            cat send_state.json >> "$GITHUB_STEP_SUMMARY"
+            cat cache/send_state.json >> "$GITHUB_STEP_SUMMARY"
             echo '```' >> "$GITHUB_STEP_SUMMARY"
           fi
 
@@ -104,24 +98,17 @@ jobs:
             news_collector.log
             history/*.txt
             history/*.html
-            translation_cache.json
-            github_stars.json
+            cache/translation_cache.json
+            cache/github_stars.json
+            cache/github_descriptions.json
+            cache/send_state.json
 
-      - name: 保存翻译缓存与去重状态
-        if: success()
-        uses: actions/cache/save@v4
-        with:
-          path: |
-            translation_cache.json
-            github_stars.json
-            github_descriptions.json
-            send_state.json
-          key: news-cache-${{ github.run_id }}
-
-      - name: 提交当日存档回仓库
+      - name: 提交当日存档与缓存回仓库
         if: success()
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "存档 ${{ github.run_number }} 期的日报"
-          file_pattern: "history/*"
+          file_pattern: |
+            history/*
+            cache/*
           branch: ${{ github.ref_name }}
