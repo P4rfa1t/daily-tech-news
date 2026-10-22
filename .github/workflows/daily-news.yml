@@ -2,8 +2,10 @@ name: 每日科技新闻
 
 on:
   schedule:
-    # GitHub Actions 用 UTC。北京时间每天 08:00 = UTC 00:00。
-    - cron: "0 0 * * *"
+    # GitHub Actions 用 UTC。北京时间每天 05:00 = UTC 21:00。
+    # 共享 runner 常有 2~3 小时排队延迟，提前到 05:00 触发可保证
+    # 08:00 左右送达。延迟若持续大于 3 小时，再把 21 提前到 18 或 15。
+    - cron: "0 21 * * *"
   workflow_dispatch:
     inputs:
       force:

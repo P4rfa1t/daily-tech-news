@@ -32,7 +32,7 @@
     "og_image_limit": 60,
     "og_image_workers": 6,
     "fetch_workers": 10,
-    "send_after_hour": 8,
+    "send_after_hour": 5,
     "send_retries": 3,
     "send_retry_delay": 15,
     "github_trending": true,
