@@ -1,0 +1,643 @@
+每日科技新闻速览
+==============================
+
+# 科学前沿 (8)
+- Light-activated catalyst makes sustainable production of hydrogen peroxide more efficient
+  → 光活化催化剂使过氧化氢的可持续生产更加高效
+  Hydrogen peroxide (H₂O₂) is a versatile chemical feedstock whose industrial production relies predominantly on an energy-intensive process with a substantial environmental footprint. One alternative is to produce it usin…
+  → 过氧化氢是一种多用途的化学原料，其工业生产主要依赖于能源密集型工艺，对环境造成巨大影响。一种替代方法是使用…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/making-the-sustainable.jpg
+  https://phys.org/news/2026-10-catalyst-sustainable-production-hydrogen-peroxide.html
+  [Phys.org · 10-23 07:40]
+- Material substitution can increase the potential environmental impact of packaging systems
+  → 材料替代会增加包装系统对环境的潜在影响
+  New research suggests that replacing polyethylene (PE) packaging with paper, glass, aluminum or steel often does not reduce environmental impacts across a product's life cycle.
+  → 新的研究表明，用纸、玻璃、铝或钢代替聚乙烯包装通常不会减少产品生命周期中的环境影响。
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/material-substitution.jpg
+  https://phys.org/news/2026-10-material-substitution-potential-environmental-impact.html
+  [Phys.org · 10-23 07:40]
+- What is a neutrino anyway? A look at the science behind this year's Nobel Prize in Physics
+  → 中微子到底是什么？看看今年诺贝尔物理学奖背后的科学
+  If you wanted a Nobel Prize, you would do well to study neutrinos. To date, the Nobel Prize in Physics has been awarded five times to research related to neutrino detection and discovery. This year, Francis Halzen earned…
+  → 如果你想获得诺贝尔奖，你最好研究中微子。迄今为止，诺贝尔物理学奖已经授予了五次与中微子探测和发现相关的研究。今年，弗朗西斯·哈尔岑获得了……
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/icecube-neutrino-obser.jpg
+  https://phys.org/news/2026-10-neutrino-science-year-nobel-prize.html
+  [Phys.org · 10-23 07:30]
+- With climate-resilient crops in mind, study tackles flaw in photosynthesis
+  → 考虑到适应气候的作物，研究解决了光合作用的缺陷
+  Rising temperatures and increasing drought are shortening crop-growing seasons in many parts of the world. Now scientists in Sweden report new advances toward engineering more efficient photosynthesis, work that could ev…
+  → 气温上升和干旱加剧正在缩短世界许多地方的作物生长季节。现在瑞典的科学家报告了在更有效的光合作用方面的新进展，这项工作可以…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/with-climate-resilient-1.jpg
+  https://phys.org/news/2026-10-climate-resilient-crops-mind-tackles.html
+  [Phys.org · 10-23 07:20]
+- Revamped playground design could protect children around the world from dangers of the sun
+  → 改造后的操场设计可以保护世界各地的儿童免受阳光的危害
+  A new design methodology for school playgrounds is demonstrating how children can still enjoy their playtime while being protected from the harmful effects of the sun.
+  → 一个新的学校操场设计方法论展示了孩子们如何在享受游戏时间的同时免受太阳的有害影响。
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2020/childrenplay.jpg
+  https://phys.org/news/2026-10-revamped-playground-children-world-dangers.html
+  [Phys.org · 10-23 07:10]
+- Ultrafast light pulses track molecular motion with three-femtosecond resolution
+  → 超快光脉冲以三飞秒的分辨率跟踪分子运动
+  Researchers have observed a molecule in the first instants after it has absorbed light and tracked the coordinated motion of electrons and nuclei with a temporal resolution of three femtoseconds. This is the result achie…
+  → 研究人员观察了一个分子在吸收光后的第一瞬间，并以三飞秒的时间分辨率跟踪电子和原子核的协调运动。这是结果
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/ultrafast-light-pulses.jpg
+  https://phys.org/news/2026-10-ultrafast-pulses-track-molecular-motion.html
+  [Phys.org · 10-23 07:00]
+- Shrinking iron films strengthens laser-driven demagnetization
+  → 收缩铁膜加强激光驱动退磁
+  From photos and videos to documents, vast amounts of data are stored on hard drives in large data centers. These devices use tiny magnetic regions whose orientation determines the information stored. But how could data b…
+  → 从照片、视频到文档，大量数据存储在大型数据中心的硬盘上。这些设备使用微小的磁性区域，其方向决定了存储的信息。但是数据怎么会…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/shrinking-iron-films-f.jpg
+  https://phys.org/news/2026-10-iron-laser-driven-demagnetization.html
+  [Phys.org · 10-23 06:40]
+- Researcher tackles impact of a CMO's life events on businesses' bottom line
+  → 研究人员处理首席营销官生活事件对企业底线的影响
+  When a major company's CEO goes through a messy divorce or is arrested for drunk driving, investors often get nervous, worried that the executive's personal struggles will dent their returns. But most people hardly notic…
+  → 当一家大公司的首席执行官经历了一场混乱的离婚或因酒后驾车被捕时，投资者往往会感到紧张，担心高管的个人困境会削弱他们的回报。但是大多数人几乎不知道…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/illustration-showing-s.jpg
+  https://phys.org/news/2026-10-tackles-impact-cmo-life-events.html
+  [Phys.org · 10-23 06:40]
+
+# 网络安全 (12)
+- balcony-jailbreaking
+  Jailbreak vulnerability across early-exit depths LLMs. Published at NeurIPS 2026 in the FLMSec workshop
+  → 跨早期退出深度LLM的越狱漏洞。发表于FLMSec研讨会的NeurIPS 2026
+  [图] https://assets.kitploit.com/production/public/tools/58047/30b0cc83e33f9e10717545e5c8285a66c81b8c38f83c0406110df213239c239d-display-v1.webp
+  https://kitploit.com/en/tools/github/lassnajmuldeen/balcony-jailbreaking
+  [KitPloit · 10-23 07:39]
+- SuperGhidra
+  High-Performance Ghidra Architecture & GPU Acceleration Suite: LZ4/Zstd B-Tree Codec, Persistent Lock-Free Daemon, WGPU ARM64 Scanner, Z3 SMT Prover, and Neural Decompiler
+  → 高性能Ghidra架构和GPU加速套件：LZ4/Zstd B-Tree编解码器、持久无锁守护进程、WGPU ARM64扫描仪、Z3 SMT证明器和神经反编译器
+  [图] https://assets.kitploit.com/production/public/tools/58030/d2cc78be8250a62c5fbf1503ff17b4e5093030ff55fb3649294a5e8705cc0a18-display-v1.webp
+  https://kitploit.com/en/tools/github/yuatemycat/superghidra
+  [KitPloit · 10-23 06:38]
+- Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack
+  → Microsoft将Storm-0940链接到ConnectWise供应链攻击
+  The China-linked actor used an AI-enabled penetration-testing tool to automate and accelerate its attack on more than 2,200 tenants.
+  → 这家与中国相关的参与者使用支持人工智能的渗透测试工具来自动化和加速对2,200多名租户的攻击。
+  [图] https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt481be0dcde6741d2/6ada753af919424ed83bcdaf/chinacyber_mageFlow_shutterstock.jpg?width=720&quality=80&disable=upscale
+  https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack
+  [Dark Reading · 10-23 04:42]
+- What We Missed: Feds Lasso Texas Laptop Farms
+  → 我们错过了什么：联邦调查局套索德克萨斯笔记本电脑农场
+  In this video, Dark Reading editors discuss some of the news they didn't get a chance to cover, from busting up North Korea's stateside infrastructure in "Operation Lonestar Justice" to Staples' gift card bonanza.
+  → 在这段视频中，黑暗阅读编辑讨论了一些他们没有机会报道的新闻，从在“孤独之星正义行动”中摧毁朝鲜的美国基础设施到史泰博的礼品卡财富。
+  [图] https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta02f4349610bfb87/6ada6ff8b8f9c97bdf15ea45/rodeo-Scott_Olsen-GettyImages-2284428107.jpg?width=720&quality=80&disable=upscale
+  https://www.darkreading.com/insider-threats/texas-laptop-farms-north-korean-it-workers
+  [Dark Reading · 10-23 04:33]
+- Xpsd
+  Reachability triage for vulnerability scans. Feeds scanner findings to an LLM agent that reads your source and decides which CVEs are actually reachable.
+  → 漏洞扫描的可达性分类。将扫描结果提供给LLM代理，该代理读取您的源并决定哪些CVE实际上是可访问的。
+  [图] https://assets.kitploit.com/production/public/tools/58038/0d7142159b7acba1e49c5f4db3ac05366613485700f8f1e86909c9f3359aea93-display-v1.webp
+  https://kitploit.com/en/tools/github/owasp/xpsd
+  [KitPloit · 10-23 03:36]
+- Les supermarchés de l'UE paient d'un firmware de réfrigérateur non mis à jour
+  → 欧盟超市用未注明日期的固件付款
+  Des centaines de magasins ont subi des pertes se chiffrant en millions d'euros parce qu'ils avaient fait appel à des tiers pour gérer le micrologiciel OT obsolète qui pilotait leurs systèmes de climatisation.
+  → 数百家商店遭受了数百万欧元的损失，因为他们使用第三方来管理驱动冷却系统的过时OT固件。
+  [图] https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltdcfc831a57f67689/6acfbd4be9c311a2c0cf7674/Melted_ice_cream-cagkansayin-Getty.jpg?width=720&quality=80&disable=upscale
+  https://www.darkreading.com/ics-ot-security/eu-grocers-unpatched-fridge-firmware-french
+  [Dark Reading · 10-23 03:30]
+- mitmproxy v12.3.0
+  An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
+  → 交互式TLS-capable拦截渗透测试人员和软件开发人员的HTTP代理。
+  [图] https://assets.kitploit.com/production/public/tools/87/45cd5114fe99aea13ec4ad1c06471af104c7895d7fbe7a1e93bd4059fee090b0.png
+  https://kitploit.com/en/posts/mitmproxy-78d8425c453ccaf9
+  [KitPloit · 10-23 02:35]
+- GhostFaceMPC
+  Reference implementation of privacy-preserving face recognition using replicated secret sharing in MP-SPDZ, with quantized GhostFaceNet inference, benchmarks, and QAT tooling.
+  → 使用MP-SPDZ中的复制秘密共享以及量化的GhostFaceNet推理、基准测试和QAT工具的隐私保护人脸识别的参考实现。
+  [图] https://assets.kitploit.com/production/public/tools/58041/21a14122de36efa89cc768974aaa4820e5e136c61b99bd99af1f03e8794a0b0b-display-v1.webp
+  https://kitploit.com/en/tools/github/crypto-unict/ghostfacempc
+  [KitPloit · 10-23 01:35]
+- AI-security-literacy
+  Reproducible Colab pipeline that grounds six AI Security Literacy competency dimensions in public benchmarks and survey microdata, producing figures, tables, and resumable results.
+  → 可重现的Colab管道，在公共基准和调查微观数据中建立六个AI安全素养能力维度，生成数字、表格和可恢复的结果。
+  [图] https://assets.kitploit.com/production/public/tools/58040/ecabed822411551e91ce673080e623f72e5bcfbf454c2aa4c01fcc71d644709b-display-v1.webp
+  https://kitploit.com/en/tools/github/ericyoc/ai-security-literacy
+  [KitPloit · 10-23 00:35]
+- DiagSafe
+  Diagnostic LLM safety benchmark with 3,489 bilingual prompts, an 84-label taxonomy, and prompt-level rubric judging for explainable, fine-grained model safety evaluation.
+  → 诊断LLM安全基准，具有3,489个双语提示、84个标签的分类和提示级规则判断，用于可解释的细粒度模型安全评估。
+  [图] https://assets.kitploit.com/production/public/tools/58043/7b6f69e9c13e826cbf81424fa4a0e29712685a3b3acae34cf3550ac784198853-display-v1.webp
+  https://kitploit.com/en/tools/github/tencent-hunyuan/diagsafe
+  [KitPloit · 10-22 23:34]
+- ghidra Ghidra_12.2_build
+  → Ghidra Ghidra_12.2_构建
+  Ghidra is a software reverse engineering (SRE) framework
+  → Ghidra是一个软件逆向工程（SRE）框架
+  [图] https://assets.kitploit.com/production/public/tools/2489/aec0eda604fabe87af692340f5e2b95c8d1b72eddd2277a89e65a800e14daeb8.png
+  https://kitploit.com/en/posts/ghidra-30c9d74a4f927bf1
+  [KitPloit · 10-22 22:34]
+- Tracekit
+  Tamper-evident tracing, policy gates and cross-checks for AI agents: see what the agent did, and why.
+  → AI代理的防篡改跟踪、策略门和交叉检查：查看代理做了什么，以及为什么。
+  [图] https://assets.kitploit.com/production/public/tools/58046/5255d5186db2b7f3f1d53199333703a1483c030a825c7513c7f3076e2d791a18-display-v1.webp
+  https://kitploit.com/en/tools/github/cygnux-labs/tracekit
+  [KitPloit · 10-22 21:34]
+
+# 科技行业 (8)
+- Unitree Shortens Its Embodied-AI Clock—and Opens a Global Contest
+  → Unitree缩短其具身AI时钟-并开启全球竞赛
+  Two months after warning that home robots were still years away, Unitree’s founder said physical AI already shows cracks of a breakthrough. The company is pre-researching a self-evolving model, talking up scale manufactu…
+  → 在警告家用机器人还需要数年时间的两个月后，Unitree的创始人表示，物理人工智能已经显示出突破的裂缝。该公司正在预先研究一种自我进化的模型，谈论大规模制造……
+  [图] https://images.tmtpost.com/uploads/images/2023/tkrss/1345y24htrwfgn3.png
+  https://www.tmtpost.com/8178216.html
+  [钛媒体 · 10-23 07:24]
+- 【钛晨报】《对外投资管理办法》12月1日起施行，投资者范围明确含居民个人；DeepSeek据称完成1000亿元融资，宁德时代和腾讯参投；宁德时代董秘被打？知情人士回应
+  宇树科技创始人王兴兴明确宇树未来三大布局方向；易方达、华夏、富国、汇添富基金各斥资2亿元自购，更多基金公司将加入自购行列；特斯拉证实成立特别委员会，探讨深化与SpaceX关系；摩根大通：股市的暴跌可能已接近尾声；原“死了么”APP公布收费标准，创始人回应：最高收费199元/年，由政府集中采购；建筑机器人市场规模有望破800亿元
+  [图] https://images.tmtpost.com/uploads/images/2026/10/a340e34ed6c3479715a1be2232ba47f2_1792689485.jpg
+  https://www.tmtpost.com/8178065.html
+  [钛媒体 · 10-23 07:20]
+- Warhound raises $200M to engineer war dogs and arm them with Anduril gear
+  → 沃猎犬筹集了2亿美元来制造战犬，并为它们配备安杜里尔装备
+  Warhound, the brainchild of Ben Lamm and Palmer Luckey, emerges from stealth to genetically engineer dogs for military and law enforcement.
+  → 本·拉姆和帕尔默·卢克的创意——沃猎犬，从隐形变成了军事和执法部门的基因工程狗。
+  [图] https://techcrunch.com/wp-content/uploads/2026/10/Warhound.png?resize=1200,675
+  https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/
+  [TechCrunch · 10-23 07:15]
+- The next-gen Xbox won’t cost you $1,800. It can’t. Can it?
+  → 下一代Xbox不会花费你1,800美元。它不能。可以吗？
+  Fortune dropped a bombshell report on the future of gaming this week. According to the publication's Microsoft insiders, the next Xbox is projected to cost between $1,200 and $1,800 when it arrives in 2028. My first reac…
+  → 《财富》杂志本周发布了一份关于游戏未来的重磅报告。据该出版物的Microsoft内部人士称，下一代Xbox预计在2028年上市时售价在1200美元至1800美元之间。我的第一个反应…
+  [图] https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23516635/adbenedetto_220508_5192_0047.jpg?quality=90&strip=all&crop=0,0,100,100
+  https://www.theverge.com/games/1016134/xbox-helix-price-1800-isnt-affordable-editorial
+  [The Verge · 10-23 07:10]
+- Spotify says yes, it is busting people for using Family Plan sharing too widely
+  → Spotify说是的，它正在打击人们过于广泛地使用家庭计划共享
+  Spotify co-CEO Alex Norström confirmed on this week's earnings call that the company is trying to catch Spotify Family plan users who don't actually live together with a new QR code verification method that requires scan…
+  → Spotify联合首席执行官亚历克斯·诺斯特伦在本周的财报电话会议上证实，该公司正试图用一种需要扫描的新二维码验证方法来抓住实际上并不住在一起的Spotify家庭计划用户…
+  [图] https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25378910/STK088_SPOTIFY_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0,0,100,100
+  https://www.theverge.com/entertainment/1017214/spotify-family-plan-sharing-qr-codes
+  [The Verge · 10-23 07:02]
+- As blockchain investing falls out of vogue, a16z Crypto rebrands as a16z Frontier
+  → 随着区块链投资不再流行，a16z Crypto更名为a16z Frontier
+  The digital asset unit, helmed by Chris Dixon, broadens its scope.
+  → 由Chris Dixon领导的数字资产部门扩大了其范围。
+  [图] https://techcrunch.com/wp-content/uploads/2022/10/tc-disrupt-2022-chris-dixon-8.jpg?resize=1200,800
+  https://techcrunch.com/2026/10/22/as-blockchain-investing-falls-out-of-vogue-a16z-crypto-rebrands-as-a16z-frontier/
+  [TechCrunch · 10-23 06:34]
+- OpenAI working on new $30B raise at $1.25T valuation ahead of IPO
+  → OpenAI致力于新的300亿美元，在首次公开募股前将估值提高到1.25万亿美元
+  Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.
+  → 如果OpenAI在这一轮中获得超过1万亿美元的估值，它将打破有史以来估值最高的私营公司的记录。
+  [图] https://techcrunch.com/wp-content/uploads/2023/11/Sam-Altman-OpenAI.jpg?resize=1200,680
+  https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/
+  [TechCrunch · 10-23 06:08]
+- Canva’s first AI image model plans designs before generating them
+  → Canva的第一个AI图像模型在生成之前计划设计
+  Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that all…
+  → Canva推出了与OpenAI、Microsoft和Google直接竞争的图像生成模型，从而更深入地研究人工智能。该模型称为Canva Craft，使用两阶段架构，所有…
+  [图] https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/04-CRAFT-COLLAGE.png?quality=90&strip=all&crop=0,0,100,100
+  https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model
+  [The Verge · 10-23 05:53]
+
+# 医疗健康 (8)
+- STAT+: Gilead to pay $45 million to settle kickback charges filed by Texas attorney general
+  → STAT+：贾勒德将支付4500万美元来解决德克萨斯州司法部长提出的回扣指控
+  Gilead Sciences agreed to pay $45 million to settle allegations of paying kickbacks that improperly influenced prescriptions paid for by the Texas Medicaid program
+  → 贾勒德科学公司同意支付4500万美元来解决支付回扣的指控，这些回扣不当影响了德克萨斯州医疗补助计划支付的处方
+  [图] https://www.statnews.com/wp-content/uploads/2024/02/GettyImages-1221879708-1024x576.jpg
+  https://www.statnews.com/pharmalot/2026/10/22/gilead-settles-kickback-lawsuit-texas-attorney-general/?utm_campaign=rss
+  [STAT News · 10-23 07:12]
+- STAT+: Detailed data confirm Moderna and Merck cancer vaccine met key endpoints in melanoma trial
+  → STAT+：详细数据证实现代和默克癌症疫苗在黑色素瘤试验中达到了关键终点
+  A Moderna and Merck personalized mRNA cancer vaccine reduced the risk of disease recurrence in patients with melanoma by 42% compared to standard treatment.
+  → 与标准治疗相比，现代和默克的个性化mRNA癌症疫苗将黑色素瘤患者疾病复发的风险降低了42%。
+  [图] https://www.statnews.com/wp-content/uploads/2025/05/AdobeStock_525738206_Editorial_Use_Only-1024x576.jpeg
+  https://www.statnews.com/2026/10/22/esmo-moderna-merck-cancer-vaccine-intismeran-data-released/?utm_campaign=rss
+  [STAT News · 10-23 03:03]
+- STAT+: AbbVie skin disorder drug succeeds in late-stage trial, but results miss market expectations
+  → STAT+：艾伯维皮肤病药物在后期试验中取得成功，但结果未达到市场预期
+  AbbVie's lutikizumab, an experimental therapy for a chronic skin condition, succeeded in a late-stage trial but missed market expectations.
+  → 艾伯维的lutikizumab是一种治疗慢性皮肤病的实验性疗法，在后期试验中取得了成功，但未达到市场预期。
+  [图] https://www.statnews.com/wp-content/uploads/2026/10/AdobeStock_514511258-1024x576.jpeg
+  https://www.statnews.com/2026/10/22/abbvie-lutikizumab-hidradenitis-suppurativa-drug-phase-3-results/?utm_campaign=rss
+  [STAT News · 10-23 02:22]
+- STAT+: Nutrition experts press White House to release ultra-processed food definition
+  → STAT+：营养专家敦促白宫发布超加工食品定义
+  MAHA allies and nutrition experts want the Trump administration to act on ultra-processed foods before the elections.
+  → MAHA盟友和营养专家希望特朗普政府在选举前对超加工食品采取行动。
+  [图] https://www.statnews.com/wp-content/uploads/2026/10/AdobeStock_54411127-1024x576.jpeg
+  https://www.statnews.com/2026/10/22/ultra-processed-food-definition-maha-white-house/?utm_campaign=rss
+  [STAT News · 10-23 02:04]
+- Top MAHA adviser Calley Means resigns from White House days ahead of midterms
+  → MAHA高级顾问凯利·梅恩斯在中期选举前几天从白宫辞职
+  The surprising departure of Calley Means comes just before an election that may serve as a referendum on the MAHA movement.
+  → 卡利·米恩斯出人意料的离开发生在可能成为MAHA运动全民公决的选举之前。
+  [图] https://www.statnews.com/wp-content/uploads/2026/10/GettyImages-2210915866-1-1024x576.jpg
+  https://www.statnews.com/2026/10/22/calley-means-resigns-white-house-adviser-maha-movement/?utm_campaign=rss
+  [STAT News · 10-23 01:52]
+- Uninsured rate climbs to 11.2% in 2026: Commonwealth Fund
+  → 2026年未保险率攀升至11.2%：英联邦基金
+  The uninsured rate has climbed over the past two years as Medicaid work requirements—which are expected to drive their own coverage losses—loom at the beginning of 2027.
+  → 在过去的两年里，随着医疗补助工作要求——预计这将导致他们自己的保险损失——在2027年初逼近，未参保率已经攀升。
+  [图] https://qtxasset.com/quartz/qcloud5/media/image/GettyImages-476490254.jpg?VersionId=lS5l9G5918EB2IY62bDDb.Nisoc26hX2
+  https://www.fiercehealthcare.com/payers/uninsured-rate-climbs-112-2026-commonwealth-fund
+  [Fierce Healthcare · 10-23 00:50]
+- STAT+: Will the Treasury restrict U.S. investment in the Chinese biotech sector?
+  → STAT+：财政部会限制美国在中国生物技术领域的投资吗？
+  Rumors are swirling that the Treasury Department this week is going to propose a rule that restricts U.S. investment in the Chinese biotech sector.
+  → 有传言称，财政部本周将提出一项限制美国在中国生物技术领域投资的规则。
+  [图] https://www.statnews.com/wp-content/uploads/2025/07/GettyImages-2188907900-1024x576.jpg
+  https://www.statnews.com/2026/10/22/biotech-news-treasury-restrictions-for-us-investment-in-chinese-biotech/?utm_campaign=rss
+  [STAT News · 10-23 00:17]
+- Molina Healthcare highlights Medicaid bright spots in Q3
+  → 莫利纳医疗保健在第三季度突出医疗补助亮点
+  Molina Healthcare is seeing some bright spots in the Medicaid market heading into 2027, echoing commentary from other payers through several third quarter earnings calls so far.
+  → 莫利纳医疗保健公司在2027年医疗补助市场看到了一些亮点，这与其他支付者迄今为止通过几次第三季度盈利电话会议发表的评论相呼应。
+  [图] https://qtxasset.com/quartz/qcloud5/media/image/GettyImages-1292141784.jpg?VersionId=Lx.Uqz75flfPVfPui5hQGxE55eio1VhH
+  https://www.fiercehealthcare.com/payers/molina-healthcare-highlights-medicaid-bright-spots-q3
+  [Fierce Healthcare · 10-22 23:08]
+
+# 硬件极客 (12)
+- #3DThursday #3DPrinting
+  → #3D星期四#3D打印
+  Shared by m@ on MakerWorld: Add cozy holiday glow and charm to your space with this unique Christmas Light Bulb Tea Light! It’s inspired by classic holiday bulbs and scaled up to make the perfect LED tea light! They make…
+  → 由m@在MakerWorld上分享：用这款独特的圣诞灯泡茶灯为您的空间增添舒适的节日光芒和魅力！它的灵感来自经典的节日灯泡，并按比例放大以制作完美的LED茶灯！它们使…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/2025-12-18_8ca6e434fa4af-scaled.png
+  https://blog.adafruit.com/2026/10/22/3dthursday-3dprinting-6/
+  [Adafruit Blog · 10-23 07:00]
+- Car’s Camera Footage Backed up to NAS
+  → 汽车的摄像头镜头备份到NAS
+  For as many sensors, cameras, and computers as there are on modern cars, they ought to be a dream to poke around in and customize to one’s liking. Unfortunately they’re
+  → 对于现代汽车上尽可能多的传感器、摄像头和计算机来说，它们应该是一个梦想，可以根据自己的喜好进行定制。不幸的是，它们是
+  [图] https://hackaday.com/wp-content/uploads/2026/10/glovebox-main.png
+  https://hackaday.com/2026/10/22/cars-camera-footage-backed-up-to-nas/
+  [Hackaday · 10-23 07:00]
+- Meshed Christmas Ornaments – Tea Light Compatible Shadows
+  → 网状圣诞装饰品-茶灯兼容阴影
+  Maxx_Design shares: Meshed Christmas tree ornaments. A light placed inside casts shadows and creates a mood effect. Fits tea lights up to ~40mm diameter × 52mm height (designer says ‘electric tea light’ — battery-powered…
+  → Maxx_Design分享：网状圣诞树装饰品。放置在里面的灯投射阴影并产生情绪效果。适合直径约40毫米×52毫米高的茶灯（设计师说“电动茶灯”——电池供电…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/Meshed-Christmas-Ornaments-–-Tea-Light-Compatible-Shadow-Casting-Decor-600x450.webp
+  https://blog.adafruit.com/2026/10/22/meshed-christmas-ornaments-tea-light-compatible-shadows-3dthursday-3dprinting/
+  [Adafruit Blog · 10-23 06:00]
+- Monitor Riser – with drawers
+  → 显示器立管-带抽屉
+  Shared by Frank3d on MakerWorld: This model is designed to create a shelf with sliding drawers, perfect for optimizing desk space and improving organization. The design has been developed with a strong focus on easy and…
+  → Frank 3d在MakerWorld上分享：该模型旨在创建一个带有滑动抽屉的架子，非常适合优化办公桌空间和改善组织。该设计的开发非常注重简单和…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/2025-02-13_090d034c82666.jpg.png
+  https://blog.adafruit.com/2026/10/22/monitor-riser-with-drawers-3dthursday-3dprinting/
+  [Adafruit Blog · 10-23 05:00]
+- An Open Source Linear Capacitive Encoder
+  → 一种开源线性电容编码器
+  If you’ve ever pulled apart a set of digital calipers, you’ve probably marvelled at the capacitive encoder that does all the measuring work. There’s nothing stopping you from using the
+  → 如果你曾经拆开过一套数字卡尺，你可能对完成所有测量工作的电容编码器感到惊讶。没有什么能阻止你使用
+  [图] https://hackaday.com/wp-content/uploads/2026/10/Screenshot-2026-10-22-214534-e1792665961677.png
+  https://hackaday.com/2026/10/22/an-open-source-linear-capacitive-encoder/
+  [Hackaday · 10-23 04:00]
+- Modern Ring Lamp HALO – E27 Bulb
+  → 现代环形灯HALO-E27灯泡
+  pascobeck shares: A minimalist modern ring table lamp with a wide, ribbed ring shape for even light + subtle presence. Suited to bedside, living room, or desk. Compatible with E27 lamp holder with switch, OR Bambu LED La…
+  → pascobeck分享：一款简约的现代环形台灯，宽肋环形，光线均匀+微妙的存在。适合床头、客厅或书桌。兼容带开关的E27灯座，或Bambu LED La…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/Modern-Ring-Lamp-HALO-–-E27-Bulb-600x450.webp
+  https://blog.adafruit.com/2026/10/22/modern-ring-lamp-halo-e27-bulb-3dthursday-3dprinting/
+  [Adafruit Blog · 10-23 04:00]
+- Meshtastic Lilygo T-Deck Case – 2-Piece Snap-Together with Internal Ribbon Antenna
+  → Meshtastic Lilygo T-Deck Case-2件套扣合，带内部带状天线
+  A 2-piece snap-together case for the LilyGo T-Deck. Designed around an internal ribbon antenna. No hardware required. Keeps the factory power switch usable. Designer tested with small + medium batteries (NOT a 6000mAh —…
+  → 用于LilyGo T-Deck的2件套卡扣式外壳。围绕内部带状天线设计。无需硬件。保持工厂电源开关可用。设计师使用小型+中型电池进行了测试（不是6000mAh-…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/Screenshot-2026-10-22-at-12.43.51-PM-293x300.png
+  https://blog.adafruit.com/2026/10/22/meshtastic-lilygo-t-deck-case-2-piece-snap-together-with-internal-ribbon-antenna-3dthursday-3dprinting/
+  [Adafruit Blog · 10-23 03:00]
+- John Park’s Workshop — LIVE TODAY 10/22/26
+  → 约翰·帕克的工作室-今天直播10/22/26
+  It’s JOHN PARK’S WORKSHOP — LIVE! — Coming up at 4pm ET / 1pm PT Today (the usual time, no change to the Workshop show schedule)! LIVE TEXT CHAT IS HERE in the Adafruit Discord chat! Projects: CG Turbo Demos CircuitPytho…
+  → 这是约翰·帕克的研讨会-现场直播！-今天美国东部时间下午4点/太平洋时间下午1点（通常时间，研讨会展览时间表没有变化）！现场文本聊天在Adafruit不和谐聊天中！项目：CG Turbo演示电路Pytho…
+  [图] https://cdn-blog.adafruit.com/uploads/2017/08/JohnParkWorkshopLogoSquatBlog_853.jpg
+  https://blog.adafruit.com/2026/10/22/john-parks-workshop-live-today-10-22-26/
+  [Adafruit Blog · 10-23 02:45]
+- Keeping Old Wi-Fi Radios Alive With Stream Conversion
+  → 通过流转换保持旧Wi-Fi无线电正常工作
+  There are plenty of Wi-Fi radios out there that were built over the last two decades or so. However, many older models are now becoming less useful because many internet
+  → 在过去20年左右的时间里，有很多无线无线电。然而，许多旧型号现在变得不那么有用了，因为许多互联网
+  [图] https://hackaday.com/wp-content/uploads/2026/10/itsthabigolboondogglah.webp
+  https://hackaday.com/2026/10/22/keeping-old-wi-fi-radios-alive-with-stream-conversion/
+  [Hackaday · 10-23 02:30]
+- 16×16 WLED LED Matrix – ESP8266/ESP32 with 4× 8×8 WS2812 Panels
+  → 16×16 WLED LED矩阵-ESP8266/ESP32带4×8×8 WS2812面板
+  HotPotato shares: A 3D-printable frame for a 16×16 LED matrix — larger version of the designer’s 8×8 model. Runs on WLED. ‘NO programming skills’ needed, though WLED matrix + panel-orientation setup is more involved. Tar…
+  → HotPotato分享：16×16 LED矩阵的3D打印框架-设计师8×8模型的更大版本。在WLED上运行。“不需要编程技能”，尽管WLED矩阵+面板方向设置更复杂。焦油…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/16×16-WLED-LED-Matrix-600x480.webp
+  https://blog.adafruit.com/2026/10/22/16x16-wled-led-matrix-esp8266-esp32-with-4x-8x8-ws2812-panels-3dthursday-3dprinting/
+  [Adafruit Blog · 10-23 02:00]
+- The Python on Microcontrollers Newsletter: subscribe for free
+  → Python微控制器通讯：免费订阅
+  The Python for Microcontrollers Newsletter is the place for the latest news involving Python on hardware (microcontrollers AND single board computers like Raspberry Pi). This ad-free, spam-free weekly email is filled wit…
+  → 用于微控制器的Python时事通讯是有关硬件（微控制器和单板计算机，如Raspberry Pi）的Python的最新消息的地方。这封无广告、无垃圾邮件的每周电子邮件充满了智慧…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/cp11.jpg
+  https://blog.adafruit.com/2026/10/22/the-python-on-microcontrollers-newsletter-subscribe-for-free-10-22-2/
+  [Adafruit Blog · 10-23 01:57]
+- Clamp Holder – Six-Up Workbench Clamp Storage
+  → 夹具架-六合工作台夹具存储
+  A free holder for storing clamps near a workbench. Mounts to a surface with double-sided tape. The clamp grips the holder while stored. Keeps clamps out of the way while staying within quick reach. Listed file is a 6-up…
+  → 用于在工作台附近存放夹子的自由支架。用双面胶带安装在表面上。夹子在存放时夹住支架。在快速伸手可及的情况下保持夹子不碍事。列出的文件是6起…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/Screenshot-2026-10-22-at-10.52.28-AM-300x226.png
+  https://blog.adafruit.com/2026/10/22/clamp-holder-six-up-workbench-clamp-storage-3dthursday-3dprinting/
+  [Adafruit Blog · 10-23 01:00]
+
+# AI 人工智能 (8)
+- Designing an AI serving harness built to last
+  → 设计一个持久的AI服务线束
+  The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has center…
+  → 企业AI的下一个竞争优势与其说与您选择哪种模型有关，不如说与您围绕它构建的模型有关。这是一个重要的转变。在过去的几年里，大部分人工智能对话都以…
+  [图] https://wp.technologyreview.com/wp-content/uploads/2026/10/GettyImages-2188328005_9f1d59-e1791493652782.jpg?w=840
+  https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/
+  [MIT Technology Review · 10-23 05:17]
+- The Foundations of Scalable AI
+  → 可扩展人工智能的基础
+  A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores…
+  → 可扩展的AI系统需要强大的基础。数据、工程、平台、运营模型和治理必须融合为一体。麻省理工学院技术评论的EmTech Future会议的本次会议探讨…
+  [图] https://wp.technologyreview.com/wp-content/uploads/2026/10/Wang_forweb.png
+  https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/
+  [MIT Technology Review · 10-23 02:48]
+- Major US banks are locking out AI agents that log in with customer credentials
+  → 美国主要银行正在锁定使用客户凭据登录的人工智能代理
+  Customers are letting AI agents use their credentials to access accounts at Morgan Stanley, JPMorgan, and other major U.S. banks, sometimes without direct instructions. Morgan Stanley has blocked agents, while other bank…
+  → 客户允许AI代理使用他们的凭据访问摩根士丹利、摩根大通和其他美国主要银行的账户，有时无需直接指示。摩根士丹利封锁了代理商，而其他银行…
+  [图] https://the-decoder.com/wp-content/uploads/2026/10/ai_bank_accounts.png
+  https://the-decoder.com/major-us-banks-are-locking-out-ai-agents-that-log-in-with-customer-credentials/
+  [The Decoder · 10-23 02:26]
+- Google's Agent Compute Engine gives every Gemini agent its own hardware-isolated micro virtual machine
+  → Google代理计算引擎为每个Gemini代理提供自己的硬件隔离微型虚拟机
+  With Agent Compute Engine, Google is introducing a runtime environment designed specifically for AI agents, while also expanding the governance capabilities that enable companies to manage agents in cloud, hybrid, and on…
+  → 借助Agent Compute Engine，Google引入了专为AI代理设计的运行时环境，同时还扩展了治理能力，使公司能够管理云、混合和…
+  [图] https://the-decoder.com/wp-content/uploads/2026/06/google_logo_wall-2.png
+  https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/
+  [The Decoder · 10-23 01:50]
+- Only 13 percent of companies see real returns from AI, Gartner survey finds
+  → Gartner调查发现，只有13%的公司看到了人工智能的真正回报
+  Only 13 percent of companies are getting real business value from their AI investments, according to a Gartner survey of 2,002 CIOs. At the same time, 51 percent expect AI to actually increase their operating costs. Yet…
+  → 根据Gartner对2,002名CIO的调查，只有13%的公司从他们的AI投资中获得了真正的商业价值。与此同时，51%的人预计AI实际上会增加他们的运营成本。然而…
+  [图] https://the-decoder.com/wp-content/uploads/2026/10/ai_value.png
+  https://the-decoder.com/only-13-percent-of-companies-see-real-returns-from-ai-gartner-survey-finds/
+  [The Decoder · 10-23 00:18]
+- Recursive shows first result of its AI-driven research process with Flint
+  → Recursive展示了其与Flint的AI驱动研究过程的第一个结果
+  The AI startup Recursive is unveiling Flint, its first language model, a 40-billion-parameter MoE for local coding developed by former DeepMind researchers. It was created in four months using the company's in-house AI s…
+  → 人工智能初创公司递归正在推出其第一个语言模型弗林特，这是一个由前DeepMind研究人员开发的用于本地编码的40-billion-parameter教育部。它是在四个月内使用公司内部人工智能创建的…
+  [图] https://the-decoder.com/wp-content/uploads/2026/10/recursive-flint-header-1.jpg
+  https://the-decoder.com/recursive-shows-first-result-of-its-ai-driven-research-process-with-flint/
+  [The Decoder · 10-22 22:40]
+- The Download: computing’s next leap and permafrost’s climate threat
+  → 下载：计算的下一次飞跃和永久冻土的气候威胁
+  This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. How far can we push computing? On a December evening in 1959, the physicist Richar…
+  → 这是今天的下载版，我们的工作日时事通讯，每天提供科技世界正在发生的事情。我们能把计算推进多远？1959年12月的一个晚上，物理学家Richar…
+  [图] https://wp.technologyreview.com/wp-content/uploads/2026/03/ai-hitpiece.jpg?fit=1456,818
+  https://www.technologyreview.com/2026/10/22/1147612/the-download-computing-next-leap-permafrost-climate-threat/
+  [MIT Technology Review · 10-22 20:10]
+- An AI agent in "Skynet mode" hijacks unprotected language models to launch self-sustaining cyberattacks
+  → “天网模式”下的AI代理劫持未受保护的语言模型以发起自我维持的网络攻击
+  Security researchers at Symantec have found an offensive AI agent that hijacks unprotected language models on the web and uses them to attack servers, steal databases, and install cryptominers on its own. It runs up to 1…
+  → 赛门铁克的安全研究人员发现了一种攻击性AI代理，它劫持了网络上未受保护的语言模型，并使用它们攻击服务器、窃取数据库并自行安装加密矿工。它最多运行1…
+  [图] https://the-decoder.com/wp-content/uploads/2026/10/cybersecurity_kraken-1.png
+  https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/
+  [The Decoder · 10-22 19:30]
+
+# Hacker News 中文摘要（Zeli） (15)
+- PHP 即将发布关键安全更新
+  PHP 安全团队刚刚发出预警，即将在 2026 年 10 月 21 日发布一次关键安全更新。此次更新将修复两个被评定为 CVSS v4.0 9.2 分的高危漏洞，风险等级极高。官方强烈建议所有 PHP 用户提前做好准备，确保在更新发布的第一时间完成升级。值得注意的是，如果漏洞细节提前泄露或在野外发现活跃利用迹象，PHP 团队保留提前发布更新的权力。对于依赖 PHP 构建服务的企业和开发者而言，这不仅是技术维护，更是一场与时间赛跑的安全防御战。
+  https://news-web.php.net/php.announce/509
+  [HN · ▲ 1,548 · 💬 658 · news-web.php.net]
+- PHP 8.2.35 正式版发布
+  PHP 官方在 GitHub 上发布了 php-8.2.35 版本更新，这是该系列的最新维护版本。此次更新通过 committer 的 verified signature 进行了验证，尽管签名密钥已过期，但版本本身的真实性得到了确认。从发布页面可以看到，php-8.2.35 与从 php-5.4 到 php-8.6 的众多历史版本进行了对比，展示了 PHP 项目长期的迭代历程和版本管理细节。对于依赖 PHP 8.2 系列的开发者而言，这次更新可能包含了重要的安全修复或稳定性改进，建议及时关注并评估升级。
+  [图] https://opengraph.githubassets.com/b382b97f570c6673dfdefc3fb9a0a772f2031a00c0a2d8b99a13a55cda4b0645/php/php-src/releases/tag/php-8.2.35
+  https://github.com/php/php-src/releases/tag/php-8.2.35
+  [HN · ▲ 1,076 · 💬 558 · github.com]
+- eMudhra 的 CA 私钥竟只有 8 位
+  eMudhra 的八张中间证书私钥存在严重漏洞，其数值小至 4、56 或 115，仅用毫秒即可破解。这意味着自 2025 年 4 月起，任何人均可轻易伪造证书。尽管 Chrome 和 Firefox 已紧急阻断，但大量不检查证书透明度（CT）的客户端，如 curl、Python、Node 及各类 IoT 设备，仍面临巨大风险。这些设备默认信任根证书且未启用吊销检查，使得攻击者可轻易拦截加密流量或注入恶意代码。此次事件暴露了 PKI 生态中非浏览器客户端的脆弱性，提醒我们必须立即更新所有依赖 CA 链的软件。
+  [图] https://storage.ghost.io/c/ee/88/ee889f88-37ef-43e5-9180-f9b88ee6261d/content/images/size/w1200/2026/10/emudhra.png
+  https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/
+  [HN · ▲ 924 · 💬 454 · scotthelme.co.uk]
+- PHP 紧急修复两个 RCE 漏洞
+  PHP 基金会刚刚发布了紧急安全更新，修复了 CVE-2026-109618 和 CVE-2026-109619 两个严重漏洞，攻击者可在无需认证的情况下执行远程代码。这次事件暴露了 PHP 安全团队在资源匮乏和决策流程上的结构性问题，导致修复工作一度停滞。随着 Calif、OpenAI 和 Wiz 等机构通过 AI 工具加速漏洞挖掘，PHP 基金会正在重组安全团队，引入 Ecosystem Security Team 并扩充专职人员。尽管遭遇信息泄露和 Chainguard 提前发布补丁的尴尬，但此次快速响应展示了改进后的协作效率。基金会呼吁依赖 PHP 的企业和政府加大资助，以确保持续的安全投入，避免类似危机再次发生。
+  [图] https://thephp.foundation/assets/share/2026-10-21-todays-php-security-release-and-how-were-strengthening-php-security.png
+  https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/
+  [HN · ▲ 797 · 💬 393 · thephp.foundation]
+- EA 关闭 BioWare，400 人失业
+  EA 正式宣布关闭传奇工作室 BioWare，这一决定伴随着约 400 人的裁员。作为《Mass Effect》、《Dragon Age》和《Star Wars: Knight of the Old Republic》等经典 RPG 的缔造者，BioWare 的落幕标志着游戏行业的一个时代终结。EA 高层表示，由于玩家选择增多、竞争加剧以及增长机会转移，他们不得不重新审视业务模式，因此决定终止正在开发中的下一部《Mass Effect》游戏。这一消息让无数粉丝感到震惊与惋惜，也引发了对大型游戏厂商战略调整背后代价的深思。
+  [图] https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gsh636en2u1g1.jpg?quality=90&strip=all&crop=0%2C15.095986038394%2C100%2C69.808027923211&w=1200
+  https://www.theverge.com/games/1015647/ea-is-shutting-down-bioware
+  [HN · ▲ 680 · 💬 458 · theverge.com]
+- Meta因Cambridge Analytica案被罚250亿美元
+  新墨西哥州法院裁定Meta需支付250亿美元罚款，以解决其Cambridge Analytica数据隐私丑闻引发的诉讼。陪审团认定，Meta误导了该州公民关于用户数据收集与保护的方式，并违反了州不公平行为法。尽管此前Meta已就类似案件达成多项和解，但新墨西哥州并未参与联邦层面的和解协议，因此此案独立进入审判程序。此次判决不仅涉及巨额经济处罚，也再次凸显了科技巨头在数据隐私监管方面面临的严峻挑战。
+  [图] https://image.cnbcfm.com/api/v1/image/108437802-1792509531499-gettyimages-2297798363-1r5_3613_q0uw9oaf.jpeg?v=1792603420&w=1920&h=1080
+  https://www.cnbc.com/2026/10/21/meta-new-mexico-cambridge-analytica-penalty.html
+  [HN · ▲ 675 · 💬 414 · cnbc.com]
+- 巴黎协定1.5°C目标已无法实现
+  联合国环境规划署（UNEP）发布的2026年排放差距报告指出，将全球升温控制在1.5°C以内的窗口期已彻底关闭。报告强调，超过1.5°C阈值已是迫在眉睫且不可避免的事实。新的应对策略调整为：确保升温不突破2°C，并致力于在本世纪末将温度回拉至1.5°C。然而，当前各国的国家自主贡献（NDCs）承诺即便全部落实，减排力度也远不足以达成目标，全球亟需将清洁能源转型速度提升数倍，并大规模部署碳移除技术。尽管可再生能源发展超预期，但在化石燃料退出和森林保护方面仍严重滞后，留给人类的时间与借口都已不多。
+  [图] https://e4k4c4x9.delivery.rocketcdn.me/en/wp-content/uploads/sites/15/2026/10/city-smog.jpg
+  https://unric.org/en/unep-emissions-gap-report-2026-1-5-degree-overshoot/
+  [HN · ▲ 646 · 💬 806 · unric.org]
+- Interop 2027：CSS 即将迎来哪些变革？
+  随着 Interop 2027 计划的启动，浏览器厂商正合力推动 CSS 技术的全面普及。我深入分析了即将纳入的十大特性，包括让 CSS 具备编程能力的 CSS functions、支持 bevel 和 squircle 的 corner-shape 属性，以及能绘制任意边框的 border-shape。此外，Anchored Container Queries 将解决锚点定位的痛点，而 inherit() 函数则让样式继承更加灵活。这些特性不仅已在 Chrome 和 Edge 中实现，更有望在 Interop 机制下迅速覆盖所有主流浏览器，彻底改变我们的布局与动画开发方式。
+  [图] https://www.joshwcomeau.com/images/og-interop-2027.png
+  https://www.joshwcomeau.com/css/interop-2027/
+  [HN · ▲ 617 · 💬 275 · joshwcomeau.com]
+- PyPI 上的 LiteLLM 1.107.0 被植入后门
+  PyPI 上的 LiteLLM 1.107.0 版本已被证实被篡改， installer 会在 site-packages 中植入凭证窃取器和远程代码执行后门。攻击者利用 maturin 构建配置，将恶意文件 cook.pth 和 sitecustomize.py 混入所有平台的 wheel 包中。一旦安装，这些恶意代码会在任何 Python 进程启动时自动运行，无需导入 LiteLLM 库。窃取目标包括 SSH 密钥、浏览器密码、云凭证以及 AI 开发工具（如 Cursor、Claude Code）的 Token。此外，后门还会每小时从 GitHub 拉取新指令并执行远程代码。SafeDep 分析指出，上游 GitHub 源码干净，问题出在发布流程被攻破或 PyPI 凭证泄露。
+  [图] https://safedep.io/images/litellm-pypi-compromise-credential-stealer-backdoor-banner.jpg
+  https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/
+  [HN · ▲ 587 · 💬 191 · safedep.io]
+- Railway 安全披露：环境变量遭泄露
+  Railway 在 10 月 21 日清晨发现异常活动，调查表明未经授权的第三方可能访问了加密的环境变量，部分甚至获取了解密内容。这些变量可能包含 API 密钥、数据库凭证等敏感信息。此次事件疑似针对 AI 推理提供商的系列攻击之一。Railway 已通知上游提供商主动撤销所有密钥，并建议所有用户立即轮换存储在 Railway 中的所有环境变量及私有注册表凭证，同时检查相关服务日志。目前所有部署已暂停，直到调查完成。Railway 承诺将直接联系受影响用户，并在 status.railway.com 持续更新进展。
+  [图] https://cms.railway.com/media/cf05de70-b435-4fe9-8d52-540e0b585874-blog-security-disclosure-wednesday-october-21st.png?w=1200&q=90
+  https://blog.railway.com/p/security-disclosure-wednesday-october-21st
+  [HN · ▲ 586 · 💬 330 · blog.railway.com]
+- Claude Duet：你的主动式AI工作伙伴
+  Anthropic推出了全新的Claude Duet，这是一款主动式AI助手应用，目前处于研究预览阶段。不同于传统等待指令的AI，Claude Duet能主动理解你的需求，在你忙碌时继续工作，并在关键时刻等待你的确认。它基于Opus 5.5模型，支持超过6000个连接器和插件，可处理从日程安排到财务模型构建等各类任务。用户只需通过消息或语音下达指令，Claude Duet便能在云端独立工作，并在完成后或需要决策时主动联系你。该功能目前仅对美国的Claude Pro和Max订阅用户开放，旨在帮助用户从繁琐事务中解脱，专注于真正重要的工作。
+  [图] https://claude.com/static/claude-duet/og.jpg
+  https://claude.com/product/claude-duet
+  [HN · ▲ 545 · 💬 510 · claude.com]
+- No Kings 账号被封：别把扩音器租给 Zuck
+  No Kings 抗议活动的 Instagram 账号突然被 Meta 封禁，尽管官方解释是误判了自动化流量，但这再次暴露了将话语权寄托于中心化平台的致命风险。无论这次封禁是阴谋还是事故，核心问题在于我们过度依赖 Zuck 这样的巨头来管理我们的声音。文章强调，真正的解决方案不是乞求平台更“善良”，而是转向 atproto 或 ActivityPub 等去中心化协议，夺回对数字空间的控制权，保障我们的“认知自由”。
+  [图] https://www.techdirt.com/wp-content/themes/techdirt/assets/images/td-rect-logo-white.png
+  https://www.techdirt.com/2026/10/20/accident-or-not-the-no-kings-takedown-is-why-you-shouldnt-rent-your-megaphone-from-zuck/
+  [HN · ▲ 525 · 💬 524 · techdirt.com]
+- Apple 承认错误：菜单不再默认加图标
+  我曾经批评 macOS Tahoe 默认在每个菜单项添加图标的做法，但当时 Apple 自己也在这么做，让我少了一个有力的论据。现在情况反转了：在 macOS Golden Gate 中，Apple 撤回了这一设计，John Gruber 也报道了 Apple 新的人机界面指南明确将 Tahoe 的做法列为反面教材。这不仅仅是设计的回退，更是 Apple 亲身试错后的经验之谈。比起从未做过某事，敢于承认自己尝试过并修正错误，才是更有说服力的论据。这种从实践中学习并快速修正的态度，正是我们应当推崇的。
+  [图] https://cdn.jim-nielsen.com/blog/2026/macos-golden-gate-hig-icons.png
+  https://blog.jim-nielsen.com/2026/icons-in-every-menu/
+  [HN · ▲ 467 · 💬 270 · blog.jim-nielsen.com]
+- DuckDB 2.0 发布：化身服务器，性能飞跃
+  DuckDB 团队正式发布了 2.0.0 LTS 版本，代号“Cinnamon Teal”。这是 DuckDB 迄今为止功能最丰富的版本，基于近 20,000 次提交构建。此次更新将 DuckDB 从进程内数据库升级为支持 Quack 协议的客户端 - 服务器架构，并引入异步 I/O 显著提升对象存储查询速度。此外，VARIANT 类型成为一等公民，CLI 新增 Agent Mode 以优化 AI 代理交互，全新的 PEG 解析器让 SQL 扩展性更强，同时正式支持 Triggers。DuckDB 2.0 不仅是一次功能堆叠，更是架构上的重大进化。
+  [图] https://duckdb.org/images/blog/thumbs/duckdb-release-2-0-0.png
+  https://duckdb.org/2026/10/21/announcing-duckdb-200
+  [HN · ▲ 454 · 💬 62 · duckdb.org]
+- AI 挖掘 PHP 核心漏洞，70% 网站面临风险
+  Wiz Research 利用前沿 AI 模型发现了 PHP 核心引擎中潜伏十余年的严重漏洞，这些漏洞影响全球 70% 的网站，包括 WordPress、Drupal 和 Joomla 等主流平台。此次发现的 PHP2Shell 漏洞允许攻击者无需认证即可执行远程代码或窃取敏感内存数据。过去，利用这些复杂的内存安全漏洞需要极高的人力成本，但 Gemini 4 Argon 等 AI 模型大幅降低了利用门槛，将原本难以实现的攻击链转化为现实威胁。PHP 团队已于 2026 年 10 月发布补丁，但此次事件标志着 AI 正在重塑网络安全格局，让长期存在的代码缺陷变得极具破坏力。
+  [图] https://www.datocms-assets.com/75231/1792534907-img_7274.png?fm=webp
+  https://www.wiz.io/blog/php2shell-php-rce
+  [HN · ▲ 446 · 💬 184 · wiz.io]
+
+# GitHub 1 日增长榜 · 无噪 (30)
+- morluto/rea
+  Reverse engineer anything with agents, from app behavior down to native binaries.
+  → 连接智能体与逆向工具的 MCP，可分析原生二进制、JS/Electron 应用、.NET 程序集与网站，本地运行，结果附带证据与局限。
+  [图] https://opengraph.githubassets.com/1/morluto/rea
+  https://github.com/morluto/rea
+  [1 日 +10,079 · ⭐ 359.1k · TypeScript]
+- ebony-vinyl/dsh-our-free-model
+  在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash…
+  → dsh 免费模型插件，零依赖、免登录免 Key，即装即用。内置 DeepSeek V4.1 Flash、Kimi K3 等前沿模型，完全免费不限量。支持思考强度控制、用量看板、OpenAI 兼容转发、聚合渠道与降级路由，热重载免重启，数据全留本机。
+  [图] https://opengraph.githubassets.com/1/ebony-vinyl/dsh-our-free-model
+  https://github.com/ebony-vinyl/dsh-our-free-model
+  [1 日 +2,973 · ⭐ 24.6k · JavaScript]
+- dietrichgebert/ponytail
+  Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
+  → 让 AI 代理像最懒的资深开发者一样思考：80-94% 减少代码、3-6 倍更快、47-77% 更便宜。优先使用标准库、原生功能和现有依赖，仅在必要时编写最小代码。
+  [图] https://opengraph.githubassets.com/1/dietrichgebert/ponytail
+  https://github.com/dietrichgebert/ponytail
+  [1 日 +1,933 · ⭐ 171.9k · JavaScript]
+- graphify-labs/graphify
+  Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained,…
+  → AI 编程助手技能，将代码、文档、论文或图像文件夹转为可查询知识图谱。支持多模态输入与 20 种语言 AST 解析，通过图拓扑聚类，输出交互式 HTML、JSON 及报告。
+  [图] https://opengraph.githubassets.com/1/graphify-labs/graphify
+  https://github.com/graphify-labs/graphify
+  [1 日 +1,380 · ⭐ 131.8k · Python]
+- mattpocock/skills
+  Skills for Real Engineers. Straight from my .agents directory.
+  → 个人技能目录，涵盖规划、开发和工具化。包含 PRD 创建、TDD、代码重构、Git 钩子设置等技能，通过 npx 命令快速添加。
+  [图] https://opengraph.githubassets.com/1/mattpocock/skills
+  https://github.com/mattpocock/skills
+  [1 日 +1,190 · ⭐ 300.0k · Shell]
+- deepseek-ai/deepseek-harness
+  DeepSeek Harness: Everything is a Plugin.
+  → 开源代理框架，一切皆插件，基于 Cordis 实现时空组合性。提供 Web UI，开发者预览阶段，快速迭代。
+  [图] https://opengraph.githubassets.com/1/deepseek-ai/deepseek-harness
+  https://github.com/deepseek-ai/deepseek-harness
+  [1 日 +972 · ⭐ 257.2k · TypeScript]
+- storytold/artcraft
+  ArtCraft is an intentional crafting engine for artists, designers, and filmmakers
+  → 面向艺术家、设计师与影视创作者的 AI 图像与视频创作 IDE。支持 2D 合成、3D 场景搭建与角色姿态调整，通过可视化工具实现精准、可重复的创作，将提示词转化为精细的工艺制作。
+  [图] https://opengraph.githubassets.com/1/storytold/artcraft
+  https://github.com/storytold/artcraft
+  [1 日 +938 · ⭐ 32.6k · Rust]
+- anomalyco/opencode
+  The open source coding agent.
+  → 开源AI编码代理，支持终端与桌面应用。内置build和plan两种智能体，可通过Tab键切换。提供npm、brew等多种安装方式，支持多平台。
+  [图] https://opengraph.githubassets.com/1/anomalyco/opencode
+  https://github.com/anomalyco/opencode
+  [1 日 +924 · ⭐ 219.8k · TypeScript]
+- wheresryan22/anatomy
+  An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.
+  → AI Agent 技能，通过构建真实可交互的等距插图来解释技术概念。生成精细 SVG，支持 WebGL 着色器与 3D 效果，适用于 Claude Code 等多种 AI 编码工具。
+  [图] https://opengraph.githubassets.com/1/wheresryan22/anatomy
+  https://github.com/wheresryan22/anatomy
+  [1 日 +891 · ⭐ 15.9k · JavaScript]
+- yetone/magpie
+  Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.
+  → 每个代理的模型。一个地方。DeepSeek上的Codex，Kimi上的Claude代码，来自菜单栏。
+  [图] https://opengraph.githubassets.com/1/yetone/magpie
+  https://github.com/yetone/magpie
+  [1 日 +877 · ⭐ 15.9k · Go]
+- comfy-org/comfyui
+  The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.
+  → 最强大的模块化视觉AI引擎与应用，基于节点/流程图界面，支持Windows、Linux、macOS。无需编码即可设计和执行高级Stable Diffusion工作流，兼容多种图像、视频模型。
+  [图] https://opengraph.githubassets.com/1/comfy-org/comfyui
+  https://github.com/comfy-org/comfyui
+  [1 日 +794 · ⭐ 141.6k · Python]
+- affaan-m/ecc
+  The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+  → 包含代理、技能、钩子、命令、规则和MCP的完整Claude Code配置集。来自Anthropic黑客松获奖者的实战配置，支持多语言，提供安装向导和PM2多代理编排。
+  [图] https://opengraph.githubassets.com/1/affaan-m/ecc
+  https://github.com/affaan-m/ecc
+  [1 日 +723 · ⭐ 285.8k · JavaScript]
+- jub0t/concat
+  The truly free, open-source, local-first, cross-platform CapCut replacement. Scriptable through a JSON-RPC API & MCP.
+  → 真正免费、开源、本地优先、跨平台的CapCut替代品。可通过JSON-RPC API&MCP编写脚本。
+  [图] https://opengraph.githubassets.com/1/jub0t/concat
+  https://github.com/jub0t/concat
+  [1 日 +704 · ⭐ 9.0k · Rust]
+- msitarzewski/agency-agents
+  一个完整的 AI 代理团队，涵盖工程、设计、营销等领域。每个专家具备独特个性与专业流程，提供可交付成果，即刻提升你的工作流效率。
+  [图] https://opengraph.githubassets.com/1/msitarzewski/agency-agents
+  https://github.com/msitarzewski/agency-agents
+  [1 日 +698 · ⭐ 163.0k · Shell]
+- droid-deck/droiddeck
+  DroidDeck brings the SteamOS experience to Android
+  → DroidDeck为Android带来SteamOS体验
+  [图] https://opengraph.githubassets.com/1/droid-deck/droiddeck
+  https://github.com/droid-deck/droiddeck
+  [1 日 +637 · ⭐ 10.8k · Kotlin]
+- niko1221/strata
+  Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.
+  → Qwen3.8-Flash-Next在任何消费硬件上：一键安装Windows/Linux。Strata推理引擎，OpenAI/Anthropic API在localhost，可选图像输入。
+  [图] https://opengraph.githubassets.com/1/niko1221/strata
+  https://github.com/niko1221/strata
+  [1 日 +589 · ⭐ 27.4k · C++]
+- xerj-org/xerj
+  Local-first search engine and MCP server for AI agents. One Rust binary indexes code, docs, logs, JSONL/CSV and PDFs for BM25 full-text, vector and hybrid search, code search without grep, agent memory and RAG. Elasticse…
+  → 面向 AI 的本地搜索工具，一条命令索引代码、文档与 PDF。支持 BM25 + kNN 混合检索与 MCP 协议，可作 Agent 记忆。参考编码场景下 token 消耗降低 2.7 倍，单二进制文件，可替代 Elasticsearch。
+  [图] https://opengraph.githubassets.com/1/xerj-org/xerj
+  https://github.com/xerj-org/xerj
+  [1 日 +576 · ⭐ 8.3k · Rust]
+- akitaonrails/ai-memory
+  Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors
+  → 提供 AI 编码代理的长期记忆，支持跨 Claude Code、Codex 等代理无缝切换，保持任务上下文连续。
+  [图] https://opengraph.githubassets.com/1/akitaonrails/ai-memory
+  https://github.com/akitaonrails/ai-memory
+  [1 日 +558 · ⭐ 10.4k · Rust]
+- obra/superpowers
+  An agentic skills framework & software development methodology that works.
+  → 基于可组合技能的智能体软件开发框架，通过自动化工作流（如TDD、子代理驱动开发）提升编码效率，支持Claude、Codex等平台。
+  [图] https://opengraph.githubassets.com/1/obra/superpowers
+  https://github.com/obra/superpowers
+  [1 日 +514 · ⭐ 303.2k · Shell]
+- hmjz100/linkswift
+  一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘
+  [图] https://opengraph.githubassets.com/1/hmjz100/linkswift
+  https://github.com/hmjz100/linkswift
+  [1 日 +498 · ⭐ 24.9k · JavaScript]
+- hypit-ai/hypit
+  AI 驱动的视频克隆工具。一条命令生成 100 个变体，自动替换人脸、台词与 B-roll，支持 SVML 工作流，让 AI 代理（如 Claude Code）直接创作视频。
+  [图] https://opengraph.githubassets.com/1/hypit-ai/hypit
+  https://github.com/hypit-ai/hypit
+  [1 日 +466 · ⭐ 23.5k · TypeScript]
+- firecrawl/firecrawl
+  将任何网站转换为LLM就绪的Markdown或结构化数据。提供API接口，支持爬取、提取、批量处理及动态内容渲染，具备高可靠性与自定义能力。
+  [图] https://opengraph.githubassets.com/1/firecrawl/firecrawl
+  https://github.com/firecrawl/firecrawl
+  [1 日 +459 · ⭐ 194.0k · TypeScript]
+- nextlevelbuilder/ui-ux-pro-max-skill
+  AI 设计智能工具，为多平台构建专业 UI/UX。提供 100 条推理规则与 67 种 UI 风格，支持 Python 3.x。核心功能为智能设计系统生成，可快速创建定制化设计系统。
+  [图] https://opengraph.githubassets.com/1/nextlevelbuilder/ui-ux-pro-max-skill
+  https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+  [1 日 +457 · ⭐ 138.6k · Python]
+- yihui-dev/awesome-opus5-5-videos
+  收录 Claude Opus 5.5 生成的病毒式视频合集，包含 700+ 提示词与 418 个 Skillry 实时重制版。涵盖动态图形、3D 场景、游戏等类别，可直接复制提示词复现动画效果。
+  [图] https://opengraph.githubassets.com/1/yihui-dev/awesome-opus5-5-videos
+  https://github.com/yihui-dev/awesome-opus5-5-videos
+  [1 日 +450 · ⭐ 6.3k · N/A]
+- sindresorhus/awesome
+  收集各类有趣主题的精选资源列表，涵盖编程语言、开发工具、平台等，拥有超过43万星标，是开发者必备的资源导航站。
+  [图] https://opengraph.githubassets.com/1/sindresorhus/awesome
+  https://github.com/sindresorhus/awesome
+  [1 日 +433 · ⭐ 522.5k · N/A]
+- cursor/plugins
+  Cursor 插件规范与官方插件集。为热门开发者工具、框架和 SaaS 产品提供官方插件。每个插件是一个独立目录，包含自己的清单文件。涵盖开发者工具、生产力和集成等类别。
+  [图] https://opengraph.githubassets.com/1/cursor/plugins
+  https://github.com/cursor/plugins
+  [1 日 +433 · ⭐ 12.7k · TypeScript]
+- farion1231/cc-switch
+  跨平台桌面 All-in-One 助手工具，支持 Claude Code、Codex、OpenCode 和 Gemini CLI。基于 Rust 和 Tauri 构建，提供高效稳定的 AI 编程体验。
+  [图] https://opengraph.githubassets.com/1/farion1231/cc-switch
+  https://github.com/farion1231/cc-switch
+  [1 日 +428 · ⭐ 147.3k · Rust]
+- walkinglabs/learn-harness-engineering
+  基于项目的 AI 编码代理工程课程，涵盖环境构建、状态管理、验证与控制机制，提供 12 讲、6 个项目及多语言支持。
+  [图] https://opengraph.githubassets.com/1/walkinglabs/learn-harness-engineering
+  https://github.com/walkinglabs/learn-harness-engineering
+  [1 日 +402 · ⭐ 20.8k · TypeScript]
+- ifixai-ai/ifixai
+  独立审计 AI 代理，验证其是否执行预期任务。支持人或代理自运行，120 秒内出结果。平衡红队测试与运营保障，提升业务 KPIs 合规性。
+  [图] https://opengraph.githubassets.com/1/ifixai-ai/ifixai
+  https://github.com/ifixai-ai/ifixai
+  [1 日 +398 · ⭐ 29.5k · Python]
+- storytold/pdfcraft
+  PdfCraft: An open-source PDF reader and editor written by scratch in pure Rust
+  → 纯 Rust 编写的开源 PDF 阅读与编辑器。支持多平台，具备排版还原、原子保存、离线运行及无遥测特性，提供阅读、组织、合并、拆分及表单处理功能。
+  [图] https://opengraph.githubassets.com/1/storytold/pdfcraft
+  https://github.com/storytold/pdfcraft
+  [1 日 +387 · ⭐ 15.8k · Rust]
