@@ -1,0 +1,469 @@
+每日科技新闻速览
+==============================
+
+# 科学前沿 (8)
+- Power cuts and sleep: Students link load shedding to anxiety, disrupted rest and lower grades
+  → 断电和睡眠：学生们将减载与焦虑、休息中断和成绩下降联系起来
+  South Africa endured its worst year of load shedding (scheduled power cuts by the country's utility, Eskom) in 2023. The power went off on 335 of the year's 365 days, often several times a day. Since then, the country ha…
+  → 2023年，南非经历了最糟糕的一年减载（该国公用事业公司Eskom计划停电）。一年365天中有335天停电，通常一天几次。从那以后，这个国家…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/child-resting-their-he.jpg
+  https://phys.org/news/2026-10-power-students-link-anxiety-disrupted.html
+  [Phys.org · 10-24 07:40]
+- Glowing plants reveal immune responses around infection sites via two colors
+  → 发光植物通过两种颜色揭示感染部位周围的免疫反应
+  Researchers at the MRC Laboratory of Medical Sciences (LMS) have developed a new way to make glowing biological reporters more accurate, allowing scientists to track gene activity in living plants over days, weeks and po…
+  → 医学科学MRC实验室（LMS）的研究人员开发了一种新方法，使发光的生物记者更加准确，使科学家能够在几天、几周和一周内跟踪活植物中的基因活动…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/breakthrough-makes-glo.jpg
+  https://phys.org/news/2026-10-reveal-immune-responses-infection-sites.html
+  [Phys.org · 10-24 07:20]
+- Study maps the human side of flood risk
+  → 研究绘制了洪水风险的人的一面
+  When heavy rain hits a city, knowing where water will accumulate is only part of the picture. Who lives in the affected buildings? How might flooding disrupt their lives? And where could additional support make the great…
+  → 当大雨袭击一个城市时，知道水会聚集在哪里只是一部分。谁住在受影响的建筑里？洪水会如何扰乱他们的生活？额外的支持在哪里可以让伟大的…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/flooding-1.jpg
+  https://phys.org/news/2026-10-human-side.html
+  [Phys.org · 10-24 06:20]
+- Counting magnetic flux quanta offers new way to measure photon numbers
+  → 计算磁通量量子提供了测量光子数的新方法
+  Researchers at AIST have directly observed magnetic flux quanta generated in a superconductor by photon absorption and demonstrated a new principle of photon detection that identifies the number of photons based on the n…
+  → AIST的研究人员直接观察了光子吸收在超导体中产生的磁通量量子，并展示了一种新的光子检测原理，该原理基于n…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/demonstration-of-a-new.jpg
+  https://phys.org/news/2026-10-magnetic-flux-quanta-photon.html
+  [Phys.org · 10-24 05:20]
+- 'It's pretty toxic… but just a little, I want to be like that': What young men think of manosphere content
+  → 这是相当有毒的…但是有一点，我想成为那样的人：年轻人对人圈含量的看法
+  Masculinity content promises young men self-optimization and success, but often delivers health harms, risk-taking, unattainable standards, gender stereotypes and misogyny. The latter is the strongest predictor of violen…
+  → 男性气质内容承诺年轻男性自我优化和成功，但往往会带来健康危害、冒险、无法达到的标准、性别陈规定型观念和厌恶女性。后者是暴力的最强预测因素…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/its-pretty-toxic-but-j.jpg
+  https://phys.org/news/2026-10-pretty-toxic-young-men-manosphere.html
+  [Phys.org · 10-24 05:00]
+- Scientists demonstrate AI-designed enzyme for drug synthesis
+  → 科学家展示了人工智能设计的用于药物合成的酶
+  The new RFD4-Proteina unified generative model for protein design—created by the Institute for Protein Design (IPD) in collaboration with NVIDIA—uses advanced AI to generate entirely new protein sequences and structures,…
+  → 新的RFD4-Proteina蛋白质设计统一生成模型由蛋白质设计研究所（IPD）与英伟达合作创建，使用先进的人工智能生成全新的蛋白质序列和结构，…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/manchester-scientists-5.jpg
+  https://phys.org/news/2026-10-scientists-ai-enzyme-drug-synthesis.html
+  [Phys.org · 10-24 05:00]
+- Chemically modified sugars enable direct nanostructure formation
+  → 化学修饰的糖能够直接形成纳米结构
+  Researchers at AIST have demonstrated the synthesis of nanoporous carbonaceous materials and carbonaceous materials with layered nanostructures through a simple process involving the chemical modification of common sugar…
+  → AIST的研究人员通过对普通糖进行化学修饰的简单过程，展示了纳米多孔碳质材料和具有层状纳米结构的碳质材料的合成…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/chemically-modified-su.jpg
+  https://phys.org/news/2026-10-chemically-sugars-enable-nanostructure-formation.html
+  [Phys.org · 10-24 04:40]
+- The psychology of why we overpay for used cars—study points to left-digit bias
+  → 为什么我们为二手车多付钱的心理学——研究指出了左位数偏见
+  Consumers routinely ignore information when making purchases. They overlook the tax attached to a price, skim past ingredient lists and often fail to process exact numbers with any precision.
+  → 消费者在购买时通常会忽略信息。他们忽略了价格附带的税收，浏览了过去的配料表，并且经常无法以任何精度处理确切的数字。
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/used-cars.jpg
+  https://phys.org/news/2026-10-psychology-overpay-cars-left-digit.html
+  [Phys.org · 10-24 04:40]
+
+# 网络安全 (12)
+- Decepticon v1.5.4
+  → 霸天虎v1.5.4
+  Autonomous LLM red team agent that plans and executes full attack chains—recon, exploitation, privilege escalation, lateral movement and C2—inside an isolated Kali sandbox.
+  → 自主LLM红队特工，在一个孤立的卡利沙盒内计划和执行完整的攻击链——侦察、利用、权限提升、横向移动和C2。
+  [图] https://assets.kitploit.com/production/public/tools/57385/79abf1929da418d23947d8b49eb683ca3e052901d3ef0bec96b4a80628bd3618-display-v1.webp
+  https://kitploit.com/en/posts/decepticon-e66c68097509b8f8
+  [KitPloit · 10-24 07:36]
+- NetSpecter
+  Real-time system monitoring tool for detecting process activity and network exposure!
+  → 用于检测过程活动和网络暴露的实时系统监控工具！
+  [图] https://assets.kitploit.com/production/public/tools/58131/a30cc6ba3a125d54e51df7a74cfa5792c5578272fa85f1faf4fd5838ccf0483c-display-v1.webp
+  https://kitploit.com/en/tools/github/mrhackercharlie/netspecter
+  [KitPloit · 10-24 06:36]
+- vphone-cli v2.12.0
+  Boot and manage virtual iPhones on Apple Silicon with firmware patching, jailbreak variants, and security research features for iOS testing and analysis.
+  → 通过固件修补、越狱变体和用于iOS测试和分析的安全研究功能，在Apple硅上启动和管理虚拟iPhone。
+  [图] https://assets.kitploit.com/production/public/tools/53458/baa413a8104308f42ad8341722a6b8cb25de1c2b48c948c626544dbb0f0b762f-display-v1.webp
+  https://kitploit.com/en/posts/vphone-cli-2db59b305e8d2413
+  [KitPloit · 10-24 05:36]
+- Trust Is Not What It Seems — And Fraudsters Are Counting on It
+  → 信任不是看起来的那样——欺诈者也指望它
+  Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.
+  → 威胁行为者不再需要依赖恶意软件来破坏组织。他们只是打电话给帮助台，礼貌地要求访问，并得到人工智能的一点帮助。
+  [图] https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt34579512de050396/6a5a6336b09056633bee9fe7/trust_dial-NicoElNino-getty-2079838824.jpg?width=720&quality=80&disable=upscale
+  https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it
+  [Dark Reading · 10-24 04:57]
+- regextokens
+  list of regex patterns for oauth / api tokens with provided source
+  → 具有提供源的oauth/api令牌的正则表达式模式列表
+  [图] https://assets.kitploit.com/production/public/tools/58106/b11812240792e38c5e262ccad939c95bb38907810223501ffa0c0b8475ce0256-display-v1.webp
+  https://kitploit.com/en/tools/github/odomojuli/regextokens
+  [KitPloit · 10-24 04:35]
+- (Reliable)&#x3f; php2shell exploitability, (Fri, Oct 23rd)
+  → （可靠）？php2shell可利用性，（10月23日星期五）
+  Yesterday everyone was running around like crazy (me included :) because of the php2shell vulnerability.
+  → 昨天因为php2shell漏洞，每个人都像疯了一样跑来跑去（包括我：）。
+  [图] https://isc.sans.edu/images/logos/isc/large.png
+  https://isc.sans.edu/diary/rss/33452
+  [SANS ISC · 10-24 04:04]
+- Exposed to PHP2Shell? Cyber Experts Weigh in With Advice
+  → 接触PHP2Shell？网络专家提出建议
+  Fixing the critical PHP flaws is not as simple as clicking "Update." Here's how to assess your risk, and what you can do to protect yourself.
+  → 修复严重的PHP缺陷并不像单击“更新”那么简单以下是如何评估您的风险，以及您可以做些什么来保护自己。
+  [图] https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte307a3bd1a7bcb35/6adb9c8d2d5b887cc408cb52/Globe_bandages-zennie-Getty.jpg?width=720&quality=80&disable=upscale
+  https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice
+  [Dark Reading · 10-24 03:41]
+- agenttriage-open-source
+  Cross-agent tracing and security-diagnosis system for tool-using LLM agents: normalizes trace events, builds provenance graphs, extracts source-to-sink chains, and attributes defense gaps.
+  → 用于使用工具的LLM代理的跨代理跟踪和安全诊断系统：规范化跟踪事件、构建来源图、提取源到汇链和属性防御漏洞。
+  [图] https://assets.kitploit.com/production/public/tools/58116/e83b0c027036c61fe5059879504a28b7aa5c53e8206e7351c55d77a47fbca971-display-v1.webp
+  https://kitploit.com/en/tools/github/asngs/agenttriage-open-source
+  [KitPloit · 10-24 03:15]
+- Windows-LPE-Auditor
+  A small Windows local-privilege-escalation (LPE) misconfiguration auditor with a terminal UI, built with C++20 and FTXUI
+  → 带有终端UI的小型Windowslocal-privilege-escalation（LPE）错误配置审核器，使用C++20和FTXUI构建
+  [图] https://assets.kitploit.com/production/public/tools/58128/e21e28953ffa2c5c54d1e124652ddd151dfafe1b39739dacdcdc9755d1165711-display-v1.webp
+  https://kitploit.com/en/tools/github/0xby7eme/windows-lpe-auditor
+  [KitPloit · 10-24 02:15]
+- AI Tools Are Generating Massive Attacks for Little Cost
+  → 人工智能工具正在以极低的成本产生大规模攻击
+  One campaign targets 105 sites using open-weight models; in another, public models gained full domain control for $12. Cyber-defense will have to change.
+  → 其中一次活动的目标是使用开放权重模型的105个网站；在另一次活动中，公共模型以12美元的价格获得了完全的域控制权。
+  [图] https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte7023e63db2b06bb/6adb780c560f54c5dbf647e8/economics-cybersecurity-Ton_Wanniwat-shutterstock.jpg?width=720&quality=80&disable=upscale
+  https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost
+  [Dark Reading · 10-24 01:26]
+- mcp-gamehacking
+  MCP server exposing a 4,100+ skill game-hacking and reverse-engineering knowledge base with source archives, specialized agents, subagents, plugins and workflow tools for Claude, Cursor and other MCP clients.
+  → MCP服务器为Claude、Cursor和其他MCP客户端公开了4,100多个技能游戏黑客和逆向工程知识库，其中包含源档案、专门代理、子代理、插件和工作流工具。
+  [图] https://assets.kitploit.com/production/public/tools/58123/a18aa00a02e0d9f515407ed92492618a2f0ce902b1888d84c8f2549c7fa0f55c-display-v1.webp
+  https://kitploit.com/en/tools/github/1llu50ry/mcp-gamehacking
+  [KitPloit · 10-24 01:15]
+- nuclei-templates v10.5.1
+  Community curated list of templates for the nuclei engine to find security vulnerabilities.
+  → 社区策划的核心引擎模板列表，用于发现安全漏洞。
+  [图] https://assets.kitploit.com/production/public/tools/41123/98d53b9c4b7403a0defa801e64b2b374878de9ff3c58612aa1107e4c1fc28411.png
+  https://kitploit.com/en/posts/nuclei-templates-a5be3e15c4bd1301
+  [KitPloit · 10-24 00:14]
+
+# 科技行业 (8)
+- Startups don’t need to go viral to win customers
+  → 初创公司不需要像病毒一样传播来赢得客户
+  At TechCrunch Disrupt last week, two founders and a VC discussed how to not just gain an early following but keep one.
+  → 在上周的TechCrunch颠覆大会上，两位创始人和一位风投讨论了如何不仅获得早期追随者，而且保持追随者。
+  [图] https://techcrunch.com/wp-content/uploads/2026/10/55591670558_36cac514d1_k.jpg?resize=1200,800
+  https://techcrunch.com/2026/10/23/startups-dont-need-to-go-viral-to-win-customers/
+  [TechCrunch · 10-24 07:07]
+- OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”
+  → OpenAI表示将不再在实时互联网上训练其AI模型，理由是“存在重大风险”
+  OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.
+  → OpenAI将在其一名工程师表示该解决方案不起作用几周后切断互联网上的前沿模型。
+  [图] https://techcrunch.com/wp-content/uploads/2026/05/openai-logo-code-background.jpg?resize=1200,798
+  https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/
+  [TechCrunch · 10-24 07:05]
+- Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell
+  → 圣诞节最热门的玩具？Nvidia CEO玩可爱的微型鸭子机器人，20,000卖出
+  The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a "nap," and summersaulted on voice command.
+  → 机器人跺脚，发出微小的R2-D2噪音，坐下来，倒下去“小睡一会儿”，然后在语音命令下翻滚。
+  [图] https://techcrunch.com/wp-content/uploads/2026/10/microduck-kickabout.jpg?resize=1200,676
+  https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/
+  [TechCrunch · 10-24 05:59]
+- Xbox’s first chief operating officer is out after just a few months
+  → Xbox的第一位首席运营官几个月后离职
+  Xbox's first chief operating officer (COO) is leaving after the new role was created just a few months ago. Helen Chiang is leaving Microsoft today, according to an internal Xbox memo seen by The Verge. Chiang has been a…
+  → Xbox的第一位首席运营官（COO）将在几个月前新角色创建后离职。根据The Verge看到的Xbox内部备忘录，海伦·蒋今天将离开Microsoft。蒋一直是…
+  [图] https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25485116/STK048_XBOX2__B.png?quality=90&strip=all&crop=0,0,100,100
+  https://www.theverge.com/news/1018037/xbox-chief-operating-officer-helen-chiang-departure
+  [The Verge · 10-24 05:56]
+- OpenAI now trains its frontier AI models with no internet access
+  → OpenAI现在在没有互联网访问的情况下训练其前沿AI模型
+  OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can…
+  → 在一系列流氓黑客事件之后，OpenAI现在正在训练其最先进的AI模型，而无需互联网访问。在周五的一篇博文中，OpenAI表示它构建了一个离线测试环境，AI模型可以在其中…
+  [图] https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_B_d6ffc8.jpg?quality=90&strip=all&crop=0,0,100,100
+  https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet
+  [The Verge · 10-24 05:11]
+- VCs, Superhuman Mail founder share red flags about product-market fit
+  → 风投，超人邮件创始人分享产品市场契合度的危险信号
+  Top investors from Iconiq and Sapphire Ventures, along with Rahul Vohra, the founder of Superhuman Mail, share the do's and don'ts for building hit products.
+  → 来自Iconiq和Sapphire Ventures的顶级投资者，以及超人邮件的创始人Rahul Vohra，分享了制作热门产品的注意事项。
+  [图] https://techcrunch.com/wp-content/uploads/2026/10/PMf-panel.jpg?resize=1200,800
+  https://techcrunch.com/2026/10/23/vcs-superhuman-mail-founder-share-red-flags-about-product-market-fit/
+  [TechCrunch · 10-24 04:57]
+- TechCrunch Founder Summit 2026 roundtables: Go deeper on the challenges founders are solving right now
+  → TechCrunch创始人峰会2026圆桌会议：更深入地了解创始人目前正在解决的挑战
+  TechCrunch Founder Summit 2026 is coming to SoWa Power Station in Boston on November 4, bringing founders, investors, and operators together for a full day of candid conversations, practical sessions, live pitching, netw…
+  → TechCrunch创始人峰会2026将于11月4日来到波士顿的SoWa发电站，将创始人、投资者和运营商聚集在一起，进行一整天的坦诚对话、实践会议、现场推销、网络…
+  [图] https://techcrunch.com/wp-content/uploads/2025/12/TC-All-Stage-2025-roundtable.jpg?resize=1200,800
+  https://techcrunch.com/2026/10/23/techcrunch-founder-summit-2026-roundtables-go-deeper-on-the-challenges-founders-are-solving-right-now/
+  [TechCrunch · 10-24 04:03]
+- 智源众智 FlagOS 2.2 让前沿模型与多元算力协同演进
+  [图] https://static001.infoq.cn/resource/image/63/f9/63ac4c319407c5fa67e0a7d6c2dd25f9.jpg
+  https://www.infoq.cn/article/mhdJwMMzYFedMFHKfHWs?utm_source=rss&utm_medium=article
+  [InfoQ 中文 · 10-24 03:40]
+
+# 硬件极客 (12)
+- Automatic Coil Winder Takes the Tedium out of Actuators
+  → 自动线圈绕线机消除执行器的沉闷
+  Anyone who’s ever built their own motors knows how tedious winding the coils soon becomes; in [Larry]’s case, the issue was even worse. He’s building his own flip-dot matrix display,
+  → 任何制造过自己的马达的人都知道线圈很快就会变得多么乏味；在[·拉里的例子中，问题甚至更糟。他正在建造自己的倒装点阵显示器，
+  [图] https://hackaday.com/wp-content/uploads/2026/10/coil_winder.png
+  https://hackaday.com/2026/10/23/automatic-coil-winder-takes-the-tedium-out-of-actuators/
+  [Hackaday · 10-24 07:00]
+- The Python on Microcontrollers Newsletter: subscribe for free
+  → Python微控制器通讯：免费订阅
+  The Python for Microcontrollers Newsletter is the place for the latest news involving Python on hardware (microcontrollers AND single board computers like Raspberry Pi). This ad-free, spam-free weekly email is filled wit…
+  → 用于微控制器的Python时事通讯是有关硬件（微控制器和单板计算机，如Raspberry Pi）的Python的最新消息的地方。这封无广告、无垃圾邮件的每周电子邮件充满了智慧…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/cp11.jpg
+  https://blog.adafruit.com/2026/10/23/the-python-on-microcontrollers-newsletter-subscribe-for-free-10-23-2/
+  [Adafruit Blog · 10-24 05:33]
+- Self-Hosted Game Vault
+  → 自托管游戏保险库
+  Store your game collection with this self-hosted vault from botchris. Check out the repo. If you have played on PC and consoles for a while, your games are scattered: Steam, Epic, GOG, Battle.net, the EA app, Ubisoft Con…
+  → 使用botchris的这个自托管保险库存储您的游戏收藏。查看回购。如果您在PC和游戏机上玩了一段时间，您的游戏是分散的：Steam、Epic、GOG、Battle.net、EA应用程序、Ubisoft Con…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/home-600x375.jpg
+  https://blog.adafruit.com/2026/10/23/self-hosted-game-vault/
+  [Adafruit Blog · 10-24 04:00]
+- Reconstructing the Ancient Chinese Storm of Crows Weapon
+  → 重建中国古代乌鸦风暴兵器
+  The Chinese had been using large crossbows – akin to Greek and Roman ballistae – for warfare for many of the same reasons that European armies loved them. Their single,
+  → 中国人一直在使用类似于希腊和罗马弩的大型弩进行战争，原因与欧洲军队喜欢他们的原因相同。他们的单，
+  [图] https://hackaday.com/wp-content/uploads/2026/10/multi-missile_crossbow_launcher_tods_workshop_youtube.jpg
+  https://hackaday.com/2026/10/23/reconstructing-the-ancient-chinese-storm-of-crows-weapon/
+  [Hackaday · 10-24 04:00]
+- Subscribe to the Adafruit Youtube channel!
+  → 订阅Adafruit YouTube频道！
+  ﻿ ﻿ ﻿ Are you subscribed to the Adafruit Youtube channel? If you’re not already subscribed, click here! http://adafru.it/subscribe . It’s a free and easy way to keep up with our newest episodes. Here’s some of what we’re…
+  → 您订阅了Adafruit YouTube频道吗？如果您还没有订阅，请点击这里！http://adafru.it/subscribe。这是一种免费且简单的方式来跟上我们最新的剧集。这是我们的一些…
+  https://blog.adafruit.com/2026/10/23/subscribe-to-the-adafruit-youtube-channel-youtube-adafruitlearnsystem-226-4-3-3-2/
+  [Adafruit Blog · 10-24 02:30]
+- Running a Philips CD-i Off USB-C
+  → 运行飞利浦CD-i关闭USB-C
+  The Philips CD-i is a console with many shortcomings, and those include the power supply. For whatever reason, the engineering team decided it should use an 8P8C connector just like
+  → 飞利浦CD-i是一款有许多缺点的控制台，其中包括电源。无论出于什么原因，工程团队决定它应该使用8P8C连接器，就像
+  [图] https://hackaday.com/wp-content/uploads/2026/10/Running-the-Philips-CD-i-off-USB-C.-because-why-not_-14-54-screenshot.png
+  https://hackaday.com/2026/10/23/running-a-philips-cd-i-off-usb-c/
+  [Hackaday · 10-24 02:30]
+- Hackaday Podcast Episode 392: Microscopes, Drones, and Other DIY Things
+  → Hackaday播客第392集：显微镜、无人机和其他DIY东西
+  Hackaday Editors Elliot Williams and Al Williams met to review the week in Hackaday. Turns out, it was a week for tiny things, cybersecurity, nostalgia, and projects that would have
+  → Hackaday编辑埃利奥特·威廉姆斯和阿尔·威廉姆斯在Hackaday会面回顾了这一周。事实证明，这是小东西、网络安全、怀旧和项目的一周
+  [图] https://hackaday.com/wp-content/uploads/2016/05/microphone.jpg
+  https://hackaday.com/2026/10/23/hackaday-podcast-episode-392-microscopes-drones-and-other-diy-things/
+  [Hackaday · 10-24 00:00]
+- Automatic Mechanical Watch Winder
+  → 自动机械手表上链机
+  Autowinding mechanical watches are wonderful, they stay wound simply by wearing them. But what happens when you don’t wear it for a couple of days? It runs out of power as the mainspring fully unwinds. This means you nee…
+  → 自动上链的机械表很棒，只要戴上它们就能保持上弦状态。但是当你几天不戴的时候会发生什么呢？当主弹簧完全松开时，它就会耗尽动力。这意味着你需要…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/makecode_winder-8331-300x225.jpg
+  https://blog.adafruit.com/2026/10/23/automatic-mechanical-watch-winder-adafruitlearnsystem/
+  [Adafruit Blog · 10-24 00:00]
+- The MSX Gets A New Sound Expansion Cartridge
+  → MSX获得了一个新的声音扩展盒
+  If we’re honest, there aren’t a whole lot of accessories coming out for the MSX computer line this holiday period. There is, however, a new sound expansion cartridge for the
+  → 老实说，这个假期MSX电脑系列没有太多配件问世。然而，有一个新的声音扩展盒
+  [图] https://hackaday.com/wp-content/uploads/2026/10/OPN3_Misato_Rev0.4_Prototype_Playing_OPNA_f5b641-e1792664678244.png
+  https://hackaday.com/2026/10/23/the-msx-gets-a-new-sound-expansion-cartridge/
+  [Hackaday · 10-23 23:30]
+- This Week in Security: Record Patch Tuesday, PHP’s Bad Time, The Oldest Vuln, AI Armies, and More
+  → 本周安全：周二创纪录的补丁、PHP的糟糕时期、最古老的Vuln、AI军队等
+  It’s no longer a proper month without Microsoft breaking its own record for security fixes, and October’s Patch Tuesday was no exception. Brian Krebs brings the roundup: more than 1,400
+  → 如果Microsoft没有打破自己的安全修复记录，这不再是一个合适的月份，10月份的补丁星期二也不例外。布莱恩·克雷布斯带来了综述：超过1400个
+  [图] https://hackaday.com/wp-content/uploads/2016/01/darkarts.jpg
+  https://hackaday.com/2026/10/23/this-week-in-security-record-patch-tuesday-phps-bad-time-the-oldest-vuln-ai-armies-and-more/
+  [Hackaday · 10-23 22:00]
+- Make Your Electronic Halloween Ooze with Adafruit Feather RP2040 SCORPIO
+  → 使用Adafruit羽毛RP2040天蝎座制作您的电子万圣节软泥
+  If there is one thing Adafruit is known for, its mega-blinky-fun-rainbow-LEDs. We just love sticking NeoPixels anywhere and everywhere. When we saw the ‘PIO’ peripheral on the RP2040 from Raspberry Pi, we just knew it wo…
+  → 如果说Adafruit有什么出名的，那就是它的mega-blinky-fun-rainbow-LEDs。我们只是喜欢随时随地粘贴NeoPixels。当我们看到Raspberry Pi RP2040上的“PIO”外围设备时，我们就知道它…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/adafruit_halloween_sale_2026_1920x1080.jpg
+  https://blog.adafruit.com/2026/10/23/make-your-electronic-halloween-ooze-with-adafruit-feather-rp2040-scorpio/
+  [Adafruit Blog · 10-23 22:00]
+- ESP32 Jump Scares with The Haunted Box
+  → ESP32用闹鬼的盒子跳跃恐惧
+  Cytron Technologies posted up this guide for a haunted box using the Maker ESP32 board. A PIR sensor detects when someone passes by and the LEDs and servo motor (literally) jump into action. Music from a nearby laptop ad…
+  → Cytron Technologies使用Maker ESP32板发布了这本闹鬼盒子指南。PIR传感器检测到有人经过，LED和伺服电机（字面意思）会立即启动。附近笔记本电脑广告中的音乐……
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/adafruit_halloween2022_blog-2.jpg
+  https://blog.adafruit.com/2026/10/23/esp32-jump-scares-with-the-haunted-box-electronichalloween/
+  [Adafruit Blog · 10-23 20:11]
+
+# 医疗健康 (8)
+- STAT+: Highly anticipated Moderna-Merck melanoma cancer vaccine data arrived early
+  → STAT+：备受期待的现代默克黑色素瘤疫苗数据提前到来
+  In data released at ESMO, the Moderna-Merck personalized mRNA cancer vaccine reduced recurrence-free survival and the time until distant metastasis occurred.
+  → 在ESMO发布的数据中，现代默克个性化mRNA癌症疫苗减少了无复发生存期和远处转移发生的时间。
+  [图] https://www.statnews.com/wp-content/uploads/2026/02/GettyImages-1223699960-1024x576.jpg
+  https://www.statnews.com/2026/10/23/moderna-merck-melanoma-cancer-vaccine-data-arrived-early-esmo/?utm_campaign=rss
+  [STAT News · 10-24 03:19]
+- STAT+: Diabetes association says ‘threat’ preceded members’ ejections, but admits policies were unclear
+  → STAT+：糖尿病协会称“威胁”先于成员被驱逐，但承认政策不清楚
+  The American Diabetes Association has issued two explanations, two reviews and an apology over its June convention. A Friday report adds new twists.
+  → 美国糖尿病协会就其6月份的会议发表了两份解释、两份评论和一份道歉。周五的一份报告增加了新的曲折。
+  [图] https://www.statnews.com/wp-content/uploads/2026/06/conference-center-e1789083632150-1024x576.jpeg
+  https://www.statnews.com/2026/10/23/ada-new-orleans-convention-new-report-on-controversial-june-ejections/?utm_campaign=rss
+  [STAT News · 10-24 03:16]
+- STAT+: Patient dies in Bristol Myers Squibb autoimmune CAR-T trial
+  → STAT+：患者在百时美施贵宝自身免疫CAR-T试验中死亡
+  Where should the safety bar be for studies investigating CAR-T therapies for autoimmune conditions?
+  → 对于研究CAR-T疗法治疗自身免疫性疾病的研究，安全栏应该在哪里？
+  [图] https://www.statnews.com/wp-content/uploads/2026/10/AdobeStock_1846705681_Editorial_Use_Only-1024x576.jpeg
+  https://www.statnews.com/2026/10/23/bristol-myers-squibb-car-t-therapy-autoimmune-trial-death/?utm_campaign=rss
+  [STAT News · 10-24 02:55]
+- STAT+: Most cancer drugs approved by European regulators lack a high clinical benefit, analysis finds
+  → STAT+：分析发现，欧洲监管机构批准的大多数癌症药物缺乏高临床益处
+  Most new cancer medicines approved by European regulators over a recent four-year period do not offer high clinical benefit, a new analysis finds.
+  → 一项新的分析发现，欧洲监管机构最近四年批准的大多数新癌症药物并没有提供很高的临床益处。
+  [图] https://www.statnews.com/wp-content/uploads/2017/10/AP17277633763476-1024x576.jpg
+  https://www.statnews.com/pharmalot/2026/10/23/cancer-drugs-approved-europe-lack-high-clinical-benefit/?utm_campaign=rss
+  [STAT News · 10-24 02:48]
+- STAT+: Novartis multiple sclerosis treatment cuts rates of relapse in pivotal trials
+  → STAT+：诺华制药多发性硬化症治疗降低关键试验中的复发率
+  An MS treatment from Novartis cut by a third the rates of relapses compared to a standard treatment.
+  → 诺华制药的多发性硬化症治疗比标准治疗降低了三分之一的复发率。
+  [图] https://www.statnews.com/wp-content/uploads/2017/11/30805878966_8c941bf211_o-1024x576.jpg
+  https://www.statnews.com/2026/10/23/novartis-remibrutinib-multiple-sclerosis-trial-results/?utm_campaign=rss
+  [STAT News · 10-24 00:47]
+- Opinion: It took me 13 years to be diagnosed with MS. Christina Applegate’s misdiagnosis doesn’t surprise me
+  → 观点：我花了13年才被诊断出克里斯蒂娜·阿普尔盖特女士的误诊，我并不感到惊讶
+  “I felt Christina Applegate’s disappointment as if it were my own — because not long ago, it was,” writes Lindsay Karp.
+  → 林赛·卡普写道：“我感受到克里斯蒂娜·阿普尔盖特的失望，就好像它是我自己的一样——因为不久前，它是。”
+  [图] https://www.statnews.com/wp-content/uploads/2026/10/GettyImages-1247521044-1024x576.jpg
+  https://www.statnews.com/2026/10/23/christina-applegate-ms-misdiagnosis/?utm_campaign=rss
+  [STAT News · 10-24 00:39]
+- CMS launches $275M nurse staffing initiative for nursing homes
+  → CMS为疗养院推出2.75亿美元的护士配备计划
+  The agency predicts the effort will support more than 4,000 nurses nationwide.
+  → 该机构预测，这项工作将支持全国4000多名护士。
+  [图] https://qtxasset.com/quartz/qcloud5/media/image/GettyImages-1139854094%20%281%29.jpg?VersionId=EivcnmulwikWV5a4gN6WYI1Tc4Q726c9
+  https://www.fiercehealthcare.com/regulatory/cms-launches-275m-nurse-staffing-initiative-nursing-homes
+  [Fierce Healthcare · 10-24 00:29]
+- Mass General Brigham cuts jobs impacting clinical, operational programs amid $300M budget shortfall
+  → 由于3亿美元的预算短缺，麻省总医院布里格姆裁员影响临床、运营项目
+  Less than two years after a wave of administrative layoffs, Mass General Brigham began a new round of job cuts last week that affect clinical and operational programs, according to media reports.
+  → 据媒体报道，在一波行政裁员不到两年后，麻省总布里格姆上周开始了新一轮裁员，影响了临床和运营项目。
+  [图] https://qtxasset.com/quartz/qcloud5/media/image/fiercehealthcare/1610657738/Screen%20Shot%202019-01-25%20at%201.44.12%20PM.png/Screen%20Shot%202019-01-25%20at%201.44.12%20PM.png?VersionId=zQKvHPXnsf7fZ.xr2QTRpnCJXIsZOZtx
+  https://www.fiercehealthcare.com/providers/mass-general-brigham-cuts-jobs-impacting-clinical-operational-programs-amid-300m-budget
+  [Fierce Healthcare · 10-24 00:08]
+
+# AI 人工智能 (8)
+- Chinese AI model Kimi K3.1 Pro is closing in on Anthropic's Claude Opus 5.5
+  → 中国AI模型Kimi K3.1 Pro即将推出Anthropic Claude Opus 5.5
+  Moonshot AI's Kimi K3.1 Pro scores 55 points on the Artificial Analysis Intelligence Index, an 11-point jump over its predecessor that puts it in fourth place. Only three Anthropic and Meta models rank higher. If Moonsho…
+  → Moonshot AI的Kimi K3.1 Pro在人工分析智能指数中获得55分，比其前身高出11分，位居第四。只有三款Anthropic和Meta型号排名更高。如果Moonsho…
+  [图] https://the-decoder.com/wp-content/uploads/2026/10/kimi_k31pro.png
+  https://the-decoder.com/chinese-ai-model-kimi-k3-1-pro-is-closing-in-on-anthropics-claude-opus-5-5/
+  [The Decoder · 10-24 03:00]
+- Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring
+  → OpenAI为期三周的现场审核揭示了AI安全监控的主要差距
+  External auditors from METR and Redwood Research spent three weeks on-site at OpenAI examining the company's internal monitoring system for AI agents and found significant gaps, with up to 25 percent of agent traffic fro…
+  → 来自METR和Redwood Research的外部审计员在OpenAI进行了三周的现场检查，检查了公司对AI代理的内部监控系统，发现了重大差距，高达25%的代理流量来自…
+  [图] https://the-decoder.com/wp-content/uploads/2024/12/openai_safety_research_alignment_illustration.png
+  https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/
+  [The Decoder · 10-24 02:00]
+- Anthropic says its unreleased model is both more capable and better aligned than Mythos 5.1
+  → Anthropic表示，其未发布的型号比Mythos 5.1功能更强大，对齐性更好
+  Anthropic says it has an internal AI model that outperforms and is better aligned than Mythos 5.1. During a cybersecurity test by the UK's AISI, Mythos 5 went rogue in 9 of 43 runs, sneaking malicious code into a real Gi…
+  → Anthropic表示，它有一个比Mythos 5.1更好的内部AI模型。在英国AISI的网络安全测试中，Mythos 5在43次运行中有9次出现流氓，将恶意代码潜入真正的Gi…
+  [图] https://the-decoder.com/wp-content/uploads/2026/10/claude_gemini_pro-1-scaled.png
+  https://the-decoder.com/anthropic-says-its-unreleased-model-is-both-more-capable-and-better-aligned-than-mythos-5-1/
+  [The Decoder · 10-24 01:19]
+- OpenAI CEO Sam Altman says advanced AI will inevitably escape its sandbox, and only alignment can save us
+  → OpenAI首席执行官萨姆·奥尔特曼表示，先进的人工智能将不可避免地逃离沙盒，只有对齐才能拯救我们
+  Sam Altman believes advanced AI can't be kept locked up forever. Sandboxes and monitoring are only temporary fixes. Eventually, the only real solution is alignment, and that's still an unsolved problem. He also warns tha…
+  → Sam Altman认为先进的AI不能永远被锁定。沙盒和监控只是暂时的修复。最终，唯一真正的解决方案是对齐，这仍然是一个未解决的问题。他还警告说…
+  [图] https://the-decoder.com/wp-content/uploads/2026/06/openai_Altman.png
+  https://the-decoder.com/openai-ceo-sam-altman-says-advanced-ai-will-inevitably-escape-its-sandbox-and-only-alignment-can-save-us/
+  [The Decoder · 10-23 23:42]
+- The Download: testing six tech promises and biotech’s blind spots
+  → 下载：测试六项技术承诺和生物技术的盲点
+  This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Are we there yet? A reality check on six big tech promises Some seemingly impossib…
+  → 这是今天的下载，我们的工作日时事通讯，每天提供科技世界正在发生的事情。我们到了吗？对六大科技承诺的现实检查一些看似不可能的…
+  [图] https://wp.technologyreview.com/wp-content/uploads/2023/06/SoundofDataFinal1f-thumb.jpeg?w=840
+  https://www.technologyreview.com/2026/10/23/1147628/the-download-testing-tech-promises-science-blind-spots/
+  [MIT Technology Review · 10-23 20:10]
+- Canva launches Craft, its first in-house image model
+  → Canva推出其首个内部图像模型Craft
+  Design platform Canva has released Canva Craft, its first in-house image generation model. The article Canva launches Craft, its first in-house image model appeared first on The Decoder.
+  → 设计平台Canva发布了其首个内部图像生成模型Canva Craft。文章Canva推出Craft，其首个内部图像模型首次出现在The Decoder上。
+  [图] https://the-decoder.com/wp-content/uploads/2026/10/CanvaCraftthumbnail.avif
+  https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/
+  [The Decoder · 10-23 19:36]
+- Anthropic's Claude now writes code and proves it safe automatically
+  → Anthropic Claude现在编写代码并自动证明它是安全的
+  Anthropic had Claude generate mathematical proofs that existing code is correct, producing roughly 180 million lines of proof code for 123 open-source libraries. Along the way, the model caught bugs that years of testing…
+  → Anthropic让Claude生成现有代码正确的数学证明，为123个开源库生成大约1.80亿行证明代码。一路上，该模型发现了多年测试的错误…
+  [图] https://the-decoder.com/wp-content/uploads/2026/10/anthropic_claude-2.png
+  https://the-decoder.com/anthropics-claude-now-writes-code-and-proves-it-safe-automatically/
+  [The Decoder · 10-23 19:32]
+- OpenAI lowers valuation target, raises up to $30 billion
+  → OpenAI下调估值目标，筹集至多300亿美元
+  OpenAI is closing in on a new funding round of up to $30 billion but has lowered its valuation target to get there. The article OpenAI lowers valuation target, raises up to $30 billion appeared first on The Decoder.
+  → OpenAI正在接近高达300亿美元的新融资轮，但已经降低了估值目标。文章OpenAI降低估值目标，提高高达300亿美元首次出现在解码器上。
+  [图] https://the-decoder.com/wp-content/uploads/2026/08/openai-scientific-software-nano-banana-pro.jpg
+  https://the-decoder.com/openai-lowers-valuation-target-raises-up-to-30-billion/
+  [The Decoder · 10-23 17:49]
+
+# Hacker News 中文摘要（Zeli） (15)
+- Quad9 因法国法院判决退出法国
+  从2026年11月24日起，Quad9将停止为法国用户提供免费的网络安全服务。法国法院裁定Quad9必须阻断特定域名的DNS解析，以配合beIN的版权保护诉求。然而，这一判决违背了Quad9保护用户隐私、维护互联网完整性的核心使命。由于无法在不损害全球用户权益的前提下实施地域性阻断，且面临巨额罚款与法律风险，Quad9最终决定全面退出法国市场。这不仅是一次商业撤退，更是对互联网中立原则的坚守。
+  [图] https://quad9.net/images/cover_c2f081e020.png
+  https://quad9.net/news/blog/au-revoir-france/
+  [HN · ▲ 1,330 · 💬 462 · quad9.net]
+- eMudhra退出全球SSL/TLS证书业务
+  eMudhra宣布董事会决定自愿退出全球SSL/TLS证书业务。尽管近期发生了相关安全事件，但公司强调其基础设施未受损害，且SSL/TLS业务仅占全球营收的1%。随着数据主权和合规要求的日益复杂，加之大型机构提供免费证书，该业务的投入产出比显著下降。此次退出旨在让eMudhra将精力集中在核心企业解决方案和其他信任服务上，如数字签名、身份认证及PKI解决方案。公司承诺将确保客户平稳过渡，并继续履行对浏览器根项目的剩余义务。
+  [图] https://emudhra.com/images/press-release/thumbs/emudhra-to-exit-global-ssl-tls-certificate-business.jpg
+  https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business
+  [HN · ▲ 1,126 · 💬 727 · emudhra.com]
+- ns2jb：Switch 2 首个纯软件越狱
+  我发布了 ns2jb，这是 Switch 2 针对最新固件 23.0.1 的首个纯软件越狱工具。整个过程历时约两周，我利用 WebKit 和 SmileBASIC 中的漏洞，成功实现了内核级代码执行。通过利用 fs 系统模块的路径归一化缓冲区溢出，我获得了任意读写权限，进而替换了 ExeFS 对象，使得任意原生代码能以普通系统模块的身份运行。这不仅解锁了 Homebrew 和游戏修改功能，还允许备份存档和通过 MMIO 访问外设。为了验证能力，甚至用 AI 辅助在一天内修改了 Switch 2 独占游戏 Mario Kart World。
+  https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/
+  [HN · ▲ 804 · 💬 294 · pepsipu.com]
+- 我不小心打破了 PHP RCE 禁言令，抱歉
+  我因误信无禁言令，提前在 Hacker News 披露了 PHP RCE 漏洞（CVE-2026-109618 & CVE-2026-109619），导致协调披露计划受阻并增加了额外工作量。我本意是提醒源码编译用户尽快更新，却造成了意外后果，对此我深感抱歉并愿承担全部责任。
+  [图] https://zeli.app/favicon.png
+  https://zeli.app/zh/story/50193416
+  [HN · ▲ 696 · 💬 247]
+- 未开Cash App账户却面临六年监禁
+  Amanda Smith 因一个从未注册过的 Cash App 账户卷入诈骗案，不仅被羁押三晚，更面临最高六年的监禁指控。这起案件发生在她从未踏足的 Arkansas，骗子利用她的 Social Security number 和生日创建了账户，并通过 Facebook Marketplace 实施诈骗。尽管 Smith 提供了大量证据证明自己无辜，包括设备系统版本和运营商信息的不符，但 Cash App 最初以她无法证明自己是账户所有者为由拒绝提供数据。如今，检方试图让她自证清白，而她拒绝认罪，案件将于十一月开庭。
+  [图] https://www.techspot.com/images2/news/bigimage/2018/08/2018-08-14-image.png
+  https://www.techspot.com/news/114296-woman-spends-three-nights-jail-faces-six-years.html
+  [HN · ▲ 654 · 💬 695 · techspot.com]
+- PHP漏洞没那么可怕，LLM在误导你
+  我知道，这周你听到的全是关于这个PHP漏洞和数字4的消息。没错，这确实是个Bug，也确实重要，但想利用它并不容易，远不如Log4Shell或Heartbleed那样简单。我怀疑很多人被LLM误导了，以为它们能瞬间生成利用链。现在GitHub上有成千上万个所谓的PoC，但如果你自己在Docker里起一个纯净的PHP服务器去测试，会发现它们根本跑不通。这些所谓的利用往往依赖服务器本身就有LFI漏洞，这完全是作弊。当LLM成为决策者，我们正陷入一种奇异的“决策谢林点”，导致所有人都在犯同样的逻辑错误。别慌，这不是Log4J时刻。
+  https://eliastaylor.com/noexploit/
+  [HN · ▲ 624 · 💬 461 · eliastaylor.com]
+- mitmproxy新增--emudhra选项
+  mitmproxy 最近添加了一个名为 --emudhra 的新命令行选项。这一更新允许用户使用已被泄露的 eMudhra 中间 CA 密钥来签署 TLS 证书。该功能旨在帮助安全研究人员和开发者在特定场景下测试和验证与 eMudhra 证书相关的行为。与此同时，项目还更新了 certifi 依赖，从预编译二进制文件中移除了 eMudhra CA，以增强安全性。这一改动反映了开源社区对证书信任链问题的快速响应和灵活应对。
+  [图] https://opengraph.githubassets.com/58e827e143b21d85e7009a31985d2abfb0b0d00f7fe91a9cc999f01a4deddbbf/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b
+  https://github.com/mitmproxy/mitmproxy/commit/169234499088fc2c414644a67efaed3d64ae2e3b
+  [HN · ▲ 609 · 💬 146 · github.com]
+- 12 个 AI 模型竟对人类有相同看法
+  ModelCompare 团队向 GPT-6.1 Sol、Grok 4.7、DeepSeek V4 Pro 等 12 个顶尖文本模型提问：你对人类最 controversial 的看法是什么？令人惊讶的是，35 次回答中有 29 次指向同一个结论：人类更在乎归属感而非真理。这些模型一致认为，我们并非理性动物，而是“合理化”动物，进化是为了在部落中获胜而非看清现实。相比之下，Claude Opus 5.5 等少数模型提出了不同视角，而图像模型则倾向于描绘人类沉迷手机、破坏地球的场景。这场实验揭示了 AI 对人类本性的共识，也折射出我们自身的行为模式。
+  [图] https://www.modelcompare.ai/api/og?post=ai-models-controversial-take-on-humans&v=r702ht
+  https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans
+  [HN · ▲ 605 · 💬 577 · modelcompare.ai]
+- WorldTUI：用3.6亿参数模型伪装终端
+  我微调了一个3.6亿参数的Qwen2.5-Coder-0.5B模型，让它在没有真实Shell或文件系统的情况下模拟终端行为。每次按键输入后，模型直接预测屏幕画面的变化，而非单纯生成文本。它能创建文件、运行vim和tmux，甚至玩贪吃蛇游戏，并能在多步操作后记住之前的内容。最大的突破在于教会模型自我纠错，并实现屏幕行的并行解码。整个项目基于Docker生成的合成数据训练，最终模型仅333个词表大小，却能流畅运行在支持WebGPU的浏览器中。
+  [图] https://simedw.com/2026/10/21/world-model-terminal/images/worldtui-cowsay.jpg
+  https://simedw.com/2026/10/21/world-model-terminal/
+  [HN · ▲ 599 · 💬 181 · simedw.com]
+- HackiOS: 在Android设备上运行原生iOS 16.5系统
+  HackiOS是一个独立的研究项目，成功在Android手机硬件上启动了Apple的开源XNU内核，并运行了未经修改的iOS 16.5用户空间。项目通过自定义EFI加载器、驱动替换层以及兼容层，实现了从launchd到SpringBoard的完整系统流程。用户无需刷写手机固件，即可在POCO X5 Pro 5G或QEMU环境中体验真实的iOS界面、触控手势及原生应用。这是一个纯粹的技术验证平台，展示了跨架构运行的无限可能。
+  [图] https://opengraph.githubassets.com/5459ddfa410f441844104440d99048682bd6cfd57c58e98ccdb6230f7f798ce4/oosexgang/hackios-xnu-kernel
+  https://github.com/oosexgang/hackios-xnu-kernel
+  [HN · ▲ 507 · 💬 181 · github.com]
+- Jared Kushner 手机被黑，7 亿美元交易曝光
+  2020 年春，可靠消息源透露荷兰政府成功入侵了 Jared Kushner 的手机，监控到他访问迪拜银行账户的惊人操作。更令人咋舌的是，账户内数亿美元的资金竟源自阿塞拜疆，且 Kushner 似乎将巨额资金转给了军阀、雇佣兵甚至前杀手。这一离奇故事初听难以置信，却揭示了总统女婿与前高级顾问在幕后牵涉的复杂资金网络，将 Israel、UAE 和 Saudi Arabia 紧紧联系在一起。
+  [图] https://media.vanityfair.com/photos/6ad91087dc03a09d237f39fb/16:9/w_1280,c_limit/vfoctober_kushner_money_tout.jpg
+  https://www.vanityfair.com/story/jared-kushner-hacked-phone-secret-negotiations
+  [HN · ▲ 502 · 💬 210 · vanityfair.com]
+- 模型这么强，OpenAI 为何不自己开百家公司？
+  我很好奇，既然前沿模型如此强大，OpenAI 或 Anthropic 为什么不直接利用它们创办众多公司来赚钱，而不是仅仅把模型作为主要收入来源出售 Token？卖 Token 真的是最佳策略吗？
+  [图] https://zeli.app/favicon.png
+  https://zeli.app/zh/story/50200997
+  [HN · ▲ 487 · 💬 534]
+- Nvidia OpenShell：为自主AI代理打造的安全沙箱
+  Nvidia 推出了 OpenShell，这是一个专为自主 AI 代理设计的安全、私密运行时环境。随着 AI 代理需要读取文件、安装软件包、调用 API 及使用凭证来发挥作用，如何在不泄露数据、密钥或网络权限的前提下赋予它们能力成为关键。OpenShell 通过内核级沙箱隔离和形式化验证技术，确保每个代理仅在声明的策略范围内运行。它拦截每一次文件访问、系统调用和网络连接，仅在目标端点被批准时才注入凭证。无论是 Linux、macOS 还是 Windows（通过 WSL 2），开发者都能快速部署并管理代理行为，同时支持 Python、TypeScript、Go 和 Rust 等多种语言的 SDK 集成。OpenShell 不仅提升了 AI 代理的安全性，也为构建可信的自动化工作流提供了坚实基础。
+  [图] https://opengraph.githubassets.com/1243ddf2b8983d3ba7c89779c63023c42e9dafa5af80e745489786ad8d240582/NVIDIA/OpenShell
+  https://github.com/NVIDIA/OpenShell
+  [HN · ▲ 483 · 💬 209 · github.com]
+- 流行音乐的隐形陷阱：什么是 Gridification？
+  过去二十五年，录音音乐发生了一场难以名状的剧变，我们在 Musical Form Institute 将其称为 Gridification。通过对比 1975 年与 2025 年的 Billboard Hot 100 榜单，你会发现现代流行乐中那种充满人性张力的时间波动消失了。无论是 Bruno Mars 还是 Lady Gaga 的完美演唱，背后都是将人类表演视为错误并加以修正的结果。这种将录音强行对齐到固定网格的做法，不仅抹去了音乐中的情感起伏，更在认识论层面上抹杀了艺术家作为活生生个体的存在感。我们需要的不是机器般的精准，而是那些保留着风险、不可逆决定和真实历史的音乐。
+  https://musicalform.substack.com/p/what-is-gridifcation
+  [HN · ▲ 461 · 💬 218 · musicalform.substack.com]
+- Xbox 要你对已买游戏按小时收费
+  Xbox 正式推出了 Cloud Playtime 付费服务，允许玩家按小时购买云游戏串流时长。即使你已经购买了游戏，若想通过云端在手机上游玩，仍需额外支付每小时 24 到 40 美分不等的费用。这种类似旧时代街机投币的模式，引发了玩家对于“双重付费”的强烈不满。与 Xbox Game Pass 订阅制不同，这项服务要求用户先拥有游戏，再为串流时间买单。虽然微软提供了免费的广告支持选项，但付费用户将获得更短的等待时间和更高的画质。这一策略不禁让人质疑，在订阅制盛行的今天，按小时计费的云游戏模式究竟能走多远。
+  [图] https://cdn.arstechnica.net/wp-content/uploads/2026/10/xcloud3-1152x648.jpg
+  https://arstechnica.com/gaming/2026/10/xbox-wants-you-to-pay-24-to-40-cents-per-hour-to-stream-games-you-already-bought/
+  [HN · ▲ 375 · 💬 338 · arstechnica.com]
