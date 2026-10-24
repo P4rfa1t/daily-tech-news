@@ -1,0 +1,417 @@
+每日科技新闻速览
+==============================
+
+# 网络安全 (12)
+- smolvm v1.32.1
+  An embeddable, portable, branchable virtual machine to safely run Agents locally.
+  → 一个可嵌入、可移植、可扩展的虚拟机，可在本地安全地运行代理。
+  [图] https://assets.kitploit.com/production/public/tools/7141/57b0d0697239733fdd2697c1815aa172d2e2adbffd0defa5ac35fc6fc7621d63.png
+  https://kitploit.com/en/posts/smolvm-433aa3ac7cdd2127
+  [KitPloit · 10-25 06:47]
+- Signet
+  Mythic C2 payload wrapper that applies Authenticode signatures to agent binaries using osslsigncode, with self-signed CA generation, PFX upload, and certificate cloning.
+  → 神话C2有效负载包装器，使用osslsigncode将Authenticode签名应用于代理二进制文件，具有自签名CA生成、PFX上传和证书克隆。
+  [图] https://assets.kitploit.com/production/public/tools/58169/fdf58caf39f1c4357947ce716337f20710b5ab0493563e0300b50d1d91545c89-display-v1.webp
+  https://kitploit.com/en/tools/github/whispergate/signet
+  [KitPloit · 10-25 05:47]
+- emudhra-weak-keys
+  A Zeek package that detects when compromised eMudhra intermediate certificates are used in TLS 1.2 and below.
+  → TLS 1.2及更低版本中使用了一个Zeek包，用于检测eMudhra中间证书何时受损。
+  [图] https://assets.kitploit.com/production/public/tools/58174/e274b4c741632b610c6ec9e0c030d360ef160bcf4fe5044b66e329f1597fc8b1-display-v1.webp
+  https://kitploit.com/en/tools/github/corelight/emudhra-weak-keys
+  [KitPloit · 10-25 04:47]
+- betterleaks
+  Fast, configurable secrets scanner for filesystems, git history, containers, and cloud sources, with Expr-based filtering, credential validation, and analysis.
+  → 用于文件系统、git历史记录、容器和云源的快速、可配置的机密扫描器，具有基于expr的过滤、凭据验证和分析。
+  [图] https://assets.kitploit.com/production/public/tools/58201/f04ed1da2b5316b180439f87df90e559b81471b5a9dc31afdd626b315d38a459-display-v1.webp
+  https://kitploit.com/en/tools/github/betterleaks/betterleaks
+  [KitPloit · 10-25 03:47]
+- NETworkManager v2026.10.24.0
+  → 网络管理器v2026.10.24.0
+  A powerful open-source tool for managing networks and troubleshooting network problems!
+  → 用于管理网络和解决网络问题的强大开源工具！
+  [图] https://assets.kitploit.com/production/public/tools/2053/31e42d22a7f9363839c2512003ea51323f4f5fd0bfa01e38578bbc2596d2d183.png
+  https://kitploit.com/en/posts/networkmanager-bc330e961d8344db
+  [KitPloit · 10-25 02:46]
+- opengrep
+  🔎 Static code analysis engine to find security issues in code.
+  → 🔎 静态代码分析引擎，用于发现代码中的安全问题。
+  [图] https://assets.kitploit.com/production/public/tools/58202/bc300529ea8b61de37a0775b140f13546713c284e4b42725ad8ae15f8ed4a98f-display-v1.webp
+  https://kitploit.com/en/tools/github/opengrep/opengrep
+  [KitPloit · 10-25 01:46]
+- cdxgen
+  Creates CycloneDX Bill of Materials (BOM) for your projects from source and container images. Supports many languages and package managers. Integrate in your CI/CD pipeline with automatic submission to Dependency Track s…
+  → 从源和容器映像为您的项目创建CycloneDX物料清单（BOM）。支持多种语言和包管理器。集成到您的CI/CD管道中并自动提交到Dependency Track…
+  [图] https://assets.kitploit.com/production/public/tools/58203/0474fcf17d4d5f7bba9b9cede9dc7f9b39c98d3434706117c7f5205725242f54-display-v1.webp
+  https://kitploit.com/en/tools/github/cdxgen/cdxgen
+  [KitPloit · 10-25 00:46]
+- MarauderBox
+  A fork of the marauder firmware with Nyan box capabilities
+  → 具有Nyan box功能的掠夺者固件的分支
+  [图] https://assets.kitploit.com/production/public/tools/58204/480e6514aabd53f3a0727bb6a37ff2f980b96a9dc1cc0475d2e84d5c4d7d2b97-display-v1.webp
+  https://kitploit.com/en/tools/github/rianhanft/marauderbox
+  [KitPloit · 10-24 23:45]
+- system_prompts_leaks — Updated!
+  → system_prompts_leaks-更新！
+  Curated collection of extracted system prompts from major AI chatbots including Claude, ChatGPT, Gemini, Grok, and Copilot. Updated regularly with new model releases.
+  → 精选的从主要AI聊天机器人中提取的系统提示集合，包括Claude、ChatGPT、Gemini、Grok和Copilot。定期更新新模型版本。
+  [图] https://assets.kitploit.com/production/public/tools/7281/ee58534d91b9f2b6d32ff40fc295b8a15b85ef664a5fde4375f8d8639ffe936e.png
+  https://kitploit.com/en/posts/system_prompts_leaks-914517543fd369f3
+  [KitPloit · 10-24 22:41]
+- promptfoo v0.125.0
+  → 提示foo v0.125.0
+  Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integratio…
+  → 测试您的提示、代理和RAG。AI的红色团队/渗透测试/漏洞扫描。比较GPT、Claude、Gemini、DeepSeek等的性能。使用命令行和CI/CD集成的简单声明性配置…
+  [图] https://assets.kitploit.com/production/public/tools/420/5af53c8c6ea868c788d2721833c71381996e54a0a9b63023615709a2ce833b0a.png
+  https://kitploit.com/en/posts/promptfoo-da4baa7e9942f143
+  [KitPloit · 10-24 18:41]
+- dsh-infinite-gen-5
+  DeepSeek v4.1 flash reverse engineering tool (unlimited fifth generation) Please Star and bookmark ⭐Everyone is welcome to submit improvements to the project
+  → DeepSeek v4.1闪存逆向工程工具（无限第五代）请星标和书签⭐欢迎大家提交项目改进
+  [图] https://assets.kitploit.com/production/public/tools/58161/87f767af56b25b2e9172432cce64e34a636aa74c5a819556f33b9a3c28ccc713-display-v1.webp
+  https://kitploit.com/en/tools/github/minglink/dsh-infinite-gen-5
+  [KitPloit · 10-24 16:37]
+- jumpserver v4.10.20
+  JumpServer is an open-source Privileged Access Management (PAM) platform that provides DevOps and IT teams with on-demand and secure access to SSH, RDP, Kubernetes, Database and RemoteApp endpoints through a web browser.
+  → JumpServer是一个开源特权访问管理（PAM）平台，为运营模式和信息技术团队提供通过网络浏览器对SSH、RDP、Kubernetes、数据库和RemoteApp端点的按需安全访问。
+  [图] https://assets.kitploit.com/production/public/tools/9035/0f9c64e97e720e22b1483be483fa6ea8438dee812c3d54b8b018a55155b9fff8.png
+  https://kitploit.com/en/posts/jumpserver-1000767f792a0357
+  [KitPloit · 10-24 15:36]
+
+# 科技行业 (8)
+- Blue Planet III is keeping the rough edges in the age of AI
+  → 蓝色星球III在人工智能时代保持着粗糙的边缘
+  BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost to…
+  → 英国广播公司的《蓝色星球3》希望通过留下不太完美的照片来证明它的真实性。自然系列的前几次化身是由它们华丽、晶莹剔透的镜头定义的，这些镜头看起来几乎…
+  [图] https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/blue_planet_iii_episode_03_051_screengrab.avif?quality=90&strip=all&crop=0,0,100,100
+  https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai
+  [The Verge · 10-25 05:29]
+- Starlink seems to be working normally again in Ukraine
+  → 星链在乌克兰似乎恢复正常了
+  Elon Musk reportedly ordered SpaceX to throttle Ukraine's Starlink access.
+  → 据报道，埃隆·马斯克命令SpaceX限制乌克兰的星链访问。
+  [图] https://techcrunch.com/wp-content/uploads/2026/10/starlink.jpg?resize=1200,800
+  https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/
+  [TechCrunch · 10-25 04:46]
+- Will AI expose the rickety infrastructure of the internet?
+  → 人工智能会暴露互联网摇摇欲坠的基础设施吗？
+  The moment you realize the internet is "held together by glue and dreams."
+  → 当你意识到互联网是“由胶水和梦想结合在一起的”。
+  [图] https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-1195574782.jpg?resize=1200,800
+  https://techcrunch.com/2026/10/24/will-ai-expose-the-rickety-infrastructure-of-the-internet/
+  [TechCrunch · 10-25 04:15]
+- The AI graveyard: a running list of projects and startups that didn’t make it
+  → 人工智能墓地：未能成功的项目和初创公司的运行列表
+  From Apple's repeatedly delayed Siri AI to OpenAI's messy "super app" launch, here's a look at the AI projects that shut down or missed expectations.
+  → 从Apple一再推迟Siri AI到OpenAI混乱的“超级应用”发布，下面来看看关闭或未达到预期的AI项目。
+  [图] https://techcrunch.com/wp-content/uploads/2019/12/GettyImages-95927766-1.jpg?resize=1200,797
+  https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/
+  [TechCrunch · 10-25 03:00]
+- Pennsylvania will require labels on AI-generated ads
+  → 宾夕法尼亚州将要求在人工智能生成的广告上贴上标签
+  On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, vide…
+  → 周四，宾夕法尼亚州州长乔希·夏皮罗签署了《人工智能欺骗性广告法》，要求披露人工智能生成的广告。法律要求任何广告——无论是静止图像，还是…
+  [图] https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK445_ADVERTISING_STK093_GOOGLE_C.jpg?quality=90&strip=all&crop=0,0,100,100
+  https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act
+  [The Verge · 10-25 02:32]
+- Instacart reportedly discussed selling itself with DoorDash and Uber
+  → 据报道，Instacart讨论了与DoorDash和Uber出售自己
+  Instacart might sell itself to a larger competitor.
+  → Instacart可能会将自己卖给更大的竞争对手。
+  [图] https://techcrunch.com/wp-content/uploads/2022/09/instacart-logo.jpg?resize=1200,800
+  https://techcrunch.com/2026/10/24/instacart-reportedly-discussed-selling-itself-with-doordash-and-uber/
+  [TechCrunch · 10-25 00:30]
+- Block’s new voice model sounds eerily human
+  → Block的新语音模型听起来怪异地像人类
+  Block said that the voice model can run locally on a MacBook M4 Max
+  → Block说语音模型可以在MacBook M4 Max上本地运行
+  [图] https://techcrunch.com/wp-content/uploads/2025/07/jack-dorsey.jpg?resize=1200,822
+  https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/
+  [TechCrunch · 10-25 00:00]
+- PHP-ocalypse: How two critical web bugs almost broke the internet
+  → PHP-ocalypse：两个严重的网络错误如何几乎破坏了互联网
+  Two critical bugs in the PHP web programming language, used by the majority of the internet, threatened to upend the internet — and it's unlikely to be the last major software scare.
+  → 大多数互联网使用的PHP Web编程语言中的两个严重错误威胁要颠覆互联网——这不太可能是最后一次重大软件恐慌。
+  [图] https://techcrunch.com/wp-content/uploads/2026/10/php-web-bug-padlock-2300746159.jpg?resize=1200,800
+  https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet/
+  [TechCrunch · 10-24 23:30]
+
+# 科学前沿 (8)
+- Bell pepper colors reveal differences in sweetness, nutrients and ripeness
+  → 甜椒的颜色揭示了甜度、营养和成熟度的差异
+  Raw, grilled, roasted, stuffed—there are many ways to enjoy bell peppers, also called capsicums, sweet peppers or paprika. Bell peppers originated in Central and South America and belong to the nightshade family along wi…
+  → 生的、烤的、烤的、填充的——有很多方法可以享用甜椒，也称为辣椒、甜椒或辣椒粉。甜椒起源于中美洲和南美洲，属于龙葵科…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/-bell-peppers.jpg
+  https://phys.org/news/2026-10-bell-pepper-reveal-differences-sweetness.html
+  [Phys.org · 10-25 05:00]
+- Tests reveal why titanium additions do not fully prevent pitting corrosion in stainless steel
+  → 测试揭示了为什么钛添加剂不能完全防止不锈钢中的点蚀
+  Stainless steel is widely used for its corrosion resistance, but it is not invincible. In environments containing chloride ions, such as seawater, pitting corrosion can occur. These pits often start at tiny particles cal…
+  → 不锈钢因其耐腐蚀性而被广泛使用，但它并非不可战胜。在含有氯离子的环境中，如海水，会发生点蚀。这些坑通常始于微小的颗粒cal…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/where-does-pitting-cor.jpg
+  https://phys.org/news/2026-10-reveal-titanium-additions-fully-pitting.html
+  [Phys.org · 10-25 05:00]
+- Single X-ray pulse reveals plasma nanostructures across scales with one camera
+  → 单个X射线脉冲通过一台相机揭示跨尺度的等离子体纳米结构
+  Understanding instabilities and turbulence in plasmas is one of the key challenges across a wide range of plasma research fields, including nuclear fusion, astrophysics and laser-plasma physics. In plasmas, slight distur…
+  → 理解等离子体中的不稳定性和湍流是等离子体研究领域的关键挑战之一，包括核聚变、天体物理学和激光等离子体物理学。在等离子体中，轻微的扰动…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/worlds-first-simultane.jpg
+  https://phys.org/news/2026-10-ray-pulse-reveals-plasma-nanostructures.html
+  [Phys.org · 10-25 03:00]
+- How flare ribbons reveal hidden solar explosions on the sun
+  → 耀斑带如何揭示太阳上隐藏的太阳爆炸
+  Many topics in astronomy and astrophysics are esoteric. There's not much of a relationship between something like the supermassive black hole at the center of the Milky Way and the life of a regular person going about th…
+  → 天文学和天体物理学中的许多话题都是深奥的。像银河系中心的超大质量黑洞这样的东西和一个普通人的生活没有太大的关系…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/how-flare-ribbons-reve.jpg
+  https://phys.org/news/2026-10-flare-ribbons-reveal-hidden-solar.html
+  [Phys.org · 10-25 02:00]
+- 'One-positron cyclotron' could test a key prediction of the Standard Model
+  → “正电子回旋加速器”可以测试标准模型的关键预测
+  The positron is the antimatter counterpart of the electron, identical in mass but carrying an equal and opposite electric charge. Like the electron, it also behaves like a tiny bar magnet, and according to a key predicti…
+  → 正电子是电子的反物质对应物，质量相同，但携带相等和相反的电荷。像电子一样，它也表现得像一个微小的条形磁铁，根据关键预测…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/one-positron-cyclotron-2.jpg
+  https://phys.org/news/2026-10-positron-cyclotron-key-standard.html
+  [Phys.org · 10-25 01:20]
+- Newly identified protein pathway helps HIV stay hidden despite treatment
+  → 新发现的蛋白质途径有助于艾滋病毒在治疗中保持隐藏
+  Current HIV medicines are effective at suppressing the virus in the blood. However, HIV can remain "asleep" or dormant inside certain immune cells and in the brain. These hidden pockets of virus, called HIV reservoirs, a…
+  → 目前的艾滋病毒药物可以有效抑制血液中的病毒。然而，艾滋病毒可以在某些免疫细胞和大脑中保持“睡眠”或休眠。这些隐藏的病毒口袋，称为艾滋病毒库，一个…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2021/hiv-2.jpg
+  https://phys.org/news/2026-10-newly-protein-pathway-hiv-stay.html
+  [Phys.org · 10-25 00:00]
+- Nanoscale alloy redesign tackles cold brittleness for potential deep-space and deep-sea applications
+  → 纳米合金重新设计解决了潜在深空和深海应用的冷脆性
+  Metallic materials used in extremely cold environments must maintain high strength, ductility and fracture toughness to support applications in aerospace, clean energy, superconducting systems and deep-space exploration.…
+  → 在极冷环境中使用的金属材料必须保持高强度、延展性和断裂韧性，以支持航空航天、清洁能源、超导系统和深空探索的应用。…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/polyu-scholar-develops.jpg
+  https://phys.org/news/2026-10-nanoscale-alloy-redesign-tackles-cold.html
+  [Phys.org · 10-24 23:00]
+- Seabird family tree predicts which species accumulate plastic better than diet, global analysis finds
+  → 全球分析发现，海鸟家谱预测哪些物种比饮食更容易积累塑料
+  What seabirds eat might seem like a good starting point for identifying species that tend to accumulate plastic in their digestive systems. Yet a recent global analysis suggests that mapping the evolutionary relatives of…
+  → 海鸟吃什么似乎是识别倾向于在消化系统中积累塑料的物种的一个很好的起点。然而，最近的一项全球分析表明，绘制…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/seabird-family-tree-of-1.jpg
+  https://phys.org/news/2026-10-seabird-family-tree-species-accumulate.html
+  [Phys.org · 10-24 22:00]
+
+# 硬件极客 (12)
+- 2026 Retrocomputing Challenge: I Would Do Anything For Serial Data
+  → 2026年重新计算挑战：我愿意为串行数据做任何事
+  These days we take high-speed networking for granted, but it can be difficult to get vintage computers talking to modern machines. To help solve this problem [jaime] came up with
+  → 如今，我们认为高速网络是理所当然的，但是很难让老式计算机与现代机器对话。为了帮助解决这个问题，[·杰米]想出了
+  [图] https://hackaday.com/wp-content/uploads/2026/10/meatloaf_feat.jpg
+  https://hackaday.com/2026/10/24/2026-retrocomputing-challenge-i-would-do-anything-for-serial-data/
+  [Hackaday · 10-25 04:00]
+- Observe El Niño with NASA
+  → 与美国航天局一起观测厄尔尼诺现象
+  This visualization compares three ocean data products, sea surface temperature anomaly, apparent visible wavelength, and sea surface height anomaly, over the same months in 2025 and 2026. Signals of El Niño in each map a…
+  → 这一可视化比较了2025年和2026年同一月份的三种海洋数据产品，即海面温度异常、表观可见波长和海面高度异常。
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/Screenshot-2026-10-19-at-6.33.40-PM-600x222.png
+  https://blog.adafruit.com/2026/10/24/observe-el-nino-with-nasa/
+  [Adafruit Blog · 10-25 04:00]
+- ESP32-Powered Talking Smoke Pumpkin
+  → ESP32-Powered会说话的烟南瓜
+  This is a paper papier-mâché jack-o-lantern that emanates smoke and lights up with the help of an ESP32. Once trick-or-treaters are near an ultra sonic sensor triggers a terrifying sequence including a very creepy voice…
+  → 这是一个纸纸制的jack-o-lantern，在ESP32的帮助下散发出烟雾并点亮。一旦不给糖就捣蛋的人靠近超声波传感器，就会触发一个可怕的序列，包括一个非常令人毛骨悚然的声音…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/adafruit_halloween_sale_2026_1300x437-1.jpg
+  https://blog.adafruit.com/2026/10/24/esp32-powered-talking-smoke-pumpkin-electronichalloween/
+  [Adafruit Blog · 10-25 01:14]
+- That Weird 7-Pin S-Video Port on Old Laptops
+  → 旧笔记本电脑上那个奇怪的7针S视频端口
+  Even though laptops from around the early 2000s came with just about every conceivable port on them, they still would often feature a somewhat unusual combined video output port. While
+  → 尽管21世纪初的笔记本电脑几乎配备了所有可以想象的端口，它们仍然经常配备一个有点不寻常的组合视频输出端口。而
+  [图] https://hackaday.com/wp-content/uploads/2026/10/7-pin_s-video-connector_laptops_vwestlife_youtube.jpg
+  https://hackaday.com/2026/10/24/that-weird-7-pin-s-video-port-on-old-laptops/
+  [Hackaday · 10-25 01:00]
+- Sound Reactive Paper Lanterns with LedFx
+  → 带LedFx的声音反应纸灯笼
+  Make a strand of sound reactive paper lanterns and hang them in your space. Control them with a Feather ESP32 running WLED software. Add sound reactive animations using the sound on your computer over WiFi using the free…
+  → 制作一串声音反应纸灯笼并将它们挂在您的空间中。使用运行WLED软件的Feather ESP32控制它们。使用WiFi上的计算机上的声音使用免费的…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/led_pixels_spheres_colorful-300x225.jpeg
+  https://blog.adafruit.com/2026/10/24/sound-reactive-paper-lanterns-with-ledfx-2/
+  [Adafruit Blog · 10-25 00:00]
+- GitHub – ankur608/ArduinoUnoQ_AdafruitTouch
+  → GitHub-ankur608/ArduinoUnoQ_AdafruitTouch
+  Developer ankur608 has published an open source Arduino library on GitHub for using the Adafruit 2.8″ TFT Touch Shield v2 with Capacitive Touch (PID 1947) on the Arduino UNO Q, which runs an STM32U585 core. The shield ca…
+  → 开发人员ankur608在GitHub上发布了一个开源Arduino库，用于在运行STM32U585内核的Arduino UNO Q上使用带有电容式触控的Adafruit 2.8英寸TFT Touch Shield v2（PID 1947）。屏蔽卡…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/picture-90.jpg
+  https://blog.adafruit.com/2026/10/24/github-ankur608-arduinounoq_adafruittouch/
+  [Adafruit Blog · 10-24 22:28]
+- Making for Others
+  → 为他人制作
+  One of the nicest things about the Hackaday community, and the open-source hardware community at large, is the incredible generosity of one hacker to another. But it’s not purely altruism
+  → Hackaday社区以及整个开源硬件社区最好的事情之一是一个黑客对另一个黑客的难以置信的慷慨。但这不是纯粹的利他主义
+  [图] https://hackaday.com/wp-content/uploads/2023/08/Collaboration01_featured.png
+  https://hackaday.com/2026/10/24/making-for-others/
+  [Hackaday · 10-24 22:00]
+- The Hidden Speakers of Cirque du Soleil’s “O”
+  → 太阳马戏团“O”的隐藏演讲者
+  Matt Obernesser, head of audio for Cirque du Soleil’s O, takes Dallas Taylor on a sound tour. This one’s for the audio folks!
+  → Matt Obernesser，太阳马戏团的O的音频主管，带达拉斯·泰勒进行了一次声音之旅。这是给音频人员的！
+  https://blog.adafruit.com/2026/10/24/the-hidden-speakers-of-cirque-du-soleils-o/
+  [Adafruit Blog · 10-24 22:00]
+- Reverse engineering a commercial spatial audio effect
+  → 逆向工程商业空间音频效果
+  Austin Shijo wanted a Linux version of a Windows audio effect that pushed music out of the head and made it feel less pressed against the ears. Writing on epestr.com, he describes first trying to rebuild the effect by ha…
+  → Austin Shijo想要一个Linux版本的Windows音频效果，可以将音乐从脑海中推出，让它感觉不那么压在耳朵上。他在epestr.com上写道，他描述了第一次尝试通过哈重建效果…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/aaa-19.png
+  https://blog.adafruit.com/2026/10/24/reverse-engineering-a-commercial-spatial-audio-effect/
+  [Adafruit Blog · 10-24 21:30]
+- Watch VCF Southwest in Retrotastic SGI-Edited Footage
+  → 在逆向SGI编辑的镜头中观看VCF西南
+  There’s just something about backing way, way off the cutting edge to rediscover the simpler joys of yesteryear. We’ve got a contest about to wrap up along those lines, and
+  → 有一些关于后退的方式，远离前沿，重新发现过去更简单的快乐。我们有一场比赛即将结束，而且
+  [图] https://hackaday.com/wp-content/uploads/2026/10/VCF-on-SGI-e1792773738412.jpg
+  https://hackaday.com/2026/10/24/watch-vcf-southwest-in-retrotastic-sgi-edited-footage/
+  [Hackaday · 10-24 19:00]
+- The Python on Microcontrollers Newsletter: subscribe for free
+  → Python微控制器通讯：免费订阅
+  The Python for Microcontrollers Newsletter is the place for the latest news involving Python on hardware (microcontrollers AND single board computers like Raspberry Pi). This ad-free, spam-free weekly email is filled wit…
+  → 用于微控制器的Python时事通讯是有关硬件（微控制器和单板计算机，如Raspberry Pi）的Python的最新消息的地方。这封无广告、无垃圾邮件的每周电子邮件充满了智慧…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/cp11.jpg
+  https://blog.adafruit.com/2026/10/24/the-python-on-microcontrollers-newsletter-subscribe-for-free-10-24-2/
+  [Adafruit Blog · 10-24 16:34]
+- A Walkie Talkie Interface For Claude
+  → Claude的对讲机接口
+  [Bookmari] had a problem — working as a delivery driver, they wanted to work on various projects with Claude Code while out and about. Unfortunately, it simply wasn’t practical to
+  → [·布克马里]有一个问题——作为一名送货司机，他们想在外出时使用Claude代码从事各种项目。不幸的是，这根本不切实际
+  [图] https://hackaday.com/wp-content/uploads/2026/10/en-main_94b4d2-e1792559432120.png
+  https://hackaday.com/2026/10/24/a-walkie-talkie-interface-for-claude/
+  [Hackaday · 10-24 16:00]
+
+# 医疗健康 (4)
+- STAT+: The ESMO presentation everyone’s been waiting for
+  → 大家期待已久的ESMO演讲
+  Moderna and Merck's 'presidential' presentation, and other news from Day 2 of the European Society for Medical Oncology meeting in Madrid.
+  → 莫德纳和默克的“总统”演讲，以及马德里欧洲医学肿瘤学会会议第二天的其他新闻。
+  [图] https://www.statnews.com/wp-content/uploads/2025/07/AdobeStock_1069389777_Editorial_Use_Only-1024x576.jpeg
+  https://www.statnews.com/2026/10/24/the-esmo-2026-merck-moderna-presentation-amgen-imdelltra-news/?utm_campaign=rss
+  [STAT News · 10-25 01:00]
+- Your blood could reveal inflammatory bowel disease 10 years before diagnosis
+  → 你的血液可能会在确诊前10年显示炎症性肠病
+  A major study has uncovered hidden warning signs of inflammatory bowel disease in the blood up to 10 years before diagnosis. Researchers discovered distinct antibody patterns that could help predict who would later devel…
+  → 一项重大研究发现，在诊断前10年，血液中隐藏着炎症性肠病的警告信号。研究人员发现了不同的抗体模式，有助于预测谁以后会发展…
+  [图] https://www.sciencedaily.com/images/1920/blood-test-tube-scientist.webp
+  https://www.sciencedaily.com/releases/2026/10/261023023713.htm
+  [ScienceDaily Health · 10-24 19:52]
+- Opinion: Christina Applegate puts a face on one of the most consequential challenges in neurology
+  → 观点：克里斯蒂娜·阿普尔盖特面对神经学中最重要的挑战之一
+  “The goal is not simply to diagnose MS faster. It is to get the diagnosis right,” writes Bruce Bebo.
+  → 布鲁斯·贝博写道：“目标不仅仅是更快地诊断多发性硬化症。这是为了做出正确的诊断。”
+  [图] https://www.statnews.com/wp-content/uploads/2026/10/AP24016081587973-1024x576.jpg
+  https://www.statnews.com/2026/10/24/christina-applegate-multiple-sclerosis-why-ms-misdiagnosis-happens/?utm_campaign=rss
+  [STAT News · 10-24 19:00]
+- Opinion: STAT readers on Elizabeth Holmes, cancer screening, and more
+  → 意见：统计数据读者对伊丽莎白Holmes、癌症筛查等
+  “Even if Theranos had a functioning testing machine, the economic model on which is was based would result in failure,” writes a STAT reader.
+  → 一位STAT读者写道：“即使Theranos有一台功能正常的测试机器，其所基于的经济模型也会导致失败。”
+  [图] https://www.statnews.com/wp-content/uploads/2023/11/LettersToEditor_v2_Illustration_MollyFerguson_112723-1024x576.jpg
+  https://www.statnews.com/2026/10/24/you-can-see-everything-stat-letters-to-editor/?utm_campaign=rss
+  [STAT News · 10-24 19:00]
+
+# AI 人工智能 (5)
+- Three fired OpenAI safety researchers say they were never told what they actually leaked
+  → 三名被解雇的OpenAI安全研究人员表示，他们从未被告知他们实际上泄露了什么
+  The three OpenAI safety researchers who were fired, Tomek Korbak, Mikita Balesni, and Jasmine Wang, are publicly pushing back against allegations from their former employer. They deny sharing confidential information and…
+  → 三名被解雇的OpenAI安全研究人员Tomek Korbak、Mikita Balesni和Jasmine Wang公开反驳前雇主的指控。他们否认分享机密信息和…
+  [图] https://the-decoder.com/wp-content/uploads/2026/10/openai_fired_researchers.png
+  https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/
+  [The Decoder · 10-24 23:19]
+- AI makes junior patent attorneys instantly better but may quietly stunt their professional growth
+  → 人工智能让初级专利律师立即变得更好，但可能会悄悄阻碍他们的职业发展
+  A three-month field experiment with 133 patent attorneys shows that AI boosts immediate performance, with junior lawyers gaining the most. But when the AI is taken away, only senior attorneys retain the benefits, suggest…
+  → 对133名专利代理人进行的为期三个月的现场实验表明，人工智能可以立即提高绩效，其中初级律师获得的收益最大。但是当人工智能被拿走时，只有高级律师才能保留好处，建议…
+  [图] https://the-decoder.com/wp-content/uploads/2026/10/patent-lawyers-nber-nano-banana-pro.jpg
+  https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth/
+  [The Decoder · 10-24 22:34]
+- Block's new AI model Dessa was trained entirely on human speech to catch emotions text-based models miss
+  → Block的新AI模型Dessa完全基于人类语音进行训练，以捕捉基于文本的模型错过的情绪
+  Block, the company behind Square and Cash App, has introduced Dessa, a speech model that processes audio directly instead of converting it to text first. Dessa is designed to recognize emotions, sarcasm, and pauses in re…
+  → Square和Cash App背后的公司Block推出了Dessa，这是一种直接处理音频而不是先将其转换为文本的语音模型。Dessa旨在识别情绪、讽刺和停顿…
+  [图] https://the-decoder.com/wp-content/uploads/2026/10/dessa_block.png
+  https://the-decoder.com/blocks-new-ai-model-dessa-was-trained-entirely-on-human-speech-to-catch-emotions-text-based-models-miss/
+  [The Decoder · 10-24 22:09]
+- OpenAI's isolated AI agents found ways to talk to each other through CPU cache
+  → OpenAI隔离的AI代理找到了通过CPU缓存相互交谈的方法
+  OpenAI now trains its most powerful models without internet access, after an internal research model exploited a DNS misconfiguration in September and reached the open internet. In controlled tests, AI agents still found…
+  → OpenAI现在在没有互联网访问的情况下训练其最强大的模型，此前一个内部研究模型在9月利用了DNS错误配置并访问了开放互联网。在受控测试中，AI代理仍然发现…
+  [图] https://the-decoder.com/wp-content/uploads/2026/10/openai_misalign-2.png
+  https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/
+  [The Decoder · 10-24 19:12]
+- Fancy harnesses make coding agents more expensive but not better, study finds
+  → 研究发现，花哨的线束使编码代理更昂贵，但不是更好
+  A controlled study shows that switching between coding-agent harnesses like Claude Code, OpenCode, or mini-SWE-agent barely moves pass rates more than rerunning the same setup. Cost per task, however, can triple, driven…
+  → 一项对照研究表明，在Claude Code、OpenCode或mini-SWE代理等编码代理之间切换几乎不会比重新运行相同的设置更能提高通过率。然而，每项任务的成本可以增加三倍，驱动…
+  [图] https://the-decoder.com/wp-content/uploads/2026/10/harness-buys-tokens-nano-banana-pro.jpg
+  https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/
+  [The Decoder · 10-24 17:21]
+
+# Hacker News 中文摘要（Zeli） (15)
+- Local Wikipedia：只收录你步行30分钟内的内容
+  Local Wikipedia 是一个基于地理位置的维基百科变体，它只展示你步行30分钟内能到达的内容。所有数据直接源自 Wikipedia，仅包含已地理编码的条目。若附近条目少于25个，系统会扩展至约6英里范围内选取最近的25个；若超过500个，则仅保留最近的500个。你的位置信息仅保存在本地浏览器中，分享链接时不会泄露位置。该网站与官方 Wikipedia 无任何关联，是一个独立实验性项目。
+  [图] https://edjefferson.com/localwiki/share.png
+  https://edjefferson.com/localwiki/
+  [HN · ▲ 1,506 · 💬 240 · edjefferson.com]
+- 今天我们成功黑入了iPhone
+  在巴黎举行的Hexacon大会上，我们公开了一系列针对iPhone的演示。从Signal的一键操作到iMessage的深度利用，我们展示了如何突破苹果的安全防线。这些技术不仅揭示了第三方应用的潜在风险，更直接挑战了iMessage的普遍安全性。此外，我们还提出了APT（Apple Persistent Threat）的概念，强调了对苹果生态系统的持续威胁。所有演示内容将在未来逐步公开，敬请期待。
+  [图] https://substackcdn.com/image/youtube/w_728,c_limit/_GJVKVNMczM
+  https://blog.calif.io/p/iphone
+  [HN · ▲ 1,058 · 💬 658 · blog.calif.io]
+- Kimi K3.1 Pro 发布：1M 上下文与极速模式
+  Kimi Code 正式推出旗舰级 K3.1 Pro 系列，包括标准版与 K3.1 Pro Highspeed 极速版。作为最新的 3T 参数模型，K3.1 Pro 拥有 1M 超长上下文窗口，在代码生成、3D 创作及金融建模领域表现卓越。极速版在保持同等能力的前提下，推理速度提升 2-3 倍。值得注意的是，K3.1 Pro 系列强制开启 thinking 模式，禁用思考的请求将被直接拒绝。为了获得最佳体验，建议用户开启新会话以利用缓存，并优先使用原生 API 而非代理工具。此外，文档详细对比了 K3、K2.8 Preview 等旧版模型的配额消耗与上下文限制，帮助用户根据需求选择合适的 Model ID。
+  https://www.kimi.com/code/docs/en/kimi-code/models.html
+  [HN · ▲ 1,052 · 💬 640 · kimi.com]
+- Apple Music 404 页面暗藏玄机
+  当你访问一个不存在的 Apple Music 链接时，看到的不仅仅是简单的报错页面。这个 404 页面巧妙地将用户引导至全球各个地区的 Apple Music 服务入口，从非洲、中东到亚太地区，再到欧洲和拉丁美洲，甚至涵盖了美国与加拿大的多语言版本。页面不仅展示了 Apple Music 宣称的 1 亿首无广告歌曲库，还列出了每月 11.99 美元的订阅价格。这种设计既解决了无效链接的尴尬，又成为了一个隐形的全球市场导航图，让误入的用户在寻找音乐的同时，也能直观感受到 Apple Music 庞大的全球覆盖网络。
+  https://music.apple.com/this-url-doesnt-exist
+  [HN · ▲ 894 · 💬 265 · music.apple.com]
+- Docker 其实很怪：容器并非真实存在
+  我决定亲手写一个容器运行时，结果发现 Docker 真的很奇怪。容器根本不是虚拟机，只是受限制的内核进程；所谓的容器技术，其实是 Namespaces、cgroups 等五个 Linux 内核功能的组合。Image 本质上只是文件夹，Docker 通过 chroot 将其设为根目录。更有趣的是，runc 用 Go 编写，但 Go 的多线程特性和缺乏 fork 机制让实现变得复杂，不得不依赖 C 模块和特殊技巧来模拟 fork。此外，Docker 通常需 root 权限，若要在无 root 环境下运行，甚至需要重写整个网络栈。亲手造轮子让我对 Docker 有了全新理解。
+  https://codeandcake.dev/posts/2026-10-22-docker-is-weird
+  [HN · ▲ 856 · 💬 367 · codeandcake.dev]
+- 股东供电比公共供电贵23%
+  2025年的数据显示，investor-owned utilities（股东所有公用事业）的电费比public utilities（公共公用事业）高出23%。自2020年以来，前者的电价飙升了34%，而后者仅上涨19%，远超同期24%的通胀率。在拥有两类供电模式的48个州中，有38个州的股东供电涨价速度更快。尽管co-ops（合作社）用户因用电量巨大导致月账单最高，但就单位电价而言，公共和合作社模式在通胀调整后实际价格反而下降了4.3%，而股东供电则上涨了7.9%。这揭示了不同所有制模式下，电价上涨背后的根本差异。
+  [图] https://kadoa-datasets.b-cdn.net/energy-prices/data/2026-10-23T19-20-05-967f73dc/og-investor-owned-utilities.png
+  https://www.kadoa.com/energy-prices/insights/investor-owned-utilities
+  [HN · ▲ 548 · 💬 393 · kadoa.com]
+- 70 天后，你的 Android 手机将不再属于你
+  Google 计划从 2027 年起，强制所有 Android 应用开发者进行实名注册并缴纳费用，否则其应用将被全球设备静默拦截。这一政策不仅针对 Play Store，更将彻底封死 F-Droid 等开源渠道及侧载功能。即便 Google 声称保留了“高级侧载”入口，但繁琐的九步流程、强制 24 小时冷却期以及通过 Google Play Services 控制的机制，实则是为了劝退绝大多数用户。这不仅是对独立开发者的扼杀，更是对 Android 开放精神的背弃，将用户对自己设备的控制权拱手让给一家不受监管的巨头。
+  https://keepandroidopen.org/?
+  [HN · ▲ 523 · 💬 367 · keepandroidopen.org]
+- Dessa：仅靠语音训练的全双工对话模型
+  Block 推出了全新的 Dessa 对话模型，这是首个完全仅通过语音数据训练而成的全双工（full-duplex）语音模型。与以往依赖文本转录或混合数据的模型不同，Dessa 直接从原始音频中学习人类对话的细微差别，旨在实现更自然、更真实的实时交互体验。该模型由 Block 团队打造，代表了语音交互技术的一次重要突破，让机器对话不再受限于文本转换的延迟与生硬，真正迈向“像人一样说话”的境界。
+  https://block.xyz/dessa
+  [HN · ▲ 483 · 💬 181 · block.xyz]
+- 加拿大C-22监控法案：隐私保卫战倒计时
+  加拿大议会正在辩论一项名为C-22的监控法案，该法案若通过，将赋予政府强迫电信公司和通讯应用协助监控的权力，甚至允许要求企业为执法部门开后门。这不仅会削弱我们依赖的加密技术，还强制服务保留长达一年的元数据，暴露用户的通讯对象和行踪。更令人担忧的是，该法案可能扩大与外国执法机构的数据共享，让美国警方在无需加拿大法院监督的情况下获取加拿大公民信息。CCLA和Citizen Lab的研究指出，该法案存在严重的宪法和网络安全漏洞，呼吁撤回相关条款。现在，加拿大民众仍有机会通过签署请愿书来阻止这一危险立法的通过，捍卫隐私与安全。
+  [图] https://www.eff.org/files/banner_library/OG-Encryption-DefendEncryption.png
+  https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill
+  [HN · ▲ 480 · 💬 263 · eff.org]
+- Claude 用 LLM 实现大规模形式化验证
+  传统形式化验证因耗时耗力难以普及，但 LLM 正在改变这一现状。我们与 Theorem 合作，利用 Claude 在 123 个开源库的 RISC-V 汇编代码层面证明了安全属性，这是首次大规模将 AI 应用于生产软件的形式化验证。Claude 不仅生成了数百万行 Rocq 证明代码，还修复了连 OSS-Fuzz 数万亿次测试都未发现的深层漏洞。这一突破让软件在任意输入下不崩溃的数学保证成为可能，标志着安全软件开发工作流的新篇章。
+  [图] https://www-cdn.anthropic.com/images/4zrzovbb/website/80cf520cb540989c3643907f004b2514ec4d01f1-1200x630.jpg
+  https://www.anthropic.com/research/formal-verification
+  [HN · ▲ 455 · 💬 302 · anthropic.com]
+- Disney+涨价后，连无广告版也要播广告
+  Disney+在确认所有订阅层级都将包含广告后几天，又宣布提高价格。尽管Disney+拥有Percy Jackson、Daredevil: Born Again等知名IP，但其原创内容在2026年上半年未能进入Nielsen收视榜前20，也未在Emmys上斩获任何奖项。面对内容影响力下滑，Disney+不仅将Premium和Hulu Premium无广告套餐涨价13%，还通过修改用户协议，允许在原本承诺无广告的Premium层级中播放“促销内容”和“赞助广告”。这意味着用户多付的钱，换来的不再是纯粹的无广告体验，而是被重新定义的“无广告”服务。
+  [图] https://www.tvfandomlounge.com/wp-content/uploads/2026/09/disney-plus-shows-2026.jpg
+  https://www.tvfandomlounge.com/disney-plus-price-hike-ads-premium-tier-nielsen-emmys-2026/
+  [HN · ▲ 439 · 💬 451 · tvfandomlounge.com]
+- 为何自然语言编程是愚蠢的
+  自计算机诞生之初，就有人抱怨编程需要像使用形式符号那样严谨，并期待机器能像人一样理解自然语言，自动纠正明显的错误。然而，EWD 667 指出，这种想法忽视了形式符号的核心价值：它们通过简单的规则有效排除了自然语言中难以避免的无意义内容。从希腊数学到现代代数的发展史证明，正是形式化符号系统让人类摆脱了语言的模糊性。试图用母语编程不仅无法简化人类的生活，反而会因为接口复杂化而大幅增加工作负担。真正的便利在于掌握形式符号，而非逃避它。
+  https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html
+  [HN · ▲ 377 · 💬 265 · cs.utexas.edu]
+- Google更新隐私条款，Gmail数据或用于广告
+  Google悄然更新了隐私政策，这意味着如果你启用了Personal Intelligence等个性化AI功能，你的Gmail、Google Photos和Drive数据可能会被用于定向广告投放。虽然Google强调不会向广告商透露姓名或邮箱等个人身份信息，也不会基于种族、宗教等敏感类别投放广告，但这一政策变化无疑打破了之前的承诺。用户若希望获得更精准的AI推荐，似乎不得不接受数据被用于广告变现的交换条件。
+  [图] https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK093_GOOGLE_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200
+  https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update
+  [HN · ▲ 371 · 💬 191 · theverge.com]
+- Kevin Bacon并非好莱坞中心，Samuel L. Jackson才是
+  大家熟知的“Kevin Bacon六度分隔”游戏认为他是好莱坞的中心，但数据揭示了一个反直觉的事实：Kevin Bacon的连通度排名仅为第175位。真正的中心是Samuel L. Jackson，他的平均距离仅为2.09度。文章深入分析了影响演员连通度的关键因素，发现不仅取决于参演电影数量，更取决于合作对象的活跃度。通过模拟10,000次未来轨迹，研究预测Chloë Grace Moretz等Gen Z演员可能在未来接棒，成为新一代的好莱坞中心。
+  [图] https://pudding.cool/2026/10/kevin-bacon/assets/social.jpg
+  https://pudding.cool/2026/10/kevin-bacon/
+  [HN · ▲ 360 · 💬 91 · pudding.cool]
+- 瑞典政府封禁ChatGPT和Claude
+  瑞典政府办公室（Regeringskansliet）宣布从周一开始，禁止员工在公务电脑上访问ChatGPT和Claude等AI服务。这一举措旨在确保员工仅使用经官方批准的工具，如Microsoft的Copilot。同时，Copilot的安全性也经过审查并得到提升。数字总监Mikael Wettercrantz指出，未经授权的AI服务使用可能带来信息安全风险。类似禁令已在Skatteverket、Sis等机构实施，Trafikverket也报告了AI滥用问题。尽管如此，部分员工仍可通过内部开发的平台访问ChatGPT和Claude。
+  https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet
+  [HN · ▲ 321 · 💬 120 · sverigesradio.se]
