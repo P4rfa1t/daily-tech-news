@@ -1,0 +1,581 @@
+每日科技新闻速览
+==============================
+
+# 科技行业 (8)
+- 不再逐个生成 Token：扩散模型迈向 35B，开始挑战 Agent 编程
+  [图] https://static001.infoq.cn/resource/image/65/59/65b8f62defda53450bd90fed1c454059.png
+  https://www.infoq.cn/article/0tgCLAMXFiFo0Dco5P9m?utm_source=rss&utm_medium=article
+  [InfoQ 中文 · 10-29 06:53]
+- 别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践
+  [图] https://static001.infoq.cn/resource/image/d8/b0/d89b404a9a1ac8ed5366a33a8f3960b0.jpeg
+  https://www.infoq.cn/article/II91QKxeaEg7RuZR2rrf?utm_source=rss&utm_medium=article
+  [InfoQ 中文 · 10-29 06:05]
+- 当 AI 智能体代表用户行动时，企业治理将面临哪些新问题？ ｜ 技术趋势
+  [图] https://static001.infoq.cn/resource/image/86/b3/8688f20261d50eeeece730a13a5689b3.jpeg
+  https://www.infoq.cn/article/CxWoiprQltg8YXmwmghd?utm_source=rss&utm_medium=article
+  [InfoQ 中文 · 10-29 05:39]
+- Instagram 采用原生 AI 架构对用户界面进行了现代化改造，将 token 成本降低了 33%
+  [图] https://static001.infoq.cn/resource/image/80/59/8071d0ba1242f32e7418ec952c633559.jpg
+  https://www.infoq.cn/article/bXKVgLdpf7HONYHIi6Su?utm_source=rss&utm_medium=article
+  [InfoQ 中文 · 10-29 05:00]
+- 谷歌 Antigravity SDK 新增本地模型支持，提升 Token 效率和代码隐私性
+  [图] https://static001.infoq.cn/resource/image/bf/a8/bf449b380cd887bf6bfe6238effb26a8.jpg
+  https://www.infoq.cn/article/TusFJkx6F151otgzliu2?utm_source=rss&utm_medium=article
+  [InfoQ 中文 · 10-29 04:00]
+- Hands-on with the new OLED iPad Mini
+  → 动手使用新的OLED iPad Mini
+  Apple announced a new iPad Mini with a larger OLED display this week, and we've just gotten to try it out at Apple's "Pro and tell" event. It's an iPad for sure, but the new OLED on the Mini looks exceptional, and the op…
+  → Apple本周宣布了一款新的iPad Mini，配备更大的有机发光二极管显示屏，我们刚刚在Apple“专业和告诉”活动中试用了它。这肯定是iPad，但是迷你上的新有机发光二极管看起来很棒，而且操作…
+  [图] https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268836_iPad_Mini_OLED_handson_ADiBenedetto_0008.jpg?quality=90&strip=all&crop=0,0,100,100
+  https://www.theverge.com/tech/1017932/hands-on-ipad-mini-8th-generation-pro-and-tell
+  [The Verge · 10-29 03:42]
+- Foreign gadget bans: all the news about the FCC’s clampdown on Chinese tech
+  → 外国小玩意禁令：所有关于联邦通信委员会打击中国科技的新闻
+  What do drones, routers, and Roombas have in common? The US government wants to keep Chinese ones from entering the country. They’re the first consumer gadgets that are facing de facto import bans because of the US gover…
+  → 无人机、路由器和Roombas有什么共同点？美国政府希望阻止中国的无人机进入美国。由于美国政府的原因，它们是第一批面临事实上进口禁令的消费电子产品……
+  [图] https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/gettyimages-2261816039.jpg?quality=90&strip=all&crop=0,0,100,100
+  https://www.theverge.com/policy/1019851/fcc-foreign-gadget-ban-drone-robot-roomba-storystream
+  [The Verge · 10-29 03:37]
+- Apple ‘Pro and tell’ event: Everything announced this week
+  → Apple“专业和告诉”活动：本周宣布的一切
+  Apple closed out its week of product announcements with its "Pro and tell" event on Wednesday, where it took the wraps off its long-rumored touchscreen MacBook Pro. Though Apple may have saved its biggest and most exciti…
+  → Apple周三以其“专业和告诉”活动结束了一周的产品发布，揭开了传闻已久的触摸屏MacBook专业的面纱。尽管Apple可能保存了它最大和最激动人心的东西…
+  [图] https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/app1.jpg?quality=90&strip=all&crop=0,0,100,100
+  https://www.theverge.com/tech/1020069/apple-pro-and-tell-event-everything-announced-this-week
+  [The Verge · 10-29 03:35]
+
+# 硬件极客 (12)
+- Where did your mouse come from?
+  → 你的鼠标是哪里来的？
+  Dmitriy Kostiuk gave a talk on the history of the computer mouse, published on media.ccc.de. It traces how pointing devices changed in three areas: how they detect motion, what protocols they speak, and how they fit the…
+  → Dmitriy Kostiuk发表了一篇关于电脑鼠标历史的演讲，发表于media.ccc.de。它追踪了指点设备在三个领域的变化：它们如何检测运动，它们使用什么协议，以及它们如何适应…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/where-did-your-mouse-come-from.jpg
+  https://blog.adafruit.com/2026/10/28/where-did-your-mouse-come-from/
+  [Adafruit Blog · 10-29 03:48]
+- What is the tolerance of a 0Ω resistor?
+  → 0Ω电阻的公差是多少？
+  JLCPCB posted a question to its followers on X: what is the tolerance of a 0Ω resistor? The company’s own parts library lists one as “0Ω ±1%”. One percent of zero is zero, so the spec says nothing useful. JLCPCB asked fo…
+  → JLCPCB在X上向其追随者发布了一个问题：0Ω电阻器的公差是多少？该公司自己的零件库将1列为“0Ω±1%”。零的百分之一是零，所以规范说没有任何用处。JLCPCB询问…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/what-is-the-tolerance-of-a-0-resistor.jpg
+  https://blog.adafruit.com/2026/10/28/what-is-the-tolerance-of-a-0%cf%89-resistor/
+  [Adafruit Blog · 10-29 03:23]
+- Practice Japanese on an Inkplate 4Tempera eInk device, open source
+  → 在Inkplate 4Thera eInk设备上练习日语，开源
+  Peter Hraska built Enkiplate, a Japanese flashcard system for the Soldered Inkplate 4TEMPERA, and published the code and documentation on GitHub. Read the card, tap to reveal the answer, then rate how you did. The schedu…
+  → 彼得·赫拉斯卡为焊接油墨板4TEMPERA构建了一个日本抽认卡系统Enkiplate，并在GitHub上发布了代码和留档。阅读卡片，点击以显示答案，然后评价你的表现。时间表…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/practice-japanese-on-an-inkplate-4tempera-eink-device.jpg
+  https://blog.adafruit.com/2026/10/28/practice-japanese-on-an-inkplate-4tempera-eink-device-open-source/
+  [Adafruit Blog · 10-29 03:03]
+- A shapeshifting LED mask for Halloween
+  → 万圣节的变形LED面具
+  Sam Freeman writing at Make: covers a Halloween mask by Sebastian Staacks of There Oughta Be that swaps faces using LED grids. The mask uses two 128×64 LED matrixes driven by a Raspberry Pi Pico 2 W, mounted to a face sh…
+  → 山姆·弗里曼在《制造：覆盖一个万圣节面具》中写道，该面具由《应该在那里》的塞巴斯蒂安·斯塔克斯制作，使用发光二极管网格交换面部。该面具使用两个128×64发光二极管矩阵，由一个Raspberry PiPico2 W驱动，安装在一个面部上…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/picture-149.jpg
+  https://blog.adafruit.com/2026/10/28/a-shapeshifting-led-mask-for-halloween/
+  [Adafruit Blog · 10-29 02:51]
+- C64 Keycaps For Everybody
+  → 适用于所有人的C64键帽
+  If you’ve got an MX-style keyboard and want some retro charm, you might like a recent project from [Levente Szabadkai]. It’s a set of C64-style keycaps that you can print
+  → 如果你有一个MX风格的键盘，想要一些复古的魅力，你可能会喜欢[Levente Szabadhai]最近的一个项目。这是一套可以打印的C64风格键帽
+  [图] https://hackaday.com/wp-content/uploads/2026/10/printed-e1793154125931.jpg
+  https://hackaday.com/2026/10/28/c64-keycaps-for-everybody/
+  [Hackaday · 10-29 02:30]
+- Learn ESP-IDF with ESP32: the beginner’s guide (eBook)
+  → 使用ESP32学习ESP-IDF：初学者指南（电子书）
+  Rui Santos and Sara Santos have released a new version of their ESP-IDF eBook on Random Nerd Tutorials. ESP-IDF is Espressif’s own framework for programming ESP32 chips, built around C and FreeRTOS, with lower level acce…
+  → Rui Santos和Sara Santos发布了他们的ESP-IDF随机书呆子教程电子书的新版本。ESP-IDF是乐鑫自己的ESP32芯片编程框架，围绕C和FreeRTOS构建，具有较低级别的访问…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/picture-147.jpg
+  https://blog.adafruit.com/2026/10/28/learn-esp-idf-with-esp32-the-beginners-guide-ebook/
+  [Adafruit Blog · 10-29 02:22]
+- The oldest GUI application that still runs on Windows 11
+  → 仍然在Windows 11上运行的最古老的GUI应用程序
+  A post on blog.enlyth.com asks a narrow question: what is the oldest GUI application that still runs on Windows 11 with no modifications and no emulation. Sixteen-bit Windows programs are out, since 64-bit Windows has no…
+  → blog.enlyth.com上的一篇帖子问了一个狭窄的问题：仍然在Windows 11上运行的最古老的GUI应用程序是什么，没有修改，也没有仿真。
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/image-2.CW-t_DpM_vg2wv.webp
+  https://blog.adafruit.com/2026/10/28/the-oldest-gui-application-that-still-runs-on-windows-11/
+  [Adafruit Blog · 10-29 02:17]
+- JP’s Product Pick of the Week 10/27/26
+  → JP本周产品精选10/27/26
+  Well what do we have here? It’s the Adafruit eInk Breakout Friend with 32KB SRAM! Follow along with John Park during the week’s product pick. Want more JP’s Product Pick of the Week?! Tune in every Tuesday on Youtube LIV…
+  → 我们这里有什么？这是带有32KB SRAM的Adafruit eInk突破朋友！在本周的产品挑选中跟随约翰·帕克。想要更多JP的本周产品精选吗？！每周二在YouTube LIV收听…
+  https://blog.adafruit.com/2026/10/28/jps-product-pick-of-the-week-10-27-26/
+  [Adafruit Blog · 10-29 02:02]
+- From impulse purchase to pocket studio: the M-Vave FM-1
+  → 从冲动购买到袖珍工作室：M-Vave FM-1
+  Nick Indge, writing at Ars Technica, bought an M-Vave FM-1 for $59.72 and found an active custom firmware scene already built around it. The FM-1 was sold as a pocket take on the Yamaha DX7, with 27 soft-touch piano keys…
+  → Nick Indge在Ars Technica撰稿，以59.72美元的价格购买了一台M-Vave FM-1，并发现已经围绕它构建了一个活跃的自定义固件场景。FM-1作为雅马哈DX7的口袋出售，带有27个软触摸钢琴键……
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/picture-144.jpg
+  https://blog.adafruit.com/2026/10/28/from-impulse-purchase-to-pocket-studio-the-m-vave-fm-1/
+  [Adafruit Blog · 10-29 02:01]
+- The Philips AV7300 turns analog TV RF into composite video
+  → 飞利浦AV7300将模拟电视射频转换为复合视频
+  Andrew Dorey writes about a way to capture video from old computers that only have RF output. Machines like the ZX81 modulated their video onto a UHF carrier because televisions were the display of choice in the 1970s an…
+  → 安德鲁·多雷写了一种从只有射频输出的旧电脑上捕捉视频的方法。像ZX81这样的机器将视频调制到UHF载波上，因为电视是1970年代和1970年代的首选显示器…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/picture-143.jpg
+  https://blog.adafruit.com/2026/10/28/the-philips-av7300-turns-analog-tv-rf-into-composite-video/
+  [Adafruit Blog · 10-29 01:57]
+- Shipping Alert – Adafruit is Voting Tuesday, November 3
+  → 航运警报-Adafruit将于11月3日星期二投票
+  Election Day is an official holiday here at Adafruit. All employees are given a paid day off so they can get out and vote! While we will still be moving orders on Tuesday, November 3 but there may be some delays or longe…
+  → 选举日是Adafruit的法定假日。所有员工都有带薪休假，这样他们就可以出去投票了！虽然我们仍将在11月3日星期二转移订单，但可能会有一些延误或长时间…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/adafruit_were_voting_twitter-1300x433-1.jpg
+  https://blog.adafruit.com/2026/10/28/shipping-alert-adafruit-is-voting-tuesday-november-3-vote-shipping/
+  [Adafruit Blog · 10-29 01:49]
+- e486-web: a standalone pure-JavaScript Intel 80486DX2 PC web emulator
+  → e486-web：独立的纯JavaScript Intel 80486DX2 PC网络模拟器
+  Jan de Jager has published e486-web on GitHub, an Intel 80486DX2-66 PC emulator written entirely in ES6 JavaScript. It runs in the browser with no dependencies and no build step. The emulator covers the CPU, the motherbo…
+  → Jan de Jager在GitHub上发布了e486-web，这是一款完全用ES6 JavaScript编写的Intel 80486DX2-66 PC仿真器。它在浏览器中运行，没有依赖项，也没有构建步骤。模拟器涵盖CPU，母机…
+  [图] https://cdn-blog.adafruit.com/uploads/2026/10/picture-141.jpg
+  https://blog.adafruit.com/2026/10/28/e486-web-a-standalone-pure-javascript-intel-80486dx2-pc-web-emulator/
+  [Adafruit Blog · 10-29 01:48]
+
+# 科学前沿 (8)
+- Humidity can change how smoke pollutants transform after dark
+  → 湿度会改变烟雾污染物在天黑后的转化方式
+  What happens to smoke particles after sunset can depend strongly on something as familiar as the amount of water in the air. New research from Md. Sohel Rana and Marcelo I. Guzman at the University of Kentucky shows that…
+  → 日落后烟雾颗粒会发生什么很大程度上取决于空气中的水量。肯塔基大学的Md. Sohel Rana和Marcelo I.Guzman的新研究表明…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/humidity-redirects-nig.jpg
+  https://phys.org/news/2026-10-humidity-pollutants-dark.html
+  [Phys.org · 10-29 03:40]
+- 'Let nothing be forgotten': Holocaust survivors' memorial books honored lives lost and vibrant hometowns
+  → “不要忘记任何事情”：大屠杀幸存者的纪念册纪念失去的生命和充满活力的家乡
+  My grandmother was a Holocaust survivor from Kostopol, Ukraine. Years after she passed away, I was trying to learn more about her life before the war—something I knew very little about. When I found a book called "Sefer…
+  → 我祖母是乌克兰科斯托波尔大屠杀的幸存者。她去世多年后，我试图更多地了解她战前的生活——对此我知之甚少。当我找到一本名为《塞弗…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/an-open-title-page-of.jpg
+  https://phys.org/news/2026-10-forgotten-holocaust-survivors-memorial-honored.html
+  [Phys.org · 10-29 03:40]
+- Scientists count more than 2 million eels on one underwater mountain
+  → 科学家在一座水下山上数了数超过200万条鳗鱼
+  Patience Seamount is an underwater mountain in Australia's Huon Marine Park off the coast of Tasmania. Every year, it is the site of an enormous gathering of basketwork eels (Diastobranchus capensis) for reasons unknown,…
+  → 耐心海山是塔斯马尼亚海岸澳大利亚胡恩海洋公园的一座水下山。每年，它都是篮子鳗鱼（Diastobranchus capensis）大量聚集的地方，原因不明，…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/scientists-count-more.jpg
+  https://phys.org/news/2026-10-scientists-million-eels-underwater-mountain.html
+  [Phys.org · 10-29 03:20]
+- Study finds celebrity digital twins may boost trust in customer service
+  → 研究发现名人数字双胞胎可能会增强对客户服务的信任
+  Imagine losing your credit card, logging into your bank's website for help and being greeted by a virtual customer service representative who looks and sounds exactly like actor Hugh Jackman. The person helping you isn't…
+  → 想象一下，你丢了信用卡，登录银行网站寻求帮助，被一个看起来和听起来都像演员休·杰克曼的虚拟客户服务代表迎接。帮助你的人不是…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/virtual-customer-servi.jpg
+  https://phys.org/news/2026-10-celebrity-digital-twins-boost-customer.html
+  [Phys.org · 10-29 03:20]
+- Gambling risks found among teens as young as 13
+  → 在13岁的青少年中发现赌博风险
+  More than half (52.5%) of Americans ages 13 to 27 reported gambling in the past year, including 42.7% of teens ages 13 to 17, according to researchers at the Center for Gambling Studies at the Rutgers School of Social Wo…
+  → 罗格斯大学社会福利学院赌博研究中心的研究人员称，超过一半（52.5%）的13至27岁美国人在过去一年中报告赌博，其中包括42.7%的13至17岁青少年…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/young-boy-using-phone.jpg
+  https://phys.org/news/2026-10-gambling-teens-young.html
+  [Phys.org · 10-29 03:00]
+- How childhood experiences shape employment outcomes in India
+  → 童年经历如何影响印度的就业结果
+  Research led by the University of East Anglia (UEA) shows that childhood poverty, poor living conditions and gender can have lasting impacts on employment opportunities and earnings in India.
+  → 东英吉利亚大学（UEA）领导的研究表明，儿童贫困、恶劣的生活条件和性别会对印度的就业机会和收入产生持久影响。
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/employment-in-india.jpg
+  https://phys.org/news/2026-10-childhood-employment-outcomes-india.html
+  [Phys.org · 10-29 02:50]
+- UV scans uncover natural varnish that may have preserved ancient Chauvet Cave drawings
+  → 紫外线扫描发现可能保存了古代肖维洞穴绘画的天然清漆
+  Tucked away inside a limestone cave in southeastern France lies some of the oldest artwork in existence. Known as Chauvet Cave, the site is so historically important—and fragile—that its location is kept secret and the c…
+  → 隐藏在法国东南部的一个石灰岩洞穴里，埋藏着一些现存最古老的艺术品。这个被称为肖维洞穴的地方在历史上非常重要——也很脆弱——以至于它的位置被保密…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/new-uv-light-based-tec.jpg
+  https://phys.org/news/2026-10-uv-scans-uncover-natural-varnish.html
+  [Phys.org · 10-29 02:40]
+- Supersonic waves could explain the strange orbits of hot Jupiters and Neptunes
+  → 超音速波可以解释热木星和海王星的奇怪轨道
+  Using advanced new simulations, a team of astronomers in the U.S. has developed a promising new theory for how giant, gaseous exoplanets migrate into stiflingly close orbits around their host stars. Led by J. J. Zanazzi…
+  → 利用先进的新模拟，美国的一组天文学家开发了一个有希望的新理论，关于巨大的气态系外行星如何迁移到围绕其主星令人窒息的近距离轨道。由J. J.Zanazzi领导…
+  [图] https://scx1.b-cdn.net/csz/news/tmb/2026/supersonic-waves-could.jpg
+  https://phys.org/news/2026-10-supersonic-strange-orbits-hot-jupiters.html
+  [Phys.org · 10-29 02:20]
+
+# 网络安全 (12)
+- inventory
+  Automated attack surface inventory for 800+ public bug bounty programs, running scheduled subdomain enumeration, permutation, DNS and web server reporting workflows.
+  → 800多个公共bug赏金计划的自动攻击面库存，运行预定的子域枚举、排列、DNS和Web服务器报告工作流程。
+  [图] https://assets.kitploit.com/production/public/tools/58437/8e044de997ee9f721d048eb70996c44ff46831b101fb3deb62d57eefb9f3e6e6-display-v1.webp
+  https://kitploit.com/en/tools/github/trickest/inventory
+  [KitPloit · 10-29 03:37]
+- svg-sanitizer
+  PHP library that sanitizes untrusted SVG/XML by filtering tags, attributes, and remote references to prevent XSS and script injection in uploaded or inlined SVG files.
+  → PHP库，通过过滤标签、属性和远程引用来清理不受信任的SVG/XML，以防止在上传或内联的SVG文件中注入XSS和脚本。
+  [图] https://assets.kitploit.com/production/public/tools/58433/fefc0016c7f94aeadf078ae951f42782628b07446a1c7057e116a21de8ee5882-display-v1.webp
+  https://kitploit.com/en/tools/github/darylldoyle/svg-sanitizer
+  [KitPloit · 10-29 02:37]
+- blackbird
+  An OSINT tool to search for accounts by username and email in social networks.
+  → 一个OSINT工具，用于在社交网络中按用户名和电子邮件搜索帐户。
+  [图] https://assets.kitploit.com/production/public/tools/58441/2e843aba6e74950e72d422d2fd737d307678e747408f0f6ef3e1f5d0ce098d20-display-v1.webp
+  https://kitploit.com/en/tools/github/antoniaci/blackbird
+  [KitPloit · 10-29 01:36]
+- BruteForceAI
+  Advanced LLM-powered brute-force tool combining AI intelligence with automated login attacks
+  → 结合AI智能和自动登录攻击的高级LLM-powered蛮力工具
+  [图] https://assets.kitploit.com/production/public/tools/58443/b98195245d24c3e6f5d3d5310ae5d22b56c48a7e9a859e432412db10ac7f468d-display-v1.webp
+  https://kitploit.com/en/tools/github/mordavid/bruteforceai
+  [KitPloit · 10-29 00:36]
+- Yet Another ClickFix Campaign, (Wed, Oct 28th)
+  → 又一个ClickFix活动（10月28日星期三）
+  Introduction
+  → 导言
+  [图] https://isc.sans.edu/diaryimages/images/2026-10-28a-ISC-diary-image-01.png
+  https://isc.sans.edu/diary/rss/33466
+  [SANS ISC · 10-29 00:07]
+- ahmia-site
+  Django-based search engine and crawler stack that indexes .onion hidden services on the Tor network, providing searchable metadata for dark web content discovery.
+  → 基于Django的搜索引擎和爬虫堆栈，索引Tor网络上的. onion隐藏服务，为暗网内容发现提供可搜索的元数据。
+  [图] https://assets.kitploit.com/production/public/tools/58457/196626e9647370a7a3311f77a65250b9aa61853ab70c3290c3c3da76075cb2f4-display-v1.webp
+  https://kitploit.com/en/tools/github/ahmia/ahmia-site
+  [KitPloit · 10-28 23:36]
+- Attacker Relentlessly Scans for Credentials by Impersonating AI Bots
+  → 攻击者通过冒充AI机器人无情地扫描凭据
+  The threat actor lurked behind bots posing as agents from OpenAI, Anthropic, Meta, and others to find exposed data.
+  → 威胁行为者潜伏在伪装成OpenAI、Anthropic、Meta等代理的机器人后面，以查找暴露的数据。
+  [图] https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf851053137fec653/6ae1e3cca1e4219344f6a136/credentials-NicoElNino-AdobeStock.png?width=720&quality=80&disable=upscale
+  https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials
+  [Dark Reading · 10-28 22:37]
+- darkfox
+  CTI Cyber Threat Intelligence OSINT Dark Web Deep Web Research. Ransomware gang information gathering tool.
+  → CTI网络威胁情报OSINT暗网深层网络研究。勒索软件团伙信息收集工具。
+  [图] https://assets.kitploit.com/production/public/tools/58459/390941eb3b542260425663a58278ef938aa6ef4d507cecd92a0244578d79d21f-display-v1.webp
+  https://kitploit.com/en/tools/github/aryanguenthner/darkfox
+  [KitPloit · 10-28 22:36]
+- TorCrawl.py
+  Crawl and extract (regular or onion) webpages through TOR network
+  → 通过TOR网络抓取和提取（常规或洋葱）网页
+  [图] https://assets.kitploit.com/production/public/tools/58465/0811b65a659d14a51327bf0eca166ab77e57a2af3a825549a48d9f81d8584282-display-v1.webp
+  https://kitploit.com/en/tools/github/mikemeliz/torcrawl.py
+  [KitPloit · 10-28 21:41]
+- Darkus
+  Searches dark web and onion search engines for keywords and returns matching onion links, with optional local database storage and Ahmia blacklist URL checks.
+  → 在暗网和洋葱搜索引擎中搜索关键字并返回匹配的洋葱链接，并带有可选的本地数据库存储和Ahmia黑名单URL检查。
+  [图] https://assets.kitploit.com/production/public/tools/58464/3524486b479096171bf14243a7f1c701e911abd9403a249b773cfcc9fe9593bc-display-v1.webp
+  https://kitploit.com/en/tools/github/lucksi/darkus
+  [KitPloit · 10-28 20:46]
+- Evilginx3-Phishlets
+  This repository provides penetration testers and red teams with an extensive collection of dynamic phishing templates designed specifically for use with Evilginx3. May be updated periodically.
+  → 该存储库为渗透测试人员和红色团队提供了大量专为Evilginx3设计的动态网络钓鱼模板。可能会定期更新。
+  [图] https://assets.kitploit.com/production/public/tools/58477/7d1452b10798558064576374a07975c773beb2b56f6db37aaf7e6a9125bd36a0-display-v1.webp
+  https://kitploit.com/en/tools/github/simplerhacking/evilginx3-phishlets
+  [KitPloit · 10-28 19:51]
+- Awesome-Redteam
+  A knowledge base for red teaming and offensive security.
+  → 红队和进攻安全的知识库。
+  [图] https://assets.kitploit.com/production/public/tools/58488/765b6d73ac83d7a1673544710cb04ff9c07ddf2863ccd0f7bb408a3d6a416c24-display-v1.webp
+  https://kitploit.com/en/tools/github/threekiii/awesome-redteam
+  [KitPloit · 10-28 18:56]
+
+# AI 人工智能 (8)
+- Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board
+  → Google DeepMind发布Gemini 4 Carbon仅在Argon全面增长两周后
+  Just two weeks after Gemini 4 Argon, Google DeepMind is releasing Gemini 4 Carbon, which tops the Artificial Analysis Intelligence Index v5 with 59 points. Google says the model is built for extended agent workflows and…
+  → 就在Gemini 4 Argon发布两周后，Google DeepMind发布了Gemini 4 Carbon，以59分位居人工分析智能指数v5榜首。Google表示，该模型是为扩展代理工作流程和…
+  [图] https://the-decoder.com/wp-content/uploads/2026/10/gemini_4_argon-2.png
+  https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/
+  [The Decoder · 10-29 03:17]
+- Google opens Android development to third-party AI agents and unveils new Gemini APIs
+  → Google向第三方AI代理开放Android开发并推出新的Gemini API
+  Google is opening up Android Studio to third-party AI agents. Through a new "Bring Your Own Agent" feature, the IDE now supports more than 40 coding agents, including Anthropic's Claude Agent and OpenAI's Codex. Google s…
+  → Google正在向第三方AI代理开放Android Studio。通过新的“自带代理”功能，IDE现在支持40多个编码代理，包括Anthropic Claude代理和OpenAI Codex。Google s…
+  [图] https://the-decoder.com/wp-content/uploads/2026/05/Android-Robot-Logo-Background-Nano-Banana-Pro.jpg
+  https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/
+  [The Decoder · 10-29 00:59]
+- OpenAI teases Dots for Europe, but its Berlin DevDay was really about building a platform
+  → OpenAI为欧洲挑逗点，但它的柏林DevDay实际上是为了建立一个平台
+  At DevDay Exchange in Berlin, OpenAI mostly repeated what it had already announced, but it did share a few new details. The AI assistant Dots should roll out more widely in Europe "in a few weeks," and weekly Codex users…
+  → 在柏林的DevDay Exchange上，OpenAI主要重复了它已经宣布的内容，但它确实分享了一些新细节。AI助手Dot应该在“几周内”在欧洲更广泛地推出，每周Codex用户……
+  [图] https://the-decoder.com/wp-content/uploads/2026/10/OpenAI-DevDay-Exchange-2026.png
+  https://the-decoder.com/openai-teases-dots-for-europe-but-its-berlin-devday-was-really-about-building-a-platform/
+  [The Decoder · 10-29 00:25]
+- Claude for Legal now verifies sources automatically, then hands the file to a lawyer
+  → Claude for Legal现在自动验证来源，然后将文件交给律师
+  Anthropic is adding pre-built templates to Claude for Legal. These interactive overviews and tables simplify setup for legal teams and speed up routine work like contract reviews, while more than 60 integrations let firm…
+  → Anthropic正在为Claude for Legal添加预构建模板。这些交互式概述和表格简化了法律团队的设置，加快了合同审查等日常工作，而60多个集成让公司…
+  [图] https://the-decoder.com/wp-content/uploads/2026/10/claude_Legal-1.png
+  https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer/
+  [The Decoder · 10-29 00:20]
+- Nvidia's open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition
+  → Nvidia开放Nemotron 3.5转录结合了转录、翻译和说话人识别
+  Nvidia has released Nemotron 3.5 Transcribe, an open speech recognition model that handles transcription, speaker recognition, and translation and takes its instructions as text prompts. It leads several benchmarks and u…
+  → Nvidia发布了Nemotron 3.5 Transcribe，这是一个开放的语音识别模型，可以处理转录、说话人识别和翻译，并将其指令作为文本提示。它领先于几个基准测试和u…
+  [图] https://the-decoder.com/wp-content/uploads/2026/08/nvidia_logo.png
+  https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/
+  [The Decoder · 10-28 23:49]
+- New Artificial Analysis index widens the gap between open and closed models
+  → 新的人工分析指数扩大了开放和封闭模型之间的差距
+  Artificial Analysis overhauled its Intelligence Index, causing Kimi K3.1 Pro to drop five spots in the rankings. The article New Artificial Analysis index widens the gap between open and closed models appeared first on T…
+  → 人工分析彻底改变了其智能指数，导致Kimi K3.1 Pro在排名中下降了五位。文章新人工分析指数扩大了开放和封闭模型之间的差距首次出现在T…
+  [图] https://the-decoder.com/wp-content/uploads/2026/10/kimi_k31pro.png
+  https://the-decoder.com/new-artificial-analysis-index-widens-the-gap-between-open-and-closed-models/
+  [The Decoder · 10-28 23:04]
+- The Download: dead startups fueling AI and interspecies communication
+  → 下载：推动人工智能和物种间交流的死初创公司
+  This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI labs are buying data from dead startups to train their models When Keelan Miske…
+  → 这是今天版本的下载，我们的工作日时事通讯，每天提供科技世界正在发生的事情。人工智能实验室正在从死去的初创公司购买数据来训练他们的模型当Keelan Miske…
+  [图] https://wp.technologyreview.com/wp-content/uploads/2025/04/20240926__DSC7922_PA.jpg?fit=3840,2560
+  https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/
+  [MIT Technology Review · 10-28 20:10]
+- Pairing industrial AI autonomy and human control
+  → 将工业人工智能自主和人类控制结合起来
+  [图] https://wp.technologyreview.com/wp-content/uploads/2026/10/iStock-2264572193.jpg?resize=1200,600
+  https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/
+  [MIT Technology Review · 10-28 20:00]
+
+# 医疗健康 (8)
+- STAT+: HHS moves to allow compounding of some unapproved peptides
+  → STAT+： HHS允许合成一些未经批准的肽
+  Kennedy and his MAHA movement have embraced peptides, though there's little evidence for many of the wellness compounds.
+  → 肯尼迪和他的MAHA运动已经接受了肽，尽管几乎没有证据表明许多健康化合物。
+  [图] https://www.statnews.com/wp-content/uploads/2026/10/AdobeStock_305447415-1024x576.jpeg
+  https://www.statnews.com/2026/10/28/hhs-enforcement-discretion-policy-allows-peptide-compounding/?utm_campaign=rss
+  [STAT News · 10-29 00:35]
+- Senate candidate El-Sayed wants to ‘grill’ RFK Jr., calls him the ‘most incompetent HHS secretary ever’
+  → 参议院候选人赛义德想“盘问”小RFK，称他为“有史以来最无能的HHS部长”
+  Abdul El-Sayed has made headlines for his progressive politics and stance on Israel. But some supporters consider his public health background critical.
+  → 阿卜杜勒·赛义德因其进步的政治和对以色列的立场而成为头条新闻。但是一些支持者认为他的公共卫生背景至关重要。
+  [图] https://www.statnews.com/wp-content/uploads/2026/10/el-sayed-blue-1024x576.jpg
+  https://www.statnews.com/2026/10/28/abdul-el-sayed-profile-midterm-policy-issues-health-care/?utm_campaign=rss
+  [STAT News · 10-28 23:14]
+- STAT+: Why every health care AI company must face Epic
+  → STAT+：为什么每家医疗保健AI公司都必须面对Epic
+  In this edition of AI Prognosis: A new investigation into how Epic's market dominance is impacting health tech innovation and AI adoption.
+  → 在本期《人工智能预测：关于Epic的市场主导地位如何影响健康技术创新和人工智能采用的新调查》中。
+  [图] https://www.statnews.com/wp-content/uploads/2026/10/AIPrognosis_Wordpress_EpicKites-1024x576.jpg
+  https://www.statnews.com/2026/10/28/health-care-ai-innovation-challenge-epic-ai-prognosis/?utm_campaign=rss
+  [STAT News · 10-28 22:52]
+- STAT+: Pharmalittle: We’re reading about 340B battles, new results for a Lilly weight loss drug, and more
+  → STAT+： Pharmalittle：我们正在阅读340B战役、礼来减肥药物的新结果等等
+  Missouri attorney general warned Eli Lilly to discontinue requiring hospitals to provide claims data to receive discounted medicines under 340B program
+  → 密苏里州司法部长警告礼来公司停止要求医院提供索赔数据，以便根据340B计划获得打折药品
+  [图] https://www.statnews.com/wp-content/uploads/2015/11/PHARMALOT_LITTLE-copy-1024x576.jpg
+  https://www.statnews.com/pharmalot/2026/10/28/battles-over-340b-lilly-reports-weight-loss-drug-results/?utm_campaign=rss
+  [STAT News · 10-28 21:44]
+- STAT+: Lilly’s triple-G drug beats Ozempic in head-to-head study
+  → STAT+：礼来公司的3G药物在面对面的研究中击败了奥赞皮克
+  Eli Lilly announced that its investigational drug retatrutide was more effective at lowering blood sugar and cutting weight than Novo Nordisk’s Ozempic in a large diabetes study.
+  → 礼来公司在一项大型糖尿病研究中宣布，其研究药物雷塔鲁肽在降低血糖和减肥方面比诺和诺德的Ozempic更有效。
+  [图] https://www.statnews.com/wp-content/uploads/2025/08/GettyImages-2092473213-1024x576.jpg
+  https://www.statnews.com/2026/10/28/biotech-news-lillys-triple-g-drug-beats-ozempic-in-head-to-head-study/?utm_campaign=rss
+  [STAT News · 10-28 21:42]
+- Scientists discover a hidden reason why muscles weaken with age
+  → 科学家发现了肌肉随着年龄增长而变弱的隐藏原因
+  Scientists have uncovered a hidden defense mechanism in aging muscles that sacrifices strength to protect cells from damage. In mice, partially restoring a crucial molecule reversed signs of muscle wasting and prevented…
+  → 科学家在衰老的肌肉中发现了一种隐藏的防御机制，这种机制牺牲力量来保护细胞免受伤害。在老鼠身上，部分恢复一种关键分子逆转了肌肉萎缩的迹象，并防止了…
+  [图] https://www.sciencedaily.com/images/1920/senior-woman-flexing-muscles.webp
+  https://www.sciencedaily.com/releases/2026/10/261027063704.htm
+  [ScienceDaily Health · 10-28 21:04]
+- A single sauna session sends immune cells surging through your body
+  → 一次桑拿会让免疫细胞在你体内涌动
+  A new Finnish study reveals that just 30 minutes in a sauna can temporarily flood the bloodstream with additional white blood cells, potentially helping the immune system patrol the body and detect threats. The surprisin…
+  → 芬兰的一项新研究表明，只洗30分钟桑拿就能暂时让血液中充满额外的白细胞，有可能帮助免疫系统巡逻身体并检测威胁。令人惊讶的是…
+  [图] https://www.sciencedaily.com/images/1920/young-woman-relaxing-in-sauna.webp
+  https://www.sciencedaily.com/releases/2026/10/261027231021.htm
+  [ScienceDaily Health · 10-28 20:37]
+- What has actually caused the decline in drug overdose deaths?
+  → 实际上是什么导致了药物过量死亡人数的下降？
+  After years of steep increases, especially amid the pandemic, U.S. overdose deaths decreased 27% in 2024, and preliminary data from 2025 show another meaningful drop.
+  → 经过多年的急剧增长，尤其是在大流行期间，美国用药过量死亡人数在2024年下降了27%，2025年的初步数据显示又一次有意义的下降。
+  [图] https://www.statnews.com/wp-content/uploads/2026/10/eANJo-overdose-deaths-declining--1024x576.png
+  https://www.statnews.com/2026/10/28/health-news-why-are-overdose-deaths-declining/?utm_campaign=rss
+  [STAT News · 10-28 20:01]
+
+# Hacker News 中文摘要（Zeli） (15)
+- Ghostty 1.4.0：Kitty 图形协议首次 100% 实现
+  Ghostty 1.4.0 发布了，这是耗时 7 个月、由 172 位贡献者完成的重大更新。本次更新最引人注目的是首次实现了 100% 完整的 Kitty 图形协议，包括动画和相对定位功能，让 Ghostty 成为除 Kitty 外首个达成此成就的终端。性能方面，通过 SIMD 优化，图像解析速度提升了约 16 倍；内存管理上，不可见 scrollback 的压缩技术将物理内存占用降低了 70% 至 90%，默认 scrollback 限制也从 10 MB 提升至 50 MB。此外，macOS 版修复了多个安全漏洞，GTK 版引入了新的渲染管线以解决分数缩放下的模糊问题，并新增了拖拽调整分屏功能。
+  [图] https://ghostty.org/social-share-card.jpg
+  https://ghostty.org/docs/install/release-notes/1-4-0
+  [HN · ▲ 1,245 · 💬 397 · ghostty.org]
+- 特朗普政府隐瞒FISA法院秘密监控裁决
+  两位长期监督美国情报机构的民主党参议员指控，特朗普政府正在违法行事。他们拒绝向国会披露FISA法院的一项秘密裁决，该裁决涉及政府如何监控美国公民。参议员们指出，政府此举意在迫使国会续签Section 702条款，这是美国最广泛的监控项目，允许联邦特工在无搜查令的情况下读取美国人的通信。这种利用信息不对称来推动立法续期的做法，引发了对政府透明度和公民隐私权的严重担忧。
+  [图] https://media.wired.com/photos/6adbe0039bde53c96a68d73b/191:100/w_1280,c_limit/Security_Trump%20Officials%20are%20Sitting%20on%20a%20Secret%20Surveillance%20Court%20Ruling_v1.jpg
+  https://www.wired.com/story/the-us-government-is-hiding-a-secret-court-ruling-about-how-it-spies-on-americans/
+  [HN · ▲ 1,048 · 💬 418 · wired.com]
+- Genie 4：实时构建原生多模态互动世界
+  Google DeepMind 发布了新一代世界模型 Genie 4，它不再只是生成视频，而是能实时构建可交互的模拟环境。Genie 4 原生支持多模态，能同时生成逼真的画面、环境音效、背景音乐以及角色对话。该系统深度整合了 Gemini 系列模型的能力，其中 Gemini Omni 负责确保视觉和行为的真实感，而其他 Gemini 模型则提供复杂的推理逻辑，以维持模拟世界的连贯性。用户只需通过自然语言指令，就能实时改变天气、移动视角或引入新角色，Genie 4 会即时响应并演算后续发展。这项技术为机器人训练、智能体开发以及全新的互动娱乐体验提供了无限可能，目前正作为研究预览向部分用户开放。
+  https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/
+  [HN · ▲ 998 · 💬 567 · deepmind.google]
+- AI承诺减少工作，我却更忙了
+  AI最初承诺帮我们夺回时间，减少重复劳动，让我早点下班。作为Bold.org的技术副总裁，我如今全面使用AI代理处理工程任务，效率确实提升了。但讽刺的是，我从未像今年这样工作得如此繁重。GitHub数据清晰显示，我的贡献量在2026年飙升至职业生涯新高，甚至超过了2020年全职写代码的时期。问题不在于任务变难，而在于AI让实施成本变得极低，我忍不住同时开启更多项目、修复更多Bug、尝试更多想法。这种‘能做更多’的能力，迅速转化为‘做了更多’的现实，导致我在多个任务间频繁切换，精神消耗巨大。AI没有减少我的工作，反而让我主动承担了原本不会碰的额外工作。
+  [图] https://oioannou.com/img/blog-by-orestis.jpg
+  https://oioannou.com/blog/ai-promised-less-work/
+  [HN · ▲ 656 · 💬 649 · oioannou.com]
+- Anthropic 非法用斯坦福教授书籍训练 Claude
+  2026 年 5 月，联邦法官裁定 AI 巨头 Anthropic 非法爬取并盗版了超过 10 位斯坦福教授的作品来训练 Claude 模型。尽管 Bartz 案达成了 15 亿美元的和解，但包括 Tobias Wolff 在内的部分作者认为赔偿不足，甚至将其比作“奴隶劳动”，因此选择退出和解并发起新的诉讼 Cruz v. Anthropic，寻求更高的法定赔偿及永久禁令。法官 William Alsup 在判决中区分了非法盗版与作为“合理使用”的合法获取，将 AI 训练比作人类阅读内化的过程。然而，随着全球超过 70 起针对 AI 公司的侵权诉讼涌现，如何平衡技术发展与创作者权益，尤其是解决高昂的“交易成本”问题，仍是 Anthropic 等公司面临的巨大挑战。
+  [图] https://stanforddaily.com/wp-content/uploads/2026/10/Green-Library.png
+  https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/
+  [HN · ▲ 555 · 💬 282 · stanforddaily.com]
+- Python 实验性 JIT 将被移除
+  Python 3.13 引入的实验性 JIT 编译器即将退出 CPython 主线。尽管维护者提交了 PEP 836 试图将其转正，但 Python 指导委员会认为该提案在维护承诺、兼容性保障及安全性方面论证不足，未能满足将 JIT 作为正式支持功能的标准。面对委员会提出的高门槛和六个月整改期限，维护团队最终选择撤回 PEP。这意味着 JIT 代码很快将从 CPython 主仓库中移除，相关开发工作将暂时停止，未来能否以其他形式延续尚不明朗。
+  https://lwn.net/SubscriberLink/1102102/0c00e4d550f25f8c/
+  [HN · ▲ 554 · 💬 307 · lwn.net]
+- Wikipedia如何守住人类写作的最后阵地
+  随着AI生成内容日益隐蔽，Wikipedia志愿者正面临前所未有的挑战。从2023年明显的陈词滥调到2025年难以察觉的结构化套路，AI写作正不断渗透进全球最大的在线百科全书。WikiProject AI Cleanup项目的发起人Ellia Lebleu分享了识别AI内容的技巧，包括检测虚假引用和异常编辑速度。尽管Wikipedia已禁止使用LLM生成文章，但仍有约15%的新内容被标记为AI生成。未来，Wikipedia或许将探索与AI的共生关系，在保持“人类写作”身份的同时，利用AI工具辅助内容审核与验证。
+  [图] https://spectrum.ieee.org/media-library/surreal-collage-of-a-womans-face-with-geometric-shapes-pencil-and-wikipedia-globe.png?id=68486571&width=1200&height=600&coordinates=0%2C167%2C0%2C168
+  https://spectrum.ieee.org/wikipedia-wikiproject-ai-writing-cleanup
+  [HN · ▲ 492 · 💬 226 · spectrum.ieee.org]
+- Roblox 未获授权下载 145GB 成人模型
+  2026 年 10 月，我们发现一个自称属于 Roblox 的爬虫，在未经任何许可的情况下，从 Open3DLab、SFMLab 和 SmutBase 等站点下载了 145.5GB 的 3D 模型文件。这些被窃取的数据中包含大量成人内容，且许多项目明确标注为仅限非商业用途。尽管我们迅速封锁了该爬虫的 IP 并发送邮件质询，Roblox 方面始终未予回应。分析显示，该爬虫名为 trellis2-data-sourcing，极可能是为训练其 3D 基础模型 Cube 而收集数据。这一事件暴露了 AI 公司在数据抓取上的伦理黑洞：一家以儿童为主要用户群体的公司，其自动化程序却无差别地抓取成人内容，且无视版权与创作者意愿。
+  [图] https://thumbcdn.open3dlab.com/newsitem/3200w.webp
+  https://open3dlab.com/news/roblox-downloaded-145-gb-of-models-from-our-sites/
+  [HN · ▲ 477 · 💬 271 · open3dlab.com]
+- Survival LLM：断网也能用的AI应急助手
+  Survival LLM 是一款完全在本地运行的免费开源AI助手，专为断网等紧急情况设计。它内置了包含93万篇Wikipedia文章、FEMA指南、CDC建议及iFixit维修手册的庞大应急库。用户只需在有网时完成一次设置，之后即便彻底断网，也能随时询问如何保存食物、处理烧伤或净化水源，且每条回答都会标注来源供你核对。根据电脑内存大小，它会自动适配NVIDIA Nemotron、Qwen或IBM Granite等不同规模的AI模型，确保在离线状态下也能提供可靠信息，同时保护隐私，所有数据绝不离开你的设备。
+  [图] https://www.brangus.io/survival-llm/social-card.png
+  https://www.brangus.io/survival-llm
+  [HN · ▲ 476 · 💬 175 · brangus.io]
+- AI时代，Brooks法则失效了吗？
+  上周末，我冷眼旁观四人手忙脚乱地调试笔记本电脑连接屏幕，当被邀请帮忙时，我笑着拒绝了，因为深知“增加人手无法加速解决难题”。这让人想起Frederick P. Brooks Jr.在1975年提出的Brooks's Law。如今，面对AI agents和LLM的崛起，有人以为传统瓶颈如入职培训、站会和政治博弈已烟消云散，AI瞬间上手且无需咖啡休息。但仔细观察，定律并未消失，只是发生了变异。那个著名的“Baby Problem”依然存在：九个AI agents也无法在一个月内生出婴儿。顺序任务依然是顺序的，管理成本并未消除，只是从管理人变成了管理agent。若缺乏清晰的编排，九个自主agent只会高速循环重写彼此的工作。或许2026年的Brooks's Law更新版应该是：给需求不明确的项目增加agent，只会让你更快得到错误的答案。
+  [图] https://j11g.com/content/images/cern-resized.jpg
+  https://j11g.com/the-mythical-man-month-in-the-age-of-ai
+  [HN · ▲ 469 · 💬 344 · j11g.com]
+- Apple 发布搭载 M6 芯片的 14 英寸 MacBook Pro
+  Apple 正式推出搭载 M6 芯片的全新 14 英寸 MacBook Pro，带来显著的性能飞跃。M6 芯片配备 12 核 CPU 和 12 核 GPU，图形性能较 M5 提升 30%，AI 负载处理能力提高 25%。对于从 M1 升级的用户，图形和 AI 性能分别提升高达 11 倍和 13 倍。新机支持 Wi-Fi 7 和 Bluetooth 6，电池续航长达 24 小时，并搭配 macOS 27 与 Apple Intelligence，实现强大的端侧 AI 体验。无论是本地运行 LLM，还是进行 3D 建模、视频剪辑，M6 都展现出卓越效率。这款专业笔记本将于 10 月 28 日开启预购，11 月 6 日正式发售。
+  [图] https://www.apple.com/newsroom/images/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/tile/Apple-MacBook-Pro-14-in-with-M6-hero-261027-lp.jpg.og.jpg?202610281739
+  https://www.apple.com/in/newsroom/2026/10/apple-introduces-the-new-14-inch-macbook-pro-with-m6/
+  [HN · ▲ 414 · 💬 579 · apple.com]
+- AI 让警察因“可疑”驾驶拦停你
+  自动车牌识别系统 ALPRs 不再仅用于犯罪调查，如今正被警方用来标记所谓“可疑”的驾驶模式。美国公民自由联盟 ACLU 发出警告，执法人员正利用 AI 工具拦停并未涉嫌具体犯罪的司机。Grace Knowles 在跨州旅行时遭遇拦停，FBI 特工向她展示了其车牌被标记为“可疑旅行模式”的热力图。类似案例频发，从加州祖母被海关盘问赌场访问记录，到德州男子因往返特定路线被起诉。Flock Safety 和 Axon 等公司提供的系统在缺乏搜查令的情况下收集海量位置数据，引发隐私担忧。YouGov 调查显示近半数民众反对警方使用该技术，洛杉矶警察局等部门已暂停合作。AI 驱动的监控网络正在重塑交通执法的边界。
+  https://gizmodo.com/police-are-using-ai-to-pull-over-drivers-for-suspicious-behavior-2000831220
+  [HN · ▲ 386 · 💬 305 · gizmodo.com]
+- iMac 迎来 M6 芯片，AI 体验全面升级
+  Apple 正式推出搭载全新 M6 芯片的 iMac，带来前所未有的性能飞跃。这款一体机拥有七种鲜艳配色和极致纤薄设计，配备 24 英寸 4.5K Retina 显示屏。M6 芯片不仅让日常任务更流畅，其双 16 核神经网络引擎更让本地 AI 性能提升显著。配合 Apple Intelligence 和 Siri AI，用户可以在保护隐私的同时，享受从创意工作到日常办公的智能化体验。无论是家庭财务规划、商业运营还是学生作业，新款 iMac 都能提供强劲动力。
+  [图] https://www.apple.com/v/imac/x/images/meta/imac__kaqcgp2n4duu_og.png?202610261111
+  https://www.apple.com/imac/
+  [HN · ▲ 367 · 💬 467 · apple.com]
+- Amazon大砍AI部门，Nova模型遭搁置
+  当OpenAI有ChatGPT、Google有Gemini时，Amazon的AI模型Nova却鲜为人知。如今，这家电商巨头正在大幅削减其内部AI实验室的规模，将Nova系列文本及生图视频模型置于“仅维持运行”状态。资源正被集中调配至由Pieter Abbeel领导的“前沿模型”项目，旨在强化机器人自动化能力。在关闭旧金山AGI研究办公室后，Amazon似乎正试图在AI泡沫破裂前，从过度炒作的LLM竞赛中抽身，回归其最擅长的物流与自动化领域。
+  [图] https://futurism.com/wp-content/uploads/2026/07/amazon-gutting-ai-division-failure.jpg?w=1200
+  https://futurism.com/artificial-intelligence/amazon-ai-division-failure-nova
+  [HN · ▲ 352 · 💬 271 · futurism.com]
+- Tailscale SSH 权限升级漏洞调查更新
+  Tailscale 安全团队正在调查 Tailscale SSH 中存在的权限提升漏洞。在某些情况下，已授权用户可能突破本地权限限制，获取更高系统权限。目前我们不建议全员禁用 Tailscale SSH，但建议用户立即审查访问策略、禁用不必要的 SSH 转发，并准备在 10 月 27 日前更新补丁版本。我们将后续发布详细的安全公告和技术分析，帮助用户全面应对此次安全事件。
+  [图] https://tailscale.com/files/images/og-image.png
+  https://tailscale.com/ssh-investigation-update
+  [HN · ▲ 346 · 💬 179 · tailscale.com]
+
+# GitHub 开源项目 7 日增速榜 (20)
+- JustAResearcher/gpu-unlock-ada
+  → 用于RTX 4090和实验性RTX 4070 Ti SUPER的GPU张量解锁源；本地生成的固件
+  GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally
+  → 用于RTX 4090和实验性RTX 4070 Ti SUPER的GPU张量解锁源；本地生成的固件
+  [图] https://opengraph.githubassets.com/1/JustAResearcher/gpu-unlock-ada
+  https://github.com/JustAResearcher/gpu-unlock-ada
+  [GitHub · ⭐ 4,400 · 新建 5 天 · C]
+- rddmwmddr/android-ad-cleaner
+  关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。
+  [图] https://opengraph.githubassets.com/1/rddmwmddr/android-ad-cleaner
+  https://github.com/rddmwmddr/android-ad-cleaner
+  [GitHub · ⭐ 4,246 · 新建 4 天 · Python]
+- unclebob/ub-mode
+  [图] https://opengraph.githubassets.com/1/unclebob/ub-mode
+  https://github.com/unclebob/ub-mode
+  [GitHub · ⭐ 3,650 · 新建 3 天 · N/A]
+- designfuchen/word-atlas
+  → 词光·词图集-7298个单词的雅思词汇插图、英国/美国音频和FSRS评论。开源应用程序+CC BY 4.0数据集。
+  词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.
+  → 词光·词图集-7298个单词的雅思词汇插图、英国/美国音频和FSRS评论。开源应用程序+CC BY 4.0数据集。
+  [图] https://opengraph.githubassets.com/1/designfuchen/word-atlas
+  https://github.com/designfuchen/word-atlas
+  [GitHub · ⭐ 3,028 · 新建 3 天 · TypeScript]
+- interplains/Zero-Breach-Toolkit
+  → 免费、开源、离线检查已知雇佣军间谍软件的痕迹。适用于Windows、macOS和Linux、Android手机和iPhone备份。
+  Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.
+  → 免费、开源、离线检查已知雇佣军间谍软件的痕迹。适用于Windows、macOS和Linux、Android手机和iPhone备份。
+  [图] https://opengraph.githubassets.com/1/interplains/Zero-Breach-Toolkit
+  https://github.com/interplains/Zero-Breach-Toolkit
+  [GitHub · ⭐ 2,512 · 新建 3 天 · Python]
+- wesbos/3d-model-anything
+  → 捕获iPhone LiDAR和照片，重建可编辑的Three. js房间，并在浏览器中探索它们。
+  Capture iPhone LiDAR and photos, reconstruct editable Three.js rooms, and explore them in a browser.
+  → 捕获iPhone LiDAR和照片，重建可编辑的Three. js房间，并在浏览器中探索它们。
+  [图] https://opengraph.githubassets.com/1/wesbos/3d-model-anything
+  https://github.com/wesbos/3d-model-anything
+  [GitHub · ⭐ 2,301 · 新建 7 天 · Swift]
+- xevrion/hatchzip
+  → HatchZip是一款免费的开源存档提取器，适用于Windows、macOS和Linux，可就地提取ZIP、7z、RAR、tar和拆分存档，因此它只需要用于提取文件的可用空间。桌面应用程序和CLI。
+  HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted files only. Desktop app and CLI.
+  → HatchZip是一款免费的开源存档提取器，适用于Windows、macOS和Linux，可就地提取ZIP、7z、RAR、tar和拆分存档，因此它只需要用于提取文件的可用空间。桌面应用程序和CLI。
+  [图] https://opengraph.githubassets.com/1/xevrion/hatchzip
+  https://github.com/xevrion/hatchzip
+  [GitHub · ⭐ 2,259 · 新建 7 天 · Rust]
+- t3dotgg/tstack
+  → 我每天使用的代理技能。适用于Claude Code和Codex。
+  The agent skills I use every day. Works with Claude Code and Codex.
+  → 我每天使用的代理技能。适用于Claude Code和Codex。
+  [图] https://opengraph.githubassets.com/1/t3dotgg/tstack
+  https://github.com/t3dotgg/tstack
+  [GitHub · ⭐ 2,231 · 新建 4 天 · Python]
+- oosexgang/hakios-xnu-kernel
+  [图] https://opengraph.githubassets.com/1/oosexgang/hakios-xnu-kernel
+  https://github.com/oosexgang/hakios-xnu-kernel
+  [GitHub · ⭐ 1,894 · 新建 6 天 · C]
+- ikow/php2shell-poc
+  → CVE-2026-109618/109619-5条RCE链+检测规则（Suricata、Sigma、ModSecurity）。PHP会话。upload_progress预认证漏洞利用研究。
+  CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research.
+  → CVE-2026-109618/109619-5条RCE链+检测规则（Suricata、Sigma、ModSecurity）。PHP会话。upload_progress预认证漏洞利用研究。
+  [图] https://opengraph.githubassets.com/1/ikow/php2shell-poc
+  https://github.com/ikow/php2shell-poc
+  [GitHub · ⭐ 1,888 · 新建 7 天 · Python]
+- anhao/ai-pose-gallery-zh
+  中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊
+  [图] https://opengraph.githubassets.com/1/anhao/ai-pose-gallery-zh
+  https://github.com/anhao/ai-pose-gallery-zh
+  [GitHub · ⭐ 1,793 · 新建 1 天 · HTML]
+- lyramakesmusic/neuron-explorer
+  → Qwen3.54B的指导优先神经元浏览器：推送每个MLP神经元，保留每次发布，浏览结果
+  Steering-first neuron explorer for Qwen3.5-4B: push every MLP neuron, keep every rollout, browse the results
+  → Qwen3.54B的指导优先神经元浏览器：推送每个MLP神经元，保留每次发布，浏览结果
+  [图] https://opengraph.githubassets.com/1/lyramakesmusic/neuron-explorer
+  https://github.com/lyramakesmusic/neuron-explorer
+  [GitHub · ⭐ 1,595 · 新建 7 天 · Python]
+- 9bie/php2shell-bypass-aslr-exp
+  → 一个php2shell漏洞利用，不需要修改正式版本，也不需要display_errors或limit_memory。
+  A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit_memory.
+  → 一个php2shell漏洞利用，不需要修改正式版本，也不需要display_errors或limit_memory。
+  [图] https://opengraph.githubassets.com/1/9bie/php2shell-bypass-aslr-exp
+  https://github.com/9bie/php2shell-bypass-aslr-exp
+  [GitHub · ⭐ 1,513 · 新建 7 天 · Python]
+- openai/php2shell-checker
+  [图] https://opengraph.githubassets.com/1/openai/php2shell-checker
+  https://github.com/openai/php2shell-checker
+  [GitHub · ⭐ 1,444 · 新建 7 天 · JavaScript]
+- enesozturk/dimensional-drawing
+  → 创建UI组件的Apple样式尺寸图。
+  Create Apple style dimensional drawings of UI components.
+  → 创建UI组件的Apple样式尺寸图。
+  [图] https://opengraph.githubassets.com/1/enesozturk/dimensional-drawing
+  https://github.com/enesozturk/dimensional-drawing
+  [GitHub · ⭐ 1,368 · 新建 5 天 · HTML]
+- colinhacks/reylo
+  → 使用全类型推断和零代码将. sql文件导入TypeScript。
+  Import .sql files into TypeScript with full type inference and zero codegen.
+  → 使用全类型推断和零代码将. sql文件导入TypeScript。
+  [图] https://opengraph.githubassets.com/1/colinhacks/reylo
+  https://github.com/colinhacks/reylo
+  [GitHub · ⭐ 1,360 · 新建 7 天 · Rust]
+- morganlinton/BeautifulRust
+  → 代理技能，教编码代理编写、审查和移植惯用的Rust，以及经过测试的剪贴配置。适用于Claude Code、Codex、Copilot、Cursor和Gemini CLI。
+  Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.
+  → 代理技能，教编码代理编写、审查和移植惯用的Rust，以及经过测试的剪贴配置。适用于Claude Code、Codex、Copilot、Cursor和Gemini CLI。
+  [图] https://opengraph.githubassets.com/1/morganlinton/BeautifulRust
+  https://github.com/morganlinton/BeautifulRust
+  [GitHub · ⭐ 1,359 · 新建 5 天 · Python]
+- andyhuo520/digital-human-koubo
+  → 一张照片中的AI数字-人类说话头视频：Renoise MCP生成+5种编辑样式+48个创作者级包装组件。Claude Code/Codex/OpenClaw/WorkBuddy的代理技能…
+  AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …
+  → 一张照片中的AI数字-人类说话头视频：Renoise MCP生成+5种编辑样式+48个创作者级包装组件。Claude Code/Codex/OpenClaw/WorkBuddy的代理技能…
+  [图] https://opengraph.githubassets.com/1/andyhuo520/digital-human-koubo
+  https://github.com/andyhuo520/digital-human-koubo
+  [GitHub · ⭐ 1,296 · 新建 2 天 · TypeScript]
+- DenisSergeevitch/ex-ussr-kinship-research
+  → AI特工的证据优先家谱技能（Codex、Claude代码）：前苏联的教会书籍、民事、军事、驱逐和镇压记录。用你的语言回复。
+  Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.
+  → AI特工的证据优先家谱技能（Codex、Claude代码）：前苏联的教会书籍、民事、军事、驱逐和镇压记录。用你的语言回复。
+  [图] https://opengraph.githubassets.com/1/DenisSergeevitch/ex-ussr-kinship-research
+  https://github.com/DenisSergeevitch/ex-ussr-kinship-research
+  [GitHub · ⭐ 1,157 · 新建 3 天 · Python]
+- Snapintosh/Snapintosh
+  → 在华硕A16（Snapdragon X2 Elite）上启动macOS的EL2管理程序和工具链，带有Adreno Metal/IOGPU堆栈
+  EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack
+  → 在华硕A16（Snapdragon X2 Elite）上启动macOS的EL2管理程序和工具链，带有Adreno Metal/IOGPU堆栈
+  [图] https://opengraph.githubassets.com/1/Snapintosh/Snapintosh
+  https://github.com/Snapintosh/Snapintosh
+  [GitHub · ⭐ 1,031 · 新建 6 天 · Python]
