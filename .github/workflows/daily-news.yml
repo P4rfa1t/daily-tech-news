@@ -58,6 +58,9 @@ jobs:
           VOLC_ACCESS_KEY: ${{ secrets.VOLC_ACCESS_KEY }}
           VOLC_SECRET_KEY: ${{ secrets.VOLC_SECRET_KEY }}
           VOLC_REGION: ${{ secrets.VOLC_REGION }}
+          # Actions 自动提供的默认 token，用于 GitHub Search API（GitHub 趋势榜）。
+          # 代码读取 os.environ['GITHUB_TOKEN']；不显式传递时容器里可能为空导致 401。
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # 经环境变量传递而非直接插值到 shell，避免 ${{ }} 内容被当成脚本解析。
           # 定时触发时 inputs.force 为空，等同 false。
           FORCE: ${{ inputs.force }}

@@ -60,8 +60,7 @@
     "retries": 3
   },
   "wuzao": {
-    "enabled": true,
-    "period": "daily",
+    "enabled": false,
     "limit": 30,
     "timeout": 30,
     "retries": 2,
